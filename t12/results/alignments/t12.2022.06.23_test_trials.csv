@@ -1,0 +1,41 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,n_bins_trial,n_rnn_steps,n_phonemes_true,n_phonemes_decoded,edit_distance,per,aligned,align_logprob
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,0,americans have pushed them out of their native land,352,81,44,37,21,0.4772727272727273,True,-124.19613833318755
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,1,it was just based on the facts,257,57,29,27,4,0.13793103448275862,True,-12.62557006872115
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,2,wasn't it your state that had police involvement,363,83,44,35,14,0.3181818181818182,True,-121.99802142533731
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,3,did you actually use drugs at all,265,59,32,26,13,0.40625,True,-93.81012692478791
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,4,i don't have too much either,232,51,22,21,3,0.13636363636363635,True,-16.266964211787442
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,5,i can finish it in a day,276,62,23,21,5,0.21739130434782608,True,-45.93351876423924
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,6,very well persuaded,177,37,18,14,11,0.6111111111111112,True,-72.25294202967024
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,7,little jam box,186,39,15,13,5,0.3333333333333333,True,-46.93996754044339
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,8,the tree were so poignant,249,55,21,22,15,0.7142857142857143,True,-122.56640382184685
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,9,i'm wearing shorts,194,41,15,14,3,0.2,True,-25.08905813613761
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,10,do you have some vacation time,239,52,26,21,10,0.38461538461538464,True,-76.65817447385486
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,11,where did you get this cook book,275,61,27,26,5,0.18518518518518517,True,-16.40241278877228
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,12,vision in the cave of evil,264,59,24,24,10,0.4166666666666667,True,-41.57729266335859
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,13,without the visual it's meaningless,269,60,30,22,15,0.5,True,-116.69408547919386
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,14,i'll try that next week,215,46,21,18,6,0.2857142857142857,True,-33.98381436029883
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,15,we do as a matter of fact,270,60,24,23,3,0.125,True,-13.800556607446776
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,16,i have some games,166,34,15,14,2,0.13333333333333333,True,-11.411961748338646
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,17,we're going to feel it watch out,278,62,26,26,3,0.11538461538461539,True,-11.865010449354378
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,18,the news is a good way to keep up to date,373,86,36,37,3,0.08333333333333333,True,-17.823603120992196
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,19,point blank in the face,223,48,21,21,6,0.2857142857142857,True,-24.915665502424346
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,20,just walking the streets,180,38,21,19,5,0.23809523809523808,True,-20.535946875756284
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,21,he did not want to be in it any more than i did,453,106,46,46,3,0.06521739130434782,True,-9.71200145465929
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,22,the teacher had eleven kids,217,47,24,24,4,0.16666666666666666,True,-21.635648893572213
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,23,we were promised civil liberties,230,50,28,22,14,0.5,True,-79.91319466896256
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,24,click here to join freelancer,258,57,25,23,11,0.44,True,-68.33085503768432
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,25,knowledge or insight into politics,217,47,29,25,13,0.4482758620689655,True,-67.69659769665866
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,26,don't let them see violence at home,292,66,31,30,9,0.2903225806451613,True,-52.46142716509015
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,27,the issue is that your employer is going under,352,81,38,35,11,0.2894736842105263,True,-78.31473899787792
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,28,what do you write for them,226,49,22,22,1,0.045454545454545456,True,-4.089726419947188
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,29,our point of view,171,35,15,14,3,0.2,True,-16.02964094656388
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,30,the lot we lived on is now a ranch,319,72,31,32,9,0.2903225806451613,True,-46.51089623433228
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,31,for your next vehicle do you want a truck,331,75,40,35,9,0.225,True,-42.06470141928323
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,32,it's all traditional cooking,231,50,24,19,8,0.3333333333333333,True,-66.51773618633294
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,33,they pass your phone number on to another company,353,81,41,38,11,0.2682926829268293,True,-29.457783450918516
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,34,they had sixty four of them,233,51,25,24,2,0.08,True,-10.530389019495203
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,35,well i liked the seventies,216,47,23,21,6,0.2608695652173913,True,-25.853803799187748
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,36,this is fusion as liberation,222,48,26,25,9,0.34615384615384615,True,-39.06578090768579
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,37,it's probably going to be a very old used one,348,80,44,40,11,0.25,True,-86.41271533483237
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,38,enjoy your day,160,33,12,11,2,0.16666666666666666,True,-11.141939376787754
+t12.2022.06.23,test,nonvocal,t12.2022.06.21,39,the mental capacity to raise them,263,58,30,24,10,0.3333333333333333,True,-68.9524331522429

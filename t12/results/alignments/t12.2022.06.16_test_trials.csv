@@ -1,0 +1,41 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,n_bins_trial,n_rnn_steps,n_phonemes_true,n_phonemes_decoded,edit_distance,per,aligned,align_logprob
+t12.2022.06.16,test,vocal,t12.2022.06.16,0,but when i went home that's all i could think about,395,91,43,42,2,0.046511627906976744,True,-11.085459305541224
+t12.2022.06.16,test,vocal,t12.2022.06.16,1,i'm north of that actually,235,51,24,23,2,0.08333333333333333,True,-7.22846516725087
+t12.2022.06.16,test,vocal,t12.2022.06.16,2,a commercial project on hair conditioner,326,74,35,29,14,0.4,True,-81.38420240705622
+t12.2022.06.16,test,vocal,t12.2022.06.16,3,it was something easy i could do,296,67,27,26,2,0.07407407407407407,True,-10.741330947114108
+t12.2022.06.16,test,vocal,t12.2022.06.16,4,i think that's why a lot of people go to west virginia,515,121,49,44,13,0.2653061224489796,True,-107.274474375873
+t12.2022.06.16,test,vocal,t12.2022.06.16,5,brown and black patches of fur,322,73,26,26,6,0.23076923076923078,True,-26.071489342669082
+t12.2022.06.16,test,vocal,t12.2022.06.16,6,the jury is expected to announce its decision,358,82,42,41,4,0.09523809523809523,True,-18.591597211510447
+t12.2022.06.16,test,vocal,t12.2022.06.16,7,summary points,135,26,12,12,4,0.3333333333333333,True,-20.15747747935319
+t12.2022.06.16,test,vocal,t12.2022.06.16,8,i don't get to watch,180,38,18,18,1,0.05555555555555555,True,-2.9520693718631787
+t12.2022.06.16,test,vocal,t12.2022.06.16,9,it's all money now,330,75,15,15,4,0.26666666666666666,True,-30.458976300486963
+t12.2022.06.16,test,vocal,t12.2022.06.16,10,help promote that more,276,62,20,22,10,0.5,True,-52.8070138041712
+t12.2022.06.16,test,vocal,t12.2022.06.16,11,developing everything,128,25,18,16,9,0.5,True,-63.17025730151759
+t12.2022.06.16,test,vocal,t12.2022.06.16,12,they're probably doing it to their benefit,305,69,36,35,10,0.2777777777777778,True,-47.92130847875232
+t12.2022.06.16,test,vocal,t12.2022.06.16,13,that is good that they're like that,444,104,27,26,4,0.14814814814814814,True,-26.97945967456974
+t12.2022.06.16,test,vocal,t12.2022.06.16,14,there is some definite snark in her report,349,80,38,35,8,0.21052631578947367,True,-29.49918755228009
+t12.2022.06.16,test,vocal,t12.2022.06.16,15,i remember difficult times in school being behind on work,471,110,51,42,19,0.37254901960784315,True,-140.82992603699128
+t12.2022.06.16,test,vocal,t12.2022.06.16,16,the new york catholic conference blasted the measure,403,93,43,35,16,0.37209302325581395,True,-149.09397896663796
+t12.2022.06.16,test,vocal,t12.2022.06.16,17,when we were in high school it was always fun,377,87,38,41,9,0.23684210526315788,True,-34.388595759830956
+t12.2022.06.16,test,vocal,t12.2022.06.16,18,she knows how to do that,293,66,20,21,2,0.1,True,-8.091917973768076
+t12.2022.06.16,test,vocal,t12.2022.06.16,19,are you going to go see the elixir of love,440,103,37,38,5,0.13513513513513514,True,-43.52161651770201
+t12.2022.06.16,test,vocal,t12.2022.06.16,20,i'm sure there are some,213,46,18,18,2,0.1111111111111111,True,-8.306520641616668
+t12.2022.06.16,test,vocal,t12.2022.06.16,21,that's kind of like what we'd like to do,353,81,35,35,1,0.02857142857142857,True,-6.049526581770437
+t12.2022.06.16,test,vocal,t12.2022.06.16,22,quite a lot of variety,285,64,21,19,7,0.3333333333333333,True,-28.159760939102192
+t12.2022.06.16,test,vocal,t12.2022.06.16,23,i haven't been to a baseball game in years,423,98,37,35,7,0.1891891891891892,True,-27.640279215929556
+t12.2022.06.16,test,vocal,t12.2022.06.16,24,parents aren't parents any more,300,68,30,26,13,0.43333333333333335,True,-63.72544218356826
+t12.2022.06.16,test,vocal,t12.2022.06.16,25,a dressing of oil and vinegar,264,59,26,22,7,0.2692307692307692,True,-57.95260986799116
+t12.2022.06.16,test,vocal,t12.2022.06.16,26,it just kind of dragged on forever,356,82,31,31,5,0.16129032258064516,True,-29.889879150396578
+t12.2022.06.16,test,vocal,t12.2022.06.16,27,that's the only way you can get to canada from here,435,101,46,47,4,0.08695652173913043,True,-22.48042932810916
+t12.2022.06.16,test,vocal,t12.2022.06.16,28,he shot a career low,277,62,17,17,4,0.23529411764705882,True,-22.062680595370665
+t12.2022.06.16,test,vocal,t12.2022.06.16,29,here are the choicest excerpts from the draft,339,77,39,36,9,0.23076923076923078,True,-39.94311790845428
+t12.2022.06.16,test,vocal,t12.2022.06.16,30,i have to think about it some more now,320,73,33,32,1,0.030303030303030304,True,-6.51834686398543
+t12.2022.06.16,test,vocal,t12.2022.06.16,31,i was really kind of excited to start reading,414,96,42,39,7,0.16666666666666666,True,-32.3644814985305
+t12.2022.06.16,test,vocal,t12.2022.06.16,32,what are you saying,206,44,15,14,3,0.2,True,-10.849292964383034
+t12.2022.06.16,test,vocal,t12.2022.06.16,33,that's very interesting,186,39,20,15,7,0.35,True,-85.05845893701179
+t12.2022.06.16,test,vocal,t12.2022.06.16,34,i enjoyed it very much,266,59,20,21,1,0.05,True,-2.677664256975012
+t12.2022.06.16,test,vocal,t12.2022.06.16,35,he had occasionally sent her mother money,372,86,35,31,7,0.2,True,-41.63541121807747
+t12.2022.06.16,test,vocal,t12.2022.06.16,36,an earlier version of this article,288,65,29,29,7,0.2413793103448276,True,-29.745441709983613
+t12.2022.06.16,test,vocal,t12.2022.06.16,37,you might even be able to get a job there,368,85,37,36,7,0.1891891891891892,True,-33.771737952089495
+t12.2022.06.16,test,vocal,t12.2022.06.16,38,enjoyable to use,203,43,16,16,3,0.1875,True,-8.880996154307466
+t12.2022.06.16,test,vocal,t12.2022.06.16,39,we came to a fork in the road at night,414,96,34,34,3,0.08823529411764706,True,-17.00790115183658

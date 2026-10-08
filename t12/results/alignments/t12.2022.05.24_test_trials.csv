@@ -1,0 +1,41 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,n_bins_trial,n_rnn_steps,n_phonemes_true,n_phonemes_decoded,edit_distance,per,aligned,align_logprob
+t12.2022.05.24,test,vocal,t12.2022.05.24,0,it's really hard to find something that works,426,99,38,37,1,0.02631578947368421,True,-10.082648238272185
+t12.2022.05.24,test,vocal,t12.2022.05.24,1,and i loved ths shining,268,60,20,19,5,0.25,True,-37.82094107124139
+t12.2022.05.24,test,vocal,t12.2022.05.24,2,i do have a friend that ran,359,82,25,26,2,0.08,True,-7.301619141273706
+t12.2022.05.24,test,vocal,t12.2022.05.24,3,just way in the back,235,51,18,18,1,0.05555555555555555,True,-4.2747774806274625
+t12.2022.05.24,test,vocal,t12.2022.05.24,4,actually it makes sense to a certain extent,438,102,41,41,10,0.24390243902439024,True,-35.010805232766856
+t12.2022.05.24,test,vocal,t12.2022.05.24,5,assure the government that he was employed,414,96,35,35,4,0.11428571428571428,True,-38.715507305657496
+t12.2022.05.24,test,vocal,t12.2022.05.24,6,they feel good about what they're doing,335,76,29,29,2,0.06896551724137931,True,-6.894424917008968
+t12.2022.05.24,test,vocal,t12.2022.05.24,7,besides its an invasion of personal privacy,431,100,41,39,9,0.21951219512195122,True,-24.090397454498277
+t12.2022.05.24,test,vocal,t12.2022.05.24,8,so you travel a lot,242,53,19,19,0,0.0,True,-3.481219247704632
+t12.2022.05.24,test,vocal,t12.2022.05.24,9,so we're going to wait,230,50,19,18,4,0.21052631578947367,True,-24.359226030589245
+t12.2022.05.24,test,vocal,t12.2022.05.24,10,any kind of a good environment to live in,491,115,40,37,5,0.125,True,-21.586577247921483
+t12.2022.05.24,test,vocal,t12.2022.05.24,11,the best of android,223,48,18,17,3,0.16666666666666666,True,-7.809419628790736
+t12.2022.05.24,test,vocal,t12.2022.05.24,12,i don't know what you think about the point,383,88,35,35,0,0.0,True,-4.218192948665019
+t12.2022.05.24,test,vocal,t12.2022.05.24,13,i believe it costs about ten dollars,353,81,32,30,3,0.09375,True,-11.582806241743617
+t12.2022.05.24,test,vocal,t12.2022.05.24,14,what in the world drugs are you on to,444,104,33,32,3,0.09090909090909091,True,-12.358181176163315
+t12.2022.05.24,test,vocal,t12.2022.05.24,15,android tv box,206,44,17,17,4,0.23529411764705882,True,-24.99605985160042
+t12.2022.05.24,test,vocal,t12.2022.05.24,16,a couple of times,220,48,16,16,0,0.0,True,-1.1938579258706314
+t12.2022.05.24,test,vocal,t12.2022.05.24,17,i had the brakes done on it,317,72,25,23,3,0.12,True,-11.546707210407527
+t12.2022.05.24,test,vocal,t12.2022.05.24,18,which i use as a reference and has been real handy,522,123,45,41,11,0.24444444444444444,True,-58.797037928733104
+t12.2022.05.24,test,vocal,t12.2022.05.24,19,i know when i was working,301,68,21,21,2,0.09523809523809523,True,-11.479625533747784
+t12.2022.05.24,test,vocal,t12.2022.05.24,20,it's a package deal,210,45,16,16,2,0.125,True,-11.004608081909087
+t12.2022.05.24,test,vocal,t12.2022.05.24,21,i have seen it,203,43,13,13,0,0.0,True,-1.1288634923458445
+t12.2022.05.24,test,vocal,t12.2022.05.24,22,the measures already passed a senate committee,405,94,36,34,8,0.2222222222222222,True,-36.67111397220626
+t12.2022.05.24,test,vocal,t12.2022.05.24,23,they told me that this was a topic,374,86,31,31,0,0.0,True,-4.632367581837621
+t12.2022.05.24,test,vocal,t12.2022.05.24,24,in the red square or wherever said,403,93,30,26,6,0.2,True,-38.61830770109215
+t12.2022.05.24,test,vocal,t12.2022.05.24,25,they did a lot of play work and stuff,476,112,33,33,1,0.030303030303030304,True,-6.753423450927439
+t12.2022.05.24,test,vocal,t12.2022.05.24,26,you can gain too much weight,310,70,22,23,4,0.18181818181818182,True,-16.926527452570987
+t12.2022.05.24,test,vocal,t12.2022.05.24,27,recent legislation,215,46,18,17,3,0.16666666666666666,True,-10.225284925352605
+t12.2022.05.24,test,vocal,t12.2022.05.24,28,i'm a car buff too,244,54,16,16,0,0.0,True,-4.888284988471671
+t12.2022.05.24,test,vocal,t12.2022.05.24,29,joy springs from a grateful heart,365,84,30,29,8,0.26666666666666666,True,-37.42678336208762
+t12.2022.05.24,test,vocal,t12.2022.05.24,30,char onion over grill never allow oil to smoke,453,106,39,35,13,0.3333333333333333,True,-97.46359731366866
+t12.2022.05.24,test,vocal,t12.2022.05.24,31,noise causes air pollution,286,64,21,22,6,0.2857142857142857,True,-39.918308769315374
+t12.2022.05.24,test,vocal,t12.2022.05.24,32,and then you sprinkle the cheese on top of that,521,123,41,38,7,0.17073170731707318,True,-39.06268412024639
+t12.2022.05.24,test,vocal,t12.2022.05.24,33,just saying that clear vision is a necessity,445,104,39,39,5,0.1282051282051282,True,-32.9230401053433
+t12.2022.05.24,test,vocal,t12.2022.05.24,34,factors that affect earnings of an employee,402,93,36,37,4,0.1111111111111111,True,-16.902192891654998
+t12.2022.05.24,test,vocal,t12.2022.05.24,35,if you drink a lot of caffeine you'll stay awake,489,115,40,38,6,0.15,True,-38.82780821501574
+t12.2022.05.24,test,vocal,t12.2022.05.24,36,that's a nice car,212,46,15,15,0,0.0,True,-1.528995925030247
+t12.2022.05.24,test,vocal,t12.2022.05.24,37,visionary leaders,168,35,15,14,5,0.3333333333333333,True,-18.25864065005304
+t12.2022.05.24,test,vocal,t12.2022.05.24,38,the only other place i've ever vacationed,397,92,33,33,6,0.18181818181818182,True,-23.474259470957133
+t12.2022.05.24,test,vocal,t12.2022.05.24,39,i just kind of went through,313,71,24,26,3,0.125,True,-6.299802155744841

@@ -1,0 +1,21 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,n_bins_trial,n_rnn_steps,n_phonemes_true,n_phonemes_decoded,edit_distance,per,aligned,align_logprob
+t12.2022.05.19,test,vocal,t12.2022.05.19,0,yet we no longer feel uneasy,290,65,26,26,9,0.34615384615384615,True,-64.47065463866942
+t12.2022.05.19,test,vocal,t12.2022.05.19,1,inflammatory cells were strikingly absent,346,79,37,36,16,0.43243243243243246,True,-86.49202730023468
+t12.2022.05.19,test,vocal,t12.2022.05.19,2,it can project long-range goals for itself,354,81,39,35,14,0.358974358974359,True,-130.4192784309769
+t12.2022.05.19,test,vocal,t12.2022.05.19,3,intelligence jabbed at him accusingly,324,74,33,28,14,0.42424242424242425,True,-78.36592870976084
+t12.2022.05.19,test,vocal,t12.2022.05.19,4,do you hear the sleigh bells ringing,350,80,28,31,11,0.39285714285714285,True,-66.25992752671347
+t12.2022.05.19,test,vocal,t12.2022.05.19,5,there was much embracing much exclaiming,310,70,35,29,14,0.4,True,-88.46077900922799
+t12.2022.05.19,test,vocal,t12.2022.05.19,6,below is a specific guide keyed to the calendar,413,96,41,37,11,0.2682926829268293,True,-75.13852398093609
+t12.2022.05.19,test,vocal,t12.2022.05.19,7,finally he asked do you object to petting,359,82,37,36,12,0.32432432432432434,True,-47.294522111047215
+t12.2022.05.19,test,vocal,t12.2022.05.19,8,we'll pay you back if you'll let us,309,70,28,27,6,0.21428571428571427,True,-48.36064359778493
+t12.2022.05.19,test,vocal,t12.2022.05.19,9,they close sometime after eight,258,57,23,24,2,0.08695652173913043,True,-7.674961809123549
+t12.2022.05.19,test,vocal,t12.2022.05.19,10,then we were off again,239,52,18,18,2,0.1111111111111111,True,-13.640948213762195
+t12.2022.05.19,test,vocal,t12.2022.05.19,11,his wife didn't give a sign she'd heard,384,89,33,29,10,0.30303030303030304,True,-45.09831069419109
+t12.2022.05.19,test,vocal,t12.2022.05.19,12,for a man of his mass he was curiously short,436,102,43,38,12,0.27906976744186046,True,-63.269379322457894
+t12.2022.05.19,test,vocal,t12.2022.05.19,13,pam gives driving lessons on thursdays,284,64,33,27,12,0.36363636363636365,True,-74.32915076213023
+t12.2022.05.19,test,vocal,t12.2022.05.19,14,read the decision below,224,49,20,17,8,0.4,True,-33.32199209236963
+t12.2022.05.19,test,vocal,t12.2022.05.19,15,receiving no answer they set the fire,345,79,30,30,7,0.23333333333333334,True,-23.645851134521404
+t12.2022.05.19,test,vocal,t12.2022.05.19,16,where is your usual upbeat personality,338,77,36,33,13,0.3611111111111111,True,-68.97212884304572
+t12.2022.05.19,test,vocal,t12.2022.05.19,17,nice country to meet a lion in face to face,453,106,39,35,9,0.23076923076923078,True,-40.99067545967033
+t12.2022.05.19,test,vocal,t12.2022.05.19,18,with a whirling jump it could get into gear,421,98,37,34,13,0.35135135135135137,True,-58.50019490692109
+t12.2022.05.19,test,vocal,t12.2022.05.19,19,marksmanship example,235,51,21,17,10,0.47619047619047616,True,-76.55234779102265

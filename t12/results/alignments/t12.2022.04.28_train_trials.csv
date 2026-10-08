@@ -1,0 +1,281 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,n_bins_trial,n_rnn_steps,n_phonemes_true,n_phonemes_decoded,edit_distance,per,aligned,align_logprob
+t12.2022.04.28,train,vocal,t12.2022.04.28,0,nuclear rockets can destroy airfields with ease,478,112,40,39,1,0.025,True,-11.070228139369691
+t12.2022.04.28,train,vocal,t12.2022.04.28,1,the best way to learn is to solve extra problems,446,104,45,45,0,0.0,True,-6.8089647668463735
+t12.2022.04.28,train,vocal,t12.2022.04.28,2,the spray will be used in first division matches next season,554,131,54,54,0,0.0,True,-9.545128381840303
+t12.2022.04.28,train,vocal,t12.2022.04.28,3,our experiment's positive outcome was unexpected,461,108,46,45,1,0.021739130434782608,True,-9.241861346367553
+t12.2022.04.28,train,vocal,t12.2022.04.28,4,alimony harms a divorced man's wealth,348,80,34,34,0,0.0,True,-7.845401356833973
+t12.2022.04.28,train,vocal,t12.2022.04.28,5,she uses both names interchangeably,382,88,31,31,0,0.0,True,-7.467623094948556
+t12.2022.04.28,train,vocal,t12.2022.04.28,6,the misquote was retracted with an apology,481,113,40,40,0,0.0,True,-9.16307529028795
+t12.2022.04.28,train,vocal,t12.2022.04.28,7,critics fear the erosion of consumer protections and environmental standards,641,153,71,65,6,0.08450704225352113,True,-22.758688753860834
+t12.2022.04.28,train,vocal,t12.2022.04.28,8,her lips moist and parted spoke his name,391,90,37,37,0,0.0,True,-7.303849661208853
+t12.2022.04.28,train,vocal,t12.2022.04.28,9,how do they turn out later,365,84,21,21,0,0.0,True,-4.062763329808392
+t12.2022.04.28,train,vocal,t12.2022.04.28,10,the eastern coast is a place for pure pleasure and excitement,591,140,53,53,0,0.0,True,-8.932961365535187
+t12.2022.04.28,train,vocal,t12.2022.04.28,11,please make your decision wisely to visit the beach,484,114,43,43,0,0.0,True,-6.998278536268096
+t12.2022.04.28,train,vocal,t12.2022.04.28,12,she encouraged her children to make their own halloween costumes,591,140,52,51,1,0.019230769230769232,True,-9.081574798557584
+t12.2022.04.28,train,vocal,t12.2022.04.28,13,cleaned cloth must be protected against the redeposition of dispersed soil,751,180,66,65,1,0.015151515151515152,True,-13.568849328392096
+t12.2022.04.28,train,vocal,t12.2022.04.28,14,both figures would go higher in later years,494,116,35,35,0,0.0,True,-7.084999461152042
+t12.2022.04.28,train,vocal,t12.2022.04.28,15,she always jokes about too much garlic in his food,473,111,44,44,0,0.0,True,-5.9336623277344405
+t12.2022.04.28,train,vocal,t12.2022.04.28,16,if people were more generous there would be no need for welfare,617,147,52,52,0,0.0,True,-6.032463324914202
+t12.2022.04.28,train,vocal,t12.2022.04.28,17,the dimensions of these waves dwarf all our usual standards of measurement,718,172,66,65,1,0.015151515151515152,True,-14.223190440052253
+t12.2022.04.28,train,vocal,t12.2022.04.28,18,the knifelike pain in his groin nearly brought him down again,593,141,50,50,0,0.0,True,-12.14673516079425
+t12.2022.04.28,train,vocal,t12.2022.04.28,19,selecting bunks by economic comparison is usually an individual problem,765,184,73,70,3,0.0410958904109589,True,-19.338221351618014
+t12.2022.04.28,train,vocal,t12.2022.04.28,20,have a test-run on the family first to be sure timing and seasoning are right,715,171,67,67,0,0.0,True,-10.747325098345394
+t12.2022.04.28,train,vocal,t12.2022.04.28,21,a good attitude is unbeatable,315,71,26,26,0,0.0,True,-5.203482185579726
+t12.2022.04.28,train,vocal,t12.2022.04.28,22,make lid for sugar bowl the same as jar lids omitting design disk,725,174,58,58,0,0.0,True,-11.54473206739731
+t12.2022.04.28,train,vocal,t12.2022.04.28,23,it's healthier to cook without sugar,401,93,29,29,0,0.0,True,-6.039726918010227
+t12.2022.04.28,train,vocal,t12.2022.04.28,24,ironically enough in this instance such personal virtues were a luxury,736,177,59,58,1,0.01694915254237288,True,-12.495023716025996
+t12.2022.04.28,train,vocal,t12.2022.04.28,25,every cab needs repainting often,394,91,28,28,0,0.0,True,-4.977288316294545
+t12.2022.04.28,train,vocal,t12.2022.04.28,26,coconut cream pie makes a nice dessert,517,122,33,32,1,0.030303030303030304,True,-10.094256488613414
+t12.2022.04.28,train,vocal,t12.2022.04.28,27,george seldom watches daytime movies,403,93,30,30,0,0.0,True,-5.705528294317544
+t12.2022.04.28,train,vocal,t12.2022.04.28,28,wooded stream valleys in the folds of earth would be saved,543,128,48,46,2,0.041666666666666664,True,-6.525961602482081
+t12.2022.04.28,train,vocal,t12.2022.04.28,29,the nearest synagogue may not be within walking distance,579,137,48,48,0,0.0,True,-11.267757877034025
+t12.2022.04.28,train,vocal,t12.2022.04.28,30,some measures on student debt relief have already been taken,595,141,52,52,0,0.0,True,-8.719093048067894
+t12.2022.04.28,train,vocal,t12.2022.04.28,31,morphophonemic rules may be thought of as joining certain points in the system,859,207,67,65,2,0.029850746268656716,True,-26.66305851527876
+t12.2022.04.28,train,vocal,t12.2022.04.28,32,his talk turns to what he calls the mess or sometimes this buzzing confusion,786,189,66,66,0,0.0,True,-11.63402309100029
+t12.2022.04.28,train,vocal,t12.2022.04.28,33,the structures housing the apartments are of masonry and frame construction,811,195,67,67,2,0.029850746268656716,True,-17.58630100325012
+t12.2022.04.28,train,vocal,t12.2022.04.28,34,i ate every oyster on nora's plate,437,102,29,29,0,0.0,True,-3.9398388218865605
+t12.2022.04.28,train,vocal,t12.2022.04.28,35,usually they occur through facebook,369,85,27,27,0,0.0,True,-5.1413136900433685
+t12.2022.04.28,train,vocal,t12.2022.04.28,36,hastily the boy switched on a ceiling light,474,111,35,35,0,0.0,True,-6.5744633020359355
+t12.2022.04.28,train,vocal,t12.2022.04.28,37,i do struggle with visuals but will do a higher dose sometime soon,807,194,57,57,2,0.03508771929824561,True,-12.226173881509528
+t12.2022.04.28,train,vocal,t12.2022.04.28,38,call an ambulance for medical assistance,527,124,38,37,1,0.02631578947368421,True,-9.328505769262183
+t12.2022.04.28,train,vocal,t12.2022.04.28,39,usually it snaps back into place by morning,508,120,42,42,0,0.0,True,-6.479725955198236
+t12.2022.04.28,train,vocal,t12.2022.04.28,40,he doesn't want her to look frowningly at him or speak to him angrily,802,193,64,64,0,0.0,True,-14.753984232842553
+t12.2022.04.28,train,vocal,t12.2022.04.28,41,almonds and pistachio nuts are not so high in oil but are rich in protein,845,204,66,66,2,0.030303030303030304,True,-14.761966621446982
+t12.2022.04.28,train,vocal,t12.2022.04.28,42,the cigarettes in the clay ashtray overflowed onto the oak table,904,219,52,52,0,0.0,True,-13.849562172613947
+t12.2022.04.28,train,vocal,t12.2022.04.28,43,the measures require parliamentary approval before they can come into force,901,218,63,63,0,0.0,True,-17.30428235620216
+t12.2022.04.28,train,vocal,t12.2022.04.28,44,we produce peanut oil but to a much greater extent we eat the entire seed,845,204,65,64,1,0.015384615384615385,True,-11.934200423365471
+t12.2022.04.28,train,vocal,t12.2022.04.28,45,his election on the other hand would unquestionably strengthen the regulars,766,184,66,66,0,0.0,True,-14.958526649916926
+t12.2022.04.28,train,vocal,t12.2022.04.28,46,do atypical farmers grow oats,453,106,27,27,0,0.0,True,-4.880713589161879
+t12.2022.04.28,train,vocal,t12.2022.04.28,47,further it has its work cut out stopping anarchy where it is now garrisoned,781,188,62,64,2,0.03225806451612903,True,-11.939396198318944
+t12.2022.04.28,train,vocal,t12.2022.04.28,48,my desires are simple give me one informative paragraph on the subject,759,182,65,64,1,0.015384615384615385,True,-15.616418944369764
+t12.2022.04.28,train,vocal,t12.2022.04.28,49,our boy didn't chicken out no sir,364,84,28,28,0,0.0,True,-5.875451901577838
+t12.2022.04.28,train,vocal,t12.2022.04.28,50,the moisture in my eyes is from eyedrops not from tears,630,150,47,47,0,0.0,True,-9.399954613810316
+t12.2022.04.28,train,vocal,t12.2022.04.28,51,the staff deserves a lot of credit working down here under real obstacles,827,199,64,64,0,0.0,True,-14.959669012701019
+t12.2022.04.28,train,vocal,t12.2022.04.28,52,one needs to protect the skin from exposure to the sun,697,167,51,51,0,0.0,True,-7.671749375407889
+t12.2022.04.28,train,vocal,t12.2022.04.28,53,suburban housewives often suffer from the gab habit,603,143,44,45,1,0.022727272727272728,True,-12.988495736130085
+t12.2022.04.28,train,vocal,t12.2022.04.28,54,grandmother outgrew her upbringing in petticoats,515,121,40,40,0,0.0,True,-7.08009452432663
+t12.2022.04.28,train,vocal,t12.2022.04.28,55,john's brother repainted the garage door,454,106,32,32,0,0.0,True,-10.037536304374184
+t12.2022.04.28,train,vocal,t12.2022.04.28,56,an octillion atoms  now let us see where this power comes from,800,193,53,53,0,0.0,True,-12.036786118910195
+t12.2022.04.28,train,vocal,t12.2022.04.28,57,they own a big house in the remote countryside,549,130,38,38,0,0.0,True,-7.348962688411677
+t12.2022.04.28,train,vocal,t12.2022.04.28,58,he banked his treasure in the hearts of his friends,590,140,45,45,0,0.0,True,-7.055509316453515
+t12.2022.04.28,train,vocal,t12.2022.04.28,59,nothing has been done yet to take advantage of the enabling legislation,829,200,64,63,1,0.015625,True,-16.48066763570607
+t12.2022.04.28,train,vocal,t12.2022.04.28,60,our enemy is also threatening to devour us,513,121,38,38,0,0.0,True,-8.77555831449269
+t12.2022.04.28,train,vocal,t12.2022.04.28,61,no manufacturer has taken the initiative in pointing out the costs involved,859,207,67,66,3,0.04477611940298507,True,-16.462289924075197
+t12.2022.04.28,train,vocal,t12.2022.04.28,62,and according to the new revisions they might very well change,683,163,51,51,0,0.0,True,-9.911154230513011
+t12.2022.04.28,train,vocal,t12.2022.04.28,63,fill that canteen with fresh spring water,457,107,35,35,0,0.0,True,-6.65831160102486
+t12.2022.04.28,train,vocal,t12.2022.04.28,64,he doesn't want her to look frowningly at him or speak to him angrily,832,201,64,64,0,0.0,True,-10.227425303245116
+t12.2022.04.28,train,vocal,t12.2022.04.28,65,angora cats are furrier than siamese,472,111,31,30,1,0.03225806451612903,True,-7.05151539745328
+t12.2022.04.28,train,vocal,t12.2022.04.28,66,employee layoffs coincided with the company's reorganization,684,164,53,54,1,0.018867924528301886,True,-14.491419173536206
+t12.2022.04.28,train,vocal,t12.2022.04.28,67,microorganisms are often responsible for the rapid spoilage of foods,738,177,64,62,2,0.03125,True,-15.944916478535449
+t12.2022.04.28,train,vocal,t12.2022.04.28,68,is a relaxed home atmosphere enough to help her outgrow these traits,848,205,58,58,0,0.0,True,-14.176845194898204
+t12.2022.04.28,train,vocal,t12.2022.04.28,69,he may have a point in urging that decadent themes be given fewer prizes,893,216,64,64,0,0.0,True,-10.287255873156917
+t12.2022.04.28,train,vocal,t12.2022.04.28,70,the emblem depicts the acropolis all aglow,589,140,39,38,1,0.02564102564102564,True,-14.777605305467658
+t12.2022.04.28,train,vocal,t12.2022.04.28,71,the local drugstore was charged with illegally dispensing tranquilizers,738,177,63,62,1,0.015873015873015872,True,-17.01943733924982
+t12.2022.04.28,train,vocal,t12.2022.04.28,72,that noise problem grows more annoying each day,481,113,37,37,0,0.0,True,-7.098552932264159
+t12.2022.04.28,train,vocal,t12.2022.04.28,73,his shoulder felt as if it were broken,480,113,34,35,2,0.058823529411764705,True,-6.522552450812753
+t12.2022.04.28,train,vocal,t12.2022.04.28,74,do they make class-biased decisions,445,104,29,28,1,0.034482758620689655,True,-7.08727077019352
+t12.2022.04.28,train,vocal,t12.2022.04.28,75,cliff was soothed by the luxurious massage,514,121,35,35,0,0.0,True,-11.42797467947577
+t12.2022.04.28,train,vocal,t12.2022.04.28,76,eating spinach nightly increases strength miraculously,583,138,47,45,2,0.0425531914893617,True,-12.529172022165614
+t12.2022.04.28,train,vocal,t12.2022.04.28,77,his failure to open the store by eight cost him his job,694,166,49,49,0,0.0,True,-8.186196723519542
+t12.2022.04.28,train,vocal,t12.2022.04.28,78,the emperor had a mean temper,427,99,25,25,0,0.0,True,-5.719913903019291
+t12.2022.04.28,train,vocal,t12.2022.04.28,79,this big flexible voice with uncommon range has been superbly disciplined,821,198,65,65,0,0.0,True,-14.242267761062356
+t12.2022.04.28,train,vocal,t12.2022.04.28,80,birthday parties have cupcakes and ice cream,493,116,37,37,0,0.0,True,-7.747047514862403
+t12.2022.04.28,train,vocal,t12.2022.04.28,81,we congratulate the entire membership on its record of good legislation,835,201,64,64,0,0.0,True,-16.085744063078664
+t12.2022.04.28,train,vocal,t12.2022.04.28,82,you people don't have adjustable vision,400,93,34,34,0,0.0,True,-6.455459989527243
+t12.2022.04.28,train,vocal,t12.2022.04.28,83,he looked lazy spoiled a little querulous,537,127,36,36,0,0.0,True,-7.007816764804173
+t12.2022.04.28,train,vocal,t12.2022.04.28,84,the toddler found a clamshell near the camp site,536,127,40,40,0,0.0,True,-8.097995831119077
+t12.2022.04.28,train,vocal,t12.2022.04.28,85,westchester is a county in new york,451,105,32,32,0,0.0,True,-4.69601662635146
+t12.2022.04.28,train,vocal,t12.2022.04.28,86,how ancient is this subway escalator,458,107,32,32,0,0.0,True,-6.808727198800659
+t12.2022.04.28,train,vocal,t12.2022.04.28,87,they're doin' it now,274,61,15,14,1,0.06666666666666667,True,-5.538805945900578
+t12.2022.04.28,train,vocal,t12.2022.04.28,88,if you destroy confidence in banks you do something to the economy he said,859,207,66,66,0,0.0,True,-13.628104551580037
+t12.2022.04.28,train,vocal,t12.2022.04.28,89,hispanic costumes are quite colorful,427,99,33,32,1,0.030303030303030304,True,-4.149844718137018
+t12.2022.04.28,train,vocal,t12.2022.04.28,90,an official deadline cannot be postponed,498,117,35,34,1,0.02857142857142857,True,-7.374488058466769
+t12.2022.04.28,train,vocal,t12.2022.04.28,91,but the ships are very slow now and we don't get so many sailors any more,899,217,65,65,0,0.0,True,-9.721708649133252
+t12.2022.04.28,train,vocal,t12.2022.04.28,92,they were shown how to advance against an enemy outpost atop a cleared ridge,906,219,63,62,1,0.015873015873015872,True,-13.004808972819674
+t12.2022.04.28,train,vocal,t12.2022.04.28,93,eat your raisins outdoors on the porch steps,518,122,38,38,0,0.0,True,-8.34844580421634
+t12.2022.04.28,train,vocal,t12.2022.04.28,94,historical existence is a created good,496,117,38,40,3,0.07894736842105263,True,-11.637029622992626
+t12.2022.04.28,train,vocal,t12.2022.04.28,95,puree some fruit before preparing the skewers,549,130,40,40,0,0.0,True,-11.438401060628944
+t12.2022.04.28,train,vocal,t12.2022.04.28,96,that diagram makes sense only after much study,562,133,42,40,2,0.047619047619047616,True,-10.153003805773341
+t12.2022.04.28,train,vocal,t12.2022.04.28,97,lots of foreign movies have subtitles,488,115,34,34,0,0.0,True,-7.286322075614661
+t12.2022.04.28,train,vocal,t12.2022.04.28,98,trim away excess clay reinforce seam with a coil of clay,749,180,49,48,1,0.02040816326530612,True,-15.325100650822792
+t12.2022.04.28,train,vocal,t12.2022.04.28,99,allow each child to have an ice pop,516,122,29,29,0,0.0,True,-6.350905383903859
+t12.2022.04.28,train,vocal,t12.2022.04.28,100,for me it has more of both elements than the majority of its competitors,872,211,68,68,1,0.014705882352941176,True,-12.596710843565381
+t12.2022.04.28,train,vocal,t12.2022.04.28,101,he was above all a friend seeker almost pathetic in his eagerness to be liked,904,219,68,67,1,0.014705882352941176,True,-14.313601057410548
+t12.2022.04.28,train,vocal,t12.2022.04.28,102,thus there is a clearer division of authority administrative and legislative,874,211,67,67,0,0.0,True,-19.716526410083794
+t12.2022.04.28,train,vocal,t12.2022.04.28,103,he may have a point in urging that decadent themes be given fewer prizes,803,193,64,63,1,0.015625,True,-15.306480336689088
+t12.2022.04.28,train,vocal,t12.2022.04.28,104,that's an illusion,227,49,15,15,0,0.0,True,-2.823973696125501
+t12.2022.04.28,train,vocal,t12.2022.04.28,105,iguanas and alligators are tropical reptiles,474,111,41,40,1,0.024390243902439025,True,-8.080423600626597
+t12.2022.04.28,train,vocal,t12.2022.04.28,106,a voice spoke near-at-hand,337,77,21,21,0,0.0,True,-5.091821260934311
+t12.2022.04.28,train,vocal,t12.2022.04.28,107,a screwdriver is made from vodka and orange juice,511,120,44,43,1,0.022727272727272728,True,-11.611875178884155
+t12.2022.04.28,train,vocal,t12.2022.04.28,108,a lone star shone in the early evening sky,627,149,35,34,1,0.02857142857142857,True,-6.5285141184010325
+t12.2022.04.28,train,vocal,t12.2022.04.28,109,she looked crestfallen as if he had somehow disappointed the whole human race,808,195,67,67,0,0.0,True,-13.324187310222133
+t12.2022.04.28,train,vocal,t12.2022.04.28,110,this was easy for us,300,68,19,19,0,0.0,True,-2.2184498471797065
+t12.2022.04.28,train,vocal,t12.2022.04.28,111,daphne's swedish needlepoint scarf matched her skirt,511,120,43,42,2,0.046511627906976744,True,-12.18816089334161
+t12.2022.04.28,train,vocal,t12.2022.04.28,112,he who does not love abides in death,767,184,31,31,0,0.0,True,-6.2255014662681765
+t12.2022.04.28,train,vocal,t12.2022.04.28,113,further it has its work cut out stopping anarchy where it is now garrisoned,770,185,62,62,0,0.0,True,-12.760143485415695
+t12.2022.04.28,train,vocal,t12.2022.04.28,114,it's fun to roast marshmallows on a gas burner,574,136,40,40,0,0.0,True,-6.677198502475623
+t12.2022.04.28,train,vocal,t12.2022.04.28,115,the measure now moves to the senate floor for a vote,638,152,43,43,0,0.0,True,-10.828573179911896
+t12.2022.04.28,train,vocal,t12.2022.04.28,116,palm oil protects the surfaces of steel sheets before they are plated with tin,850,205,67,67,0,0.0,True,-12.664289495838132
+t12.2022.04.28,train,vocal,t12.2022.04.28,117,seamstresses attach zippers with a thimble needle and thread,608,145,50,50,0,0.0,True,-13.360902651789496
+t12.2022.04.28,train,vocal,t12.2022.04.28,118,in your garden it usually breaks down within a few days,673,161,52,52,0,0.0,True,-6.184824096961641
+t12.2022.04.28,train,vocal,t12.2022.04.28,119,we have touched on many topics from backpacking all the way through to luxury travel,858,207,71,71,0,0.0,True,-11.183733030689963
+t12.2022.04.28,train,vocal,t12.2022.04.28,120,try to recall the events in chronological order,546,129,44,44,0,0.0,True,-12.767712714495262
+t12.2022.04.28,train,vocal,t12.2022.04.28,121,bob papered over the living room murals,516,122,35,35,0,0.0,True,-6.309641224650655
+t12.2022.04.28,train,vocal,t12.2022.04.28,122,what happens after looters find treasure,446,104,33,33,0,0.0,True,-6.304156699055224
+t12.2022.04.28,train,vocal,t12.2022.04.28,123,would such an act of refusal be useful,518,122,37,37,0,0.0,True,-9.231624748824448
+t12.2022.04.28,train,vocal,t12.2022.04.28,124,the thick elm forest was nearly overwhelmed by dutch elm disease,687,164,54,55,1,0.018518518518518517,True,-9.092280973528602
+t12.2022.04.28,train,vocal,t12.2022.04.28,125,are you looking for employment,363,83,26,26,0,0.0,True,-2.6778446401711538
+t12.2022.04.28,train,vocal,t12.2022.04.28,126,cliff's display was misplaced on the screen,618,147,38,38,0,0.0,True,-9.656991496929773
+t12.2022.04.28,train,vocal,t12.2022.04.28,127,norwegian sweaters are made of lamb's wool,488,115,35,35,0,0.0,True,-7.758404456692073
+t12.2022.04.28,train,vocal,t12.2022.04.28,128,this news was published on the old version of the website,664,159,49,49,0,0.0,True,-9.016960590456051
+t12.2022.04.28,train,vocal,t12.2022.04.28,129,in fact our whole defensive unit did a good job,586,139,44,44,0,0.0,True,-7.171553408877964
+t12.2022.04.28,train,vocal,t12.2022.04.28,130,a leather handbag would be a suitable gift,505,119,37,37,0,0.0,True,-8.190090057811636
+t12.2022.04.28,train,vocal,t12.2022.04.28,131,for a moment boy and mount hung in midair,494,116,38,38,1,0.02631578947368421,True,-6.477272844044602
+t12.2022.04.28,train,vocal,t12.2022.04.28,132,her classical performance gained critical acclaim,506,119,42,44,2,0.047619047619047616,True,-11.021372174581307
+t12.2022.04.28,train,vocal,t12.2022.04.28,133,mosquitoes exist in warm humid climates,486,114,39,39,0,0.0,True,-5.733187094266247
+t12.2022.04.28,train,vocal,t12.2022.04.28,134,thick glue oozed out of the tube,439,102,25,25,0,0.0,True,-5.8133394712061905
+t12.2022.04.28,train,vocal,t12.2022.04.28,135,draw each graph on a new axis,401,93,26,26,0,0.0,True,-6.324315223848237
+t12.2022.04.28,train,vocal,t12.2022.04.28,136,the new birth is miraculous and mysterious,529,125,37,34,3,0.08108108108108109,True,-9.972726489341671
+t12.2022.04.28,train,vocal,t12.2022.04.28,137,drop five forms in the box before you go out,578,137,41,41,0,0.0,True,-6.992497356041775
+t12.2022.04.28,train,vocal,t12.2022.04.28,138,but how little love we give him,390,90,28,28,0,0.0,True,-3.3471404004087293
+t12.2022.04.28,train,vocal,t12.2022.04.28,139,they should live in modest circumstances avoiding all conspicuous consumption,829,200,67,65,2,0.029850746268656716,True,-17.11396775936805
+t12.2022.04.28,train,vocal,t12.2022.04.28,140,reading in poor light gives you eyestrain,416,97,32,32,1,0.03125,True,-8.064048424977367
+t12.2022.04.28,train,vocal,t12.2022.04.28,141,next best to destroying an army is to deprive it of its freedom of action,850,205,70,71,1,0.014285714285714285,True,-12.087024753465247
+t12.2022.04.28,train,vocal,t12.2022.04.28,142,or certain words or rituals that child and adult go through may do the trick,843,203,65,65,0,0.0,True,-10.428467404250378
+t12.2022.04.28,train,vocal,t12.2022.04.28,143,which church do the smiths worship in,436,102,29,28,1,0.034482758620689655,True,-8.374792339907057
+t12.2022.04.28,train,vocal,t12.2022.04.28,144,the barracuda recoiled from the serpent's poisonous fangs,580,138,48,48,0,0.0,True,-9.403225193231728
+t12.2022.04.28,train,vocal,t12.2022.04.28,145,you're so preoccupied that you've let your faith grow dim,611,145,46,46,0,0.0,True,-9.63902884378182
+t12.2022.04.28,train,vocal,t12.2022.04.28,146,remember to allow identical twins to enter freely,615,146,45,45,0,0.0,True,-12.105797278443697
+t12.2022.04.28,train,vocal,t12.2022.04.28,147,a connoisseur will enjoy this shellfish dish,450,105,33,33,0,0.0,True,-4.006539881033475
+t12.2022.04.28,train,vocal,t12.2022.04.28,148,if they are not ellipsoids the conclusions will be a reasonable approximation,801,193,68,67,3,0.04411764705882353,True,-18.566322639142545
+t12.2022.04.28,train,vocal,t12.2022.04.28,149,wider discretionary choices for customers,441,103,37,36,1,0.02702702702702703,True,-10.944452958092343
+t12.2022.04.28,train,vocal,t12.2022.04.28,150,steph could barely handle the psychological trauma,588,140,43,43,0,0.0,True,-10.556791224299966
+t12.2022.04.28,train,vocal,t12.2022.04.28,151,how oily do you like your salad dressing,467,109,34,34,0,0.0,True,-6.83417924986106
+t12.2022.04.28,train,vocal,t12.2022.04.28,152,severe myopia contributed to ron's inferiority complex,578,137,55,54,4,0.07272727272727272,True,-16.459565306677646
+t12.2022.04.28,train,vocal,t12.2022.04.28,153,destroy every file related to my audits,505,119,36,36,0,0.0,True,-8.908853895018533
+t12.2022.04.28,train,vocal,t12.2022.04.28,154,valley lodge yearly celebrates the first calf born,497,117,42,42,0,0.0,True,-8.1673864145297
+t12.2022.04.28,train,vocal,t12.2022.04.28,155,steve collects rare and novel coins,401,93,32,32,0,0.0,True,-6.283565557207742
+t12.2022.04.28,train,vocal,t12.2022.04.28,156,scholastic aptitude is judged by standardized tests,522,123,46,45,1,0.021739130434782608,True,-12.453526957694267
+t12.2022.04.28,train,vocal,t12.2022.04.28,157,he enlisted a staff of loyal experts and of many zealous volunteers,759,182,63,62,1,0.015873015873015872,True,-12.354053206664153
+t12.2022.04.28,train,vocal,t12.2022.04.28,158,castor oil made from castorbeans has gone out of style as a medicine,756,182,61,62,1,0.01639344262295082,True,-13.874907011174756
+t12.2022.04.28,train,vocal,t12.2022.04.28,159,take charge of choosing her bride's maids' gowns,444,104,38,37,1,0.02631578947368421,True,-7.891558319921234
+t12.2022.04.28,train,vocal,t12.2022.04.28,160,movies never have enough villains,378,87,27,27,0,0.0,True,-5.532812001590755
+t12.2022.04.28,train,vocal,t12.2022.04.28,161,keep your seats boys i just want to put some finishing touches on this thing,768,185,65,63,2,0.03076923076923077,True,-12.591943981477444
+t12.2022.04.28,train,vocal,t12.2022.04.28,162,the fifth jar contains big juicy peaches,451,105,35,35,0,0.0,True,-7.756561938009639
+t12.2022.04.28,train,vocal,t12.2022.04.28,163,look at the things we do to escape our fears and to forget our worries,871,210,59,59,0,0.0,True,-10.20304673732614
+t12.2022.04.28,train,vocal,t12.2022.04.28,164,shipbuilding is a most fascinating process,465,109,37,37,0,0.0,True,-5.749811719134242
+t12.2022.04.28,train,vocal,t12.2022.04.28,165,the triumphant warrior exhibited naive heroism,609,145,43,43,4,0.09302325581395349,True,-19.690153207354037
+t12.2022.04.28,train,vocal,t12.2022.04.28,166,maybe he will help to turn our fair city into a ghost town,782,188,52,51,1,0.019230769230769232,True,-11.817503547504744
+t12.2022.04.28,train,vocal,t12.2022.04.28,167,it is those measures which are now being prepared,562,133,39,40,1,0.02564102564102564,True,-6.375042199037908
+t12.2022.04.28,train,vocal,t12.2022.04.28,168,stories like that of her and her son are not unusual,618,147,49,48,1,0.02040816326530612,True,-7.998178233024423
+t12.2022.04.28,train,vocal,t12.2022.04.28,169,in fact our whole defensive unit did a good job,548,130,44,44,0,0.0,True,-9.463338564719239
+t12.2022.04.28,train,vocal,t12.2022.04.28,170,curiosity and mediocrity seldom coexist,478,112,42,41,1,0.023809523809523808,True,-12.135773190381732
+t12.2022.04.28,train,vocal,t12.2022.04.28,171,do line barbecue fire bowl with heavy foil to reflect heat,681,163,52,52,0,0.0,True,-10.306214662077352
+t12.2022.04.28,train,vocal,t12.2022.04.28,172,they remained lifelong friends and companions,441,103,39,40,1,0.02564102564102564,True,-6.201532030256396
+t12.2022.04.28,train,vocal,t12.2022.04.28,173,pizzerias are convenient for a quick lunch,450,105,39,39,0,0.0,True,-8.36421391319819
+t12.2022.04.28,train,vocal,t12.2022.04.28,174,my ideal morning begins with hot coffee,467,109,35,34,1,0.02857142857142857,True,-7.521710136523743
+t12.2022.04.28,train,vocal,t12.2022.04.28,175,his body processes only slowed down enough for him to dispel fatigue poisons,805,194,68,68,0,0.0,True,-11.920478247391307
+t12.2022.04.28,train,vocal,t12.2022.04.28,176,growing well-kept gardens is very time consuming,513,121,44,44,0,0.0,True,-6.6643717813705265
+t12.2022.04.28,train,vocal,t12.2022.04.28,177,laugh dance and sing if fortune smiles upon you,512,121,41,41,0,0.0,True,-9.489562702069753
+t12.2022.04.28,train,vocal,t12.2022.04.28,178,objects made of pewter are beautiful,385,89,33,33,0,0.0,True,-5.631466323283334
+t12.2022.04.28,train,vocal,t12.2022.04.28,179,what is this large thing by the ironing board,467,109,37,38,1,0.02702702702702703,True,-6.267651342302129
+t12.2022.04.28,train,vocal,t12.2022.04.28,180,you will usually be guided,322,73,25,25,0,0.0,True,-1.7069208635041737
+t12.2022.04.28,train,vocal,t12.2022.04.28,181,this can be easily visualized with the following simple graph,625,149,53,53,0,0.0,True,-9.006807414816503
+t12.2022.04.28,train,vocal,t12.2022.04.28,182,should giraffes be kept in small zoos,384,89,30,30,0,0.0,True,-5.858928951697171
+t12.2022.04.28,train,vocal,t12.2022.04.28,183,any groups with bookings affected by the partial closure have been notified he said,822,198,71,71,0,0.0,True,-9.443881889288395
+t12.2022.04.28,train,vocal,t12.2022.04.28,184,jokes cartoons and cynics to the contrary mothers-in-law make good friends,696,167,64,62,2,0.03125,True,-13.42069744597343
+t12.2022.04.28,train,vocal,t12.2022.04.28,185,we welcome many new students each year,397,92,34,34,0,0.0,True,-3.9409084915976034
+t12.2022.04.28,train,vocal,t12.2022.04.28,186,flying standby can be practical if you want to save money,577,137,54,54,0,0.0,True,-7.778037349453572
+t12.2022.04.28,train,vocal,t12.2022.04.28,187,he picked up nine pairs of socks for each brother,520,123,41,41,0,0.0,True,-5.164352429010148
+t12.2022.04.28,train,vocal,t12.2022.04.28,188,we experience distress and frustration obtaining our degrees,583,138,55,55,2,0.03636363636363636,True,-9.98217807447376
+t12.2022.04.28,train,vocal,t12.2022.04.28,189,my beloved ward my perennial gadfly said the whining voice,601,143,50,50,0,0.0,True,-9.35394590069655
+t12.2022.04.28,train,vocal,t12.2022.04.28,190,as a precaution the outlaws bought gunpowder for their stronghold,596,142,53,52,1,0.018867924528301886,True,-10.205985775677767
+t12.2022.04.28,train,vocal,t12.2022.04.28,191,put on his old brown corduroy coat and it was already soaked,633,151,54,54,0,0.0,True,-8.820104362488664
+t12.2022.04.28,train,vocal,t12.2022.04.28,192,a muscular abdomen is good for your back,456,107,38,39,1,0.02631578947368421,True,-8.651657028800638
+t12.2022.04.28,train,vocal,t12.2022.04.28,193,the small boy put the worm on the hook,464,109,32,32,0,0.0,True,-6.239675962918973
+t12.2022.04.28,train,vocal,t12.2022.04.28,194,regular attendance is seldom required,367,84,35,35,1,0.02857142857142857,True,-10.803306400310348
+t12.2022.04.28,train,vocal,t12.2022.04.28,195,beg that guard for one gallon of gas,408,95,34,34,1,0.029411764705882353,True,-6.090215055503568
+t12.2022.04.28,train,vocal,t12.2022.04.28,196,there may be some problems with news display in specific browser versions,716,172,63,63,0,0.0,True,-8.56042653015939
+t12.2022.04.28,train,vocal,t12.2022.04.28,197,she is thinner than i am,318,72,20,20,0,0.0,True,-3.569575718624143
+t12.2022.04.28,train,vocal,t12.2022.04.28,198,he stole a dime from a beggar,419,97,26,26,0,0.0,True,-5.523419817002652
+t12.2022.04.28,train,vocal,t12.2022.04.28,199,do they allow atheists in church,370,85,25,25,0,0.0,True,-5.7429504669328555
+t12.2022.04.28,train,vocal,t12.2022.04.28,200,please sing just the club theme,340,78,26,26,0,0.0,True,-3.789116219570752
+t12.2022.04.28,train,vocal,t12.2022.04.28,201,addition and subtraction are learned skills,436,102,37,37,0,0.0,True,-7.980802336072669
+t12.2022.04.28,train,vocal,t12.2022.04.28,202,the morning dew on the spider web glistened in the sun,594,141,47,47,1,0.02127659574468085,True,-10.641683482541204
+t12.2022.04.28,train,vocal,t12.2022.04.28,203,we also spent a great deal of effort on making a demo version,721,173,55,54,1,0.01818181818181818,True,-13.448451881420453
+t12.2022.04.28,train,vocal,t12.2022.04.28,204,challenge each general's intelligence,407,94,29,30,1,0.034482758620689655,True,-12.843269747305383
+t12.2022.04.28,train,vocal,t12.2022.04.28,205,a sleepy voice answered,263,58,18,18,0,0.0,True,-3.503928976916384
+t12.2022.04.28,train,vocal,t12.2022.04.28,206,envision a life you love,338,77,21,21,0,0.0,True,-4.140611248846402
+t12.2022.04.28,train,vocal,t12.2022.04.28,207,only the most accomplished artists obtain popularity,662,158,49,49,2,0.04081632653061224,True,-16.34549234506379
+t12.2022.04.28,train,vocal,t12.2022.04.28,208,we are open every monday evening,374,86,28,28,0,0.0,True,-6.2644052089647415
+t12.2022.04.28,train,vocal,t12.2022.04.28,209,artificial intelligence is for real,352,81,32,31,1,0.03125,True,-6.949894803070969
+t12.2022.04.28,train,vocal,t12.2022.04.28,210,brush fires are common in the dry underbrush of nevada,601,143,48,48,0,0.0,True,-8.549396219260851
+t12.2022.04.28,train,vocal,t12.2022.04.28,211,residential associations struggle to insulate themselves against intrusions,695,166,67,65,2,0.029850746268656716,True,-19.86880819720324
+t12.2022.04.28,train,vocal,t12.2022.04.28,212,are your grades higher or lower than nancy's,452,106,35,35,0,0.0,True,-5.74882275320538
+t12.2022.04.28,train,vocal,t12.2022.04.28,213,the mango and the papaya are in a bowl,499,117,34,34,1,0.029411764705882353,True,-6.283508074104024
+t12.2022.04.28,train,vocal,t12.2022.04.28,214,rob sat by the pond and sketched the stray geese,515,121,41,41,0,0.0,True,-9.020148443987948
+t12.2022.04.28,train,vocal,t12.2022.04.28,215,however a boy's lively eyes might rove,434,101,29,29,0,0.0,True,-6.745617161970534
+t12.2022.04.28,train,vocal,t12.2022.04.28,216,he believed that brave boys didn't cry,408,95,34,34,0,0.0,True,-4.8627833935866915
+t12.2022.04.28,train,vocal,t12.2022.04.28,217,we have also seen the power of faith at work among us,589,140,45,45,0,0.0,True,-8.868306191859725
+t12.2022.04.28,train,vocal,t12.2022.04.28,218,our entire economy will have a terrific uplift,548,130,41,41,0,0.0,True,-7.423629970479056
+t12.2022.04.28,train,vocal,t12.2022.04.28,219,yeah seems so don't it the boy laughed hugging her close,547,129,44,45,1,0.022727272727272728,True,-9.538819475904717
+t12.2022.04.28,train,vocal,t12.2022.04.28,220,the giant redwoods shimmered in the glistening sun,495,116,42,43,1,0.023809523809523808,True,-9.311387964171471
+t12.2022.04.28,train,vocal,t12.2022.04.28,221,count the number of teaspoons of soysauce that you add,547,129,44,44,0,0.0,True,-8.890650196599056
+t12.2022.04.28,train,vocal,t12.2022.04.28,222,the legislature met to judge the state of public education,669,160,51,51,0,0.0,True,-13.831591491158296
+t12.2022.04.28,train,vocal,t12.2022.04.28,223,that pickpocket was caught red-handed,349,80,31,31,0,0.0,True,-4.553920551862352
+t12.2022.04.28,train,vocal,t12.2022.04.28,224,the viewpoint overlooked the ocean,334,76,27,27,0,0.0,True,-6.025606526104714
+t12.2022.04.28,train,vocal,t12.2022.04.28,225,measured performance characteristics for this experimental tube will be listed,636,152,70,66,5,0.07142857142857142,True,-24.876898765022958
+t12.2022.04.28,train,vocal,t12.2022.04.28,226,her right hand aches whenever the barometric pressure changes,618,147,50,50,0,0.0,True,-10.50557257214117
+t12.2022.04.28,train,vocal,t12.2022.04.28,227,neglect means spiritual paralysis or death,433,101,40,37,3,0.075,True,-13.989758778160343
+t12.2022.04.28,train,vocal,t12.2022.04.28,228,a chosen few will become generals,425,99,30,30,0,0.0,True,-3.9094375105643984
+t12.2022.04.28,train,vocal,t12.2022.04.28,229,will robin wear a yellow lily,388,90,26,26,1,0.038461538461538464,True,-7.844132321474983
+t12.2022.04.28,train,vocal,t12.2022.04.28,230,once you finish greasing your chain be sure to wash thoroughly,634,151,49,48,1,0.02040816326530612,True,-12.065027093089133
+t12.2022.04.28,train,vocal,t12.2022.04.28,231,these caged versions can be traded and sold,456,107,39,39,0,0.0,True,-5.291681140470476
+t12.2022.04.28,train,vocal,t12.2022.04.28,232,but people need to be part of the equation,481,113,39,39,0,0.0,True,-7.501203480109718
+t12.2022.04.28,train,vocal,t12.2022.04.28,233,we could barely see the fjords through the snow flurries,513,121,43,43,0,0.0,True,-6.091255614839452
+t12.2022.04.28,train,vocal,t12.2022.04.28,234,the public is now armed with sophistication and numerous competing media,724,174,64,63,1,0.015625,True,-17.027013116663294
+t12.2022.04.28,train,vocal,t12.2022.04.28,235,policymakers usually take turns giving their view of the economy,622,148,58,60,3,0.05172413793103448,True,-18.828448881505853
+t12.2022.04.28,train,vocal,t12.2022.04.28,236,a skin mole is usually round or oval in shape and appears as a spot on the skin,894,216,74,74,0,0.0,True,-12.488906797032184
+t12.2022.04.28,train,vocal,t12.2022.04.28,237,students' choices of ideal educational goals are not arbitrary or whimsical,656,157,69,63,6,0.08695652173913043,True,-27.054277879466103
+t12.2022.04.28,train,vocal,t12.2022.04.28,238,in developing film many toxic chemicals are used,464,109,47,47,0,0.0,True,-9.573533018008234
+t12.2022.04.28,train,vocal,t12.2022.04.28,239,we got drenched from the uninterrupted rain,429,100,38,37,1,0.02631578947368421,True,-8.779355574750966
+t12.2022.04.28,train,vocal,t12.2022.04.28,240,she came back the other day to reassure me,456,107,34,34,0,0.0,True,-8.457694752597336
+t12.2022.04.28,train,vocal,t12.2022.04.28,241,the dark murky lagoon wound around for miles,455,106,38,38,0,0.0,True,-6.000993927290569
+t12.2022.04.28,train,vocal,t12.2022.04.28,242,he may toss coins he may take slips of paper from a grab bag,684,164,55,55,0,0.0,True,-9.703025391771734
+t12.2022.04.28,train,vocal,t12.2022.04.28,243,as coauthors we presented our new book to the haughty audience,623,148,51,50,1,0.0196078431372549,True,-10.780774251028598
+t12.2022.04.28,train,vocal,t12.2022.04.28,244,also make sure thermometer does not touch the revolving spit or hit the coals,791,190,66,66,0,0.0,True,-10.686573280996127
+t12.2022.04.28,train,vocal,t12.2022.04.28,245,you're so preoccupied that you've let your faith grow dim,519,122,46,46,2,0.043478260869565216,True,-11.344371454494658
+t12.2022.04.28,train,vocal,t12.2022.04.28,246,psychologically the reception should be the climax following the sermon,646,154,58,58,1,0.017241379310344827,True,-12.211218316952817
+t12.2022.04.28,train,vocal,t12.2022.04.28,247,our enemy is also threatening to devour us,507,119,38,38,1,0.02631578947368421,True,-7.104599581689881
+t12.2022.04.28,train,vocal,t12.2022.04.28,248,we would lose our export markets and deny ourselves the imports we need,721,173,65,65,1,0.015384615384615385,True,-11.008176077885015
+t12.2022.04.28,train,vocal,t12.2022.04.28,249,the cat's meow always hurts my ears,373,86,30,30,1,0.03333333333333333,True,-5.133144005192969
+t12.2022.04.28,train,vocal,t12.2022.04.28,250,the singer's finger had a splinter,337,77,29,30,1,0.034482758620689655,True,-6.550481523336063
+t12.2022.04.28,train,vocal,t12.2022.04.28,251,his sudden departure shocked the cast,396,92,31,31,0,0.0,True,-6.219641584968657
+t12.2022.04.28,train,vocal,t12.2022.04.28,252,how permanent are their records,281,63,26,26,0,0.0,True,-4.341208495014342
+t12.2022.04.28,train,vocal,t12.2022.04.28,253,the fifth one wore a prestige uniform,391,90,35,35,1,0.02857142857142857,True,-8.4844832318738
+t12.2022.04.28,train,vocal,t12.2022.04.28,254,the news agency hired a great journalist,401,93,35,33,2,0.05714285714285714,True,-9.104688647827732
+t12.2022.04.28,train,vocal,t12.2022.04.28,255,coffee is grown on steep jungle-like slopes in temperate zones,595,141,52,51,1,0.019230769230769232,True,-16.738209462123105
+t12.2022.04.28,train,vocal,t12.2022.04.28,256,technical writers can abbreviate in bibliographies,487,114,44,43,1,0.022727272727272728,True,-13.57133700646056
+t12.2022.04.28,train,vocal,t12.2022.04.28,257,now a distinguished old man called on nine divinities to come and join us,711,170,65,64,1,0.015384615384615385,True,-20.598808380294752
+t12.2022.04.28,train,vocal,t12.2022.04.28,258,a toothpaste tube should be squeezed from the bottom,529,125,42,42,0,0.0,True,-8.044359499959164
+t12.2022.04.28,train,vocal,t12.2022.04.28,259,bright sunshine shimmers on the ocean,332,76,29,29,0,0.0,True,-6.9584974971202485
+t12.2022.04.28,train,vocal,t12.2022.04.28,260,i've written so many versions of this conversation,477,112,42,43,1,0.023809523809523808,True,-9.062409482306032
+t12.2022.04.28,train,vocal,t12.2022.04.28,261,most of us brush our teeth by hand,364,84,31,30,1,0.03225806451612903,True,-5.7201716706217445
+t12.2022.04.28,train,vocal,t12.2022.04.28,262,project development was proceeding too slowly,456,107,42,42,0,0.0,True,-11.834817542952125
+t12.2022.04.28,train,vocal,t12.2022.04.28,263,there was typhoid and malaria,334,76,26,26,0,0.0,True,-6.6426859427531
+t12.2022.04.28,train,vocal,t12.2022.04.28,264,the kid has no manners boys,347,79,24,24,0,0.0,True,-3.265051088776148
+t12.2022.04.28,train,vocal,t12.2022.04.28,265,the cowboy's humorous name for a cow givin' milk was a milk pitcher,710,170,58,57,1,0.017241379310344827,True,-11.43751710733127
+t12.2022.04.28,train,vocal,t12.2022.04.28,266,almost all colleges are now coeducational,536,127,37,37,0,0.0,True,-5.172116835005888
+t12.2022.04.28,train,vocal,t12.2022.04.28,267,many wealthy tycoons splurged and bought both a yacht and a schooner,669,160,55,55,0,0.0,True,-8.827297576831482
+t12.2022.04.28,train,vocal,t12.2022.04.28,268,critical equipment needs proper maintenance,386,89,40,37,5,0.125,True,-18.014109465596214
+t12.2022.04.28,train,vocal,t12.2022.04.28,269,the narrow fringe of sadness that ran around it only emphasized the pleasure,737,177,63,63,0,0.0,True,-13.268469119022717
+t12.2022.04.28,train,vocal,t12.2022.04.28,270,if necessary to replace both halves on grill sear cuts and allot extra time,794,191,68,67,1,0.014705882352941176,True,-12.689359744732716
+t12.2022.04.28,train,vocal,t12.2022.04.28,271,her face turned pink with pleasure and a smothered cough,573,136,44,44,0,0.0,True,-4.100758704494108
+t12.2022.04.28,train,vocal,t12.2022.04.28,272,the desire and ability to read are important aspects of our cultural life,764,184,67,67,0,0.0,True,-15.909120721206305
+t12.2022.04.28,train,vocal,t12.2022.04.28,273,theirs is a sacrificial life by earthly standards,510,120,42,42,0,0.0,True,-10.999211324248435
+t12.2022.04.28,train,vocal,t12.2022.04.28,274,does creole cooking use curry,325,74,25,25,1,0.04,True,-7.794582618985895
+t12.2022.04.28,train,vocal,t12.2022.04.28,275,her wardrobe consists of only skirts and blouses,481,113,45,43,2,0.044444444444444446,True,-10.680765268899643
+t12.2022.04.28,train,vocal,t12.2022.04.28,276,the old shop adage still holds a good mechanic is usually a bad boss,809,195,63,63,0,0.0,True,-13.153210255513695
+t12.2022.04.28,train,vocal,t12.2022.04.28,277,please take this dirty table cloth to the cleaners for me,556,132,49,49,1,0.02040816326530612,True,-10.357182702734724
+t12.2022.04.28,train,vocal,t12.2022.04.28,278,a good morrow to you my boy,433,101,23,23,0,0.0,True,-5.171639854364367
+t12.2022.04.28,train,vocal,t12.2022.04.28,279,the irate actor stomped away idiotically,508,120,34,33,1,0.029411764705882353,True,-16.227091045827777

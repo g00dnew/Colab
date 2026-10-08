@@ -1,0 +1,5 @@
+session,feature,n_bins,n_chan,dtype,n_nan,n_inf,raw_chan_mean_med,raw_chan_std_med,raw_chan_std_min,raw_chan_std_max,z_chan_mean_absmax,z_chan_std_med,n_dead_chan,n_trials,n_blocks,go_bins_mean,go_bins_min,go_bins_max
+t12.2022.04.21_phonemes,tx1,127457,256,uint8,0,0,0.348,0.6383,0.040848,5.3592,0.0,1.0,0,640,8,85.1,75,86
+t12.2022.04.21_phonemes,spikePow,127457,256,float32,0,0,622.8503,267.5842,5.057365,28851.9466,0.0,1.0,0,640,8,85.1,75,86
+t12.2022.04.26_phonemes,tx1,159136,256,uint8,0,0,0.4213,0.6941,0.236764,3.2161,0.0,1.0,0,800,10,85.0,75,86
+t12.2022.04.26_phonemes,spikePow,159136,256,float32,0,0,712.9617,372.8552,4.783206,19245.3268,0.0,1.0,0,800,10,85.0,75,86

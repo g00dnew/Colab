@@ -1,0 +1,46 @@
+array,modality,n_laryngeal_pairs,n_place_pairs,laryngeal_acc,place_acc,gap_place_minus_laryngeal,gap_ci_lo,gap_ci_hi,excluded_pairs,comparator,positions
+6v,vocal,7,9,0.6216,0.6954,0.0738,-0.0323,0.1768,,primary_0729,all
+6v,nonvocal,7,9,0.5617,0.6199,0.0582,-0.0239,0.1421,,primary_0729,all
+6v,DoD(nonvocal - vocal),7,9,,,-0.0156,-0.1511,0.1195,,primary_0729,all
+6v_sup,vocal,7,9,0.5597,0.6658,0.1061,0.0247,0.1999,,primary_0729,all
+6v_sup,nonvocal,7,9,0.556,0.5909,0.035,-0.0327,0.1003,,primary_0729,all
+6v_sup,DoD(nonvocal - vocal),7,9,,,-0.0711,-0.1845,0.0364,,primary_0729,all
+6v_inf,vocal,7,9,0.6108,0.6431,0.0323,-0.0451,0.109,,primary_0729,all
+6v_inf,nonvocal,7,9,0.5282,0.6363,0.1081,0.0321,0.1831,,primary_0729,all
+6v_inf,DoD(nonvocal - vocal),7,9,,,0.0757,-0.0338,0.183,,primary_0729,all
+6v,vocal,7,9,0.6216,0.6954,0.0738,-0.0323,0.1768,,primary_0729_no0825,all
+6v,nonvocal,7,9,0.5814,0.6372,0.0558,-0.0175,0.1322,,primary_0729_no0825,all
+6v,DoD(nonvocal - vocal),7,9,,,-0.018,-0.1475,0.112,,primary_0729_no0825,all
+6v_sup,vocal,7,9,0.5597,0.6658,0.1061,0.0247,0.1999,,primary_0729_no0825,all
+6v_sup,nonvocal,7,9,0.5393,0.5584,0.0191,-0.0587,0.0946,,primary_0729_no0825,all
+6v_sup,DoD(nonvocal - vocal),7,9,,,-0.087,-0.2077,0.027,,primary_0729_no0825,all
+6v_inf,vocal,7,9,0.6108,0.6431,0.0323,-0.0451,0.109,,primary_0729_no0825,all
+6v_inf,nonvocal,7,9,0.5508,0.6114,0.0606,-0.0028,0.1237,,primary_0729_no0825,all
+6v_inf,DoD(nonvocal - vocal),7,9,,,0.0283,-0.0732,0.1292,,primary_0729_no0825,all
+6v,vocal,6,8,0.5791,0.6296,0.0505,-0.0159,0.1155,,secondary_datematch,all
+6v,nonvocal,6,8,0.5385,0.6165,0.078,0.0255,0.1311,,secondary_datematch,all
+6v,DoD(nonvocal - vocal),6,8,,,0.0275,-0.0541,0.113,,secondary_datematch,all
+6v_sup,vocal,6,8,0.5426,0.5624,0.0198,-0.0822,0.1122,,secondary_datematch,all
+6v_sup,nonvocal,6,8,0.5109,0.5854,0.0745,0.0179,0.1284,,secondary_datematch,all
+6v_sup,DoD(nonvocal - vocal),6,8,,,0.0547,-0.0523,0.1691,,secondary_datematch,all
+6v_inf,vocal,6,8,0.5716,0.6204,0.0488,0.0065,0.0883,,secondary_datematch,all
+6v_inf,nonvocal,6,8,0.5355,0.5961,0.0607,-0.0175,0.1458,,secondary_datematch,all
+6v_inf,DoD(nonvocal - vocal),6,8,,,0.0118,-0.0767,0.1072,,secondary_datematch,all
+6v,vocal,8,9,0.6278,0.6903,0.0625,0.0195,0.1071,,tertiary_allvocal,all
+6v,nonvocal,8,9,0.6441,0.6964,0.0523,-0.0184,0.1134,,tertiary_allvocal,all
+6v,DoD(nonvocal - vocal),8,9,,,-0.0102,-0.092,0.0664,,tertiary_allvocal,all
+6v_sup,vocal,8,9,0.5936,0.6287,0.0351,-0.0237,0.0912,,tertiary_allvocal,all
+6v_sup,nonvocal,8,9,0.593,0.6243,0.0313,-0.0298,0.0838,,tertiary_allvocal,all
+6v_sup,DoD(nonvocal - vocal),8,9,,,-0.0038,-0.087,0.0771,,tertiary_allvocal,all
+6v_inf,vocal,8,9,0.6164,0.6747,0.0584,0.0074,0.1044,,tertiary_allvocal,all
+6v_inf,nonvocal,8,9,0.6145,0.6641,0.0496,-0.0058,0.1035,,tertiary_allvocal,all
+6v_inf,DoD(nonvocal - vocal),8,9,,,-0.0088,-0.0823,0.0657,,tertiary_allvocal,all
+6v,vocal,4,7,0.7097,0.7042,-0.0055,-0.0494,0.0398,,primary_0729_initial,initial
+6v,nonvocal,4,7,0.6325,0.6817,0.0492,-0.0409,0.1292,,primary_0729_initial,initial
+6v,DoD(nonvocal - vocal),4,7,,,0.0547,-0.0473,0.1492,,primary_0729_initial,initial
+6v_sup,vocal,4,7,0.6578,0.6689,0.0111,-0.0493,0.0729,,primary_0729_initial,initial
+6v_sup,nonvocal,4,7,0.6259,0.6231,-0.0028,-0.1028,0.1009,,primary_0729_initial,initial
+6v_sup,DoD(nonvocal - vocal),4,7,,,-0.014,-0.1314,0.1034,,primary_0729_initial,initial
+6v_inf,vocal,4,7,0.6858,0.6358,-0.05,-0.1407,0.0355,,primary_0729_initial,initial
+6v_inf,nonvocal,4,7,0.6061,0.6407,0.0345,-0.0312,0.0935,,primary_0729_initial,initial
+6v_inf,DoD(nonvocal - vocal),4,7,,,0.0846,-0.0209,0.1938,,primary_0729_initial,initial

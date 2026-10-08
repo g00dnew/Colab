@@ -1,0 +1,121 @@
+stage,test,array,position,pair,contrast,manner,partitions,n_per_class,acc,acc_sd,dprime,p_perm,class_a,class_b,n_features_in,n_available_min_class,clf,n_splits,n_repeats,n_perm,chance,n_features_used,skipped
+stage2,T1_position,6v,initial,P/B,laryngeal,stop,test,45,0.581111111111111,0.111227716592006,0.40863351300858836,,B,P,256,45,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,T/D,laryngeal,stop,test,62,0.7136333333333333,0.07757125040173639,1.1278795006218032,,D,T,256,62,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,K/G,laryngeal,stop,test,49,0.5680526315789475,0.11500091532816506,0.3448423715971459,,G,K,256,49,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,F/V,laryngeal,fricative,test,7,,,,,F,V,256,7,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v,initial,TH/DH,laryngeal,fricative,test,22,0.6297222222222223,0.14597506340400224,0.6750496032893779,,DH,TH,256,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,P/T,place,stop,test,45,0.7088888888888889,0.09848231024960151,1.1014749804987327,,P,T,256,45,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,T/K,place,stop,test,64,0.7865846153846153,0.07419981977362121,1.587380332656518,,K,T,256,64,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,B/D,place,stop,test,62,0.5886,0.0833522378557142,0.4488313251833337,,B,D,256,62,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,D/G,place,stop,test,49,0.5956842105263158,0.10883640420781286,0.48555050809781675,,D,G,256,49,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,F/S,place,fricative,test,55,0.5745454545454545,0.08896094416527321,0.3760172028290615,,F,S,256,55,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,F/TH,place,fricative,test,22,0.6969444444444445,0.13110669719500495,1.0311652469627899,,F,TH,256,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,initial,S/SH,place,fricative,test,6,,,,,S,SH,256,6,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v,initial,M/N,place,nasal,test,42,0.7277205882352941,0.08903561673124301,1.2078748720054513,,M,N,256,42,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,medial,P/B,laryngeal,stop,test,22,0.5911111111111111,0.14237730260226275,0.4577751759373365,,B,P,256,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,medial,T/D,laryngeal,stop,test,29,0.49439393939393944,0.11451989854402787,-0.025842487394346268,,D,T,256,29,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,medial,K/G,laryngeal,stop,test,13,0.5073333333333333,0.20257124946820837,0.07678230001866951,,G,K,256,13,lda,5,10,0,0.5,25.0,
+stage2,T1_position,6v,medial,F/V,laryngeal,fricative,test,29,0.5045454545454545,0.14821403876010902,0.02589631666251143,,F,V,256,29,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,medial,S/Z,laryngeal,fricative,test,10,,,,,S,Z,256,10,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v,medial,SH/ZH,laryngeal,fricative,test,15,0.4433333333333333,0.15132745950421556,-0.28323578292046425,,SH,ZH,256,15,lda,5,10,0,0.5,29.0,
+stage2,T1_position,6v,medial,P/T,place,stop,test,50,0.698,0.09108238029388561,1.049577208059922,,P,T,256,50,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,medial,T/K,place,stop,test,68,0.6367724867724868,0.07403579887926551,0.6996282016989377,,K,T,256,68,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,medial,B/D,place,stop,test,22,0.46972222222222226,0.1454476381111043,-0.1478719403552232,,B,D,256,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,medial,D/G,place,stop,test,13,0.45933333333333337,0.21053265779921174,-0.1916739295559255,,D,G,256,13,lda,5,10,0,0.5,25.0,
+stage2,T1_position,6v,medial,F/S,place,fricative,test,29,0.4825757575757576,0.12540338951164795,-0.08689277296023927,,F,S,256,29,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,medial,F/TH,place,fricative,test,6,,,,,F,TH,256,6,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v,medial,S/SH,place,fricative,test,15,0.5266666666666666,0.1896195020443719,0.13289923716018298,,S,SH,256,15,lda,5,10,0,0.5,29.0,
+stage2,T1_position,6v,medial,V/Z,place,fricative,test,10,,,,,V,Z,256,10,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v,medial,M/N,place,nasal,test,56,0.5342687747035573,0.09729231950681899,0.1714457642882082,,M,N,256,56,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,final,T/D,laryngeal,stop,test,130,0.545,0.055284364396685985,0.22682524735685214,,D,T,256,130,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,final,K/G,laryngeal,stop,test,3,,,,,G,K,256,3,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v,final,F/V,laryngeal,fricative,test,18,0.5260714285714285,0.13373605210508147,0.14479728149546212,,F,V,256,18,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,final,S/Z,laryngeal,fricative,test,78,0.5751008064516128,0.06726056952188963,0.37783195951311355,,S,Z,256,78,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,final,P/T,place,stop,test,21,0.4858333333333333,0.12553865422133417,-0.08360963010357117,,P,T,256,21,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,final,T/K,place,stop,test,54,0.6075324675324676,0.09022774978883118,0.5483964336885101,,K,T,256,54,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,final,B/D,place,stop,test,1,,,,,B,D,256,1,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v,final,D/G,place,stop,test,3,,,,,D,G,256,3,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v,final,F/S,place,fricative,test,18,0.5421428571428571,0.1742242280300104,0.20896300742674445,,F,S,256,18,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,final,S/SH,place,fricative,test,2,,,,,S,SH,256,2,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v,final,V/Z,place,fricative,test,68,0.6599470899470898,0.08687841965849262,0.8254126222678921,,V,Z,256,68,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v,final,M/N,place,nasal,test,51,0.6138095238095239,0.07164253667497048,0.5788605528384172,,M,N,256,51,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,P/B,laryngeal,stop,test,45,0.49111111111111116,0.11241457662170436,-0.04450083609667278,,B,P,128,45,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,T/D,laryngeal,stop,test,62,0.6556666666666666,0.08467519642072813,0.8012489182751554,,D,T,128,62,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,K/G,laryngeal,stop,test,49,0.49357894736842106,0.10359889623899986,-0.03063369016273405,,G,K,128,49,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,F/V,laryngeal,fricative,test,7,,,,,F,V,128,7,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_sup,initial,TH/DH,laryngeal,fricative,test,22,0.6497222222222223,0.1460987003601113,0.781985246011654,,DH,TH,128,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,P/T,place,stop,test,45,0.6211111111111111,0.10225241100118646,0.6156005454434016,,P,T,128,45,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,T/K,place,stop,test,64,0.7202153846153847,0.07679682562473207,1.1679583833113953,,K,T,128,64,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,B/D,place,stop,test,62,0.5682333333333333,0.07596081592212893,0.3459021658528782,,B,D,128,62,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,D/G,place,stop,test,49,0.5773684210526315,0.10956347532208778,0.3943573392318163,,D,G,128,49,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,F/S,place,fricative,test,55,0.46454545454545454,0.07835604266096906,-0.17859736918628233,,F,S,128,55,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,F/TH,place,fricative,test,22,0.6997222222222221,0.1197634628634169,1.0467857506627591,,F,TH,128,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,initial,S/SH,place,fricative,test,6,,,,,S,SH,128,6,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_sup,initial,M/N,place,nasal,test,42,0.6679411764705883,0.11064024121348681,0.8661868361356913,,M,N,128,42,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,medial,P/B,laryngeal,stop,test,22,0.6074999999999999,0.16691671058226895,0.5514829758995866,,B,P,128,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,medial,T/D,laryngeal,stop,test,29,0.5377272727272727,0.11571324313699755,0.19004517445480942,,D,T,128,29,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,medial,K/G,laryngeal,stop,test,13,0.49266666666666664,0.19508288836628734,-0.03844763004633417,,G,K,128,13,lda,5,10,0,0.5,25.0,
+stage2,T1_position,6v_sup,medial,F/V,laryngeal,fricative,test,29,0.6380303030303031,0.11381087610076909,0.7033396027573062,,F,V,128,29,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,medial,S/Z,laryngeal,fricative,test,10,,,,,S,Z,128,10,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_sup,medial,SH/ZH,laryngeal,fricative,test,15,0.4966666666666666,0.13535960336164635,-0.016857118346957772,,SH,ZH,128,15,lda,5,10,0,0.5,29.0,
+stage2,T1_position,6v_sup,medial,P/T,place,stop,test,50,0.696,0.08651011501552869,1.029685539167692,,P,T,128,50,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,medial,T/K,place,stop,test,68,0.5739153439153439,0.08491512945940972,0.37411806223197164,,K,T,128,68,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,medial,B/D,place,stop,test,22,0.5738888888888889,0.17832900652418057,0.3837568728098339,,B,D,128,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,medial,D/G,place,stop,test,13,0.4446666666666667,0.20478823750943856,-0.2688905120189805,,D,G,128,13,lda,5,10,0,0.5,25.0,
+stage2,T1_position,6v_sup,medial,F/S,place,fricative,test,29,0.49151515151515146,0.11488845550553857,-0.043568730290527324,,F,S,128,29,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,medial,F/TH,place,fricative,test,6,,,,,F,TH,128,6,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_sup,medial,S/SH,place,fricative,test,15,0.4733333333333333,0.19821424996424675,-0.13289923716018298,,S,SH,128,15,lda,5,10,0,0.5,29.0,
+stage2,T1_position,6v_sup,medial,V/Z,place,fricative,test,10,,,,,V,Z,128,10,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_sup,medial,M/N,place,nasal,test,56,0.5999209486166008,0.0746325864855324,0.5063104040283329,,M,N,128,56,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,final,T/D,laryngeal,stop,test,130,0.4984615384615385,0.0692136731027815,-0.007710929783797428,,D,T,128,130,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,final,K/G,laryngeal,stop,test,3,,,,,G,K,128,3,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_sup,final,F/V,laryngeal,fricative,test,18,0.47928571428571426,0.16806066688878168,-0.09765841981365395,,F,V,128,18,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,final,S/Z,laryngeal,fricative,test,78,0.5174193548387097,0.07476061997581035,0.08670910473280402,,S,Z,128,78,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,final,P/T,place,stop,test,21,0.42416666666666664,0.14066119218766177,-0.3847544586543527,,P,T,128,21,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,final,T/K,place,stop,test,54,0.472987012987013,0.10825994244593405,-0.13481703169299147,,K,T,128,54,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,final,B/D,place,stop,test,1,,,,,B,D,128,1,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_sup,final,D/G,place,stop,test,3,,,,,D,G,128,3,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_sup,final,F/S,place,fricative,test,18,0.6114285714285714,0.18397398884469668,0.5763858941091258,,F,S,128,18,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,final,S/SH,place,fricative,test,2,,,,,S,SH,128,2,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_sup,final,V/Z,place,fricative,test,68,0.5831216931216932,0.07919662899431842,0.42022614239628214,,V,Z,128,68,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_sup,final,M/N,place,nasal,test,51,0.676952380952381,0.07938316619302818,0.9210416203392715,,M,N,128,51,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,P/B,laryngeal,stop,test,45,0.5066666666666666,0.08508528764034068,0.03342353634013857,,B,P,128,45,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,T/D,laryngeal,stop,test,62,0.6492,0.07327667508226005,0.7677482838796394,,D,T,128,62,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,K/G,laryngeal,stop,test,49,0.6001578947368421,0.09652323073759064,0.5128565523357225,,G,K,128,49,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,F/V,laryngeal,fricative,test,7,,,,,F,V,128,7,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_inf,initial,TH/DH,laryngeal,fricative,test,22,0.58,0.13801279239330508,0.4111982210068338,,DH,TH,128,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,P/T,place,stop,test,45,0.6955555555555555,0.0883595348980935,1.024876053285274,,P,T,128,45,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,T/K,place,stop,test,64,0.6717230769230769,0.08309623137446762,0.8943538331979206,,K,T,128,64,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,B/D,place,stop,test,62,0.5720000000000001,0.09311939766891872,0.36183742973329447,,B,D,128,62,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,D/G,place,stop,test,49,0.5566315789473684,0.09160350547913808,0.2870561041364907,,D,G,128,49,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,F/S,place,fricative,test,55,0.5172727272727272,0.07919533336280794,0.08648053817803787,,F,S,128,55,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,F/TH,place,fricative,test,22,0.6822222222222222,0.1467403013809864,0.9421791080229709,,F,TH,128,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,initial,S/SH,place,fricative,test,6,,,,,S,SH,128,6,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_inf,initial,M/N,place,nasal,test,42,0.7227205882352941,0.08462621994438911,1.1808001663631178,,M,N,128,42,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,medial,P/B,laryngeal,stop,test,22,0.5783333333333334,0.17093515484093325,0.399627252927343,,B,P,128,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,medial,T/D,laryngeal,stop,test,29,0.40954545454545455,0.12318852715712003,-0.4611181317486193,,D,T,128,29,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,medial,K/G,laryngeal,stop,test,13,0.5233333333333333,0.21891144835805693,0.1347927743304032,,G,K,128,13,lda,5,10,0,0.5,25.0,
+stage2,T1_position,6v_inf,medial,F/V,laryngeal,fricative,test,29,0.48499999999999993,0.14317572537942563,-0.07754472996982276,,F,V,128,29,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,medial,S/Z,laryngeal,fricative,test,10,,,,,S,Z,128,10,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_inf,medial,SH/ZH,laryngeal,fricative,test,15,0.5266666666666666,0.20645150089602698,0.13516925769249477,,SH,ZH,128,15,lda,5,10,0,0.5,29.0,
+stage2,T1_position,6v_inf,medial,P/T,place,stop,test,50,0.6160000000000001,0.09718024490605072,0.5911057608021316,,P,T,128,50,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,medial,T/K,place,stop,test,68,0.6417195767195767,0.08619184440305347,0.7260437869921978,,K,T,128,68,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,medial,B/D,place,stop,test,22,0.4933333333333333,0.14002975874196646,-0.034797385297702293,,B,D,128,22,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,medial,D/G,place,stop,test,13,0.5346666666666667,0.16013327782402592,0.17262347965005248,,D,G,128,13,lda,5,10,0,0.5,25.0,
+stage2,T1_position,6v_inf,medial,F/S,place,fricative,test,29,0.49651515151515146,0.12929676643611637,-0.017233653717674925,,F,S,128,29,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,medial,F/TH,place,fricative,test,6,,,,,F,TH,128,6,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_inf,medial,S/SH,place,fricative,test,15,0.45666666666666667,0.17259457954666158,-0.22481413554101295,,S,SH,128,15,lda,5,10,0,0.5,29.0,
+stage2,T1_position,6v_inf,medial,V/Z,place,fricative,test,10,,,,,V,Z,128,10,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_inf,medial,M/N,place,nasal,test,56,0.5696442687747035,0.06666211506800217,0.351896762894083,,M,N,128,56,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,final,T/D,laryngeal,stop,test,130,0.5615384615384615,0.059085736522066216,0.3099314953472728,,D,T,128,130,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,final,K/G,laryngeal,stop,test,3,,,,,G,K,128,3,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_inf,final,F/V,laryngeal,fricative,test,18,0.4878571428571428,0.14683914564542233,-0.05540750208577319,,F,V,128,18,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,final,S/Z,laryngeal,fricative,test,78,0.5546975806451614,0.07711023057506203,0.2742651037839839,,S,Z,128,78,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,final,P/T,place,stop,test,21,0.5722222222222222,0.17264732481400372,0.3595848275329595,,P,T,128,21,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,final,T/K,place,stop,test,54,0.6382683982683983,0.10076973668945409,0.709448506583949,,K,T,128,54,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,final,B/D,place,stop,test,1,,,,,B,D,128,1,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_inf,final,D/G,place,stop,test,3,,,,,D,G,128,3,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_inf,final,F/S,place,fricative,test,18,0.6275,0.12965859802117377,0.651621616369139,,F,S,128,18,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,final,S/SH,place,fricative,test,2,,,,,S,SH,128,2,lda,5,10,0,0.5,,n_per_class 부족
+stage2,T1_position,6v_inf,final,V/Z,place,fricative,test,68,0.6404232804232803,0.08518861933989408,0.718285840318884,,V,Z,128,68,lda,5,10,0,0.5,30.0,
+stage2,T1_position,6v_inf,final,M/N,place,nasal,test,51,0.5668095238095238,0.09013898313814693,0.3356273557752568,,M,N,128,51,lda,5,10,0,0.5,30.0,

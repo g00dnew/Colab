@@ -1,0 +1,22 @@
+stage,test,array,position,pair,contrast,n_per_class,acc,acc_sd,dprime,p_perm,class_a,class_b,n_features_in,clf,n_splits,n_repeats,n_perm,chance,skipped,n_features_used,acc_for_perm,acc_perm_mean,acc_perm_p95
+stage2,T1_position,6v,initial,TH/DH,laryngeal,5,,,,,DH,TH,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,6v,medial,T/K,place,11,,,,,K,T,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,6v,medial,M/N,place,8,,,,,M,N,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,6v,final,T/D,laryngeal,15,1.0,0.0,5.430505909433611,0.0196078431372549,D,T,256,lda,5,10,50,0.5,,29.0,1.0,0.4943333333333333,0.6591666666666667
+stage2,T1_position,6v,final,P/T,place,5,,,,,P,T,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,6v,final,T/K,place,7,,,,,K,T,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,6v,final,M/N,place,11,,,,,M,N,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,44,initial,TH/DH,laryngeal,5,,,,,DH,TH,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,44,medial,T/K,place,11,,,,,K,T,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,44,medial,M/N,place,8,,,,,M,N,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,44,final,T/D,laryngeal,15,0.6066666666666667,0.1818424226264781,0.5427672807990674,0.47058823529411764,D,T,256,lda,5,10,50,0.5,,29.0,0.5333333333333333,0.523,0.6666666666666666
+stage2,T1_position,44,final,P/T,place,5,,,,,P,T,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,44,final,T/K,place,7,,,,,K,T,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,44,final,M/N,place,11,,,,,M,N,256,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,all,initial,TH/DH,laryngeal,5,,,,,DH,TH,512,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,all,medial,T/K,place,11,,,,,K,T,512,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,all,medial,M/N,place,8,,,,,M,N,512,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,all,final,T/D,laryngeal,15,1.0,0.0,5.430505909433611,0.0196078431372549,D,T,512,lda,5,10,50,0.5,,29.0,1.0,0.502,0.6333333333333333
+stage2,T1_position,all,final,P/T,place,5,,,,,P,T,512,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,all,final,T/K,place,7,,,,,K,T,512,lda,5,10,50,0.5,n_per_class 부족,,,,
+stage2,T1_position,all,final,M/N,place,11,,,,,M,N,512,lda,5,10,50,0.5,n_per_class 부족,,,,

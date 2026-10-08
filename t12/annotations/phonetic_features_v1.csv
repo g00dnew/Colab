@@ -1,0 +1,25 @@
+arpabet,ipa,voicing,place,manner,nasal,sonorant,continuant,spread_glottis,laryngeal_pair,in_laryngeal_pair,series,verified,note
+P,p,0,bilabial,stop,0,0,0,1,P/B,True,voiceless,False,영어 무성 계열. [spread glottis] 이론의 유표항 후보
+B,b,1,bilabial,stop,0,0,0,0,P/B,True,voiced,False,영어 유성 계열. [voice] 이론의 유표항 후보
+T,t,0,alveolar,stop,0,0,0,1,T/D,True,voiceless,False,영어 무성 계열. [spread glottis] 이론의 유표항 후보
+D,d,1,alveolar,stop,0,0,0,0,T/D,True,voiced,False,영어 유성 계열. [voice] 이론의 유표항 후보
+K,k,0,velar,stop,0,0,0,1,K/G,True,voiceless,False,영어 무성 계열. [spread glottis] 이론의 유표항 후보
+G,g,1,velar,stop,0,0,0,0,K/G,True,voiced,False,영어 유성 계열. [voice] 이론의 유표항 후보
+CH,tS,0,postalveolar,affricate,0,0,0,1,CH/JH,True,voiceless,False,영어 무성 계열. [spread glottis] 이론의 유표항 후보
+JH,dZ,1,postalveolar,affricate,0,0,0,0,CH/JH,True,voiced,False,영어 유성 계열. [voice] 이론의 유표항 후보
+F,f,0,labiodental,fricative,0,0,1,0,F/V,True,voiceless,False,
+V,v,1,labiodental,fricative,0,0,1,0,F/V,True,voiced,False,
+TH,T,0,dental,fricative,0,0,1,0,TH/DH,True,voiceless,False,
+DH,D,1,dental,fricative,0,0,1,0,TH/DH,True,voiced,False,
+S,s,0,alveolar,fricative,0,0,1,0,S/Z,True,voiceless,False,
+Z,z,1,alveolar,fricative,0,0,1,0,S/Z,True,voiced,False,
+SH,S,0,postalveolar,fricative,0,0,1,0,SH/ZH,True,voiceless,False,
+ZH,Z,1,postalveolar,fricative,0,0,1,0,SH/ZH,True,voiced,False,
+HH,h,0,glottal,fricative,0,0,1,1,,False,,False,"glottal fricative, 최소대립쌍 없음. spread_glottis=1은 가설 라벨"
+M,m,1,bilabial,nasal,1,1,0,0,,False,,False,
+N,n,1,alveolar,nasal,1,1,0,0,,False,,False,
+NG,N,1,velar,nasal,1,1,0,0,,False,,False,
+L,l,1,alveolar,lateral,0,1,1,0,,False,,False,
+R,r,1,postalveolar,approximant,0,1,1,0,,False,,False,
+W,w,1,labiovelar,glide,0,1,1,0,,False,,False,
+Y,j,1,palatal,glide,0,1,1,0,,False,,False,

@@ -1,0 +1,871 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,phone_idx,phoneme,word_idx,position_in_word,word,start_bin,end_bin,n_bins,rnn_start_step,rnn_end_step,rnn_center_start,rnn_center_end,seg_start_bin,seg_end_bin,score
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,0,T,0,initial,to,72,104,32,18,18,88,92,16,96,0.9995022411091706
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,1,UW,0,final,to,80,112,32,20,20,96,100,96,104,0.9970499371678988
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,2,SIL,0,sil,to,88,124,36,22,23,104,112,104,112,0.9947785616358784
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,3,S,1,initial,some,96,132,36,24,25,112,120,112,124,0.9316221817274737
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,4,AH,1,medial,some,108,140,32,27,27,124,128,124,128,0.9970764681750903
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,5,M,1,final,some,112,148,36,28,29,128,136,128,140,0.49157546561614984
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,6,SIL,1,sil,some,124,156,32,31,31,140,144,140,152,0.2719160032061579
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,7,IH,2,initial,extent,144,176,32,36,36,160,164,152,164,0.06912682007108814
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,8,K,2,medial,extent,148,180,32,37,37,164,168,164,168,0.9414932152804454
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,9,S,2,medial,extent,152,184,32,38,38,168,172,168,176,0.09672770363724688
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,10,T,2,medial,extent,160,192,32,40,40,176,180,176,180,0.016873859756701463
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,11,EH,2,medial,extent,164,200,36,41,42,180,188,180,188,0.10524665671568242
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,12,N,2,medial,extent,172,208,36,43,44,188,196,188,196,0.9501687615138618
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,13,T,2,final,extent,180,212,32,45,45,196,200,196,200,0.13563390476110404
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,14,SIL,2,sil,extent,184,228,44,46,49,200,216,200,216,0.9997634532016075
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,15,P,3,initial,predispositions,200,232,32,50,50,216,220,216,220,0.9547101314859496
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,16,R,3,medial,predispositions,204,236,32,51,51,220,224,220,224,0.8878637446057119
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,17,IY,3,medial,predispositions,208,240,32,52,52,224,228,224,228,0.02869487405842899
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,18,D,3,medial,predispositions,212,244,32,53,53,228,232,228,240,0.9761632693596173
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,19,IH,3,medial,predispositions,228,260,32,57,57,244,248,240,256,0.5347235903309964
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,20,S,3,medial,predispositions,244,280,36,61,62,260,268,256,268,0.7330600531049409
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,21,P,3,medial,predispositions,252,284,32,63,63,268,272,268,272,0.28479440678365225
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,22,AH,3,medial,predispositions,256,288,32,64,64,272,276,272,276,0.08964792424405316
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,23,Z,3,medial,predispositions,260,292,32,65,65,276,280,276,284,3.734451124610488e-05
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,24,IH,3,medial,predispositions,268,300,32,67,67,284,288,284,288,0.0037241378970334776
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,25,SH,3,medial,predispositions,272,304,32,68,68,288,292,288,292,0.8456770751822419
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,26,AH,3,medial,predispositions,276,308,32,69,69,292,296,292,296,0.0003142841747318072
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,27,N,3,medial,predispositions,280,312,32,70,70,296,300,296,300,0.004541670733201952
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,28,Z,3,final,predispositions,284,316,32,71,71,300,304,300,304,0.47623588243457715
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,29,SIL,3,sil,predispositions,288,324,36,72,73,304,312,304,316,0.9701751044358714
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,30,AA,4,initial,are,304,336,32,76,76,320,324,316,324,0.983076457530831
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,31,R,4,final,are,308,340,32,77,77,324,328,324,328,0.9999849274043225
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,32,SIL,4,sil,are,312,360,48,78,82,328,348,328,348,0.9799372088980437
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,33,SH,5,initial,shaped,332,364,32,83,83,348,352,348,356,0.2642609864662876
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,34,EY,5,medial,shaped,344,376,32,86,86,360,364,356,364,0.0014468446618662544
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,35,P,5,medial,shaped,348,380,32,87,87,364,368,364,368,0.9378104108837353
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,36,T,5,final,shaped,352,384,32,88,88,368,372,368,376,0.005814089187982652
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,37,SIL,5,sil,shaped,360,400,40,90,92,376,388,376,388,0.9619567059927133
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,38,B,6,initial,by,372,404,32,93,93,388,392,388,396,0.9996751690858066
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,39,AY,6,final,by,380,412,32,95,95,396,400,396,404,0.999951082034199
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,40,SIL,6,sil,by,388,428,40,97,99,404,416,404,420,0.9432843078807882
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,41,IH,7,initial,exposure,408,440,32,102,102,424,428,420,428,0.9919653427934103
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,42,K,7,medial,exposure,412,444,32,103,103,428,432,428,432,0.8766844894947508
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,43,S,7,medial,exposure,416,452,36,104,105,432,440,432,440,0.914549102429453
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,44,P,7,medial,exposure,424,460,36,106,107,440,448,440,452,0.7385690389126456
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,45,OW,7,medial,exposure,436,468,32,109,109,452,456,452,456,0.9640962041895187
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,46,ZH,7,medial,exposure,440,472,32,110,110,456,460,456,464,0.9772598285718437
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,47,ER,7,final,exposure,452,484,32,113,113,468,472,464,476,0.02540646291278944
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,48,SIL,7,sil,exposure,460,508,48,115,119,476,496,476,496,0.9357600104531099
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,49,T,8,initial,to,480,516,36,120,121,496,504,496,504,0.869253842967357
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,50,UW,8,final,to,488,520,32,122,122,504,508,504,508,0.9998896160244978
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,51,SIL,8,sil,to,492,544,52,123,128,508,532,508,532,0.9601138959087239
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,52,G,9,initial,group,516,548,32,129,129,532,536,532,536,0.9650985092077943
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,53,R,9,medial,group,520,552,32,130,130,536,540,536,544,0.7854718194464194
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,54,UW,9,medial,group,528,560,32,132,132,544,548,544,548,0.17339396173488086
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,55,P,9,final,group,532,568,36,133,134,548,556,548,556,0.9512238320975412
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,56,SIL,9,sil,group,540,588,48,135,139,556,576,556,584,0.978288976934213
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,57,IH,10,initial,environments,572,604,32,143,143,588,592,584,592,0.9081947027280558
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,58,N,10,medial,environments,576,612,36,144,145,592,600,592,600,0.8455232556104346
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,59,V,10,medial,environments,584,620,36,146,147,600,608,600,612,0.9070716087124713
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,60,AY,10,medial,environments,600,632,32,150,150,616,620,612,620,0.6866078208356773
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,61,R,10,medial,environments,604,640,36,151,152,620,628,620,628,0.6864044493787684
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,62,AH,10,medial,environments,612,644,32,153,153,628,632,628,632,0.09305960191001518
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,63,N,10,medial,environments,616,648,32,154,154,632,636,632,636,0.0001807112217591257
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,64,M,10,medial,environments,620,652,32,155,155,636,640,636,640,0.20071934868597877
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,65,AH,10,medial,environments,624,656,32,156,156,640,644,640,644,0.9940351823845606
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,66,N,10,medial,environments,628,660,32,157,157,644,648,644,648,0.9689895615119212
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,67,T,10,medial,environments,632,664,32,158,158,648,652,648,652,0.1296880109501959
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,68,S,10,final,environments,636,668,32,159,159,652,656,652,656,0.9290615154062385
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,69,SIL,10,sil,environments,640,684,44,160,163,656,672,656,672,0.9695558919968882
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,0,AE,0,initial,an,72,104,32,18,18,88,92,16,92,0.9768655764985175
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,1,N,0,final,an,76,108,32,19,19,92,96,92,96,0.9997357922918801
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,2,SIL,0,sil,an,80,124,44,20,23,96,112,96,116,0.8772844359597114
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,3,AH,1,initial,adult,104,136,32,26,26,120,124,116,124,0.07574497564448877
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,4,D,1,medial,adult,108,140,32,27,27,124,128,124,136,0.09787206697188502
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,5,AH,1,medial,adult,128,160,32,32,32,144,148,136,148,0.8977464825462187
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,6,L,1,medial,adult,132,168,36,33,34,148,156,148,156,0.8754619265795858
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,7,T,1,final,adult,140,172,32,35,35,156,160,156,160,0.8933937984478728
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,8,SIL,1,sil,adult,144,192,48,36,40,160,180,160,180,0.9861548176926505
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,9,M,2,initial,male,164,196,32,41,41,180,184,180,188,0.9875723830057057
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,10,EY,2,medial,male,176,208,32,44,44,192,196,188,196,0.46012090648304627
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,11,L,2,final,male,180,220,40,45,47,196,208,196,208,0.9461142420226212
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,12,SIL,2,sil,male,192,232,40,48,50,208,220,208,220,0.972660216047008
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,13,B,3,initial,baboon's,204,236,32,51,51,220,224,220,228,0.0005727810479324033
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,14,AE,3,medial,baboon's,212,244,32,53,53,228,232,228,232,6.444337750163114e-06
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,15,B,3,medial,baboon's,216,248,32,54,54,232,236,232,244,0.14096224913728367
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,16,UW,3,medial,baboon's,236,268,32,59,59,252,256,244,260,0.0523192033314389
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,17,N,3,medial,baboon's,244,276,32,61,61,260,264,260,264,0.44158849976975073
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,18,Z,3,final,baboon's,248,284,36,62,63,264,272,264,272,0.7918301473941676
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,19,SIL,3,sil,baboon's,256,320,64,64,72,272,308,272,316,0.9688283248518262
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,20,T,4,initial,teeth,308,340,32,77,77,324,328,316,332,0.03358939478441433
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,21,IY,4,medial,teeth,320,352,32,80,80,336,340,332,340,0.983436714046718
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,22,TH,4,final,teeth,324,356,32,81,81,340,344,340,348,0.9355385329621907
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,23,SIL,4,sil,teeth,332,372,40,83,85,348,360,348,364,0.9905311758129384
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,24,AA,5,initial,are,352,384,32,88,88,368,372,364,372,0.491793231348263
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,25,R,5,final,are,356,388,32,89,89,372,376,372,376,0.9970782857162785
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,26,SIL,5,sil,are,360,412,52,90,95,376,400,376,400,0.9977424840429854
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,27,N,6,initial,not,384,416,32,96,96,400,404,400,408,0.9999933677535515
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,28,AA,6,medial,not,392,424,32,98,98,408,412,408,412,0.999983048477139
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,29,T,6,final,not,396,432,36,99,100,412,420,412,420,0.9989378589900766
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,30,SIL,6,sil,not,404,452,48,101,105,420,440,420,440,0.9996074203196924
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,31,S,7,initial,suitable,424,456,32,106,106,440,444,440,448,0.8630342724823857
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,32,UW,7,medial,suitable,432,464,32,108,108,448,452,448,452,0.047181836100481045
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,33,T,7,medial,suitable,436,472,36,109,110,452,460,452,460,0.3264582789656032
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,34,AH,7,medial,suitable,444,480,36,111,112,460,468,460,468,0.7907693056035703
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,35,B,7,medial,suitable,452,488,36,113,114,468,476,468,476,0.7957656011375391
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,36,AH,7,medial,suitable,460,496,36,115,116,476,484,476,484,0.9277946623790274
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,37,L,7,final,suitable,468,504,36,117,118,484,492,484,492,0.979888186137034
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,38,SIL,7,sil,suitable,476,516,40,119,121,492,504,492,504,0.9924573492481664
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,39,F,8,initial,for,488,520,32,122,122,504,508,504,512,0.9981086000960884
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,40,AO,8,medial,for,496,528,32,124,124,512,516,512,516,0.9999599130335372
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,41,R,8,final,for,500,532,32,125,125,516,520,516,520,0.9999042598575624
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,42,SIL,8,sil,for,504,540,36,126,127,520,528,520,532,0.9897519129385248
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,43,IY,9,initial,eating,520,552,32,130,130,536,540,532,540,0.010821759787556931
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,44,T,9,medial,eating,524,560,36,131,132,540,548,540,552,0.8148920982990412
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,45,IH,9,medial,eating,540,576,36,135,136,556,564,552,564,0.7723453783737814
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,46,NG,9,final,eating,548,580,32,137,137,564,568,564,568,0.984435489534145
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,47,SIL,9,sil,eating,552,604,52,138,143,568,592,568,592,0.9977186554614613
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,48,SH,10,initial,shellfish,576,608,32,144,144,592,596,592,600,0.020843517054523707
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,49,EH,10,medial,shellfish,588,620,32,147,147,604,608,600,608,0.9927080913546574
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,50,L,10,medial,shellfish,592,624,32,148,148,608,612,608,612,0.986445298304141
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,51,F,10,medial,shellfish,596,632,36,149,150,612,620,612,624,0.9148684684142864
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,52,IH,10,medial,shellfish,612,644,32,153,153,628,632,624,632,0.9877888389263603
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,53,SH,10,final,shellfish,616,656,40,154,156,632,644,632,644,0.8330422863040345
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,54,SIL,10,sil,shellfish,628,684,56,157,163,644,672,644,672,0.9995432824097007
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,0,IH,0,initial,in,44,76,32,11,11,60,64,16,64,0.8529685408503012
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,1,N,0,final,in,48,84,36,12,13,64,72,64,72,0.9912778696683386
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,2,SIL,0,sil,in,56,104,48,14,18,72,92,72,92,0.8694643101470915
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,3,DH,1,initial,this,76,108,32,19,19,92,96,92,96,0.9999431153847248
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,4,IH,1,medial,this,80,112,32,20,20,96,100,96,100,0.13383212347217405
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,5,S,1,final,this,84,116,32,21,21,100,104,100,104,0.07066666990079026
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,6,SIL,1,sil,this,88,128,40,22,24,104,116,104,116,0.9821976638382498
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,7,K,2,initial,context,100,132,32,25,25,116,120,116,124,0.30221964236889065
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,8,AA,2,medial,context,108,140,32,27,27,124,128,124,128,0.8090954715002521
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,9,N,2,medial,context,112,144,32,28,28,128,132,128,132,0.9520078566054393
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,10,T,2,medial,context,116,148,32,29,29,132,136,132,140,0.01563519962630896
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,11,EH,2,medial,context,128,160,32,32,32,144,148,140,148,0.22373958241423653
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,12,K,2,medial,context,132,164,32,33,33,148,152,148,152,0.004146325924672648
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,13,S,2,medial,context,136,168,32,34,34,152,156,152,156,0.9182388240202455
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,14,T,2,final,context,140,172,32,35,35,156,160,156,160,0.5562944482555248
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,15,SIL,2,sil,context,144,188,44,36,39,160,176,160,180,0.9944671821322179
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,16,IH,3,initial,it,168,200,32,42,42,184,188,180,188,0.10138272292252352
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,17,T,3,final,it,172,204,32,43,43,188,192,188,192,0.7755676113398647
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,18,SIL,3,sil,it,176,224,48,44,48,192,212,192,212,0.9680381740192114
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,19,W,4,initial,would,196,228,32,49,49,212,216,212,216,0.966668774980211
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,20,UH,4,medial,would,200,236,36,50,51,216,224,216,224,0.5711869329833585
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,21,D,4,final,would,208,240,32,52,52,224,228,224,228,0.6821381165990681
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,22,SIL,4,sil,would,212,256,44,53,56,228,244,228,244,0.9519523460869054
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,23,D,5,initial,do,228,260,32,57,57,244,248,244,252,0.5516563651189654
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,24,UW,5,final,do,240,272,32,60,60,256,260,252,264,0.8559059899558658
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,25,SIL,5,sil,do,248,292,44,62,65,264,280,264,280,0.9996889094251484
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,26,W,6,initial,well,264,300,36,66,67,280,288,280,292,0.9951616572944337
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,27,EH,6,medial,well,276,308,32,69,69,292,296,292,296,0.9771022870823054
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,28,L,6,final,well,280,312,32,70,70,296,300,296,300,0.9999795638075643
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,29,SIL,6,sil,well,284,336,52,71,76,300,324,300,324,0.984616534530951
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,30,F,7,initial,for,308,344,36,77,78,324,332,324,332,0.998739068247221
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,31,AO,7,medial,for,316,352,36,79,80,332,340,332,340,0.8689252602325304
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,32,R,7,final,for,324,356,32,81,81,340,344,340,344,0.9999960489687371
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,33,SIL,7,sil,for,328,364,36,82,83,344,352,344,356,0.9749849489555156
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,34,AH,8,initial,us,340,372,32,85,85,356,360,356,360,0.9998881360296378
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,35,S,8,final,us,344,380,36,86,87,360,368,360,368,0.9524818165449433
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,36,SIL,8,sil,us,352,396,44,88,91,368,384,368,384,0.9972280215603521
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,37,T,9,initial,to,368,404,36,92,93,384,392,384,392,0.9927514108113309
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,38,UW,9,final,to,376,408,32,94,94,392,396,392,396,0.9998916010760799
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,39,SIL,9,sil,to,380,428,48,95,99,396,416,396,416,0.9466126592198598
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,40,B,10,initial,bear,400,432,32,100,100,416,420,416,424,0.0010917692169176956
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,41,EH,10,medial,bear,412,444,32,103,103,428,432,424,432,0.15031120461247094
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,42,R,10,final,bear,416,448,32,104,104,432,436,432,440,0.8745812886768899
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,43,SIL,10,sil,bear,428,468,40,107,109,444,456,440,460,0.9855539383634095
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,44,IH,11,initial,in,448,480,32,112,112,464,468,460,468,0.9999400015421798
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,45,N,11,final,in,452,484,32,113,113,468,472,468,472,0.9999001831789949
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,46,SIL,11,sil,in,456,508,52,114,119,472,496,472,496,0.9502484083813822
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,47,M,12,initial,mind,480,516,36,120,121,496,504,496,508,0.9967621256990212
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,48,AY,12,medial,mind,492,524,32,123,123,508,512,508,512,0.9996173646554227
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,49,N,12,medial,mind,496,528,32,124,124,512,516,512,516,0.969061980757879
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,50,D,12,final,mind,500,532,32,125,125,516,520,516,520,0.3240705367505127
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,51,SIL,12,sil,mind,504,552,48,126,130,520,540,520,540,0.888179386054736
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,52,DH,13,initial,the,524,560,36,131,132,540,548,540,552,0.7988003420643055
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,53,AH,13,final,the,536,568,32,134,134,552,556,552,560,0.9999999529592978
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,54,SIL,13,sil,the,544,592,48,136,140,560,580,560,580,0.9998471163550857
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,55,V,14,initial,vision,564,596,32,141,141,580,584,580,588,0.9978685356721926
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,56,IH,14,medial,vision,576,608,32,144,144,592,596,588,596,0.9956420988968866
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,57,ZH,14,medial,vision,580,612,32,145,145,596,600,596,604,0.9998643193445562
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,58,AH,14,medial,vision,588,628,40,147,149,604,616,604,616,0.9878560421531959
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,59,N,14,final,vision,600,636,36,150,151,616,624,616,624,0.9273563246815665
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,60,SIL,14,sil,vision,608,656,48,152,156,624,644,624,652,0.9994182566237926
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,61,AH,15,initial,of,640,672,32,160,160,656,660,652,660,0.9999988474369591
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,62,V,15,final,of,644,676,32,161,161,660,664,660,664,0.9999943688614038
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,63,SIL,15,sil,of,648,716,68,162,171,664,704,664,708,0.9786359525523254
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,64,P,16,initial,peace,692,724,32,173,173,708,712,708,716,0.0029020881619478966
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,65,IY,16,medial,peace,704,736,32,176,176,720,724,716,724,0.22531378609359365
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,66,S,16,final,peace,708,744,36,177,178,724,732,724,732,0.7246271913048901
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,67,SIL,16,sil,peace,716,772,56,179,185,732,760,732,760,0.974969125770906
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,0,Y,0,initial,you're,28,64,36,7,8,44,52,16,52,0.8630051410949097
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,1,UH,0,medial,you're,36,68,32,9,9,52,56,52,56,0.7896979679943582
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,2,R,0,final,you're,40,72,32,10,10,56,60,56,60,0.8028622399943053
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,3,SIL,0,sil,you're,44,92,48,11,15,60,80,60,80,0.9783151442081607
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,4,B,1,initial,boiling,64,96,32,16,16,80,84,80,88,0.9956539846333284
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,5,OY,1,medial,boiling,76,108,32,19,19,92,96,88,96,0.18446622932454168
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,6,L,1,medial,boiling,80,116,36,20,21,96,104,96,104,0.8282043900500144
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,7,IH,1,medial,boiling,88,124,36,22,23,104,112,104,112,0.906583018402457
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,8,NG,1,final,boiling,96,132,36,24,25,112,120,112,120,0.9313015722135842
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,9,SIL,1,sil,boiling,104,144,40,26,28,120,132,120,132,0.9924120052964364
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,10,M,2,initial,milk,116,152,36,29,30,132,140,132,144,0.9440959003182328
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,11,IH,2,medial,milk,128,160,32,32,32,144,148,144,148,0.9955384828035186
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,12,L,2,medial,milk,132,164,32,33,33,148,152,148,152,0.9764406259115945
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,13,K,2,final,milk,136,168,32,34,34,152,156,152,156,0.9962069706019631
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,14,SIL,2,sil,milk,140,184,44,35,38,156,172,156,180,0.8733825625720504
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,15,EY,3,initial,ain't,168,200,32,42,42,184,188,180,188,0.1346633890414419
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,16,N,3,medial,ain't,172,204,32,43,43,188,192,188,192,0.9993051080450152
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,17,T,3,final,ain't,176,212,36,44,45,192,200,192,204,0.295949155670556
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,18,SIL,3,sil,ain't,188,240,52,47,52,204,228,204,228,0.8991384483415361
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,19,Y,4,initial,you,212,244,32,53,53,228,232,228,236,0.16524141468082632
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,20,UW,4,final,you,220,252,32,55,55,236,240,236,244,0.9996157420432509
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,21,SIL,4,sil,you,228,280,52,57,62,244,268,244,268,0.9998007058905515
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,0,R,0,initial,rich,28,64,36,7,8,44,52,16,56,0.9866190447302012
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,1,IH,0,medial,rich,40,72,32,10,10,56,60,56,60,0.6568832812810653
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,2,CH,0,final,rich,44,76,32,11,11,60,64,60,68,0.9806926801929026
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,3,SIL,0,sil,rich,52,96,44,13,16,68,84,68,84,0.9147853969716275
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,4,L,1,initial,looked,68,100,32,17,17,84,88,84,92,0.9941022394406102
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,5,UH,1,medial,looked,76,108,32,19,19,92,96,92,96,0.9887062598962244
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,6,K,1,medial,looked,80,112,32,20,20,96,100,96,100,0.6760569617375862
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,7,T,1,final,looked,84,116,32,21,21,100,104,100,104,4.724944217249845e-05
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,8,SIL,1,sil,looked,88,136,48,22,26,104,124,104,124,0.9141667897937878
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,9,F,2,initial,for,108,140,32,27,27,124,128,124,128,0.9999960810649038
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,10,AO,2,medial,for,112,148,36,28,29,128,136,128,136,0.9952152879794789
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,11,R,2,final,for,120,152,32,30,30,136,140,136,140,0.9999482848900519
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,12,SIL,2,sil,for,124,164,40,31,33,140,152,140,152,0.9971189161859578
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,13,S,3,initial,spotted,136,168,32,34,34,152,156,152,156,0.3629005688739124
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,14,P,3,medial,spotted,140,172,32,35,35,156,160,156,164,0.9933371468709309
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,15,AA,3,medial,spotted,148,180,32,37,37,164,168,164,168,0.4453547980351874
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,16,T,3,medial,spotted,152,184,32,38,38,168,172,168,176,0.06283884637564538
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,17,AH,3,medial,spotted,160,204,44,40,43,176,192,176,192,0.3905591619645978
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,18,D,3,final,spotted,176,208,32,44,44,192,196,192,196,0.9995534960999676
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,19,SIL,3,sil,spotted,180,224,44,45,48,196,212,196,212,0.9338300854740199
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,20,HH,4,initial,hyenas,196,232,36,49,50,212,220,212,224,0.6878616302283893
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,21,AY,4,medial,hyenas,208,240,32,52,52,224,228,224,232,0.5503989142668403
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,22,IY,4,medial,hyenas,220,252,32,55,55,236,240,232,240,0.00013015346007773303
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,23,N,4,medial,hyenas,224,260,36,56,57,240,248,240,248,0.931305564748786
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,24,AH,4,medial,hyenas,232,264,32,58,58,248,252,248,252,0.9756646718757942
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,25,Z,4,final,hyenas,236,272,36,59,60,252,260,252,260,0.6460602315016719
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,26,SIL,4,sil,hyenas,244,284,40,61,63,260,272,260,280,0.9868477803978698
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,27,AH,5,initial,and,268,300,32,67,67,284,288,280,288,0.9999814991947923
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,28,N,5,medial,and,272,304,32,68,68,288,292,288,292,0.9999991895282715
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,29,D,5,final,and,276,312,36,69,70,292,300,292,300,0.9943520035464678
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,30,SIL,5,sil,and,284,324,40,71,73,300,312,300,312,0.97349538328265
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,31,JH,6,initial,jaguars,296,328,32,74,74,312,316,312,320,0.0007834012094077452
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,32,AE,6,medial,jaguars,308,340,32,77,77,324,328,320,328,0.9231962133879824
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,33,G,6,medial,jaguars,312,356,44,78,81,328,344,328,344,0.5954595766626076
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,34,W,6,medial,jaguars,328,360,32,82,82,344,348,344,352,0.0752805227598564
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,35,AA,6,medial,jaguars,336,368,32,84,84,352,356,352,356,0.029869729696734276
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,36,R,6,medial,jaguars,340,372,32,85,85,356,360,356,360,4.030843466531524e-05
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,37,Z,6,final,jaguars,344,376,32,86,86,360,364,360,364,0.1590292487095507
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,38,SIL,6,sil,jaguars,348,392,44,87,90,364,380,364,384,0.9565462923251641
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,39,AA,7,initial,on,372,408,36,93,94,388,396,384,396,0.9987201550813538
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,40,N,7,final,on,380,412,32,95,95,396,400,396,400,0.9998470859714041
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,41,SIL,7,sil,on,384,428,44,96,99,400,416,400,416,0.997462190736997
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,42,DH,8,initial,the,400,436,36,100,101,416,424,416,428,0.9116766152475436
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,43,AH,8,final,the,412,444,32,103,103,428,432,428,436,0.9999999071937191
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,44,SIL,8,sil,the,420,468,48,105,109,436,456,436,456,0.9999032283927107
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,45,S,9,initial,safari,440,476,36,110,111,456,464,456,468,0.938463117198342
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,46,AH,9,medial,safari,452,484,32,113,113,468,472,468,476,0.006730432069475425
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,47,F,9,medial,safari,460,500,40,115,117,476,488,476,492,0.8786108131813357
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,48,AA,9,medial,safari,480,512,32,120,120,496,500,492,504,0.0017824364405479474
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,49,R,9,medial,safari,488,520,32,122,122,504,508,504,508,0.2669337245416025
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,50,IY,9,final,safari,492,524,32,123,123,508,512,508,512,0.08245819031389821
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,51,SIL,9,sil,safari,496,552,56,124,130,512,540,512,540,0.9774059376831535
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,0,T,0,initial,,36,68,32,9,9,52,56,16,56,0.85423610375678
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,1,R,0,medial,,40,76,36,10,11,56,64,56,64,0.7944096429148126
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,2,AE,0,medial,,48,80,32,12,12,64,68,64,68,0.9274571962823267
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,3,F,0,medial,,52,88,36,13,14,68,76,68,80,0.8630252570262607
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,4,IH,0,medial,,64,100,36,16,17,80,88,80,88,0.9972143034514198
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,5,K,0,final,,72,104,32,18,18,88,92,88,92,0.9863017849552097
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,6,SIL,0,sil,,76,124,48,19,23,92,112,92,112,0.745575861671087
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,7,F,1,initial,,96,128,32,24,24,112,116,112,116,0.28087320662540743
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,8,R,1,medial,,100,132,32,25,25,116,120,116,120,0.003545708366640789
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,9,IY,1,medial,,104,136,32,26,26,120,124,120,132,0.1090273886344244
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,10,K,1,medial,,120,152,32,30,30,136,140,132,140,0.9702415675593091
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,11,W,1,medial,,124,156,32,31,31,140,144,140,144,0.0076286524879991624
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,12,AH,1,medial,,128,160,32,32,32,144,148,144,148,0.9166697924444096
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,13,N,1,medial,,132,164,32,33,33,148,152,148,152,0.3788455275421176
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,14,T,1,medial,,136,168,32,34,34,152,156,152,156,0.06868484350928959
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,15,L,1,medial,,140,176,36,35,36,156,164,156,164,0.977803152996185
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,16,IY,1,final,,148,184,36,37,38,164,172,164,172,0.985469612950233
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,17,SIL,1,sil,,156,192,36,39,40,172,180,172,180,0.9966175201832148
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,18,HH,2,initial,,164,196,32,41,41,180,184,180,188,0.6829564762910966
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,19,AE,2,medial,,172,204,32,43,43,188,192,188,192,0.9961573420638004
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,20,Z,2,final,,176,208,32,44,44,192,196,192,196,0.9998250766793023
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,21,SIL,2,sil,,180,228,48,45,49,196,216,196,216,0.9503672273118233
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,22,F,3,initial,,200,232,32,50,50,216,220,216,224,0.011196069617336789
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,23,EY,3,medial,,208,240,32,52,52,224,228,224,232,0.0002184876496575489
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,24,L,3,medial,,220,256,36,55,56,236,244,232,244,0.9949181428535947
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,25,D,3,final,,228,264,36,57,58,244,252,244,252,0.9300868506060787
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,26,SIL,3,sil,,236,272,36,59,60,252,260,252,260,0.9749502748856664
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,27,T,4,initial,,244,280,36,61,62,260,268,260,268,0.7783255958925008
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,28,UW,4,final,,252,288,36,63,64,268,276,268,276,0.7777770650942921
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,29,SIL,4,sil,,260,304,44,65,68,276,292,276,292,0.9947263908532811
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,30,M,5,initial,,276,308,32,69,69,292,296,292,300,0.9995578079420011
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,31,EH,5,medial,,284,316,32,71,71,300,304,300,304,0.9888410281270856
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,32,ZH,5,medial,,288,320,32,72,72,304,308,304,320,0.8944620861407138
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,33,ER,5,final,,312,352,40,78,80,328,340,320,340,0.8534912511378835
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,34,SIL,5,sil,,324,368,44,81,84,340,356,340,364,0.8445781798861779
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,35,AH,6,initial,,352,384,32,88,88,368,372,364,372,0.9986920658987029
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,36,P,6,final,,356,388,32,89,89,372,376,372,376,0.9999347764000648
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,37,SIL,6,sil,,360,404,44,90,93,376,392,376,392,0.8805202292298087
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,38,T,7,initial,,376,412,36,94,95,392,400,392,404,0.7917902724814094
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,39,UW,7,final,,388,420,32,97,97,404,408,404,408,0.9999732401579602
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,40,SIL,7,sil,,392,432,40,98,100,408,420,408,424,0.9859813601782804
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,41,EH,8,initial,,412,444,32,103,103,428,432,424,432,0.9729493433089386
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,42,N,8,medial,,416,448,32,104,104,432,436,432,436,0.9945127385812946
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,43,JH,8,medial,,420,452,32,105,105,436,440,436,440,0.9927510399496656
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,44,AH,8,medial,,424,460,36,106,107,440,448,440,448,0.5107414077685133
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,45,N,8,medial,,432,464,32,108,108,448,452,448,452,0.021498780372476163
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,46,IH,8,medial,,436,468,32,109,109,452,456,452,456,0.5038403758747818
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,47,R,8,medial,,440,472,32,110,110,456,460,456,460,0.024821253107203425
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,48,Z,8,final,,444,476,32,111,111,460,464,460,464,0.415359329619786
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,49,SIL,8,sil,,448,480,32,112,112,464,468,464,472,0.7304062902593377
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,50,SIL,9,sil,,456,496,40,114,116,472,484,472,484,0.9260437397855233
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,51,R,10,initial,,468,500,32,117,117,484,488,484,492,0.011381246007887596
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,52,OW,10,medial,,480,512,32,120,120,496,500,492,500,0.0007151085283027677
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,53,Z,10,medial,,484,516,32,121,121,500,504,500,508,0.025601322478571532
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,54,IY,10,final,,496,532,36,124,125,512,520,508,520,0.9121738482748727
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,55,SIL,10,sil,,504,556,52,126,131,520,544,520,552,0.9996365689697954
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,56,EH,11,initial,,544,576,32,136,136,560,564,552,564,0.2586850605940696
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,57,S,11,medial,,548,580,32,137,137,564,568,564,568,0.0031138969884452273
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,58,T,11,medial,,552,584,32,138,138,568,572,568,572,0.9799342723892926
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,59,AH,11,medial,,556,596,40,139,141,572,584,572,584,0.907180912097416
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,60,M,11,medial,,568,604,36,142,143,584,592,584,596,0.9965021220175134
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,61,AH,11,medial,,584,616,32,146,146,600,604,596,604,0.2813952109204436
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,62,T,11,medial,,588,624,36,147,148,604,612,604,612,0.49926578299255864
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,63,S,11,final,,596,628,32,149,149,612,616,612,616,0.9991795136682673
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,64,SIL,11,sil,,600,648,48,150,154,616,636,616,636,0.9375228867848637
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,0,R,0,initial,ralph,24,56,32,6,6,40,44,16,48,0.0389100909062452
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,1,AE,0,medial,ralph,36,68,32,9,9,52,56,48,56,0.0008965023207503422
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,2,L,0,medial,ralph,40,72,32,10,10,56,60,56,60,0.9640179349355414
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,3,F,0,final,ralph,44,84,40,11,13,60,72,60,72,0.8251981212929952
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,4,SIL,0,sil,ralph,56,104,48,14,18,72,92,72,92,0.9942413836515112
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,5,P,1,initial,prepared,76,108,32,19,19,92,96,92,96,0.9986723002935525
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,6,R,1,medial,prepared,80,112,32,20,20,96,100,96,100,0.0013320343293903533
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,7,IY,1,medial,prepared,84,116,32,21,21,100,104,100,104,0.0011359031336117171
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,8,P,1,medial,prepared,88,124,36,22,23,104,112,104,116,0.5707701694286431
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,9,EH,1,medial,prepared,104,136,32,26,26,120,124,116,124,0.1313128972268967
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,10,R,1,medial,prepared,108,140,32,27,27,124,128,124,128,0.8391160131003399
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,11,D,1,final,prepared,112,144,32,28,28,128,132,128,132,0.9994646574799689
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,12,SIL,1,sil,prepared,116,160,44,29,32,132,148,132,148,0.9687933518495412
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,13,R,2,initial,red,132,168,36,33,34,148,156,148,160,0.8543218748480752
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,14,EH,2,medial,red,144,176,32,36,36,160,164,160,164,0.05342054029819381
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,15,D,2,final,red,148,184,36,37,38,164,172,164,172,0.9721066128991502
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,16,SIL,2,sil,red,156,204,48,39,43,172,192,172,192,0.9337276465211314
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,17,S,3,initial,snapper,176,208,32,44,44,192,196,192,196,0.436897411542454
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,18,N,3,medial,snapper,180,212,32,45,45,196,200,196,204,0.008061824144205252
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,19,AE,3,medial,snapper,192,224,32,48,48,208,212,204,212,0.8713728252225365
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,20,P,3,medial,snapper,196,232,36,49,50,212,220,212,224,0.6284950261684367
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,21,ER,3,final,snapper,208,240,32,52,52,224,228,224,232,0.3050355540237639
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,22,SIL,3,sil,snapper,216,268,52,54,59,232,256,232,256,0.9880442483463487
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,23,W,4,initial,with,240,272,32,60,60,256,260,256,264,0.959007628791897
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,24,IH,4,medial,with,248,280,32,62,62,264,268,264,268,0.0005702537645674202
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,25,DH,4,final,with,252,284,32,63,63,268,272,268,272,0.0002513767730259494
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,26,SIL,4,sil,with,256,300,44,64,67,272,288,272,288,0.9417485534297899
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,27,F,5,initial,fresh,272,304,32,68,68,288,292,288,292,0.5028891881341528
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,28,R,5,medial,fresh,276,308,32,69,69,292,296,292,300,0.9470135331779803
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,29,EH,5,medial,fresh,284,316,32,71,71,300,304,300,304,0.4298962322269967
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,30,SH,5,final,fresh,288,320,32,72,72,304,308,304,316,0.9986946905072007
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,31,SIL,5,sil,fresh,304,344,40,76,78,320,332,316,332,0.8365962796492642
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,32,L,6,initial,lemon,316,348,32,79,79,332,336,332,340,0.6885349389277299
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,33,EH,6,medial,lemon,324,356,32,81,81,340,344,340,344,0.0047102920661210535
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,34,M,6,medial,lemon,328,368,40,82,84,344,356,344,356,0.8670913105617769
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,35,AH,6,medial,lemon,340,376,36,85,86,356,364,356,364,0.9983556949641559
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,36,N,6,final,lemon,348,380,32,87,87,364,368,364,368,0.9937079672166945
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,37,SIL,6,sil,lemon,352,408,56,88,94,368,396,368,396,0.9755725857976877
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,38,S,7,initial,sauce,380,412,32,95,95,396,400,396,408,0.026144815881048597
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,39,AO,7,medial,sauce,396,428,32,99,99,412,416,408,416,0.05207357111974636
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,40,S,7,final,sauce,400,432,32,100,100,416,420,416,424,0.12306566327185536
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,41,SIL,7,sil,sauce,412,456,44,103,106,428,444,424,444,0.9967845740649948
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,42,F,8,initial,for,428,464,36,107,108,444,452,444,456,0.9989290302288947
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,43,AO,8,medial,for,440,472,32,110,110,456,460,456,460,0.9999827136448789
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,44,R,8,final,for,444,476,32,111,111,460,464,460,464,0.9999250295767222
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,45,SIL,8,sil,for,448,488,40,112,114,464,476,464,476,0.9993412407126568
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,46,D,9,initial,dinner,460,492,32,115,115,476,480,476,484,0.024983406527230023
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,47,IH,9,medial,dinner,468,500,32,117,117,484,488,484,488,0.1829590049114523
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,48,N,9,medial,dinner,472,504,32,118,118,488,492,488,496,0.9992401754672925
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,49,ER,9,final,dinner,484,520,36,121,122,500,508,496,508,0.8516098506216572
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,50,SIL,9,sil,dinner,492,548,56,123,129,508,536,508,536,0.9999943209675156
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,0,D,0,initial,did,32,64,32,8,8,48,52,16,56,0.5083275646026653
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,1,IH,0,medial,did,40,72,32,10,10,56,60,56,60,0.8941541392622194
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,2,D,0,final,did,44,76,32,11,11,60,64,60,68,0.9912383048943674
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,3,SIL,0,sil,did,52,88,36,13,14,68,76,68,76,0.9948982184230492
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,4,Y,1,initial,you,60,92,32,15,15,76,80,76,84,0.885065091990988
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,5,UW,1,final,you,68,100,32,17,17,84,88,84,88,0.9986560725197688
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,6,SIL,1,sil,you,72,120,48,18,22,88,108,88,108,0.9754365210259655
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,7,B,2,initial,buy,92,124,32,23,23,108,112,108,120,0.9999858500951521
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,8,AY,2,final,buy,108,140,32,27,27,124,128,120,132,0.9915847225944436
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,9,SIL,2,sil,buy,116,160,44,29,32,132,148,132,152,0.893441751303655
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,10,EH,3,initial,any,140,172,32,35,35,156,160,152,160,0.7340477405515745
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,11,N,3,medial,any,144,180,36,36,37,160,168,160,168,0.970876975041457
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,12,IY,3,final,any,152,184,32,38,38,168,172,168,172,0.9925027860995166
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,13,SIL,3,sil,any,156,208,52,39,44,172,196,172,196,0.928911546822424
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,14,K,4,initial,corduroy,180,212,32,45,45,196,200,196,204,0.06928837364076923
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,15,AO,4,medial,corduroy,192,224,32,48,48,208,212,204,212,0.034557019067788755
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,16,R,4,medial,corduroy,196,228,32,49,49,212,216,212,216,0.02209934261650156
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,17,D,4,medial,corduroy,200,232,32,50,50,216,220,216,220,0.03736481630208515
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,18,ER,4,medial,corduroy,204,236,32,51,51,220,224,220,232,0.004428606222969503
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,19,OY,4,final,corduroy,220,256,36,55,56,236,244,232,248,0.546387122571106
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,20,SIL,4,sil,corduroy,232,280,48,58,62,248,268,248,272,0.9490582993942818
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,21,OW,5,initial,overalls,260,292,32,65,65,276,280,272,284,0.951940016084501
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,22,V,5,medial,overalls,268,300,32,67,67,284,288,284,288,0.8459733906753039
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,23,ER,5,medial,overalls,272,304,32,68,68,288,292,288,300,0.0663500344812522
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,24,AO,5,medial,overalls,288,320,32,72,72,304,308,300,308,0.2576081094846113
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,25,L,5,medial,overalls,292,332,40,73,75,308,320,308,320,0.9292865200640182
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,26,Z,5,final,overalls,304,340,36,76,77,320,328,320,328,0.8295348162006262
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,27,SIL,5,sil,overalls,312,356,44,78,81,328,344,328,344,0.9999186632719383
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,0,K,0,initial,clear,28,60,32,7,7,44,48,16,48,0.002004421298211309
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,1,L,0,medial,clear,32,64,32,8,8,48,52,48,56,0.0009520769138746844
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,2,IH,0,medial,clear,40,72,32,10,10,56,60,56,60,0.004542692670339826
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,3,R,0,final,clear,44,76,32,11,11,60,64,60,68,0.9961614599776276
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,4,SIL,0,sil,clear,52,96,44,13,16,68,84,68,84,0.9906716912670528
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,5,P,1,initial,pronunciation,68,100,32,17,17,84,88,84,88,0.9986039184149029
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,6,R,1,medial,pronunciation,72,104,32,18,18,88,92,88,96,0.5220140149171743
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,7,OW,1,medial,pronunciation,80,112,32,20,20,96,100,96,100,0.007242767946792539
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,8,N,1,medial,pronunciation,84,116,32,21,21,100,104,100,108,0.8663884142111306
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,9,AH,1,medial,pronunciation,92,124,32,23,23,108,112,108,112,0.41495509228916216
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,10,N,1,medial,pronunciation,96,128,32,24,24,112,116,112,116,0.9847410368420477
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,11,S,1,medial,pronunciation,100,132,32,25,25,116,120,116,120,5.9656177970860243e-05
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,12,IY,1,medial,pronunciation,104,136,32,26,26,120,124,120,124,4.293763977401562e-05
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,13,EY,1,medial,pronunciation,108,140,32,27,27,124,128,124,128,0.9240447697936135
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,14,SH,1,medial,pronunciation,112,148,36,28,29,128,136,128,136,0.9843579895670547
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,15,AH,1,medial,pronunciation,120,152,32,30,30,136,140,136,140,0.9994250282777151
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,16,N,1,final,pronunciation,124,160,36,31,32,140,148,140,148,0.9591711889894372
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,17,SIL,1,sil,pronunciation,132,172,40,33,35,148,160,148,164,0.9284434053633372
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,18,IH,2,initial,is,148,184,36,37,38,164,172,164,172,0.9965416387050229
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,19,Z,2,final,is,156,188,32,39,39,172,176,172,176,0.9999994537943154
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,20,SIL,2,sil,is,160,212,52,40,45,176,200,176,204,0.9905841378284445
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,21,AH,3,initial,appreciated,192,224,32,48,48,208,212,204,212,0.9506534327437411
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,22,P,3,medial,appreciated,196,240,44,49,52,212,228,212,228,0.7895044678136944
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,23,R,3,medial,appreciated,212,244,32,53,53,228,232,228,232,0.33692152166766365
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,24,IY,3,medial,appreciated,216,248,32,54,54,232,236,232,236,0.21591465037337626
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,25,SH,3,medial,appreciated,220,252,32,55,55,236,240,236,244,0.08171360811551379
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,26,IY,3,medial,appreciated,228,260,32,57,57,244,248,244,248,0.6257544578292036
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,27,EY,3,medial,appreciated,232,264,32,58,58,248,252,248,252,0.15979081462597083
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,28,T,3,medial,appreciated,236,272,36,59,60,252,260,252,260,0.8690376936451883
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,29,IH,3,medial,appreciated,244,276,32,61,61,260,264,260,264,0.260535132447507
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,30,D,3,final,appreciated,248,280,32,62,62,264,268,264,268,0.9984264030862225
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,31,SIL,3,sil,appreciated,252,304,52,63,68,268,292,268,292,0.9922260843842817
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,0,P,0,initial,please,12,48,36,3,4,28,36,16,36,0.3811345253299523
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,1,L,0,medial,please,20,52,32,5,5,36,40,36,40,0.0638503150058772
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,2,IY,0,medial,please,24,56,32,6,6,40,44,40,44,0.00011560447789244912
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,3,Z,0,final,please,28,60,32,7,7,44,48,44,52,0.001332917719095269
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,4,SIL,0,sil,please,40,80,40,10,12,56,68,52,68,0.9657677545579234
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,5,SH,1,initial,shorten,52,84,32,13,13,68,72,68,76,0.008787814114710411
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,6,AO,1,medial,shorten,60,92,32,15,15,76,80,76,80,0.0021798886689420927
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,7,R,1,medial,shorten,64,96,32,16,16,80,84,80,84,0.012863596036897953
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,8,T,1,medial,shorten,68,100,32,17,17,84,88,84,88,0.003240703122704925
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,9,AH,1,medial,shorten,72,104,32,18,18,88,92,88,92,0.6181933923399959
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,10,N,1,final,shorten,76,112,36,19,20,92,100,92,100,0.9786893845661198
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,11,SIL,1,sil,shorten,84,124,40,21,23,100,112,100,112,0.9815806048755124
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,12,DH,2,initial,this,96,128,32,24,24,112,116,112,120,0.9849700336269053
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,13,IH,2,medial,this,104,136,32,26,26,120,124,120,124,0.984838581686772
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,14,S,2,final,this,108,140,32,27,27,124,128,124,128,0.9085060580524329
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,15,SIL,2,sil,this,112,160,48,28,32,128,148,128,148,0.9885083603139251
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,16,S,3,initial,skirt,132,164,32,33,33,148,152,148,152,0.0015197911647120892
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,17,K,3,medial,skirt,136,168,32,34,34,152,156,152,160,0.9116727007007107
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,18,ER,3,medial,skirt,148,180,32,37,37,164,168,160,172,0.9909588667568852
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,19,T,3,final,skirt,156,188,32,39,39,172,176,172,180,0.9417690904587339
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,20,SIL,3,sil,skirt,164,208,44,41,44,180,196,180,196,0.991133706136996
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,21,F,4,initial,for,180,216,36,45,46,196,204,196,208,0.9672744634479111
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,22,AO,4,medial,for,192,224,32,48,48,208,212,208,212,0.9999972772202933
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,23,R,4,final,for,196,228,32,49,49,212,216,212,216,0.9999564321917725
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,24,SIL,4,sil,for,200,248,48,50,54,216,236,216,236,0.991377507789109
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,25,JH,5,initial,joyce,220,252,32,55,55,236,240,236,244,0.20719111924383046
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,26,OY,5,medial,joyce,232,264,32,58,58,248,252,244,252,0.9992765626736054
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,27,S,5,final,joyce,236,272,36,59,60,252,260,252,260,0.9825560172445227
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,28,SIL,5,sil,joyce,244,288,44,61,64,260,276,260,276,0.9998794765406054
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,0,HH,0,initial,who,24,56,32,6,6,40,44,16,44,0.9969463103094608
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,1,UW,0,final,who,28,60,32,7,7,44,48,44,52,0.993255799255722
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,2,SIL,0,sil,who,36,72,36,9,10,52,60,52,64,0.9898708660548146
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,3,AO,1,initial,authorized,52,84,32,13,13,68,72,64,76,0.22691540979863456
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,4,TH,1,medial,authorized,60,92,32,15,15,76,80,76,80,0.18575898391018764
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,5,ER,1,medial,authorized,64,108,44,16,19,80,96,80,96,0.9717911843216953
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,6,AY,1,medial,authorized,80,112,32,20,20,96,100,96,100,0.0020920022980676165
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,7,Z,1,medial,authorized,84,116,32,21,21,100,104,100,104,0.9564023089394506
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,8,D,1,final,authorized,88,120,32,22,22,104,108,104,108,0.0020641717177891324
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,9,SIL,1,sil,authorized,92,132,40,23,25,108,120,108,120,0.9995553811944752
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,10,DH,2,initial,the,104,140,36,26,27,120,128,120,132,0.9909839677296799
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,11,AH,2,final,the,116,148,32,29,29,132,136,132,140,0.9999999410438992
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,12,SIL,2,sil,the,124,164,40,31,33,140,152,140,160,0.999626769962472
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,13,AH,3,initial,unlimited,148,180,32,37,37,164,168,160,168,0.04778194586997119
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,14,N,3,medial,unlimited,152,184,32,38,38,168,172,168,172,0.9969938154346399
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,15,L,3,medial,unlimited,156,188,32,39,39,172,176,172,176,0.1078737760934097
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,16,IH,3,medial,unlimited,160,192,32,40,40,176,180,176,180,0.020545088042738892
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,17,M,3,medial,unlimited,164,200,36,41,42,180,188,180,188,0.8937784970455698
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,18,AH,3,medial,unlimited,172,208,36,43,44,188,196,188,196,0.7332296398236682
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,19,T,3,medial,unlimited,180,212,32,45,45,196,200,196,200,0.7829106059436538
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,20,AH,3,medial,unlimited,184,216,32,46,46,200,204,200,204,0.07067570157183092
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,21,D,3,final,unlimited,188,220,32,47,47,204,208,204,208,0.0006169785744996481
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,22,SIL,3,sil,unlimited,192,228,36,48,49,208,216,208,220,0.9238598941008374
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,23,IH,4,initial,expense,208,240,32,52,52,224,228,220,228,0.9408688936093736
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,24,K,4,medial,expense,212,244,32,53,53,228,232,228,232,0.9883989464071296
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,25,S,4,medial,expense,216,252,36,54,55,232,240,232,240,0.9935433430870044
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,26,P,4,medial,expense,224,264,40,56,58,240,252,240,256,0.932621723560815
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,27,EH,4,medial,expense,240,272,32,60,60,256,260,256,260,0.9977764895188012
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,28,N,4,medial,expense,244,276,32,61,61,260,264,260,264,0.8854818585704484
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,29,S,4,final,expense,248,296,48,62,66,264,284,264,284,0.3678152241067971
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,30,SIL,4,sil,expense,268,308,40,67,69,284,296,284,300,0.9853310130159284
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,31,AH,5,initial,account,288,320,32,72,72,304,308,300,312,0.9940628641079531
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,32,K,5,medial,account,296,328,32,74,74,312,316,312,324,0.9515308021892616
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,33,AW,5,medial,account,316,348,32,79,79,332,336,324,336,0.811386006113327
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,34,N,5,medial,account,320,352,32,80,80,336,340,336,340,0.9958166259325788
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,35,T,5,final,account,324,356,32,81,81,340,344,340,344,0.18983362990137134
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,36,SIL,5,sil,account,328,372,44,82,85,344,360,344,360,0.9558592036484868
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,0,DH,0,initial,the,36,72,36,9,10,52,60,16,64,0.8834509882692523
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,1,AH,0,final,the,48,80,32,12,12,64,68,64,72,0.9999685806798803
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,2,SIL,0,sil,the,56,100,44,14,17,72,88,72,88,0.982937746029997
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,3,F,1,initial,family,72,104,32,18,18,88,92,88,96,0.2617783340348844
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,4,AE,1,medial,family,84,116,32,21,21,100,104,96,104,0.3448398594263392
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,5,M,1,medial,family,88,124,36,22,23,104,112,104,112,0.7923761720803112
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,6,AH,1,medial,family,96,132,36,24,25,112,120,112,120,0.7439259820771285
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,7,L,1,medial,family,104,140,36,26,27,120,128,120,128,0.9948131296660545
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,8,IY,1,final,family,112,148,36,28,29,128,136,128,136,0.7915800962016744
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,9,SIL,1,sil,family,120,160,40,30,32,136,148,136,148,0.9223751870595697
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,10,R,2,initial,requests,132,168,36,33,34,148,156,148,160,0.8461158084951577
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,11,IH,2,medial,requests,144,176,32,36,36,160,164,160,164,0.3193706914349268
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,12,K,2,medial,requests,148,180,32,37,37,164,168,164,172,0.0021126273271668368
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,13,W,2,medial,requests,156,188,32,39,39,172,176,172,176,0.005701026017332181
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,14,EH,2,medial,requests,160,192,32,40,40,176,180,176,180,0.00010590538044944449
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,15,S,2,medial,requests,164,196,32,41,41,180,184,180,184,0.0029603628277127783
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,16,T,2,medial,requests,168,200,32,42,42,184,188,184,188,0.0005711351492968916
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,17,S,2,final,requests,172,204,32,43,43,188,192,188,192,0.0004119596348848115
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,18,SIL,2,sil,requests,176,216,40,44,46,192,204,192,204,0.8058079031548218
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,19,DH,3,initial,that,188,224,36,47,48,204,212,204,212,0.8764834679880864
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,20,AE,3,medial,that,196,228,32,49,49,212,216,212,216,0.9999958907051628
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,21,T,3,final,that,200,232,32,50,50,216,220,216,220,0.9988660660869664
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,22,SIL,3,sil,that,204,256,52,51,56,220,244,220,244,0.9794237311725585
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,23,F,4,initial,flowers,228,260,32,57,57,244,248,244,248,8.32231268575427e-07
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,24,L,4,medial,flowers,232,264,32,58,58,248,252,248,252,1.7987188203723448e-06
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,25,AW,4,medial,flowers,236,268,32,59,59,252,256,252,264,0.023494193464215638
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,26,ER,4,medial,flowers,256,288,32,64,64,272,276,264,276,0.6104339125436751
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,27,Z,4,final,flowers,260,300,40,65,67,276,288,276,288,0.5443517351682957
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,28,SIL,4,sil,flowers,272,316,44,68,71,288,304,288,304,0.966648675166765
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,29,B,5,initial,be,288,320,32,72,72,304,308,304,312,0.9992058193953983
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,30,IY,5,final,be,300,332,32,75,75,316,320,312,324,0.9997421661905432
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,31,SIL,5,sil,be,308,348,40,77,79,324,336,324,340,0.9071023323850128
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,32,OW,6,initial,omitted,324,356,32,81,81,340,344,340,348,0.9716739401232162
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,33,M,6,medial,omitted,332,368,36,83,84,348,356,348,360,0.9397155224884033
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,34,IH,6,medial,omitted,348,380,32,87,87,364,368,360,368,0.005323173168436104
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,35,T,6,medial,omitted,352,384,32,88,88,368,372,368,376,0.002559480063443334
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,36,AH,6,medial,omitted,360,396,36,90,91,376,384,376,384,0.9781392631770078
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,37,D,6,final,omitted,368,400,32,92,92,384,388,384,388,0.00565859251475702
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,38,SIL,6,sil,omitted,372,420,48,93,97,388,408,388,408,0.8037380550030745
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,0,DH,0,initial,the,28,60,32,7,7,44,48,16,52,0.9999477239108978
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,1,AH,0,final,the,36,68,32,9,9,52,56,52,60,0.9998724303297168
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,2,SIL,0,sil,the,44,88,44,11,14,60,76,60,76,0.9926372424732197
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,3,M,1,initial,museum,60,100,40,15,17,76,88,76,88,0.8412056362233882
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,4,Y,1,medial,museum,72,104,32,18,18,88,92,88,92,0.5108561462432117
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,5,UW,1,medial,museum,76,108,32,19,19,92,96,92,96,0.4600568123441241
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,6,Z,1,medial,museum,80,112,32,20,20,96,100,96,108,0.5610160392499901
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,7,IY,1,medial,museum,96,128,32,24,24,112,116,108,116,0.6335217060516721
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,8,AH,1,medial,museum,100,132,32,25,25,116,120,116,120,0.6604963250027451
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,9,M,1,final,museum,104,140,36,26,27,120,128,120,128,0.9993827626378504
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,10,SIL,1,sil,museum,112,172,60,28,35,128,160,128,160,0.9345397372844726
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,11,HH,2,initial,hires,144,180,36,36,37,160,168,160,172,0.8611211590413304
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,12,AY,2,medial,hires,160,192,32,40,40,176,180,172,180,0.9938578182898428
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,13,ER,2,medial,hires,164,204,40,41,43,180,192,180,192,0.8812975832792441
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,14,Z,2,final,hires,176,208,32,44,44,192,196,192,196,0.937005810259353
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,15,SIL,2,sil,hires,180,228,48,45,49,196,216,196,216,0.9984244464764351
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,16,M,3,initial,musicians,200,232,32,50,50,216,220,216,220,0.4533925917734266
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,17,Y,3,medial,musicians,204,236,32,51,51,220,224,220,224,0.001461993479095595
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,18,UW,3,medial,musicians,208,240,32,52,52,224,228,224,228,0.0001800905505418244
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,19,Z,3,medial,musicians,212,244,32,53,53,228,232,228,244,0.014183073192293776
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,20,IH,3,medial,musicians,236,268,32,59,59,252,256,244,256,0.7167435025069574
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,21,SH,3,medial,musicians,240,276,36,60,61,256,264,256,264,0.8833742936349308
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,22,AH,3,medial,musicians,248,284,36,62,63,264,272,264,272,0.9922252927650401
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,23,N,3,medial,musicians,256,292,36,64,65,272,280,272,280,0.9856163704861769
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,24,Z,3,final,musicians,264,296,32,66,66,280,284,280,284,0.3573314996868437
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,25,SIL,3,sil,musicians,268,312,44,67,70,284,300,284,304,0.9939871335822926
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,26,EH,4,initial,every,292,328,36,73,74,308,316,304,316,0.8793942136879247
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,27,V,4,medial,every,300,332,32,75,75,316,320,316,320,0.9984147566149068
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,28,ER,4,medial,every,304,340,36,76,77,320,328,320,328,0.9546960850117279
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,29,IY,4,final,every,312,348,36,78,79,328,336,328,336,0.9704270682046128
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,30,SIL,4,sil,every,320,368,48,80,84,336,356,336,360,0.9818297131018809
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,31,IY,5,initial,evening,348,384,36,87,88,364,372,360,372,0.41321844038401495
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,32,V,5,medial,evening,356,388,32,89,89,372,376,372,380,0.7936910151279863
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,33,N,5,medial,evening,368,408,40,92,94,384,396,380,396,0.8289976847588604
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,34,IH,5,medial,evening,380,412,32,95,95,396,400,396,400,0.5180289758151757
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,35,NG,5,final,evening,384,416,32,96,96,400,404,400,404,0.6303272429520875
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,36,SIL,5,sil,evening,388,432,44,97,100,404,420,404,420,0.996780394817228
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,0,W,0,initial,we'll,28,60,32,7,7,44,48,16,52,0.7516949347492236
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,1,IY,0,medial,we'll,36,68,32,9,9,52,56,52,56,0.002030307792531435
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,2,L,0,final,we'll,40,72,32,10,10,56,60,56,64,0.999872575853318
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,3,SIL,0,sil,we'll,48,84,36,12,13,64,72,64,72,0.9447935123866618
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,4,S,1,initial,serve,56,96,40,14,16,72,84,72,88,0.649080336427592
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,5,ER,1,medial,serve,76,108,32,19,19,92,96,88,96,0.002182331176196755
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,6,V,1,final,serve,80,112,32,20,20,96,100,96,104,0.09263564668394306
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,7,SIL,1,sil,serve,88,136,48,22,26,104,124,104,124,0.9430112097056342
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,8,R,2,initial,rhubarb,108,144,36,27,28,124,132,124,132,0.2667570920582375
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,9,UW,2,medial,rhubarb,116,148,32,29,29,132,136,132,140,0.24036462763297256
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,10,B,2,medial,rhubarb,124,156,32,31,31,140,144,140,148,0.0005509046735428869
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,11,AA,2,medial,rhubarb,136,168,32,34,34,152,156,148,156,0.0016163895159597512
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,12,R,2,medial,rhubarb,140,172,32,35,35,156,160,156,160,0.0011497557858956235
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,13,B,2,final,rhubarb,144,176,32,36,36,160,164,160,168,0.9343749404592703
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,14,SIL,2,sil,rhubarb,156,200,44,39,42,172,188,168,188,0.9762257913726686
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,15,P,3,initial,pie,172,208,36,43,44,188,196,188,200,0.9368355363833976
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,16,AY,3,final,pie,188,220,32,47,47,204,208,200,212,0.9928991465028678
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,17,SIL,3,sil,pie,200,240,40,50,52,216,228,212,232,0.9360039024889866
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,18,AE,4,initial,after,220,256,36,55,56,236,244,232,244,0.9811852147069822
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,19,F,4,medial,after,228,260,32,57,57,244,248,244,248,0.9988679342659692
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,20,T,4,medial,after,232,264,32,58,58,248,252,248,252,0.9992401499872919
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,21,ER,4,final,after,236,280,44,59,62,252,268,252,268,0.9221631403095129
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,22,SIL,4,sil,after,252,296,44,63,66,268,284,268,296,0.9812736023163803
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,23,R,5,initial,rachel's,292,324,32,73,73,308,312,296,316,0.00684322342783728
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,24,EY,5,medial,rachel's,300,332,32,75,75,316,320,316,320,9.519132136563781e-05
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,25,CH,5,medial,rachel's,304,336,32,76,76,320,324,320,328,0.001382480445224694
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,26,AH,5,medial,rachel's,316,356,40,79,81,332,344,328,344,0.7324287635606931
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,27,L,5,medial,rachel's,328,364,36,82,83,344,352,344,352,0.9923699207144707
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,28,Z,5,final,rachel's,336,368,32,84,84,352,356,352,356,0.00045049704612686405
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,29,SIL,5,sil,rachel's,340,380,40,85,87,356,368,356,368,0.9142565608384944
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,30,T,6,initial,talk,352,384,32,88,88,368,372,368,376,0.922933427818811
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,31,AO,6,medial,talk,360,392,32,90,90,376,380,376,380,0.6343318714168359
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,32,K,6,final,talk,364,396,32,91,91,380,384,380,384,0.9996033720532564
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,33,SIL,6,sil,talk,368,416,48,92,96,384,404,384,404,0.9575672592247099
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,0,DH,0,initial,they,24,56,32,6,6,40,44,16,48,0.9999419059774555
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,1,EY,0,final,they,32,64,32,8,8,48,52,48,56,0.9999310616258782
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,2,SIL,0,sil,they,40,88,48,10,14,56,76,56,80,0.9870534406923607
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,3,EH,1,initial,enjoy,68,100,32,17,17,84,88,80,88,0.7517516350750606
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,4,N,1,medial,enjoy,72,104,32,18,18,88,92,88,92,0.9999517689395007
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,5,JH,1,medial,enjoy,76,112,36,19,20,92,100,92,104,0.8308143296837547
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,6,OY,1,final,enjoy,88,120,32,22,22,104,108,104,112,0.21680299098194697
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,7,SIL,1,sil,enjoy,100,144,44,25,28,116,132,112,140,0.7509535675503254
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,8,IH,2,initial,it,128,160,32,32,32,144,148,140,148,0.9999932629844532
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,9,T,2,final,it,132,164,32,33,33,148,152,148,152,0.9685685400566922
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,10,SIL,2,sil,it,136,196,60,34,41,152,184,152,184,0.6240946137277629
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,11,W,3,initial,when,168,200,32,42,42,184,188,184,188,0.9999348115095119
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,12,EH,3,medial,when,172,204,32,43,43,188,192,188,192,0.5470412525585026
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,13,N,3,final,when,176,212,36,44,45,192,200,192,200,0.9187077886907655
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,14,SIL,3,sil,when,184,228,44,46,49,200,216,200,220,0.9351207910180781
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,15,AY,4,single,i,208,240,32,52,52,224,228,220,228,0.9996564731300518
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,16,SIL,4,sil,i,212,268,56,53,59,228,256,228,264,0.93032201096807
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,17,AA,5,initial,audition,252,284,32,63,63,268,272,264,272,0.980396014812147
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,18,D,5,medial,audition,256,292,36,64,65,272,280,272,284,0.3494802521538668
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,19,IH,5,medial,audition,272,304,32,68,68,288,292,284,292,0.9647983600440498
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,20,SH,5,medial,audition,276,308,32,69,69,292,296,292,300,0.8219565683679655
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,21,AH,5,medial,audition,284,316,32,71,71,300,304,300,304,0.9998247879980305
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,22,N,5,final,audition,288,320,32,72,72,304,308,304,308,0.9988661329064485
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,23,SIL,5,sil,audition,292,344,52,73,78,308,332,308,332,0.9654263163371707
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,0,DH,0,initial,the,28,60,32,7,7,44,48,16,52,0.9999127567105863
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,1,AH,0,final,the,36,72,36,9,10,52,60,52,60,0.9107958727583982
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,2,SIL,0,sil,the,44,84,40,11,13,60,72,60,76,0.9881909371083791
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,3,AE,1,initial,avocado,64,96,32,16,16,80,84,76,84,0.00813093316351674
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,4,V,1,medial,avocado,68,100,32,17,17,84,88,84,92,0.03202022774852474
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,5,AH,1,medial,avocado,80,112,32,20,20,96,100,92,100,0.007199399546583445
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,6,K,1,medial,avocado,84,120,36,21,22,100,108,100,112,0.9861801543275119
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,7,AA,1,medial,avocado,100,132,32,25,25,116,120,112,124,0.6401681283815737
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,8,D,1,medial,avocado,108,140,32,27,27,124,128,124,128,0.0008260128243718162
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,9,OW,1,final,avocado,112,144,32,28,28,128,132,128,136,1.3887874323993652e-05
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,10,SIL,1,sil,avocado,120,168,48,30,34,136,156,136,156,0.9973298958739353
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,11,SH,2,initial,should,140,172,32,35,35,156,160,156,164,0.6301592109000429
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,12,UH,2,medial,should,148,180,32,37,37,164,168,164,168,0.8443463270880652
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,13,D,2,final,should,152,188,36,38,39,168,176,168,176,0.8523224624264247
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,14,SIL,2,sil,should,160,200,40,40,42,176,188,176,188,0.9936207667450176
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,15,HH,3,initial,have,172,204,32,43,43,188,192,188,196,0.9667419296629362
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,16,AE,3,medial,have,180,212,32,45,45,196,200,196,200,0.9988299038279047
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,17,V,3,final,have,184,216,32,46,46,200,204,200,204,0.03477136960064861
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,18,SIL,3,sil,have,188,236,48,47,51,204,224,204,228,0.9930802156961395
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,19,AH,4,single,a,216,248,32,54,54,232,236,228,236,0.999995978522489
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,20,SIL,4,sil,a,220,276,56,55,61,236,264,236,264,0.9659707705682109
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,21,G,5,initial,give,248,280,32,62,62,264,268,264,272,0.1729330773265899
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,22,IH,5,medial,give,260,292,32,65,65,276,280,272,280,0.9634795003822434
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,23,V,5,final,give,264,296,32,66,66,280,284,280,288,0.02285787271011354
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,24,SIL,5,sil,give,272,316,44,68,71,288,304,288,304,0.9451646253344241
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,25,T,6,initial,to,288,320,32,72,72,304,308,304,312,0.8635545871503179
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,26,UW,6,final,to,296,328,32,74,74,312,316,312,316,0.9999004248090833
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,27,SIL,6,sil,to,300,340,40,75,77,316,328,316,332,0.8725801109870046
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,28,IH,7,initial,it,316,348,32,79,79,332,336,332,336,0.9998217406676886
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,29,T,7,final,it,320,352,32,80,80,336,340,336,340,0.9999619060967406
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,30,SIL,7,sil,it,324,376,52,81,86,340,364,340,368,0.9759416287031762
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,31,AE,8,initial,as,356,388,32,89,89,372,376,368,376,0.9997196321952618
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,32,Z,8,final,as,360,392,32,90,90,376,380,376,380,0.9998968294533184
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,33,SIL,8,sil,as,364,408,44,91,94,380,396,380,396,0.9706205199296357
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,34,Y,9,initial,you,380,412,32,95,95,396,400,396,404,0.0009544753710323025
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,35,UW,9,final,you,388,420,32,97,97,404,408,404,412,0.999300407803326
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,36,SIL,9,sil,you,396,448,52,99,104,412,436,412,436,0.9512384980339873
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,37,HH,10,initial,hold,420,452,32,105,105,436,440,436,444,0.0001860403757006577
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,38,OW,10,medial,hold,428,460,32,107,107,444,448,444,448,0.40500824150718306
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,39,L,10,medial,hold,432,464,32,108,108,448,452,448,452,0.9999393825244561
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,40,D,10,final,hold,436,468,32,109,109,452,456,452,456,0.7909735953155205
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,41,SIL,10,sil,hold,440,472,32,110,110,456,460,456,460,0.9362948224748059
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,42,IH,11,initial,it,444,476,32,111,111,460,464,460,464,0.007107696163614713
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,43,T,11,final,it,448,480,32,112,112,464,468,464,468,0.00028486569574063354
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,44,SIL,11,sil,it,452,504,52,113,118,468,492,468,492,0.9965215885431302
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,45,W,12,initial,when,476,508,32,119,119,492,496,492,500,0.996640172863908
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,46,EH,12,medial,when,484,516,32,121,121,500,504,500,504,0.9914109235739448
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,47,N,12,final,when,488,520,32,122,122,504,508,504,508,0.9998085216783743
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,48,SIL,12,sil,when,492,532,40,123,125,508,520,508,524,0.917820913334678
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,49,IH,13,initial,it,512,548,36,128,129,528,536,524,536,0.7498051241510006
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,50,T,13,final,it,520,552,32,130,130,536,540,536,540,0.9999921792689866
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,51,SIL,13,sil,it,524,564,40,131,133,540,552,540,560,0.999313557904704
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,52,IH,14,initial,is,548,580,32,137,137,564,568,560,568,0.9998497005297788
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,53,Z,14,final,is,552,584,32,138,138,568,572,568,572,0.9994024676469384
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,54,SIL,14,sil,is,556,604,48,139,143,572,592,572,592,0.9982284070057936
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,55,R,15,initial,ripe,576,612,36,144,145,592,600,592,604,0.6090774715223702
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,56,AY,15,medial,ripe,588,620,32,147,147,604,608,604,608,0.7455404861580297
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,57,P,15,final,ripe,592,628,36,148,149,608,616,608,616,0.9919069967232376
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,58,SIL,15,sil,ripe,600,644,44,150,153,616,632,616,632,0.9886825707586009
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,0,EH,0,initial,energy,52,84,32,13,13,68,72,16,72,0.4308676120312942
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,1,N,0,medial,energy,56,88,32,14,14,72,76,72,76,0.9973075974618856
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,2,ER,0,medial,energy,60,92,32,15,15,76,80,76,80,1.1609596098691775e-05
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,3,JH,0,medial,energy,64,96,32,16,16,80,84,80,84,0.13780892671499484
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,4,IY,0,final,energy,68,100,32,17,17,84,88,84,92,0.7953762991725863
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,5,SIL,0,sil,energy,76,112,36,19,20,92,100,92,100,0.924200222662148
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,6,S,1,initial,suppliers,84,116,32,21,21,100,104,100,104,0.0007221294805748723
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,7,AH,1,medial,suppliers,88,120,32,22,22,104,108,104,108,0.00035553757825872395
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,8,P,1,medial,suppliers,92,124,32,23,23,108,112,108,112,0.9988026405418465
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,9,L,1,medial,suppliers,96,128,32,24,24,112,116,112,120,0.33781324615580255
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,10,AY,1,medial,suppliers,104,136,32,26,26,120,124,120,128,0.8418335614471253
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,11,ER,1,medial,suppliers,116,152,36,29,30,132,140,128,140,0.9113726448035533
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,12,Z,1,final,suppliers,124,160,36,31,32,140,148,140,148,0.9544130541556133
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,13,SIL,1,sil,suppliers,132,176,44,33,36,148,164,148,164,0.9961644819506277
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,14,Y,2,initial,usually,148,180,32,37,37,164,168,164,168,0.9994658915466633
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,15,UW,2,medial,usually,152,188,36,38,39,168,176,168,176,0.9189788617261924
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,16,ZH,2,medial,usually,160,192,32,40,40,176,180,176,180,0.999436822723581
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,17,AH,2,medial,usually,164,196,32,41,41,180,184,180,184,0.9964707040680246
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,18,W,2,medial,usually,168,204,36,42,43,184,192,184,192,0.7742512919590996
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,19,AH,2,medial,usually,176,212,36,44,45,192,200,192,200,0.998065518450695
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,20,L,2,medial,usually,184,220,36,46,47,200,208,200,208,0.8233575904869845
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,21,IY,2,final,usually,192,228,36,48,49,208,216,208,216,0.975975256927756
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,22,SIL,2,sil,usually,200,232,32,50,50,216,220,216,220,0.8979277166659864
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,23,D,3,initial,deal,204,236,32,51,51,220,224,220,228,0.11786219732741107
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,24,IY,3,medial,deal,212,244,32,53,53,228,232,228,232,0.6498317660997723
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,25,L,3,final,deal,216,252,36,54,55,232,240,232,240,0.7133307633033045
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,26,SIL,3,sil,deal,224,260,36,56,57,240,248,240,248,0.9976660816226807
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,27,W,4,initial,with,232,268,36,58,59,248,256,248,260,0.9847915965023188
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,28,IH,4,medial,with,244,276,32,61,61,260,264,260,264,0.9983269677784473
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,29,DH,4,final,with,248,280,32,62,62,264,268,264,272,0.9112577102510232
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,30,SIL,4,sil,with,256,300,44,64,67,272,288,272,288,0.9847402123964353
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,31,DH,5,initial,this,272,304,32,68,68,288,292,288,296,0.9753563091424368
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,32,IH,5,medial,this,280,312,32,70,70,296,300,296,300,0.49363000028987364
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,33,S,5,final,this,284,316,32,71,71,300,304,300,304,0.5836932956570609
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,34,SIL,5,sil,this,288,344,56,72,78,304,332,304,332,0.9802463301504202
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,35,B,6,initial,by,316,348,32,79,79,332,336,332,340,0.9870210019464425
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,36,AY,6,final,by,324,356,32,81,81,340,344,340,348,0.9992400202513907
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,37,SIL,6,sil,by,336,388,52,84,89,352,376,348,388,0.9893567698348771
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,38,K,7,initial,conducting,380,412,32,95,95,396,400,388,404,0.9438212233717115
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,39,AH,7,medial,conducting,388,420,32,97,97,404,408,404,408,0.969330344321007
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,40,N,7,medial,conducting,392,428,36,98,99,408,416,408,420,0.9451197222720638
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,41,D,7,medial,conducting,408,440,32,102,102,424,428,420,428,0.00013033993094034544
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,42,AH,7,medial,conducting,412,444,32,103,103,428,432,428,432,0.17431204102132636
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,43,K,7,medial,conducting,416,448,32,104,104,432,436,432,436,0.995201462124881
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,44,T,7,medial,conducting,420,452,32,105,105,436,440,436,440,0.06988370079784477
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,45,IH,7,medial,conducting,424,456,32,106,106,440,444,440,444,0.03259032596908583
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,46,NG,7,final,conducting,428,464,36,107,108,444,452,444,452,0.11690777031046945
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,47,SIL,7,sil,conducting,436,480,44,109,112,452,468,452,468,0.9927739562475992
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,48,R,8,initial,regular,452,484,32,113,113,468,472,468,476,0.5824789363465784
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,49,EH,8,medial,regular,460,492,32,115,115,476,480,476,480,0.8652754629497477
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,50,G,8,medial,regular,464,496,32,116,116,480,484,480,484,0.9878993333103373
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,51,Y,8,medial,regular,468,500,32,117,117,484,488,484,492,0.01467621905800359
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,52,AH,8,medial,regular,476,508,32,119,119,492,496,492,496,0.0016425774025635512
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,53,L,8,medial,regular,480,512,32,120,120,496,500,496,500,0.023780996932575644
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,54,ER,8,final,regular,484,516,32,121,121,500,504,500,504,0.014339777324236224
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,55,SIL,8,sil,regular,488,532,44,122,125,504,520,504,544,0.9919967552257011
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,56,IH,9,initial,inspections,548,580,32,137,137,564,568,544,568,0.9844348131989927
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,57,N,9,medial,inspections,552,584,32,138,138,568,572,568,572,0.022489019772856916
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,58,S,9,medial,inspections,556,588,32,139,139,572,576,572,576,0.9879518505228063
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,59,P,9,medial,inspections,560,592,32,140,140,576,580,576,584,0.9967165683155991
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,60,EH,9,medial,inspections,572,604,32,143,143,588,592,584,592,0.9907611343824653
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,61,K,9,medial,inspections,576,608,32,144,144,592,596,592,596,0.9999750493578367
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,62,SH,9,medial,inspections,580,612,32,145,145,596,600,596,600,0.553927795422321
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,63,AH,9,medial,inspections,584,616,32,146,146,600,604,600,604,0.9883944590192529
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,64,N,9,medial,inspections,588,620,32,147,147,604,608,604,608,0.9943377596715118
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,65,Z,9,final,inspections,592,624,32,148,148,608,612,608,612,0.09032138865210673
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,66,SIL,9,sil,inspections,596,640,44,149,152,612,628,612,636,0.9996083661150169
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,67,AH,10,initial,and,624,656,32,156,156,640,644,636,644,0.9999996991832726
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,68,N,10,medial,and,628,660,32,157,157,644,648,644,648,0.9964146043881394
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,69,D,10,final,and,632,672,40,158,160,648,660,648,660,0.879168063071412
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,70,SIL,10,sil,and,644,684,40,161,163,660,672,660,672,0.9462771905184787
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,71,T,11,initial,trimming,656,692,36,164,165,672,680,672,680,0.9138522270456592
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,72,R,11,medial,trimming,664,700,36,166,167,680,688,680,688,0.8217557278050553
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,73,IH,11,medial,trimming,672,704,32,168,168,688,692,688,692,0.22883711025828038
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,74,M,11,medial,trimming,676,712,36,169,170,692,700,692,704,0.4562712790991681
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,75,IH,11,medial,trimming,692,724,32,173,173,708,712,704,712,0.06871989797417173
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,76,NG,11,final,trimming,696,728,32,174,174,712,716,712,716,0.08561874393227785
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,77,SIL,11,sil,trimming,700,748,48,175,179,716,736,716,736,0.9988297161683585
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,0,DH,0,initial,the,28,60,32,7,7,44,48,16,48,0.9999785000386974
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,1,AH,0,final,the,32,64,32,8,8,48,52,48,56,0.999988281915427
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,2,SIL,0,sil,the,40,84,44,10,13,56,72,56,72,0.9906515061811234
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,3,S,1,initial,saw,56,92,36,14,15,72,80,72,84,0.6696385965312682
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,4,AO,1,final,saw,68,100,32,17,17,84,88,84,92,0.9936928248334836
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,5,SIL,1,sil,saw,76,116,40,19,21,92,104,92,108,0.9585020809953962
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,6,IH,2,initial,is,96,128,32,24,24,112,116,108,116,0.999342334961573
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,7,Z,2,final,is,100,132,32,25,25,116,120,116,120,0.999267284442015
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,8,SIL,2,sil,is,104,152,48,26,30,120,140,120,140,0.9964477281172097
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,9,B,3,initial,broken,124,156,32,31,31,140,144,140,144,0.9994162872967659
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,10,R,3,medial,broken,128,160,32,32,32,144,148,144,148,0.8847404356964212
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,11,OW,3,medial,broken,132,164,32,33,33,148,152,148,152,0.7823226187735245
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,12,K,3,medial,broken,136,172,36,34,35,152,160,152,164,0.9491209677705781
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,13,AH,3,medial,broken,148,184,36,37,38,164,172,164,172,0.36971882812943013
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,14,N,3,final,broken,156,188,32,39,39,172,176,172,176,0.08928963732217331
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,15,SIL,3,sil,broken,160,220,60,40,47,176,208,176,208,0.9451842379749682
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,16,S,4,initial,so,192,224,32,48,48,208,212,208,216,0.9579363411147188
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,17,OW,4,final,so,200,232,32,50,50,216,220,216,220,0.9856056348958007
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,18,SIL,4,sil,so,204,252,48,51,55,220,240,220,240,0.7504592911666597
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,19,CH,5,initial,chop,224,256,32,56,56,240,244,240,248,0.015015281337671174
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,20,AA,5,medial,chop,236,268,32,59,59,252,256,248,256,0.7329427361168511
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,21,P,5,final,chop,240,276,36,60,61,256,264,256,268,0.9942419983339215
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,22,SIL,5,sil,chop,252,304,52,63,68,268,292,268,292,0.9390711643817499
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,23,DH,6,initial,the,276,308,32,69,69,292,296,292,300,0.9996159859673222
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,24,AH,6,final,the,284,316,32,71,71,300,304,300,308,0.9999792439403876
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,25,SIL,6,sil,the,292,344,52,73,78,308,332,308,332,0.9979206880880914
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,26,W,7,initial,wood,316,348,32,79,79,332,336,332,340,0.9928804830215292
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,27,UH,7,medial,wood,328,360,32,82,82,344,348,340,348,0.5970750986862262
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,28,D,7,final,wood,332,372,40,83,85,348,360,348,360,0.9556207373466453
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,29,SIL,7,sil,wood,344,396,52,86,91,360,384,360,408,0.9654567645867987
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,30,IH,8,initial,instead,412,444,32,103,103,428,432,408,432,0.9271015599719318
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,31,N,8,medial,instead,416,452,36,104,105,432,440,432,440,0.7792289773055818
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,32,S,8,medial,instead,424,460,36,106,107,440,448,440,448,0.7886276446570419
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,33,T,8,medial,instead,432,464,32,108,108,448,452,448,456,0.4787141538176577
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,34,EH,8,medial,instead,440,472,32,110,110,456,460,456,460,0.9936352395977059
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,35,D,8,final,instead,444,480,36,111,112,460,468,460,468,0.9874088537319111
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,36,SIL,8,sil,instead,452,500,48,113,117,468,488,468,488,0.9998807520659165
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,0,DH,0,initial,the,64,100,36,16,17,80,88,16,88,0.9580787467163059
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,1,AH,0,final,the,72,108,36,18,19,88,96,88,96,0.9983000980347327
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,2,SIL,0,sil,the,80,124,44,20,23,96,112,96,112,0.9850188950739305
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,3,K,1,initial,cleaned,96,128,32,24,24,112,116,112,116,0.9379182327731208
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,4,L,1,medial,cleaned,100,132,32,25,25,116,120,116,124,0.43630862959630945
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,5,IY,1,medial,cleaned,108,140,32,27,27,124,128,124,128,0.6925483011668929
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,6,N,1,medial,cleaned,112,144,32,28,28,128,132,128,132,0.9899907174370337
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,7,D,1,final,cleaned,116,152,36,29,30,132,140,132,140,0.5480462789326037
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,8,SIL,1,sil,cleaned,124,172,48,31,35,140,160,140,160,0.9588742311970468
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,9,V,2,initial,version,144,176,32,36,36,160,164,160,168,0.836888575823401
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,10,ER,2,medial,version,152,188,36,38,39,168,176,168,176,0.9704612626437732
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,11,ZH,2,medial,version,160,196,36,40,41,176,184,176,184,0.9336631862036613
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,12,AH,2,medial,version,168,204,36,42,43,184,192,184,192,0.9987485005364265
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,13,N,2,final,version,176,208,32,44,44,192,196,192,196,0.9999082252360781
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,14,SIL,2,sil,version,180,228,48,45,49,196,216,196,220,0.8504269854680164
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,15,IH,3,initial,is,208,240,32,52,52,224,228,220,228,0.9999873046008109
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,16,Z,3,final,is,212,244,32,53,53,228,232,228,232,0.9999987434827781
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,17,SIL,3,sil,is,216,264,48,54,58,232,252,232,252,0.996128015002259
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,18,G,4,initial,given,236,268,32,59,59,252,256,252,260,0.5222662266136477
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,19,IH,4,medial,given,248,280,32,62,62,264,268,260,268,0.9889578814419289
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,20,V,4,medial,given,252,284,32,63,63,268,272,268,276,0.8135749130599197
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,21,AH,4,medial,given,260,296,36,65,66,276,284,276,284,0.9358926828712821
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,22,N,4,final,given,268,300,32,67,67,284,288,284,292,0.9878235980874093
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,23,SIL,4,sil,given,280,324,44,70,73,296,312,292,312,0.9204993446391867
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,24,B,5,initial,below,296,328,32,74,74,312,316,312,320,0.9436333129670135
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,25,IH,5,medial,below,304,340,36,76,77,320,328,320,328,0.7402172005369847
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,26,L,5,medial,below,312,348,36,78,79,328,336,328,336,0.9590915530694942
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,27,OW,5,final,below,320,356,36,80,81,336,344,336,344,0.8788660069234977
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,28,SIL,5,sil,below,328,380,52,82,87,344,368,344,368,0.9990544843273335
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,0,DH,0,initial,they,20,52,32,5,5,36,40,16,44,0.9951241112172996
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,1,EY,0,final,they,28,60,32,7,7,44,48,44,52,0.9993260100338407
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,2,SIL,0,sil,they,36,76,40,9,11,52,64,52,64,0.9117987151467805
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,3,S,1,initial,seem,48,80,32,12,12,64,68,64,72,0.994096056046544
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,4,IY,1,medial,seem,56,88,32,14,14,72,76,72,76,0.1475893444503761
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,5,M,1,final,seem,60,96,36,15,16,76,84,76,84,0.995126494502499
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,6,SIL,1,sil,seem,68,116,48,17,21,84,104,84,104,0.9022366197011875
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,7,D,2,initial,darned,88,120,32,22,22,104,108,104,112,0.010537068728854203
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,8,AA,2,medial,darned,100,132,32,25,25,116,120,112,120,0.9543947536699222
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,9,R,2,medial,darned,104,136,32,26,26,120,124,120,124,0.001544822229217047
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,10,N,2,medial,darned,108,140,32,27,27,124,128,124,128,0.015098204199038283
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,11,D,2,final,darned,112,144,32,28,28,128,132,128,136,0.01166806427442788
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,12,SIL,2,sil,darned,124,172,48,31,35,140,160,136,160,0.8804789009587726
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,13,P,3,initial,proud,144,176,32,36,36,160,164,160,164,0.9997715163671468
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,14,R,3,medial,proud,148,180,32,37,37,164,168,164,172,0.8389611006426962
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,15,AW,3,medial,proud,156,188,32,39,39,172,176,172,176,0.05025067743736451
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,16,D,3,final,proud,160,192,32,40,40,176,180,176,188,0.7040086918740712
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,17,SIL,3,sil,proud,176,224,48,44,48,192,212,188,220,0.8527409165765919
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,18,AH,4,initial,of,208,240,32,52,52,224,228,220,228,0.998052688730405
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,19,V,4,final,of,212,244,32,53,53,228,232,228,232,0.9803357240866117
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,20,SIL,4,sil,of,216,248,32,54,54,232,236,232,240,0.0048245175795773275
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,21,IH,5,initial,it,228,260,32,57,57,244,248,240,248,0.9863696853155467
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,22,T,5,final,it,232,264,32,58,58,248,252,248,252,0.999793570772293
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,23,SIL,5,sil,it,236,316,80,59,71,252,304,252,304,0.9857188526058531

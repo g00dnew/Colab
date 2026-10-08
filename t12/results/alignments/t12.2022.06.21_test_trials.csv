@@ -1,0 +1,41 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,n_bins_trial,n_rnn_steps,n_phonemes_true,n_phonemes_decoded,edit_distance,per,aligned,align_logprob
+t12.2022.06.21,test,vocal,t12.2022.06.21,0,he really likes it and i don't,292,66,27,24,5,0.18518518518518517,True,-18.905307947207255
+t12.2022.06.21,test,vocal,t12.2022.06.21,1,it's nice and small,201,43,17,18,5,0.29411764705882354,True,-29.509499813107027
+t12.2022.06.21,test,vocal,t12.2022.06.21,2,i think there is confusion,221,48,24,23,3,0.125,True,-21.830515753178897
+t12.2022.06.21,test,vocal,t12.2022.06.21,3,just go someplace for the day,234,51,26,25,3,0.11538461538461539,True,-14.422536790965125
+t12.2022.06.21,test,vocal,t12.2022.06.21,4,but they're going to learn it sometime,340,78,30,32,4,0.13333333333333333,True,-13.702820681715421
+t12.2022.06.21,test,vocal,t12.2022.06.21,5,it was the big one,215,46,18,18,1,0.05555555555555555,True,-2.7460796192879036
+t12.2022.06.21,test,vocal,t12.2022.06.21,6,it's kind of a depressing topic,357,82,29,28,8,0.27586206896551724,True,-29.63071704319382
+t12.2022.06.21,test,vocal,t12.2022.06.21,7,every six months i have to pay my taxes,392,91,38,38,6,0.15789473684210525,True,-34.504107199343956
+t12.2022.06.21,test,vocal,t12.2022.06.21,8,i've never been sailing,215,46,18,17,3,0.16666666666666666,True,-20.944456530973728
+t12.2022.06.21,test,vocal,t12.2022.06.21,9,i have six years of college,298,67,25,23,3,0.12,True,-9.625683641107896
+t12.2022.06.21,test,vocal,t12.2022.06.21,10,and then the next one down is in the marines,462,108,40,40,5,0.125,True,-19.470550121779652
+t12.2022.06.21,test,vocal,t12.2022.06.21,11,enjoy the adventure,195,41,16,16,2,0.125,True,-6.73538088810174
+t12.2022.06.21,test,vocal,t12.2022.06.21,12,not lately though,166,34,13,13,1,0.07692307692307693,True,-7.511447845553151
+t12.2022.06.21,test,vocal,t12.2022.06.21,13,too many serious problems for the longer term,348,80,41,37,6,0.14634146341463414,True,-34.00279907836399
+t12.2022.06.21,test,vocal,t12.2022.06.21,14,are there any other genres or sounds you're interested in exploring,467,109,58,54,10,0.1724137931034483,True,-51.0816284738075
+t12.2022.06.21,test,vocal,t12.2022.06.21,15,yes i consider myself what they call a full timer,403,93,43,39,12,0.27906976744186046,True,-84.34699335467229
+t12.2022.06.21,test,vocal,t12.2022.06.21,16,more family oriented,207,44,20,17,5,0.25,True,-39.21715547107209
+t12.2022.06.21,test,vocal,t12.2022.06.21,17,do you know that i've never seen a monkey,349,80,33,31,3,0.09090909090909091,True,-10.808799261386492
+t12.2022.06.21,test,vocal,t12.2022.06.21,18,i knew both people,189,40,15,15,1,0.06666666666666667,True,-3.0675849292462325
+t12.2022.06.21,test,vocal,t12.2022.06.21,19,he recommends the honda to a lot of people,391,90,40,41,3,0.075,True,-19.59684881373095
+t12.2022.06.21,test,vocal,t12.2022.06.21,20,do you have a computer for yourself at home,402,93,39,39,3,0.07692307692307693,True,-20.528292208362597
+t12.2022.06.21,test,vocal,t12.2022.06.21,21,it's the original,159,32,15,14,2,0.13333333333333333,True,-6.175967121782562
+t12.2022.06.21,test,vocal,t12.2022.06.21,22,you can't blame them,181,38,17,17,0,0.0,True,-3.6334516161351162
+t12.2022.06.21,test,vocal,t12.2022.06.21,23,more choice more cccountability,272,61,24,26,11,0.4583333333333333,True,-42.83926179106889
+t12.2022.06.21,test,vocal,t12.2022.06.21,24,i guess traffic could be an annoyance,359,82,30,27,6,0.2,True,-24.365613142044573
+t12.2022.06.21,test,vocal,t12.2022.06.21,25,we've gone for romanian food and lebanese food,382,88,41,39,14,0.34146341463414637,True,-76.95873301668814
+t12.2022.06.21,test,vocal,t12.2022.06.21,26,i hate to dust and clean,287,64,23,21,6,0.2608695652173913,True,-42.980886818131474
+t12.2022.06.21,test,vocal,t12.2022.06.21,27,football is an exciting sport,308,70,27,25,12,0.4444444444444444,True,-48.58443930764357
+t12.2022.06.21,test,vocal,t12.2022.06.21,28,i'm glad it's done,199,42,16,15,2,0.125,True,-11.84488712483917
+t12.2022.06.21,test,vocal,t12.2022.06.21,29,i don't know the details,215,46,20,19,2,0.1,True,-8.251748305137589
+t12.2022.06.21,test,vocal,t12.2022.06.21,30,can you speak more about this system of treasury decentralization,557,132,58,54,16,0.27586206896551724,True,-83.50421335482957
+t12.2022.06.21,test,vocal,t12.2022.06.21,31,too many horror stories out there,272,61,27,25,6,0.2222222222222222,True,-24.374773398764397
+t12.2022.06.21,test,vocal,t12.2022.06.21,32,every major city has a theater,287,64,27,26,9,0.3333333333333333,True,-45.567350223019446
+t12.2022.06.21,test,vocal,t12.2022.06.21,33,go to the zoo and see elephants and tigers and things like that,521,123,55,53,7,0.12727272727272726,True,-44.73890844145385
+t12.2022.06.21,test,vocal,t12.2022.06.21,34,it'd be kind of fun,263,58,20,18,2,0.1,True,-13.58963377047733
+t12.2022.06.21,test,vocal,t12.2022.06.21,35,that appeared to be eight or nine years old,404,94,35,39,8,0.22857142857142856,True,-24.894657618886143
+t12.2022.06.21,test,vocal,t12.2022.06.21,36,i'm kind of out of it right now,330,75,27,27,1,0.037037037037037035,True,-3.0621493765452277
+t12.2022.06.21,test,vocal,t12.2022.06.21,37,i do not read everything in the paper,349,80,32,33,10,0.3125,True,-50.06456522550574
+t12.2022.06.21,test,vocal,t12.2022.06.21,38,my brother can do it,218,47,19,19,7,0.3684210526315789,True,-16.355706607118268
+t12.2022.06.21,test,vocal,t12.2022.06.21,39,not everybody shows up,219,47,20,19,3,0.15,True,-10.702550403783642

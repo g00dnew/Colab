@@ -1,0 +1,21 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,n_bins_trial,n_rnn_steps,n_phonemes_true,n_phonemes_decoded,edit_distance,per,aligned,align_logprob
+t12.2022.04.28,test,vocal,t12.2022.04.28,0,theocracy reconsidered,254,56,20,16,11,0.55,True,-62.12471086875151
+t12.2022.04.28,test,vocal,t12.2022.04.28,1,rich purchased several signed lithographs,386,89,33,31,11,0.3333333333333333,True,-41.44221729000448
+t12.2022.04.28,test,vocal,t12.2022.04.28,2,so rules we made in unabashed collusion,457,107,34,35,6,0.17647058823529413,True,-34.43739913047669
+t12.2022.04.28,test,vocal,t12.2022.04.28,3,lori's costume needed black gloves to be completely elegant,576,137,54,46,15,0.2777777777777778,True,-82.69288349018379
+t12.2022.04.28,test,vocal,t12.2022.04.28,4,the tooth fairy forgot to come when roger's tooth fell out,672,161,46,48,13,0.2826086956521739,True,-75.60378173380337
+t12.2022.04.28,test,vocal,t12.2022.04.28,5,that stinging vapor was caused by chloride vaporization,650,155,46,47,23,0.5,True,-180.7054753263154
+t12.2022.04.28,test,vocal,t12.2022.04.28,6,before thursday's exam review every formula,539,127,39,38,18,0.46153846153846156,True,-116.81043555577777
+t12.2022.04.28,test,vocal,t12.2022.04.28,7,wildfire near sunshine forces park closures,469,110,38,29,21,0.5526315789473685,True,-185.7315681557044
+t12.2022.04.28,test,vocal,t12.2022.04.28,8,the word means it won't boil away easily nothing else,602,143,44,44,8,0.18181818181818182,True,-34.158405781461106
+t12.2022.04.28,test,vocal,t12.2022.04.28,9,would a blue feather in a man's hat make him happy all day,660,158,48,45,8,0.16666666666666666,True,-51.50136347154048
+t12.2022.04.28,test,vocal,t12.2022.04.28,10,he talked about unauthentic storylines too,492,116,36,35,13,0.3611111111111111,True,-88.19785475344081
+t12.2022.04.28,test,vocal,t12.2022.04.28,11,most young rise early every morning,377,87,29,28,9,0.3103448275862069,True,-28.144557293521597
+t12.2022.04.28,test,vocal,t12.2022.04.28,12,with this no loyal citizen can quarrel,411,95,35,32,12,0.34285714285714286,True,-56.688225605152205
+t12.2022.04.28,test,vocal,t12.2022.04.28,13,primitive tribes have an upbeat attitude,404,94,35,31,13,0.37142857142857144,True,-67.3318508583307
+t12.2022.04.28,test,vocal,t12.2022.04.28,14,and it was not a judge but a justice of the peace who made the decision,717,172,62,60,16,0.25806451612903225,True,-122.59762246871388
+t12.2022.04.28,test,vocal,t12.2022.04.28,15,we seemed to be witnessing the population explosion right in our own backyards,826,199,69,65,20,0.2898550724637681,True,-83.48779327003622
+t12.2022.04.28,test,vocal,t12.2022.04.28,16,sometimes desperate measures can also turn into solid moves for the future,708,170,64,60,19,0.296875,True,-91.47383051853774
+t12.2022.04.28,test,vocal,t12.2022.04.28,17,those answers will be straightforward if you think them through carefully first,919,222,61,64,24,0.39344262295081966,True,-182.96662738269396
+t12.2022.04.28,test,vocal,t12.2022.04.28,18,she gets dressed faster and spends less energy making clothing decisions,787,189,63,61,19,0.30158730158730157,True,-103.51536195390781
+t12.2022.04.28,test,vocal,t12.2022.04.28,19,academic aptitude guarantees your diploma,508,120,38,36,13,0.34210526315789475,True,-89.30276048027991

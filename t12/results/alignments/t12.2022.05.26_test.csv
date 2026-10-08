@@ -1,0 +1,1063 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,phone_idx,phoneme,word_idx,position_in_word,word,start_bin,end_bin,n_bins,rnn_start_step,rnn_end_step,rnn_center_start,rnn_center_end,seg_start_bin,seg_end_bin,score
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,0,DH,0,initial,this,60,92,32,15,15,76,80,16,80,0.013397886485516807
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,1,IH,0,medial,this,64,96,32,16,16,80,84,80,84,0.9999858560865169
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,2,S,0,final,this,68,100,32,17,17,84,88,84,88,0.12908208002487498
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,3,SIL,0,sil,this,72,116,44,18,21,88,104,88,112,0.9961881683629387
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,4,IH,1,initial,is,100,132,32,25,25,116,120,112,120,0.999998631380765
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,5,Z,1,final,is,104,136,32,26,26,120,124,120,124,0.9999845607181201
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,6,SIL,1,sil,is,108,160,52,27,32,124,148,124,152,0.9162979940764316
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,7,Y,2,initial,unifying,140,172,32,35,35,156,160,152,160,4.479883124951169e-06
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,8,UW,2,medial,unifying,144,176,32,36,36,160,164,160,164,0.0002578742124946113
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,9,N,2,medial,unifying,148,180,32,37,37,164,168,164,168,0.9970835765674028
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,10,AH,2,medial,unifying,152,184,32,38,38,168,172,168,172,0.7321977130761019
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,11,F,2,medial,unifying,156,192,36,39,40,172,180,172,184,0.8464457489364544
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,12,AY,2,medial,unifying,168,200,32,42,42,184,188,184,192,0.21976281659062813
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,13,IH,2,medial,unifying,176,212,36,44,45,192,200,192,200,0.9916656733007336
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,14,NG,2,final,unifying,184,216,32,46,46,200,204,200,204,0.9997233256683982
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,15,SIL,2,sil,unifying,188,236,48,47,51,204,224,204,224,0.972186643034892
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,16,V,3,initial,voice,208,240,32,52,52,224,228,224,232,0.9896567323203886
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,17,OY,3,medial,voice,216,248,32,54,54,232,236,232,236,0.5564714828811186
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,18,S,3,final,voice,220,256,36,55,56,236,244,236,244,0.9239138417094841
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,19,SIL,3,sil,voice,228,272,44,57,60,244,260,244,260,0.9696477233495342
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,20,W,4,initial,we,244,280,36,61,62,260,268,260,268,0.9910105486768233
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,21,IY,4,final,we,252,284,32,63,63,268,272,268,276,0.9999816429278011
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,22,SIL,4,sil,we,260,304,44,65,68,276,292,276,292,0.9973441331155378
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,23,N,5,initial,need,276,308,32,69,69,292,296,292,300,0.9992405697652379
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,24,IY,5,medial,need,284,316,32,71,71,300,304,300,304,0.6729828677570957
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,25,D,5,final,need,288,320,32,72,72,304,308,304,308,0.6633455967180681
+t12.2022.05.26,test,vocal,t12.2022.05.26,0,this is unifying voice we need,26,SIL,5,sil,need,292,344,52,73,78,308,332,308,332,0.9999847216958052
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,0,D,0,initial,do,28,60,32,7,7,44,48,16,52,0.9793341263145595
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,1,UW,0,final,do,36,68,32,9,9,52,56,52,60,0.9933675922847595
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,2,SIL,0,sil,do,44,84,40,11,13,60,72,60,72,0.9964424128465571
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,3,Y,1,initial,you,56,88,32,14,14,72,76,72,80,0.9999950633959124
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,4,UW,1,final,you,64,96,32,16,16,80,84,80,88,0.999987234996683
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,5,SIL,1,sil,you,72,136,64,18,26,88,124,88,124,0.9999336228800044
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,6,HH,2,initial,have,108,148,40,27,29,124,136,124,136,0.9632018086590278
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,7,AE,2,medial,have,120,156,36,30,31,136,144,136,144,0.9952812110946851
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,8,V,2,final,have,128,160,32,32,32,144,148,144,148,0.9998513792493026
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,9,SIL,2,sil,have,132,184,52,33,38,148,172,148,172,0.9998523894832534
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,10,Y,3,initial,your,156,188,32,39,39,172,176,172,180,0.9994005852396484
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,11,AO,3,medial,your,164,196,32,41,41,180,184,180,184,0.9973452930321195
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,12,R,3,final,your,168,200,32,42,42,184,188,184,188,0.9960620764586292
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,13,SIL,3,sil,your,172,212,40,43,45,188,200,188,200,0.9999766630900085
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,14,B,4,initial,bag,184,216,32,46,46,200,204,200,208,0.9962771368377716
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,15,AE,4,medial,bag,196,228,32,49,49,212,216,208,216,0.9326855621674416
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,16,G,4,final,bag,200,232,32,50,50,216,220,216,224,0.9988803301451877
+t12.2022.05.26,test,vocal,t12.2022.05.26,1,do you have your bag,17,SIL,4,sil,bag,208,256,48,52,56,224,244,224,244,0.9998928266806167
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,0,S,0,initial,so,32,64,32,8,8,48,52,16,56,0.9680239043101823
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,1,OW,0,final,so,40,72,32,10,10,56,60,56,64,0.9941003141499906
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,2,SIL,0,sil,so,48,88,40,12,14,64,76,64,76,0.9717976184807574
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,3,Y,1,initial,you,60,92,32,15,15,76,80,76,84,0.9999980401154056
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,4,UW,1,final,you,68,100,32,17,17,84,88,84,88,0.9999827610031259
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,5,SIL,1,sil,you,72,124,52,18,23,88,112,88,112,0.9780525450139762
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,6,N,2,initial,know,96,128,32,24,24,112,116,112,120,0.9999936214804809
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,7,OW,2,final,know,104,136,32,26,26,120,124,120,128,0.9999538922284349
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,8,SIL,2,sil,know,112,164,52,28,33,128,152,128,160,0.988255731874553
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,9,IH,3,initial,it,148,180,32,37,37,164,168,160,168,0.999997556622559
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,10,T,3,final,it,152,184,32,38,38,168,172,168,172,0.9999988050090356
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,11,SIL,3,sil,it,156,208,52,39,44,172,196,172,196,0.9997686514057263
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,12,K,4,initial,keeps,180,212,32,45,45,196,200,196,204,0.9640049531242935
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,13,IY,4,medial,keeps,192,224,32,48,48,208,212,204,212,0.9906853512733139
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,14,P,4,medial,keeps,196,232,36,49,50,212,220,212,220,0.8474672583727936
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,15,S,4,final,keeps,204,240,36,51,52,220,228,220,228,0.732578003705298
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,16,SIL,4,sil,keeps,212,260,48,53,57,228,248,228,256,0.9992357096274977
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,17,AH,5,initial,us,244,276,32,61,61,260,264,256,264,0.9996176604482774
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,18,S,5,final,us,248,280,32,62,62,264,268,264,268,0.4369706461911418
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,19,SIL,5,sil,us,252,300,48,63,67,268,288,268,288,0.9653923631814193
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,20,P,6,initial,pretty,272,304,32,68,68,288,292,288,292,0.9997824085650484
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,21,R,6,medial,pretty,276,308,32,69,69,292,296,292,296,0.9963361671414518
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,22,IH,6,medial,pretty,280,312,32,70,70,296,300,296,300,0.9985192094965741
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,23,T,6,medial,pretty,284,320,36,71,72,300,308,300,308,0.9708680164359844
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,24,IY,6,final,pretty,292,332,40,73,75,308,320,308,320,0.9312809748005465
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,25,SIL,6,sil,pretty,304,348,44,76,79,320,336,320,336,0.999973879737613
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,26,B,7,initial,busy,320,352,32,80,80,336,340,336,344,0.9967097642036405
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,27,IH,7,medial,busy,328,360,32,82,82,344,348,344,348,0.1385075896797172
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,28,Z,7,medial,busy,332,364,32,83,83,348,352,348,352,0.9937931881929247
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,29,IY,7,final,busy,336,372,36,84,85,352,360,352,360,0.7564635424069968
+t12.2022.05.26,test,vocal,t12.2022.05.26,2,so you know it keeps us pretty busy,30,SIL,7,sil,busy,344,380,36,86,87,360,368,360,368,0.9997187903057034
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,0,DH,0,initial,that's,32,68,36,8,9,48,56,16,56,0.766034538962466
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,1,AE,0,medial,that's,40,72,32,10,10,56,60,56,60,0.9998743572833526
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,2,T,0,medial,that's,44,76,32,11,11,60,64,60,64,0.9999940638417214
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,3,S,0,final,that's,48,84,36,12,13,64,72,64,72,0.9997633101231322
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,4,SIL,0,sil,that's,56,96,40,14,16,72,84,72,88,0.9368155412444649
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,5,AH,1,single,a,76,112,36,19,20,92,100,88,100,0.8888557883546728
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,6,SIL,1,sil,a,84,132,48,21,25,100,120,100,120,0.9843170783946189
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,7,S,2,initial,science,104,136,32,26,26,120,124,120,128,0.2919484464157114
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,8,AY,2,medial,science,116,148,32,29,29,132,136,128,140,0.840564443249685
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,9,AH,2,medial,science,124,160,36,31,32,140,148,140,148,0.43527596556015746
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,10,N,2,medial,science,132,164,32,33,33,148,152,148,152,0.5728546978085685
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,11,S,2,final,science,136,172,36,34,35,152,160,152,160,0.28483913675924094
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,12,SIL,2,sil,science,144,192,48,36,40,160,180,160,188,0.9982873198839703
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,13,IH,3,initial,in,176,208,32,44,44,192,196,188,196,0.9999991981474999
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,14,N,3,final,in,180,212,32,45,45,196,200,196,200,0.9999945486122057
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,15,SIL,3,sil,in,184,228,44,46,49,200,216,200,224,0.9865987656348147
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,16,IH,4,initial,itself,212,244,32,53,53,228,232,224,232,0.9862314894775195
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,17,T,4,medial,itself,216,248,32,54,54,232,236,232,236,0.9999129139619024
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,18,S,4,medial,itself,220,260,40,55,57,236,248,236,252,0.9875754127992424
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,19,EH,4,medial,itself,236,268,32,59,59,252,256,252,256,0.9997612490819031
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,20,L,4,medial,itself,240,272,32,60,60,256,260,256,260,0.9999221958919817
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,21,F,4,final,itself,244,276,32,61,61,260,264,260,264,0.9998330890188368
+t12.2022.05.26,test,vocal,t12.2022.05.26,3,that's a science in itself,22,SIL,4,sil,itself,248,280,32,62,62,264,268,264,268,0.8472615784649423
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,0,S,0,initial,so,32,68,36,8,9,48,56,16,60,0.9912003038556706
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,1,OW,0,final,so,44,76,32,11,11,60,64,60,68,0.9999989129826062
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,2,SIL,0,sil,so,52,92,40,13,15,68,80,68,80,0.9987621376947636
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,3,W,1,initial,when,64,96,32,16,16,80,84,80,88,0.9999260000348694
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,4,EH,1,medial,when,72,104,32,18,18,88,92,88,92,0.9538244955329549
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,5,N,1,final,when,76,112,36,19,20,92,100,92,100,0.893347666918413
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,6,SIL,1,sil,when,84,128,44,21,24,100,116,100,116,0.9996992163207167
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,7,Y,2,initial,you,100,136,36,25,26,116,124,116,128,0.91458517806621
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,8,UW,2,final,you,112,144,32,28,28,128,132,128,132,0.9999689309151865
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,9,SIL,2,sil,you,116,180,64,29,37,132,168,132,168,0.9876982229875926
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,10,G,3,initial,get,152,184,32,38,38,168,172,168,176,0.9993071543687514
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,11,EH,3,medial,get,160,192,32,40,40,176,180,176,180,0.9995102199514853
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,12,T,3,final,get,164,196,32,41,41,180,184,180,184,0.9999902220583994
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,13,SIL,3,sil,get,168,220,52,42,47,184,208,184,216,0.8716715682274198
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,14,IH,4,initial,in,204,236,32,51,51,220,224,216,224,0.9999959567821567
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,15,N,4,final,in,208,240,32,52,52,224,228,224,228,0.9999993305884605
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,16,SIL,4,sil,in,212,256,44,53,56,228,244,228,244,0.9643434961347122
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,17,T,5,initial,tight,228,260,32,57,57,244,248,244,252,0.9972600298306185
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,18,AY,5,medial,tight,240,272,32,60,60,256,260,252,260,0.9957129300602541
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,19,T,5,final,tight,244,276,32,61,61,260,264,260,264,0.9942937229307262
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,20,SIL,5,sil,tight,248,316,68,62,71,264,304,264,304,0.951959009887611
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,21,S,6,initial,situations,288,320,32,72,72,304,308,304,312,0.9949162596419135
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,22,IH,6,medial,situations,300,332,32,75,75,316,320,312,320,0.9991959559431716
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,23,CH,6,medial,situations,304,336,32,76,76,320,324,320,324,0.9977360839908629
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,24,UW,6,medial,situations,308,348,40,77,79,324,336,324,340,0.8635640675692137
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,25,EY,6,medial,situations,324,360,36,81,82,340,348,340,348,0.8396263891831853
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,26,SH,6,medial,situations,332,364,32,83,83,348,352,348,352,0.9999062658714819
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,27,AH,6,medial,situations,336,376,40,84,86,352,364,352,364,0.8941768912681761
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,28,N,6,medial,situations,348,384,36,87,88,364,372,364,372,0.9992821692506155
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,29,Z,6,final,situations,356,388,32,89,89,372,376,372,376,0.8250923070711644
+t12.2022.05.26,test,vocal,t12.2022.05.26,4,so when you get in tight situations,30,SIL,6,sil,situations,360,412,52,90,95,376,400,376,400,0.9885592934251649
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,0,AY,0,single,i,40,72,32,10,10,56,60,16,64,0.9999929400202037
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,1,SIL,0,sil,i,48,92,44,12,15,64,80,64,80,0.9996094474062961
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,2,K,1,initial,can,64,96,32,16,16,80,84,80,88,0.9999542853361221
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,3,AE,1,medial,can,76,108,32,19,19,92,96,88,96,0.9998070521274457
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,4,N,1,final,can,80,112,32,20,20,96,100,96,100,0.9999882261715047
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,5,SIL,1,sil,can,84,128,44,21,24,100,116,100,116,0.9891627763090911
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,6,R,2,initial,relate,100,136,36,25,26,116,124,116,128,0.7665855968918531
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,7,IH,2,medial,relate,112,144,32,28,28,128,132,128,132,0.9286879229262366
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,8,L,2,medial,relate,116,152,36,29,30,132,140,132,144,0.9568342572586731
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,9,EY,2,medial,relate,128,160,32,32,32,144,148,144,148,0.918532469537767
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,10,T,2,final,relate,132,164,32,33,33,148,152,148,152,0.9939696084057522
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,11,SIL,2,sil,relate,136,188,52,34,39,152,176,152,176,0.965315099986236
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,12,T,3,initial,to,160,192,32,40,40,176,180,176,184,0.9999984569121384
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,13,UW,3,final,to,168,200,32,42,42,184,188,184,188,0.9999992180363375
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,14,SIL,3,sil,to,172,220,48,43,47,188,208,188,208,0.9918854085053879
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,15,DH,4,initial,that,192,224,32,48,48,208,212,208,212,0.9999894096385593
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,16,AE,4,medial,that,196,232,36,49,50,212,220,212,220,0.9653907565948021
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,17,T,4,final,that,204,236,32,51,51,220,224,220,224,0.9974430310457243
+t12.2022.05.26,test,vocal,t12.2022.05.26,5,i can relate to that,18,SIL,4,sil,that,208,276,68,52,61,224,264,224,264,0.9999969164389017
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,0,IH,0,initial,it's,60,92,32,15,15,76,80,16,80,0.9999997732844715
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,1,T,0,medial,it's,64,96,32,16,16,80,84,80,84,0.9999873427638335
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,2,S,0,final,it's,68,100,32,17,17,84,88,84,88,0.999990985341497
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,3,SIL,0,sil,it's,72,112,40,18,20,88,100,88,104,0.945889667470094
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,4,AO,1,initial,all,92,128,36,23,24,108,116,104,116,0.9368106376925882
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,5,L,1,final,all,100,136,36,25,26,116,124,116,124,0.8640413913016501
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,6,SIL,1,sil,all,108,152,44,27,30,124,140,124,140,0.9997451936201146
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,7,R,2,initial,ready,124,156,32,31,31,140,144,140,148,0.9397481260338731
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,8,EH,2,medial,ready,136,168,32,34,34,152,156,148,156,0.805144826666831
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,9,D,2,medial,ready,140,172,32,35,35,156,160,156,160,0.24408786869399354
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,10,IY,2,final,ready,144,180,36,36,37,160,168,160,168,0.9889419457987821
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,11,SIL,2,sil,ready,152,208,56,38,44,168,196,168,196,0.9938789342625153
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,12,K,3,initial,quit,180,212,32,45,45,196,200,196,200,0.48272839282678043
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,13,W,3,medial,quit,184,216,32,46,46,200,204,200,208,0.18862273296599813
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,14,IH,3,medial,quit,192,224,32,48,48,208,212,208,212,0.5248695108841759
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,15,T,3,final,quit,196,232,36,49,50,212,220,212,220,0.6699474550464067
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,16,SIL,3,sil,quit,204,244,40,51,53,220,232,220,232,0.986620826425333
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,17,P,4,initial,playing,216,248,32,54,54,232,236,232,236,0.9897233968767037
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,18,L,4,medial,playing,220,256,36,55,56,236,244,236,244,0.9427784678089525
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,19,EY,4,medial,playing,228,260,32,57,57,244,248,244,252,0.8586566272728476
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,20,IH,4,medial,playing,236,272,36,59,60,252,260,252,260,0.9585559979810554
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,21,NG,4,final,playing,244,276,32,61,61,260,264,260,264,0.9929836574148936
+t12.2022.05.26,test,vocal,t12.2022.05.26,6,it's all ready quit playing,22,SIL,4,sil,playing,248,296,48,62,66,264,284,264,284,0.999950380581363
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,0,IH,0,initial,if,28,64,36,7,8,44,52,16,52,0.9930015250051939
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,1,F,0,final,if,36,68,32,9,9,52,56,52,56,0.9999835931897195
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,2,SIL,0,sil,if,40,84,44,10,13,56,72,56,72,0.9096535510410279
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,3,DH,1,initial,they're,56,88,32,14,14,72,76,72,80,0.9996374148074308
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,4,EH,1,medial,they're,64,96,32,16,16,80,84,80,84,0.9769485533930139
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,5,R,1,final,they're,68,100,32,17,17,84,88,84,88,0.9987088245106154
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,6,SIL,1,sil,they're,72,116,44,18,21,88,104,88,108,0.9956217534943367
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,7,ER,2,initial,around,96,128,32,24,24,112,116,108,120,0.9669089797536816
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,8,AW,2,medial,around,104,148,44,26,29,120,136,120,136,0.9295680192224226
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,9,N,2,medial,around,120,156,36,30,31,136,144,136,144,0.9059319977175562
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,10,D,2,final,around,128,164,36,32,33,144,152,144,152,0.9980460628470464
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,11,SIL,2,sil,around,136,176,40,34,36,152,164,152,168,0.8789855622928545
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,12,EH,3,initial,anymore,156,188,32,39,39,172,176,168,176,0.9253054994008939
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,13,N,3,medial,anymore,160,192,32,40,40,176,180,176,180,0.9995614054016111
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,14,IY,3,medial,anymore,164,200,36,41,42,180,188,180,188,0.9686345134865402
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,15,M,3,medial,anymore,172,208,36,43,44,188,196,188,196,0.9915825459799453
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,16,AO,3,medial,anymore,180,212,32,45,45,196,200,196,200,0.9986507793236156
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,17,R,3,final,anymore,184,220,36,46,47,200,208,200,208,0.9389144523156047
+t12.2022.05.26,test,vocal,t12.2022.05.26,7,if they're around anymore,18,SIL,3,sil,anymore,192,236,44,48,51,208,224,208,224,0.9990871416614503
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,0,AY,0,single,i,60,92,32,15,15,76,80,16,84,0.9999773720118493
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,1,SIL,0,sil,i,68,108,40,17,19,84,96,84,100,0.999668963183824
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,2,AE,1,initial,am,88,124,36,22,23,104,112,100,112,0.9485942289320713
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,3,M,1,final,am,96,128,32,24,24,112,116,112,116,0.9992550744519477
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,4,SIL,1,sil,am,100,144,44,25,28,116,132,116,132,0.972099906474139
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,5,N,2,initial,not,116,152,36,29,30,132,140,132,140,0.9991585718529917
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,6,AA,2,medial,not,124,156,32,31,31,140,144,140,144,0.9999901997382887
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,7,T,2,final,not,128,164,36,32,33,144,152,144,152,0.9982663540542991
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,8,SIL,2,sil,not,136,184,48,34,38,152,172,152,176,0.9994278310310344
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,9,IY,3,initial,even,164,196,32,41,41,180,184,176,184,0.9998863177806026
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,10,V,3,medial,even,168,200,32,42,42,184,188,184,192,0.999944793647798
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,11,IH,3,medial,even,176,216,40,44,46,192,204,192,204,0.8743458898974733
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,12,N,3,final,even,188,220,32,47,47,204,208,204,208,0.997231477350948
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,13,SIL,3,sil,even,192,264,72,48,58,208,252,208,260,0.9974278460175625
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,14,AH,4,initial,aware,248,280,32,62,62,264,268,260,268,0.8841949808326801
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,15,W,4,medial,aware,252,292,40,63,65,268,280,268,280,0.6373426991604231
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,16,EH,4,medial,aware,264,296,32,66,66,280,284,280,284,0.8783169100102914
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,17,R,4,final,aware,268,300,32,67,67,284,288,284,288,0.08471180170469253
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,18,SIL,4,sil,aware,272,324,52,68,73,288,312,288,312,0.990662494822031
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,19,DH,5,initial,that,296,332,36,74,75,312,320,312,320,0.7990506645935713
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,20,AE,5,medial,that,304,340,36,76,77,320,328,320,328,0.7968569161608061
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,21,T,5,final,that,312,344,32,78,78,328,332,328,332,0.999984392644657
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,22,SIL,5,sil,that,316,360,44,79,82,332,348,332,352,0.88818219977714
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,23,AY,6,single,i,336,372,36,84,85,352,360,352,360,0.8347891879875498
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,24,SIL,6,sil,i,344,412,68,86,95,360,400,360,400,0.9701215502981789
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,25,K,7,initial,could,384,416,32,96,96,400,404,400,408,0.4328926621056635
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,26,UH,7,medial,could,392,428,36,98,99,408,416,408,416,0.9972742777591864
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,27,D,7,final,could,400,436,36,100,101,416,424,416,424,0.816645337882851
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,28,SIL,7,sil,could,408,452,44,102,105,424,440,424,440,0.9997117200802358
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,29,HH,8,initial,have,424,460,36,106,107,440,448,440,452,0.999962703468142
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,30,AE,8,medial,have,436,468,32,109,109,452,456,452,456,0.9999977538406155
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,31,V,8,final,have,440,472,32,110,110,456,460,456,460,0.999974631805552
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,32,SIL,8,sil,have,444,488,44,111,114,460,476,460,476,0.9967089794528589
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,33,S,9,initial,seen,460,496,36,115,116,476,484,476,488,0.7831781915343117
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,34,IY,9,medial,seen,472,504,32,118,118,488,492,488,492,0.9930986160853352
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,35,N,9,final,seen,476,516,40,119,121,492,504,492,504,0.9045640034619628
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,36,SIL,9,sil,seen,488,524,36,122,123,504,512,504,516,0.9969237646810318
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,37,IH,10,initial,it,500,532,32,125,125,516,520,516,520,0.9999996636704594
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,38,T,10,final,it,504,536,32,126,126,520,524,520,524,0.9999932012674464
+t12.2022.05.26,test,vocal,t12.2022.05.26,8,i am not even aware that i could have seen it,39,SIL,10,sil,it,508,548,40,127,129,524,536,524,536,0.9994402702177977
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,0,DH,0,initial,the,52,84,32,13,13,68,72,16,72,0.9999640412084523
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,1,AH,0,final,the,56,92,36,14,15,72,80,72,80,0.8537448380601284
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,2,SIL,0,sil,the,64,100,36,16,17,80,88,80,88,0.9998706915893514
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,3,R,1,initial,ranks,72,112,40,18,20,88,100,88,100,0.9762343945668129
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,4,AE,1,medial,ranks,84,116,32,21,21,100,104,100,104,0.3869788982214495
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,5,NG,1,medial,ranks,88,120,32,22,22,104,108,104,108,0.9765160408992347
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,6,K,1,medial,ranks,92,124,32,23,23,108,112,108,112,0.9906667399749107
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,7,S,1,final,ranks,96,132,36,24,25,112,120,112,120,0.7281147106153646
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,8,SIL,1,sil,ranks,104,160,56,26,32,120,148,120,156,0.9906145765516198
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,9,AH,2,initial,of,144,176,32,36,36,160,164,156,164,0.9999998071538393
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,10,V,2,final,of,148,180,32,37,37,164,168,164,168,0.999999307195499
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,11,SIL,2,sil,of,152,200,48,38,42,168,188,168,192,0.9971174989662399
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,12,EY,3,initial,asian,180,212,32,45,45,196,200,192,200,0.9648340411026112
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,13,ZH,3,medial,asian,184,216,32,46,46,200,204,200,208,0.8419436243340115
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,14,AH,3,medial,asian,192,232,40,48,50,208,220,208,220,0.9247042371383135
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,15,N,3,final,asian,204,236,32,51,51,220,224,220,224,0.799445853996816
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,16,SIL,3,sil,asian,208,256,48,52,56,224,244,224,244,0.9685219330237649
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,17,R,4,initial,riders,228,260,32,57,57,244,248,244,252,0.3814323319282437
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,18,AY,4,medial,riders,236,268,32,59,59,252,256,252,256,0.991318950164477
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,19,D,4,medial,riders,240,276,36,60,61,256,264,256,264,0.8539753877316989
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,20,ER,4,medial,riders,248,280,32,62,62,264,268,264,268,0.87683430976445
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,21,Z,4,final,riders,252,284,32,63,63,268,272,268,272,0.9030808370874049
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,22,SIL,4,sil,riders,256,324,68,64,73,272,312,272,316,0.989133865459217
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,23,AA,5,initial,are,304,336,32,76,76,320,324,316,324,0.1495274562988741
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,24,R,5,final,are,308,340,32,77,77,324,328,324,328,0.9998770113978503
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,25,SIL,5,sil,are,312,360,48,78,82,328,348,328,348,0.9953339769213889
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,26,S,6,initial,swelling,332,364,32,83,83,348,352,348,352,4.666214107785107e-05
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,27,W,6,medial,swelling,336,368,32,84,84,352,356,352,356,0.00016299947250344
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,28,EH,6,medial,swelling,340,372,32,85,85,356,360,356,360,0.6006759971949215
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,29,L,6,medial,swelling,344,380,36,86,87,360,368,360,368,0.972695424285632
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,30,IH,6,medial,swelling,352,392,40,88,90,368,380,368,380,0.9878173951524328
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,31,NG,6,final,swelling,364,396,32,91,91,380,384,380,384,0.9999737048233313
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,32,SIL,6,sil,swelling,368,416,48,92,96,384,404,384,404,0.966324132433178
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,33,T,7,initial,too,388,424,36,97,98,404,412,404,412,0.9978197849425485
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,34,UW,7,final,too,396,428,32,99,99,412,416,412,416,0.9999986239132064
+t12.2022.05.26,test,vocal,t12.2022.05.26,9,the ranks of asian riders are swelling too,35,SIL,7,sil,too,400,448,48,100,104,416,436,416,436,0.897297742558341
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,0,AY,0,initial,einstein,32,64,32,8,8,48,52,16,52,0.0064530659177610685
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,1,N,0,medial,einstein,36,72,36,9,10,52,60,52,60,0.7479072462734281
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,2,S,0,medial,einstein,44,76,32,11,11,60,64,60,64,0.3602144101906038
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,3,T,0,medial,einstein,48,80,32,12,12,64,68,64,72,0.804254377044068
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,4,AY,0,medial,einstein,56,88,32,14,14,72,76,72,80,0.00025087778098774555
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,5,N,0,final,einstein,64,100,36,16,17,80,88,80,88,0.2965523173507766
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,6,SIL,0,sil,einstein,72,132,60,18,25,88,120,88,124,0.9978095932872189
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,7,IH,1,initial,equation,112,144,32,28,28,128,132,124,132,0.9999577651607491
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,8,K,1,medial,equation,116,156,40,29,31,132,144,132,144,0.4057051827199906
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,9,W,1,medial,equation,128,160,32,32,32,144,148,144,152,0.028138870127134466
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,10,EY,1,medial,equation,136,168,32,34,34,152,156,152,156,0.9948774962001453
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,11,ZH,1,medial,equation,140,176,36,35,36,156,164,156,164,0.8718108768906597
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,12,AH,1,medial,equation,148,184,36,37,38,164,172,164,172,0.9998213740557287
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,13,N,1,final,equation,156,188,32,39,39,172,176,172,176,0.9999938600319305
+t12.2022.05.26,test,vocal,t12.2022.05.26,10,einstein equation,14,SIL,1,sil,equation,160,204,44,40,43,176,192,176,192,0.9435425240830849
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,0,M,0,initial,most,36,68,32,9,9,52,56,16,60,0.619226653880463
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,1,OW,0,medial,most,48,80,32,12,12,64,68,60,68,0.9956098843942867
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,2,S,0,medial,most,52,84,32,13,13,68,72,68,72,0.7188232682113137
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,3,T,0,final,most,56,92,36,14,15,72,80,72,80,0.9821267008588397
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,4,SIL,0,sil,most,64,104,40,16,18,80,92,80,92,0.992206672648619
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,5,P,1,initial,points,76,108,32,19,19,92,96,92,100,0.9945717187337582
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,6,OY,1,medial,points,88,120,32,22,22,104,108,100,108,0.6482468642564263
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,7,N,1,medial,points,92,128,36,23,24,108,116,108,116,0.9729042514209962
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,8,T,1,medial,points,100,132,32,25,25,116,120,116,120,0.9939787209373202
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,9,S,1,final,points,104,136,32,26,26,120,124,120,124,0.004593221430781943
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,10,SIL,1,sil,points,108,168,60,27,34,124,156,124,168,0.9722121679870743
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,11,AE,2,initial,at,160,192,32,40,40,176,180,168,180,0.9996978486597756
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,12,T,2,final,at,164,200,36,41,42,180,188,180,188,0.9778026580601091
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,13,SIL,2,sil,at,172,220,48,43,47,188,208,188,208,0.89863811906145
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,14,DH,3,initial,the,192,228,36,48,49,208,216,208,216,0.8400582958168643
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,15,AH,3,final,the,200,236,36,50,51,216,224,216,224,0.8868263394724993
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,16,SIL,3,sil,the,208,256,48,52,56,224,244,224,252,0.9833029957428435
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,17,EH,4,initial,end,240,272,32,60,60,256,260,252,260,0.6036481883687993
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,18,N,4,medial,end,244,276,32,61,61,260,264,260,264,0.9999878449503171
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,19,D,4,final,end,248,284,36,62,63,264,272,264,272,0.944154628650969
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,20,SIL,4,sil,end,256,304,48,64,68,272,292,272,292,0.9700064442457885
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,21,W,5,initial,wins,276,308,32,69,69,292,296,292,300,0.999755631433071
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,22,IH,5,medial,wins,284,316,32,71,71,300,304,300,304,0.0022384870905198247
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,23,N,5,medial,wins,288,320,32,72,72,304,308,304,308,0.9999383573522886
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,24,Z,5,final,wins,292,328,36,73,74,308,316,308,316,0.8808800738841649
+t12.2022.05.26,test,vocal,t12.2022.05.26,11,most points at the end wins,25,SIL,5,sil,wins,300,336,36,75,76,316,324,316,324,0.9992585943605499
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,0,AY,0,single,i,32,64,32,8,8,48,52,16,56,0.9999984137225809
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,1,SIL,0,sil,i,40,80,40,10,12,56,68,56,68,0.9983973065123272
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,2,TH,1,initial,think,52,88,36,13,14,68,76,68,76,0.9995783726469576
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,3,IH,1,medial,think,60,96,36,15,16,76,84,76,84,0.9409407105155833
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,4,NG,1,medial,think,68,100,32,17,17,84,88,84,88,0.9999892239560649
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,5,K,1,final,think,72,108,36,18,19,88,96,88,96,0.9987203395096
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,6,SIL,1,sil,think,80,124,44,20,23,96,112,96,116,0.9519298575996602
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,7,IH,2,initial,it's,104,140,36,26,27,120,128,116,128,0.9903982287320365
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,8,T,2,medial,it's,112,144,32,28,28,128,132,128,132,0.998628964392339
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,9,S,2,final,it's,116,152,36,29,30,132,140,132,140,0.9994926011963243
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,10,SIL,2,sil,it's,124,176,52,31,36,140,164,140,164,0.9898872909804702
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,11,W,3,initial,one,148,180,32,37,37,164,168,164,172,0.9983671075555383
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,12,AH,3,medial,one,156,188,32,39,39,172,176,172,176,0.9996391013253664
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,13,N,3,final,one,160,192,32,40,40,176,180,176,180,0.9998225149129287
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,14,SIL,3,sil,one,164,220,56,41,47,180,208,180,208,0.9013286809725398
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,15,HH,4,initial,hundred,192,224,32,48,48,208,212,208,216,0.003585344732121321
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,16,AH,4,medial,hundred,200,232,32,50,50,216,220,216,220,0.9952064025400453
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,17,N,4,medial,hundred,204,236,32,51,51,220,224,220,224,0.999803530640516
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,18,D,4,medial,hundred,208,240,32,52,52,224,228,224,228,0.0778201864966926
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,19,R,4,medial,hundred,212,244,32,53,53,228,232,228,232,0.09463483649928223
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,20,AH,4,medial,hundred,216,248,32,54,54,232,236,232,236,0.0630318157103989
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,21,D,4,final,hundred,220,256,36,55,56,236,244,236,244,0.6147239301073615
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,22,SIL,4,sil,hundred,228,280,52,57,62,244,268,244,272,0.9791502263995336
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,23,AH,5,initial,and,260,296,36,65,66,276,284,272,284,0.7692744852225715
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,24,N,5,medial,and,268,300,32,67,67,284,288,284,288,0.9999950785877381
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,25,D,5,final,and,272,308,36,68,69,288,296,288,296,0.9998496387142589
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,26,SIL,5,sil,and,280,320,40,70,72,296,308,296,316,0.9946955268900449
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,27,EY,6,initial,eighty,304,336,32,76,76,320,324,316,324,0.04359985784481513
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,28,T,6,medial,eighty,308,340,32,77,77,324,328,324,328,0.04952068028871554
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,29,IY,6,final,eighty,312,348,36,78,79,328,336,328,336,0.738517901881792
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,30,SIL,6,sil,eighty,320,372,52,80,85,336,360,336,360,0.9169155341231603
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,31,M,7,initial,miles,344,376,32,86,86,360,364,360,368,0.6718144314133323
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,32,AY,7,medial,miles,352,384,32,88,88,368,372,368,372,0.9599093778320158
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,33,L,7,medial,miles,356,388,32,89,89,372,376,372,376,0.9997905930555935
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,34,Z,7,final,miles,360,392,32,90,90,376,380,376,380,0.9756251471920809
+t12.2022.05.26,test,vocal,t12.2022.05.26,12,i think it's one hundred and eighty miles,35,SIL,7,sil,miles,364,408,44,91,94,380,396,380,396,0.9672945767188296
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,0,W,0,initial,we,48,80,32,12,12,64,68,16,72,0.9999887329245551
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,1,IY,0,final,we,56,88,32,14,14,72,76,72,80,0.9999994966781334
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,2,SIL,0,sil,we,64,100,36,16,17,80,88,80,88,0.999368669496165
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,3,D,1,initial,don't,72,104,32,18,18,88,92,88,96,0.9995781302503607
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,4,OW,1,medial,don't,80,112,32,20,20,96,100,96,100,0.9998996036132817
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,5,N,1,medial,don't,84,116,32,21,21,100,104,100,104,0.9991170275280331
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,6,T,1,final,don't,88,124,36,22,23,104,112,104,112,0.9535563745835227
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,7,SIL,1,sil,don't,96,136,40,24,26,112,124,112,124,0.9999262648466983
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,8,Y,2,initial,usually,108,144,36,27,28,124,132,124,132,0.9965434540691125
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,9,UW,2,medial,usually,116,148,32,29,29,132,136,132,136,0.9999707115614558
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,10,ZH,2,medial,usually,120,152,32,30,30,136,140,136,140,0.9981096307226788
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,11,AH,2,medial,usually,124,156,32,31,31,140,144,140,144,0.9993008197646546
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,12,W,2,medial,usually,128,164,36,32,33,144,152,144,152,0.817699859985487
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,13,AH,2,medial,usually,136,168,32,34,34,152,156,152,156,0.9988781591100524
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,14,L,2,medial,usually,140,176,36,35,36,156,164,156,164,0.9284261557642639
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,15,IY,2,final,usually,148,184,36,37,38,164,172,164,172,0.9978788552265335
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,16,SIL,2,sil,usually,156,196,40,39,41,172,184,172,184,0.9745520386901786
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,17,T,3,initial,take,168,200,32,42,42,184,188,184,192,0.5420550708927672
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,18,EY,3,medial,take,176,208,32,44,44,192,196,192,196,0.9390240445540865
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,19,K,3,final,take,180,212,32,45,45,196,200,196,200,0.9987038102065436
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,20,SIL,3,sil,take,184,228,44,46,49,200,216,200,216,0.9070719964805833
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,21,DH,4,initial,the,200,236,36,50,51,216,224,216,228,0.9992307921341332
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,22,AH,4,final,the,212,244,32,53,53,228,232,228,232,0.9999999888702732
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,23,SIL,4,sil,the,216,276,60,54,61,232,264,232,264,0.9229422571756233
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,24,K,5,initial,kids,248,280,32,62,62,264,268,264,272,0.7657753811736846
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,25,IH,5,medial,kids,256,292,36,64,65,272,280,272,280,0.3172200037006535
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,26,D,5,medial,kids,264,296,32,66,66,280,284,280,284,0.9132382882058779
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,27,Z,5,final,kids,268,304,36,67,68,284,292,284,292,0.7687909600704532
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,28,SIL,5,sil,kids,276,320,44,69,72,292,308,292,308,0.99915982682488
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,29,W,6,initial,when,292,328,36,73,74,308,316,308,320,0.9984981555426655
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,30,EH,6,medial,when,304,336,32,76,76,320,324,320,324,0.03286303904849565
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,31,N,6,final,when,308,340,32,77,77,324,328,324,328,0.9999327741472284
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,32,SIL,6,sil,when,312,356,44,78,81,328,344,328,344,0.9226706659030532
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,33,W,7,initial,we,328,360,32,82,82,344,348,344,352,0.9997641318614802
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,34,IY,7,final,we,336,368,32,84,84,352,356,352,360,0.9958184362562668
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,35,SIL,7,sil,we,344,392,48,86,90,360,380,360,380,0.9994323797509835
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,36,G,8,initial,go,364,400,36,91,92,380,388,380,392,0.9536170175210585
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,37,OW,8,final,go,376,408,32,94,94,392,396,392,400,0.9999851449776157
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,38,SIL,8,sil,go,384,436,52,96,101,400,424,400,424,0.9995500034494084
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,39,DH,9,initial,there,408,444,36,102,103,424,432,424,432,0.9843287410247252
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,40,EH,9,medial,there,416,448,32,104,104,432,436,432,436,0.9999921562194366
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,41,R,9,final,there,420,452,32,105,105,436,440,436,440,0.9998384763808118
+t12.2022.05.26,test,vocal,t12.2022.05.26,13,we don't usually take the kids when we go there,42,SIL,9,sil,there,424,468,44,106,109,440,456,440,456,0.9999723953760298
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,0,W,0,initial,one,32,64,32,8,8,48,52,16,56,0.9982019209666071
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,1,AH,0,medial,one,40,76,36,10,11,56,64,56,64,0.9933659401821452
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,2,N,0,final,one,48,84,36,12,13,64,72,64,72,0.8743598645140607
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,3,SIL,0,sil,one,56,96,40,14,16,72,84,72,88,0.8736950271602165
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,4,AH,1,initial,of,72,108,36,18,19,88,96,88,96,0.8479699541331318
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,5,V,1,final,of,80,112,32,20,20,96,100,96,100,0.9999981703939064
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,6,SIL,1,sil,of,84,128,44,21,24,100,116,100,116,0.9787377996726351
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,7,DH,2,initial,those,100,132,32,25,25,116,120,116,124,0.9991885372098729
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,8,OW,2,medial,those,108,140,32,27,27,124,128,124,128,0.9999993365901763
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,9,Z,2,final,those,112,148,36,28,29,128,136,128,136,0.9741711808985734
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,10,SIL,2,sil,those,120,172,52,30,35,136,160,136,160,0.9998873318059543
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,11,JH,3,initial,generation,144,176,32,36,36,160,164,160,168,0.8174076017745615
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,12,EH,3,medial,generation,152,184,32,38,38,168,172,168,172,0.9915353296046554
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,13,N,3,medial,generation,156,188,32,39,39,172,176,172,180,0.9999556693835135
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,14,ER,3,medial,generation,164,200,36,41,42,180,188,180,192,0.9695967449597196
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,15,EY,3,medial,generation,180,212,32,45,45,196,200,192,200,0.9903268774246318
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,16,SH,3,medial,generation,184,220,36,46,47,200,208,200,208,0.9927703092559581
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,17,AH,3,medial,generation,192,236,44,48,51,208,224,208,224,0.8983034068220933
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,18,N,3,final,generation,208,244,36,52,53,224,232,224,232,0.966717528450588
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,19,SIL,3,sil,generation,216,264,48,54,58,232,252,232,252,0.985206708862935
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,20,N,4,initial,novels,236,268,32,59,59,252,256,252,260,0.08405070404616226
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,21,AA,4,medial,novels,248,280,32,62,62,264,268,260,268,0.9997940047649231
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,22,V,4,medial,novels,252,284,32,63,63,268,272,268,272,0.02036111955126401
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,23,AH,4,medial,novels,256,292,36,64,65,272,280,272,280,0.7660844041431011
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,24,L,4,medial,novels,264,300,36,66,67,280,288,280,288,0.9279248383509677
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,25,Z,4,final,novels,272,304,32,68,68,288,292,288,292,0.8025459964028194
+t12.2022.05.26,test,vocal,t12.2022.05.26,14,one of those generation novels,26,SIL,4,sil,novels,276,316,40,69,71,292,304,292,304,0.9998480382700919
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,0,DH,0,initial,,0,32,32,0,0,16,20,16,20,5.993274696339181e-05
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,1,EY,0,final,,4,36,32,1,1,20,24,20,24,3.7531883916340385e-07
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,2,SIL,0,sil,,8,40,32,2,2,24,28,24,40,6.956394779160767e-05
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,3,SIL,1,sil,,32,64,32,8,8,48,52,40,52,0.002683191364219221
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,4,L,2,initial,,36,68,32,9,9,52,56,52,56,0.0008130101947956212
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,5,EH,2,medial,,40,72,32,10,10,56,60,56,60,0.07578401098764423
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,6,L,2,final,,44,80,36,11,12,60,68,60,68,0.9835124196297115
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,7,SIL,2,sil,,52,96,44,13,16,68,84,68,84,0.9873906139513691
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,8,N,3,initial,,68,100,32,17,17,84,88,84,92,0.9995341208779194
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,9,EH,3,medial,,76,108,32,19,19,92,96,92,96,0.9990696507657881
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,10,V,3,medial,,80,112,32,20,20,96,100,96,100,0.9996193289146835
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,11,ER,3,final,,84,124,40,21,23,100,112,100,112,0.8265144036770443
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,12,SIL,3,sil,,96,140,44,24,27,112,128,112,128,0.9808263251071145
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,13,G,4,initial,,112,144,32,28,28,128,132,128,136,0.9999317959471355
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,14,EH,4,medial,,120,152,32,30,30,136,140,136,140,0.9999971483886958
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,15,T,4,final,,124,160,36,31,32,140,148,140,148,0.8729681126278566
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,16,SIL,4,sil,,132,188,56,33,39,148,176,148,176,0.9998109189823984
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,17,K,5,initial,,160,192,32,40,40,176,180,176,184,0.8118424654998055
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,18,AA,5,medial,,168,200,32,42,42,184,188,184,188,0.9926781721396684
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,19,T,5,final,,172,208,36,43,44,188,196,188,196,0.966234998771607
+t12.2022.05.26,test,vocal,t12.2022.05.26,15,they 'll never get caught,20,SIL,5,sil,,180,224,44,45,48,196,212,196,212,0.9999925301699955
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,0,AY,0,single,i,48,80,32,12,12,64,68,16,68,0.9999975949290442
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,1,SIL,0,sil,i,52,96,44,13,16,68,84,68,84,0.9578354321898097
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,2,D,1,initial,don't,68,104,36,17,18,84,92,84,92,0.9983864009202126
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,3,OW,1,medial,don't,76,112,36,19,20,92,100,92,100,0.999825378490449
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,4,N,1,medial,don't,84,116,32,21,21,100,104,100,104,0.9999978252476389
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,5,T,1,final,don't,88,128,40,22,24,104,116,104,116,0.9974166628460889
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,6,SIL,1,sil,don't,100,140,40,25,27,116,128,116,128,0.9404830036034403
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,7,B,2,initial,buy,112,144,32,28,28,128,132,128,136,0.9681240912552069
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,8,AY,2,final,buy,120,152,32,30,30,136,140,136,144,0.9999958770006393
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,9,SIL,2,sil,buy,128,184,56,32,38,144,172,144,172,0.9728697732406326
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,10,DH,3,initial,the,156,188,32,39,39,172,176,172,180,0.9999969187039943
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,11,AH,3,final,the,164,200,36,41,42,180,188,180,188,0.8610938429823822
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,12,SIL,3,sil,the,172,232,60,43,50,188,220,188,220,0.998918152837345
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,13,N,4,initial,newspaper,204,236,32,51,51,220,224,220,228,0.4599204180562621
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,14,UW,4,medial,newspaper,212,244,32,53,53,228,232,228,232,0.10956338603145689
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,15,Z,4,medial,newspaper,216,248,32,54,54,232,236,232,236,0.02185313525347757
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,16,P,4,medial,newspaper,220,256,36,55,56,236,244,236,252,0.9149228769331884
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,17,EY,4,medial,newspaper,240,272,32,60,60,256,260,252,260,0.9950552309788824
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,18,P,4,medial,newspaper,244,280,36,61,62,260,268,260,272,0.9213464552066555
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,19,ER,4,final,newspaper,256,288,32,64,64,272,276,272,276,0.9997311985296411
+t12.2022.05.26,test,vocal,t12.2022.05.26,16,i don't buy the newspaper,20,SIL,4,sil,newspaper,260,304,44,65,68,276,292,276,292,0.9420008805374325
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,0,B,0,initial,bringing,24,56,32,6,6,40,44,16,44,0.09453156582905342
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,1,R,0,medial,bringing,28,60,32,7,7,44,48,44,48,0.8318766748707305
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,2,IH,0,medial,bringing,32,64,32,8,8,48,52,48,52,0.11219585211382065
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,3,NG,0,medial,bringing,36,72,36,9,10,52,60,52,60,0.4069144228690654
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,4,IH,0,medial,bringing,44,80,36,11,12,60,68,60,68,0.41464323502122835
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,5,NG,0,final,bringing,52,92,40,13,15,68,80,68,84,0.08284048207083157
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,6,SIL,0,sil,bringing,68,112,44,17,20,84,100,84,100,0.7211896066568406
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,7,S,1,initial,something,84,116,32,21,21,100,104,100,108,0.9892722395156194
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,8,AH,1,medial,something,92,124,32,23,23,108,112,108,112,0.9841270178759248
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,9,M,1,medial,something,96,128,32,24,24,112,116,112,116,0.9988206586815648
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,10,TH,1,medial,something,100,132,32,25,25,116,120,116,124,0.05667949666785532
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,11,IH,1,medial,something,108,140,32,27,27,124,128,124,128,0.6170303218038151
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,12,NG,1,final,something,112,144,32,28,28,128,132,128,132,0.9119215427128909
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,13,SIL,1,sil,something,116,168,52,29,34,132,156,132,156,0.979958009718913
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,14,F,2,initial,for,140,172,32,35,35,156,160,156,164,0.9999892466839508
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,15,AO,2,medial,for,148,180,32,37,37,164,168,164,168,0.9999998785596943
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,16,R,2,final,for,152,188,36,38,39,168,176,168,176,0.8799704190151126
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,17,SIL,2,sil,for,160,220,60,40,47,176,208,176,216,0.9994144170172593
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,18,AH,3,single,a,204,236,32,51,51,220,224,216,224,0.999998583664368
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,19,SIL,3,sil,a,208,256,48,52,56,224,244,224,244,0.9257006651671059
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,20,P,4,initial,potluck,228,260,32,57,57,244,248,244,252,0.9990824699645046
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,21,AA,4,medial,potluck,240,272,32,60,60,256,260,252,260,0.8218811761928629
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,22,T,4,medial,potluck,244,276,32,61,61,260,264,260,264,0.5585746287642053
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,23,L,4,medial,potluck,248,288,40,62,64,264,276,264,280,0.9191245464848806
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,24,AH,4,medial,potluck,264,296,32,66,66,280,284,280,284,0.052939314768112346
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,25,K,4,final,potluck,268,304,36,67,68,284,292,284,292,0.9927196953278633
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,26,SIL,4,sil,potluck,276,328,52,69,74,292,316,292,316,0.9868488290307242
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,27,P,5,initial,picnic,300,332,32,75,75,316,320,316,324,0.6724971202333988
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,28,IH,5,medial,picnic,312,344,32,78,78,328,332,324,332,0.8160307248941656
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,29,K,5,medial,picnic,316,348,32,79,79,332,336,332,340,0.9859281461632192
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,30,N,5,medial,picnic,324,356,32,81,81,340,344,340,344,0.023099190839407473
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,31,IH,5,medial,picnic,328,360,32,82,82,344,348,344,348,0.9191094802326133
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,32,K,5,final,picnic,332,364,32,83,83,348,352,348,352,0.9977733609800367
+t12.2022.05.26,test,vocal,t12.2022.05.26,17,bringing something for a potluck picnic,33,SIL,5,sil,picnic,336,376,40,84,86,352,364,352,364,0.9829602151939749
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,0,AY,0,single,,0,32,32,0,0,16,20,16,24,1.2338461342206958e-05
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,1,SIL,0,sil,,8,40,32,2,2,24,28,24,36,4.664793168509828e-05
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,2,SIL,1,sil,,28,60,32,7,7,44,48,36,48,0.001427865065509544
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,3,L,2,initial,,32,64,32,8,8,48,52,48,52,0.0010017508363434336
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,4,EH,2,medial,,36,68,32,9,9,52,56,52,56,0.0002835367005236608
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,5,L,2,final,,40,72,32,10,10,56,60,56,60,0.9999815012859599
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,6,SIL,2,sil,,44,92,48,11,15,60,80,60,80,0.9386698212431128
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,7,T,3,initial,,64,96,32,16,16,80,84,80,88,0.9418348601381745
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,8,EY,3,medial,,72,104,32,18,18,88,92,88,92,0.017965871200090525
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,9,K,3,final,,76,112,36,19,20,92,100,92,100,0.8731818907321671
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,10,SIL,3,sil,,84,124,40,21,23,100,112,100,116,0.8438129295806996
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,11,IH,4,initial,,100,132,32,25,25,116,120,116,120,0.9999989205362425
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,12,T,4,final,,104,136,32,26,26,120,124,120,124,0.9999972453056474
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,13,SIL,4,sil,,108,152,44,27,30,124,140,124,148,0.9961563407077169
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,14,AW,5,initial,,136,172,36,34,35,152,160,148,160,0.9930639736480016
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,15,T,5,final,,144,176,32,36,36,160,164,160,164,0.9984338307756203
+t12.2022.05.26,test,vocal,t12.2022.05.26,18,i 'll take it out,16,SIL,5,sil,,148,192,44,37,40,164,180,164,180,0.9891449547515896
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,0,IH,0,initial,improved,16,48,32,4,4,32,36,16,36,0.057855246229101466
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,1,M,0,medial,improved,20,52,32,5,5,36,40,36,40,0.9979553656581203
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,2,P,0,medial,improved,24,60,36,6,7,40,48,40,48,0.9085264635579157
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,3,R,0,medial,improved,32,64,32,8,8,48,52,48,56,0.08093089788475866
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,4,UW,0,medial,improved,40,72,32,10,10,56,60,56,60,0.25087259177638416
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,5,V,0,medial,improved,44,80,36,11,12,60,68,60,68,0.7825611611307522
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,6,D,0,final,improved,52,84,32,13,13,68,72,68,72,0.989804011741571
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,7,SIL,0,sil,improved,56,104,48,14,18,72,92,72,96,0.951611261834365
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,8,IH,1,initial,evasion,84,116,32,21,21,100,104,96,104,0.926371065889866
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,9,V,1,medial,evasion,88,120,32,22,22,104,108,104,112,0.9967152656455133
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,10,EY,1,medial,evasion,96,132,36,24,25,112,120,112,120,0.9553573963129158
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,11,ZH,1,medial,evasion,104,136,32,26,26,120,124,120,124,0.9988227901325537
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,12,AH,1,medial,evasion,108,148,40,27,29,124,136,124,136,0.9957581062313046
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,13,N,1,final,evasion,120,156,36,30,31,136,144,136,144,0.830074236998211
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,14,SIL,1,sil,evasion,128,176,48,32,36,144,164,144,164,0.9938773470664405
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,15,D,2,initial,does,148,180,32,37,37,164,168,164,172,0.970849747255454
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,16,AH,2,medial,does,156,188,32,39,39,172,176,172,176,0.9309156016195914
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,17,Z,2,final,does,160,192,32,40,40,176,180,176,180,0.9684354498972273
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,18,SIL,2,sil,does,164,208,44,41,44,180,196,180,196,0.9537541428279812
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,19,N,3,initial,not,180,212,32,45,45,196,200,196,200,0.9999990534398724
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,20,AA,3,medial,not,184,220,36,46,47,200,208,200,208,0.9394481667205885
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,21,T,3,final,not,192,228,36,48,49,208,216,208,216,0.8200872742401658
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,22,SIL,3,sil,not,200,240,40,50,52,216,228,216,228,0.9994058967537818
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,23,W,4,initial,work,212,244,32,53,53,228,232,228,236,0.9999850436899526
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,24,ER,4,medial,work,220,252,32,55,55,236,240,236,240,0.9994448337782638
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,25,K,4,final,work,224,256,32,56,56,240,244,240,244,0.9999946836325423
+t12.2022.05.26,test,vocal,t12.2022.05.26,19,improved evasion does not work,26,SIL,4,sil,work,228,268,40,57,59,244,256,244,256,0.9812899970641488
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,0,K,0,initial,casualties,40,72,32,10,10,56,60,16,68,0.14357329699151433
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,1,AE,0,medial,casualties,56,88,32,14,14,72,76,68,76,0.977014258942185
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,2,ZH,0,medial,casualties,60,92,32,15,15,76,80,76,80,0.9728272004021671
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,3,AH,0,medial,casualties,64,96,32,16,16,80,84,80,84,0.987092063076953
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,4,W,0,medial,casualties,68,104,36,17,18,84,92,84,92,0.6861127703913815
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,5,AH,0,medial,casualties,76,108,32,19,19,92,96,92,96,0.9120995431301198
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,6,L,0,medial,casualties,80,112,32,20,20,96,100,96,100,0.7654270707153653
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,7,T,0,medial,casualties,84,116,32,21,21,100,104,100,104,0.01013040077975507
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,8,IY,0,medial,casualties,88,120,32,22,22,104,108,104,108,0.19245389872581561
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,9,Z,0,final,casualties,92,128,36,23,24,108,116,108,116,0.6905844562560213
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,10,SIL,0,sil,casualties,100,148,48,25,29,116,136,116,136,0.9955028090566105
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,11,W,1,initial,were,120,152,32,30,30,136,140,136,144,0.9995798167643712
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,12,ER,1,final,were,132,168,36,33,34,148,156,144,156,0.7148371266757523
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,13,SIL,1,sil,were,140,188,48,35,39,156,176,156,176,0.999978022483468
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,14,R,2,initial,reported,160,192,32,40,40,176,180,176,184,0.4030521601647226
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,15,IY,2,medial,reported,168,200,32,42,42,184,188,184,188,0.0002336503391844864
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,16,P,2,medial,reported,172,208,36,43,44,188,196,188,200,0.7785995563632822
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,17,AO,2,medial,reported,188,220,32,47,47,204,208,200,208,0.9964105372217028
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,18,R,2,medial,reported,192,224,32,48,48,208,212,208,212,0.99783709402075
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,19,T,2,medial,reported,196,228,32,49,49,212,216,212,220,0.6666683389928966
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,20,AH,2,medial,reported,204,236,32,51,51,220,224,220,224,0.2378796240277287
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,21,D,2,final,reported,208,240,32,52,52,224,228,224,228,0.999316928829216
+t12.2022.05.26,test,vocal,t12.2022.05.26,20,casualties were reported,22,SIL,2,sil,reported,212,248,36,53,54,228,236,228,236,0.8736823658215566
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,0,Y,0,initial,you,52,88,36,13,14,68,76,16,76,0.9979534872783049
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,1,UW,0,final,you,60,92,32,15,15,76,80,76,80,0.9999873897117041
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,2,SIL,0,sil,you,64,108,44,16,19,80,96,80,96,0.9645685523344378
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,3,JH,1,initial,just,80,112,32,20,20,96,100,96,104,0.9995601008974405
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,4,AH,1,medial,just,88,120,32,22,22,104,108,104,108,0.9999913195206561
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,5,S,1,medial,just,92,124,32,23,23,108,112,108,112,0.9999016763119695
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,6,T,1,final,just,96,132,36,24,25,112,120,112,120,0.9857484755793473
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,7,SIL,1,sil,just,104,160,56,26,32,120,148,120,148,0.9956259430908375
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,8,L,2,initial,like,132,168,36,33,34,148,156,148,160,0.6852376932673043
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,9,AY,2,medial,like,144,176,32,36,36,160,164,160,164,0.9910753542254663
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,10,K,2,final,like,148,184,36,37,38,164,172,164,172,0.8761250334508015
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,11,SIL,2,sil,like,156,208,52,39,44,172,196,172,196,0.9999804491269035
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,12,T,3,initial,to,180,212,32,45,45,196,200,196,204,0.9999955554918214
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,13,UW,3,final,to,188,220,32,47,47,204,208,204,208,0.9999981093698178
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,14,SIL,3,sil,to,192,240,48,48,52,208,228,208,228,0.9325223733577817
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,15,S,4,initial,sit,212,248,36,53,54,228,236,228,240,0.8970754500885509
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,16,IH,4,medial,sit,224,256,32,56,56,240,244,240,244,0.9400267810972058
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,17,T,4,final,sit,228,260,32,57,57,244,248,244,248,0.8979287701817925
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,18,SIL,4,sil,sit,232,284,52,58,63,248,272,248,272,0.9922584808664238
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,19,D,5,initial,down,256,288,32,64,64,272,276,272,280,0.9999666898152618
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,20,AW,5,medial,down,264,300,36,66,67,280,288,280,288,0.9973095722128911
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,21,N,5,final,down,272,308,36,68,69,288,296,288,296,0.9809939422002101
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,22,SIL,5,sil,down,280,328,48,70,74,296,316,296,324,0.9999020323019634
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,23,AH,6,initial,and,312,348,36,78,79,328,336,324,336,0.9763016653891843
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,24,N,6,medial,and,320,352,32,80,80,336,340,336,340,0.9952377124473237
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,25,D,6,final,and,324,356,32,81,81,340,344,340,344,0.9999931376890667
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,26,SIL,6,sil,and,328,368,40,82,84,344,356,344,356,0.8500636673122801
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,27,W,7,initial,watch,340,376,36,85,86,356,364,356,368,0.7934384554207425
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,28,AA,7,medial,watch,352,384,32,88,88,368,372,368,372,0.9464005996382588
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,29,CH,7,final,watch,356,392,36,89,90,372,380,372,380,0.9834495644897616
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,30,SIL,7,sil,watch,364,404,40,91,93,380,392,380,396,0.9999663448972961
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,31,IH,8,initial,it,384,416,32,96,96,400,404,396,404,0.9996111029415201
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,32,T,8,final,it,388,420,32,97,97,404,408,404,408,0.9995927069114432
+t12.2022.05.26,test,vocal,t12.2022.05.26,21,you just like to sit down and watch it,33,SIL,8,sil,it,392,436,44,98,101,408,424,408,424,0.9999838452973828
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,0,HH,0,initial,he,40,76,36,10,11,56,64,16,68,0.9821637293879643
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,1,IY,0,final,he,52,84,32,13,13,68,72,68,72,0.99995916747545
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,2,SIL,0,sil,he,56,100,44,14,17,72,88,72,88,0.9022317643667905
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,3,HH,1,initial,helps,72,104,32,18,18,88,92,88,96,0.996404799473487
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,4,EH,1,medial,helps,80,112,32,20,20,96,100,96,100,0.9983224406759547
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,5,L,1,medial,helps,84,116,32,21,21,100,104,100,104,0.9999177253510787
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,6,P,1,medial,helps,88,124,36,22,23,104,112,104,112,0.9109485505277752
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,7,S,1,final,helps,96,132,36,24,25,112,120,112,120,0.7845152210992861
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,8,SIL,1,sil,helps,104,144,40,26,28,120,132,120,132,0.9960552988307478
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,9,B,2,initial,by,116,148,32,29,29,132,136,132,140,0.9999939904692678
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,10,AY,2,final,by,124,156,32,31,31,140,144,140,148,0.9774690597612826
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,11,SIL,2,sil,by,132,176,44,33,36,148,164,148,164,0.9984017492083744
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,12,G,3,initial,giving,148,184,36,37,38,164,172,164,176,0.9268032201343153
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,13,IH,3,medial,giving,160,192,32,40,40,176,180,176,180,0.9899399510873842
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,14,V,3,medial,giving,164,196,32,41,41,180,184,180,188,0.9989059761187038
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,15,IH,3,medial,giving,172,204,32,43,43,188,192,188,192,0.112190322625114
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,16,NG,3,final,giving,176,208,32,44,44,192,196,192,196,0.520225291012542
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,17,SIL,3,sil,giving,180,236,56,45,51,196,224,196,224,0.9985854784073943
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,18,L,4,initial,little,208,240,32,52,52,224,228,224,232,0.09262098278224178
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,19,IH,4,medial,little,216,248,32,54,54,232,236,232,236,0.9684151448455138
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,20,T,4,medial,little,220,252,32,55,55,236,240,236,244,0.9924447877364916
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,21,AH,4,medial,little,228,264,36,57,58,244,252,244,252,0.6586560521280737
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,22,L,4,final,little,236,272,36,59,60,252,260,252,260,0.991521791811061
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,23,SIL,4,sil,little,244,292,48,61,65,260,280,260,280,0.9897897550223238
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,24,P,5,initial,pointers,264,296,32,66,66,280,284,280,288,0.9993553848126973
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,25,OY,5,medial,pointers,272,308,36,68,69,288,296,288,296,0.9615608159876826
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,26,N,5,medial,pointers,280,312,32,70,70,296,300,296,300,0.9999213239008186
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,27,T,5,medial,pointers,284,320,36,71,72,300,308,300,312,0.9211774542797522
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,28,ER,5,medial,pointers,296,328,32,74,74,312,316,312,316,0.5514004620074072
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,29,Z,5,final,pointers,300,332,32,75,75,316,320,316,320,0.23250828946152305
+t12.2022.05.26,test,vocal,t12.2022.05.26,22,he helps by giving little pointers,30,SIL,5,sil,pointers,304,352,48,76,80,320,340,320,340,0.9434337935878231
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,0,K,0,initial,cause,16,48,32,4,4,32,36,16,40,0.22047586557440263
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,1,AA,0,medial,cause,24,56,32,6,6,40,44,40,44,0.0013255712722590064
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,2,Z,0,final,cause,28,60,32,7,7,44,48,44,52,0.0015339351464522513
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,3,SIL,0,sil,cause,36,80,44,9,12,52,68,52,68,0.9755880087379623
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,4,DH,1,initial,they,52,88,36,13,14,68,76,68,80,0.9963170325356511
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,5,EY,1,final,they,64,96,32,16,16,80,84,80,88,0.981874719974147
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,6,SIL,1,sil,they,72,112,40,18,20,88,100,88,104,0.99675524733853
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,7,AO,2,initial,all,92,128,36,23,24,108,116,104,116,0.9368165505621657
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,8,L,2,final,all,100,132,32,25,25,116,120,116,120,0.9999477430456613
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,9,SIL,2,sil,all,104,176,72,26,36,120,164,120,164,0.9926197433401388
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,10,G,3,initial,grew,148,180,32,37,37,164,168,164,168,0.9980523320460062
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,11,R,3,medial,grew,152,184,32,38,38,168,172,168,176,0.9113924109095233
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,12,UW,3,final,grew,160,192,32,40,40,176,180,176,184,0.07959209017970635
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,13,SIL,3,sil,grew,168,204,36,42,43,184,192,184,200,0.9119220459282202
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,14,AH,4,initial,up,188,220,32,47,47,204,208,200,208,0.9970195357058378
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,15,P,4,final,up,192,228,36,48,49,208,216,208,216,0.8982264518095212
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,16,SIL,4,sil,up,200,264,64,50,58,216,252,216,260,0.9968222187816838
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,17,IH,5,initial,in,252,284,32,63,63,268,272,260,272,0.9999980766075398
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,18,N,5,final,in,256,292,36,64,65,272,280,272,280,0.8805425101830319
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,19,SIL,5,sil,in,264,316,52,66,71,280,304,280,304,0.98851904372408
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,20,N,6,initial,new,288,320,32,72,72,304,308,304,312,0.9999660760520684
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,21,UW,6,final,new,296,328,32,74,74,312,316,312,320,0.013492586567353262
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,22,SIL,6,sil,new,304,344,40,76,78,320,332,320,332,0.9982388022510692
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,23,Y,7,initial,york,316,352,36,79,80,332,340,332,340,0.9921700157655204
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,24,AO,7,medial,york,324,356,32,81,81,340,344,340,344,0.5932153043671481
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,25,R,7,medial,york,328,360,32,82,82,344,348,344,348,0.2137116743729288
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,26,K,7,final,york,332,364,32,83,83,348,352,348,352,0.9602226879071921
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,27,SIL,7,sil,york,336,384,48,84,88,352,372,352,372,0.9793822644277197
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,28,S,8,initial,city,356,388,32,89,89,372,376,372,380,0.0489201709531773
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,29,IH,8,medial,city,364,396,32,91,91,380,384,380,384,0.6461803055624995
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,30,T,8,medial,city,368,400,32,92,92,384,388,384,388,0.4032515537136382
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,31,IY,8,final,city,372,404,32,93,93,388,392,388,392,0.24407672555507626
+t12.2022.05.26,test,vocal,t12.2022.05.26,23,cause they all grew up in new york city,32,SIL,8,sil,city,376,416,40,94,96,392,404,392,404,0.9998360685623
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,0,Y,0,initial,you,76,112,36,19,20,92,100,16,100,0.9942150781780525
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,1,UW,0,final,you,84,116,32,21,21,100,104,100,104,0.9999247098362819
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,2,SIL,0,sil,you,88,136,48,22,26,104,124,104,124,0.9420705631999647
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,3,M,1,initial,make,108,140,32,27,27,124,128,124,132,0.9999979403546422
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,4,EY,1,medial,make,120,152,32,30,30,136,140,132,140,0.9999867847973798
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,5,K,1,final,make,124,160,36,31,32,140,148,140,148,0.9381006365118966
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,6,SIL,1,sil,make,132,196,64,33,41,148,184,148,184,0.9997987943342002
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,7,S,2,initial,such,168,200,32,42,42,184,188,184,192,0.3991747712357278
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,8,AH,2,medial,such,180,212,32,45,45,196,200,192,200,0.9697385966677702
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,9,CH,2,final,such,184,220,36,46,47,200,208,200,208,0.8924814733503852
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,10,SIL,2,sil,such,192,236,44,48,51,208,224,208,232,0.9993117180402767
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,11,AH,3,single,a,220,252,32,55,55,236,240,232,240,0.9999993980076172
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,12,SIL,3,sil,a,224,268,44,56,59,240,256,240,256,0.9826052926846813
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,13,CH,4,initial,choice,240,276,36,60,61,256,264,256,264,0.5802298696649054
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,14,OY,4,medial,choice,248,284,36,62,63,264,272,264,272,0.9507834826321679
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,15,S,4,final,choice,256,288,32,64,64,272,276,272,276,0.9658838308931417
+t12.2022.05.26,test,vocal,t12.2022.05.26,24,you make such a choice,16,SIL,4,sil,choice,260,308,48,65,69,276,296,276,296,0.99978179028644
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,0,B,0,initial,but,72,104,32,18,18,88,92,16,96,0.9999509870932057
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,1,AH,0,medial,but,80,112,32,20,20,96,100,96,100,0.9999925962320182
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,2,T,0,final,but,84,116,32,21,21,100,104,100,104,0.9999915913749168
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,3,SIL,0,sil,but,88,136,48,22,26,104,124,104,124,0.8832704681435537
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,4,DH,1,initial,they,108,140,32,27,27,124,128,124,132,0.9999981622275501
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,5,EY,1,final,they,116,148,32,29,29,132,136,132,140,0.9999696505575736
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,6,SIL,1,sil,they,124,180,56,31,37,140,168,140,168,0.9938721213074376
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,7,HH,2,initial,have,152,184,32,38,38,168,172,168,176,0.9999911328874908
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,8,AE,2,medial,have,160,192,32,40,40,176,180,176,180,0.9999997964856094
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,9,V,2,final,have,164,196,32,41,41,180,184,180,184,0.9999991661639004
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,10,SIL,2,sil,have,168,220,52,42,47,184,208,184,208,0.987931115908259
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,11,S,3,initial,snakes,192,224,32,48,48,208,212,208,212,0.3810543631441128
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,12,N,3,medial,snakes,196,228,32,49,49,212,216,212,220,0.9939784381352628
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,13,EY,3,medial,snakes,204,236,32,51,51,220,224,220,224,0.946789911168627
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,14,K,3,medial,snakes,208,244,36,52,53,224,232,224,232,0.9912792585603085
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,15,S,3,final,snakes,216,252,36,54,55,232,240,232,240,0.7358486668247519
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,16,SIL,3,sil,snakes,224,268,44,56,59,240,256,240,260,0.9993031839999699
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,17,OW,4,initial,over,248,280,32,62,62,264,268,260,268,0.9995642372370387
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,18,V,4,medial,over,252,288,36,63,64,268,276,268,276,0.877872451502699
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,19,ER,4,final,over,260,296,36,65,66,276,284,276,284,0.9979037177594402
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,20,SIL,4,sil,over,268,316,48,67,71,284,304,284,304,0.9869183336168416
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,21,DH,5,initial,there,288,320,32,72,72,304,308,304,308,0.9999731685217642
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,22,EH,5,medial,there,292,324,32,73,73,308,312,308,312,0.9990157159249389
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,23,R,5,final,there,296,328,32,74,74,312,316,312,316,0.9927914586467897
+t12.2022.05.26,test,vocal,t12.2022.05.26,25,but they have snakes over there,24,SIL,5,sil,there,300,344,44,75,78,316,332,316,332,0.9064764676956603
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,0,AH,0,single,a,48,80,32,12,12,64,68,16,68,0.9782772062359005
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,1,SIL,0,sil,a,52,100,48,13,17,68,88,68,88,0.9471275741230556
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,2,G,1,initial,good,72,108,36,18,19,88,96,88,100,0.9486599072334295
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,3,UH,1,medial,good,84,116,32,21,21,100,104,100,104,0.9999950859723434
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,4,D,1,final,good,88,124,36,22,23,104,112,104,112,0.9952086750802753
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,5,SIL,1,sil,good,96,156,60,24,31,112,144,112,144,0.9991504561609653
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,6,P,2,initial,positive,128,160,32,32,32,144,148,144,156,0.9887097356578967
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,7,AA,2,medial,positive,144,176,32,36,36,160,164,156,164,0.9419185186854727
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,8,Z,2,medial,positive,148,180,32,37,37,164,168,164,168,0.027611535485039616
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,9,AH,2,medial,positive,152,188,36,38,39,168,176,168,176,0.8344545637948095
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,10,T,2,medial,positive,160,192,32,40,40,176,180,176,180,0.28633498739231494
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,11,IH,2,medial,positive,164,196,32,41,41,180,184,180,184,0.31368320082361556
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,12,V,2,final,positive,168,204,36,42,43,184,192,184,192,0.9051396832980707
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,13,SIL,2,sil,positive,176,220,44,44,47,192,208,192,208,0.952304043726494
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,14,D,3,initial,direction,192,224,32,48,48,208,212,208,216,0.04791329849679709
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,15,ER,3,medial,direction,200,232,32,50,50,216,220,216,224,0.09993239281475122
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,16,EH,3,medial,direction,212,244,32,53,53,228,232,224,232,0.7733783938004755
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,17,K,3,medial,direction,216,252,36,54,55,232,240,232,240,0.874021549442604
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,18,SH,3,medial,direction,224,256,32,56,56,240,244,240,244,0.8396122396605625
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,19,AH,3,medial,direction,228,260,32,57,57,244,248,244,248,0.9982733829318917
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,20,N,3,final,direction,232,264,32,58,58,248,252,248,252,0.9799360174756699
+t12.2022.05.26,test,vocal,t12.2022.05.26,26,a good positive direction,21,SIL,3,sil,direction,236,268,32,59,59,252,256,252,256,0.9947936098414204
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,0,DH,0,initial,that's,28,64,36,7,8,44,52,16,56,0.9851725898159782
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,1,AE,0,medial,that's,40,72,32,10,10,56,60,56,60,0.9999918939253247
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,2,T,0,medial,that's,44,76,32,11,11,60,64,60,64,0.9999916147199517
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,3,S,0,final,that's,48,84,36,12,13,64,72,64,72,0.9887899504866893
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,4,SIL,0,sil,that's,56,104,48,14,18,72,92,72,92,0.9781777447650777
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,5,W,1,initial,what,76,108,32,19,19,92,96,92,100,0.9999991050246869
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,6,AH,1,medial,what,84,116,32,21,21,100,104,100,104,0.99967532664424
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,7,T,1,final,what,88,120,32,22,22,104,108,104,108,0.9929152252539422
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,8,SIL,1,sil,what,92,136,44,23,26,108,124,108,132,0.9689364486720891
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,9,AY,2,single,i,120,152,32,30,30,136,140,132,140,0.999997612201221
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,10,SIL,2,sil,i,124,192,68,31,40,140,180,140,180,0.9826512107981168
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,11,W,3,initial,was,164,200,36,41,42,180,188,180,188,0.9714827065950122
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,12,AA,3,medial,was,172,204,32,43,43,188,192,188,192,0.9999964968065329
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,13,Z,3,final,was,176,208,32,44,44,192,196,192,196,0.9999089903355497
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,14,SIL,3,sil,was,180,224,44,45,48,196,212,196,212,0.9975742472244997
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,15,G,4,initial,going,196,228,32,49,49,212,216,212,220,0.999991229876377
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,16,OW,4,medial,going,204,240,36,51,52,220,228,220,228,0.9997595870039597
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,17,IH,4,medial,going,212,248,36,53,54,228,236,228,236,0.9982278377329394
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,18,NG,4,final,going,220,260,40,55,57,236,248,236,248,0.8837406352894698
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,19,SIL,4,sil,going,232,272,40,58,60,248,260,248,260,0.9987314425652608
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,20,T,5,initial,to,244,280,36,61,62,260,268,260,268,0.8106253042137517
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,21,UW,5,final,to,252,284,32,63,63,268,272,268,272,0.9999999233588396
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,22,SIL,5,sil,to,256,308,52,64,69,272,296,272,296,0.8938844113370488
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,23,P,6,initial,point,280,312,32,70,70,296,300,296,304,0.9999993900898184
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,24,OY,6,medial,point,288,320,32,72,72,304,308,304,308,0.9999921979075737
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,25,N,6,medial,point,292,324,32,73,73,308,312,308,312,0.9995052544426634
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,26,T,6,final,point,296,336,40,74,76,312,324,312,324,0.9634871957939043
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,27,SIL,6,sil,point,308,352,44,77,80,324,340,324,344,0.9817113673815065
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,28,AW,7,initial,out,328,360,32,82,82,344,348,344,348,0.9999427381415195
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,29,T,7,final,out,332,364,32,83,83,348,352,348,352,0.9997165381819517
+t12.2022.05.26,test,vocal,t12.2022.05.26,27,that's what i was going to point out,30,SIL,7,sil,out,336,380,44,84,87,352,368,352,368,0.9983810688004928
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,0,AY,0,single,i,52,84,32,13,13,68,72,16,76,0.9999986888765329
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,1,SIL,0,sil,i,60,104,44,15,18,76,92,76,92,0.9994951451187913
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,2,T,1,initial,turned,76,108,32,19,19,92,96,92,100,0.6654244175709133
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,3,ER,1,medial,turned,84,116,32,21,21,100,104,100,104,0.4865726276966091
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,4,N,1,medial,turned,88,120,32,22,22,104,108,104,108,0.04773438960112652
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,5,D,1,final,turned,92,128,36,23,24,108,116,108,116,0.6979216060457554
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,6,SIL,1,sil,turned,100,144,44,25,28,116,132,116,132,0.9876734343934914
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,7,M,2,initial,mine,116,148,32,29,29,132,136,132,140,0.9125708595151532
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,8,AY,2,medial,mine,124,156,32,31,31,140,144,140,144,0.026828089110582442
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,9,N,2,final,mine,128,160,32,32,32,144,148,144,148,0.9999966260474078
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,10,SIL,2,sil,mine,132,184,52,33,38,148,172,148,180,0.9798207589267812
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,11,IH,3,initial,in,168,200,32,42,42,184,188,180,188,0.9999915900984128
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,12,N,3,final,in,172,204,32,43,43,188,192,188,192,0.9999729403748463
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,13,SIL,3,sil,in,176,236,60,44,51,192,224,192,228,0.9695599882606587
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,14,AH,4,initial,about,216,248,32,54,54,232,236,228,236,0.9999891372546574
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,15,B,4,medial,about,220,260,40,55,57,236,248,236,252,0.9345851495413525
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,16,AW,4,medial,about,236,268,32,59,59,252,256,252,256,0.9999957922736272
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,17,T,4,final,about,240,276,36,60,61,256,264,256,264,0.998829525805456
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,18,SIL,4,sil,about,248,300,52,62,67,264,288,264,288,0.9942673029825758
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,19,T,5,initial,twelve,272,304,32,68,68,288,292,288,292,0.4559888230012975
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,20,W,5,medial,twelve,276,308,32,69,69,292,296,292,300,0.012013499295735414
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,21,EH,5,medial,twelve,284,316,32,71,71,300,304,300,304,0.9435813966073435
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,22,L,5,medial,twelve,288,320,32,72,72,304,308,304,308,0.3025297083300749
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,23,V,5,final,twelve,292,324,32,73,73,308,312,308,312,0.07313943341961635
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,24,SIL,5,sil,twelve,296,336,40,74,76,312,324,312,332,0.8282793545826607
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,25,AW,6,initial,hours,320,352,32,80,80,336,340,332,340,0.7804607244229719
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,26,ER,6,medial,hours,324,356,32,81,81,340,344,340,344,0.15896733546414785
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,27,Z,6,final,hours,328,364,36,82,83,344,352,344,352,0.5574734325279842
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,28,SIL,6,sil,hours,336,388,52,84,89,352,376,352,380,0.9807278063644688
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,29,ER,7,initial,early,368,400,32,92,92,384,388,380,388,0.8849039279954569
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,30,L,7,medial,early,372,416,44,93,96,388,404,388,404,0.9979765284746724
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,31,IY,7,final,early,388,424,36,97,98,404,412,404,412,0.9919841737504873
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,32,SIL,7,sil,early,396,464,68,99,108,412,452,412,460,0.9970844734522701
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,33,AE,8,initial,at,452,484,32,113,113,468,472,460,472,0.9978682177446654
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,34,T,8,final,at,456,488,32,114,114,472,476,472,476,0.9999836470563475
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,35,SIL,8,sil,at,460,516,56,115,121,476,504,476,504,0.9961403755385072
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,36,N,9,initial,noon,488,520,32,122,122,504,508,504,512,0.9996441490797209
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,37,UW,9,medial,noon,496,528,32,124,124,512,516,512,516,0.004834859488871561
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,38,N,9,final,noon,500,532,32,125,125,516,520,516,520,0.999663483579739
+t12.2022.05.26,test,vocal,t12.2022.05.26,28,i turned mine in about twelve hours early at noon,39,SIL,9,sil,noon,504,548,44,126,129,520,536,520,536,0.9988232411921257
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,0,IH,0,initial,it's,44,76,32,11,11,60,64,16,64,0.9999997972445938
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,1,T,0,medial,it's,48,80,32,12,12,64,68,64,68,0.9999963855384687
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,2,S,0,final,it's,52,88,36,13,14,68,76,68,76,0.9742139909716526
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,3,SIL,0,sil,it's,60,100,40,15,17,76,88,76,96,0.9994196695435204
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,4,AH,1,single,a,84,120,36,21,22,100,108,96,108,0.9894343064921423
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,5,SIL,1,sil,a,92,152,60,23,30,108,140,108,140,0.9214709554403233
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,6,T,2,initial,telecommunications,124,156,32,31,31,140,144,140,148,0.5731160985664658
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,7,EH,2,medial,telecommunications,132,164,32,33,33,148,152,148,152,0.12454420461819345
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,8,L,2,medial,telecommunications,136,172,36,34,35,152,160,152,160,0.97764668811865
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,9,AH,2,medial,telecommunications,144,176,32,36,36,160,164,160,164,0.9728159862416906
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,10,K,2,medial,telecommunications,148,180,32,37,37,164,168,164,168,0.00034053559746946956
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,11,AH,2,medial,telecommunications,152,184,32,38,38,168,172,168,172,0.9809519388612564
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,12,M,2,medial,telecommunications,156,188,32,39,39,172,176,172,176,0.7060707260475758
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,13,Y,2,medial,telecommunications,160,192,32,40,40,176,180,176,180,1.7722676964093622e-05
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,14,UW,2,medial,telecommunications,164,196,32,41,41,180,184,180,184,0.00014634695730794277
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,15,N,2,medial,telecommunications,168,200,32,42,42,184,188,184,188,0.0008138475267738676
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,16,AH,2,medial,telecommunications,172,204,32,43,43,188,192,188,192,0.5642849812326882
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,17,K,2,medial,telecommunications,176,208,32,44,44,192,196,192,196,0.00017826879235334692
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,18,EY,2,medial,telecommunications,180,212,32,45,45,196,200,196,200,0.98848224528052
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,19,SH,2,medial,telecommunications,184,220,36,46,47,200,208,200,208,0.7623527254054687
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,20,AH,2,medial,telecommunications,192,228,36,48,49,208,216,208,216,0.9815201015612736
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,21,N,2,medial,telecommunications,200,236,36,50,51,216,224,216,224,0.8089840616812167
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,22,Z,2,final,telecommunications,208,244,36,52,53,224,232,224,232,0.9501379506876897
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,23,SIL,2,sil,telecommunications,216,268,52,54,59,232,256,232,256,0.9161149352552708
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,24,T,3,initial,type,240,276,36,60,61,256,264,256,268,0.8514810578852583
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,25,AY,3,medial,type,252,284,32,63,63,268,272,268,272,0.14018908809237865
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,26,P,3,final,type,256,288,32,64,64,272,276,272,276,0.9994312272985294
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,27,SIL,3,sil,type,260,308,48,65,69,276,296,276,300,0.8927801855884322
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,28,AH,4,initial,of,288,320,32,72,72,304,308,300,308,0.967227986273787
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,29,V,4,final,of,292,324,32,73,73,308,312,308,312,0.9248634223917819
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,30,SIL,4,sil,of,296,336,40,74,76,312,324,312,324,0.9995568691761515
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,31,K,5,initial,company,308,340,32,77,77,324,328,324,332,0.9989138080501712
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,32,AH,5,medial,company,320,352,32,80,80,336,340,332,340,0.08426211597894753
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,33,M,5,medial,company,324,356,32,81,81,340,344,340,344,0.9981591390681765
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,34,P,5,medial,company,328,360,32,82,82,344,348,344,348,0.5644567573047602
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,35,AH,5,medial,company,332,364,32,83,83,348,352,348,352,0.9999689029702936
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,36,N,5,medial,company,336,372,36,84,85,352,360,352,360,0.9619721334094692
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,37,IY,5,final,company,344,380,36,86,87,360,368,360,368,0.9267902842378706
+t12.2022.05.26,test,vocal,t12.2022.05.26,29,it's a telecommunications type of company,38,SIL,5,sil,company,352,396,44,88,91,368,384,368,384,0.9997905682008217
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,0,AY,0,single,i,52,84,32,13,13,68,72,16,72,0.999998714801303
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,1,SIL,0,sil,i,56,104,48,14,18,72,92,72,92,0.9717892456320257
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,2,W,1,initial,work,76,108,32,19,19,92,96,92,100,0.999959824405821
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,3,ER,1,medial,work,84,116,32,21,21,100,104,100,104,0.9994987183914836
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,4,K,1,final,work,88,120,32,22,22,104,108,104,108,0.9996335561814595
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,5,SIL,1,sil,work,92,144,52,23,28,108,132,108,136,0.97594475405053
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,6,AW,2,initial,out,124,156,32,31,31,140,144,136,144,0.023609398334542737
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,7,T,2,final,out,128,160,32,32,32,144,148,144,148,0.998015329244426
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,8,SIL,2,sil,out,132,208,76,33,44,148,196,148,208,0.9836970347157484
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,9,AH,3,initial,of,200,232,32,50,50,216,220,208,220,0.9998415788112532
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,10,V,3,final,of,204,236,32,51,51,220,224,220,224,0.9999943142346042
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,11,SIL,3,sil,of,208,260,52,52,57,224,248,224,248,0.9961169194595186
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,12,M,4,initial,my,232,264,32,58,58,248,252,248,256,0.9973734211603059
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,13,AY,4,final,my,240,272,32,60,60,256,260,256,264,0.9999957815884473
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,14,SIL,4,sil,my,248,296,48,62,66,264,284,264,284,0.9997352916821066
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,15,HH,5,initial,home,268,300,32,67,67,284,288,284,292,0.9999631056991595
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,16,OW,5,medial,home,276,308,32,69,69,292,296,292,296,0.999281134058314
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,17,M,5,final,home,280,312,32,70,70,296,300,296,300,0.996955208267634
+t12.2022.05.26,test,vocal,t12.2022.05.26,30,i work out of my home,18,SIL,5,sil,home,284,332,48,71,75,300,320,300,320,0.9908109307281198
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,0,DH,0,initial,the,44,80,36,11,12,60,68,16,72,0.9927277537796042
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,1,AH,0,final,the,56,88,32,14,14,72,76,72,80,0.9999773689266563
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,2,SIL,0,sil,the,64,104,40,16,18,80,92,80,92,0.9978436888925472
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,3,W,1,initial,way,76,108,32,19,19,92,96,92,100,0.6509493160497247
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,4,EY,1,final,way,88,120,32,22,22,104,108,100,112,0.9991392447777087
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,5,SIL,1,sil,way,96,152,56,24,30,112,140,112,148,0.9991667691419451
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,6,IH,2,initial,it,136,168,32,34,34,152,156,148,156,0.9999990809537285
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,7,T,2,final,it,140,172,32,35,35,156,160,156,160,0.9999967589786176
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,8,SIL,2,sil,it,144,196,52,36,41,160,184,160,184,0.9995433487614914
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,9,W,3,initial,works,168,200,32,42,42,184,188,184,192,0.9999304093860629
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,10,ER,3,medial,works,176,208,32,44,44,192,196,192,196,0.44046685863730456
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,11,K,3,medial,works,180,212,32,45,45,196,200,196,200,0.05525850798749378
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,12,S,3,final,works,184,216,32,46,46,200,204,200,204,0.05668170130166556
+t12.2022.05.26,test,vocal,t12.2022.05.26,31,the way it works,13,SIL,3,sil,works,188,232,44,47,50,204,220,204,220,0.9999939301472767
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,0,IH,0,initial,it,64,96,32,16,16,80,84,16,84,0.9999994370995713
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,1,T,0,final,it,68,100,32,17,17,84,88,84,88,0.9999838978858183
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,2,SIL,0,sil,it,72,116,44,18,21,88,104,88,104,0.9993376253059261
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,3,D,1,initial,doesn't,88,124,36,22,23,104,112,104,116,0.8310030237438248
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,4,AH,1,medial,doesn't,100,132,32,25,25,116,120,116,120,0.9971909001217645
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,5,Z,1,medial,doesn't,104,136,32,26,26,120,124,120,124,0.9998644742771676
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,6,AH,1,medial,doesn't,108,140,32,27,27,124,128,124,128,0.9844979642738992
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,7,N,1,medial,doesn't,112,148,36,28,29,128,136,128,136,0.8319322034583095
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,8,T,1,final,doesn't,120,160,40,30,32,136,148,136,148,0.9731529117526151
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,9,SIL,1,sil,doesn't,132,188,56,33,39,148,176,148,176,0.9139360772000634
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,10,HH,2,initial,have,160,192,32,40,40,176,180,176,180,0.9999988690203602
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,11,AE,2,medial,have,164,200,36,41,42,180,188,180,188,0.9147320394046113
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,12,V,2,final,have,172,204,32,43,43,188,192,188,192,0.9999799606033548
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,13,SIL,2,sil,have,176,236,60,44,51,192,224,192,232,0.9987331018973211
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,14,AE,3,initial,an,220,252,32,55,55,236,240,232,240,0.00307696689914827
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,15,N,3,final,an,224,260,36,56,57,240,248,240,248,0.9955005104016678
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,16,SIL,3,sil,an,232,276,44,58,61,248,264,248,272,0.7508451045439644
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,17,EH,4,initial,air,260,292,32,65,65,276,280,272,280,0.012155536667086284
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,18,R,4,final,air,264,296,32,66,66,280,284,280,288,0.3838810381058553
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,19,SIL,4,sil,air,276,336,60,69,76,292,324,288,324,0.9598565777143863
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,20,K,5,initial,conditioner,308,340,32,77,77,324,328,324,332,0.9998356362247611
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,21,AH,5,medial,conditioner,316,348,32,79,79,332,336,332,336,0.9155933791745691
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,22,N,5,medial,conditioner,320,352,32,80,80,336,340,336,340,0.999910970359507
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,23,D,5,medial,conditioner,324,356,32,81,81,340,344,340,348,0.33748647220981515
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,24,IH,5,medial,conditioner,332,364,32,83,83,348,352,348,352,0.5396911480167566
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,25,SH,5,medial,conditioner,336,368,32,84,84,352,356,352,360,0.0015690384058875792
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,26,AH,5,medial,conditioner,348,380,32,87,87,364,368,360,368,0.9492357486376803
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,27,N,5,medial,conditioner,352,392,40,88,90,368,380,368,384,0.4986401320235978
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,28,ER,5,final,conditioner,368,400,32,92,92,384,388,384,388,0.9551750771136016
+t12.2022.05.26,test,vocal,t12.2022.05.26,32,it doesn't have an air conditioner,29,SIL,5,sil,conditioner,372,420,48,93,97,388,408,388,408,0.9433230371460386
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,0,DH,0,initial,then,20,52,32,5,5,36,40,16,44,0.9998384334931122
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,1,EH,0,medial,then,28,60,32,7,7,44,48,44,48,0.9818942788068695
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,2,N,0,final,then,32,64,32,8,8,48,52,48,52,0.9999886587061155
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,3,SIL,0,sil,then,36,84,48,9,13,52,72,52,72,0.9639581907468214
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,4,Y,1,initial,you,56,88,32,14,14,72,76,72,80,0.9999172337837924
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,5,UW,1,final,you,64,96,32,16,16,80,84,80,88,0.9998647969242621
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,6,SIL,1,sil,you,72,136,64,18,26,88,124,88,124,0.9998748129709862
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,7,HH,2,initial,have,108,144,36,27,28,124,132,124,136,0.9999756835002831
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,8,AE,2,medial,have,120,152,32,30,30,136,140,136,140,0.9999999342608287
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,9,V,2,final,have,124,156,32,31,31,140,144,140,144,0.9999859515410853
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,10,SIL,2,sil,have,128,176,48,32,36,144,164,144,164,0.9979350467611727
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,11,T,3,initial,to,148,180,32,37,37,164,168,164,172,0.9999986153455914
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,12,UW,3,final,to,156,188,32,39,39,172,176,172,176,0.9999970915790305
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,13,SIL,3,sil,to,160,216,56,40,46,176,204,176,204,0.9840462599693874
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,14,M,4,initial,make,188,220,32,47,47,204,208,204,212,0.5377525700542819
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,15,EY,4,medial,make,200,232,32,50,50,216,220,212,220,0.9915218362199568
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,16,K,4,final,make,204,240,36,51,52,220,228,220,228,0.8541671577495282
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,17,SIL,4,sil,make,212,268,56,53,59,228,256,228,264,0.9998282172173546
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,18,AH,5,single,a,252,284,32,63,63,268,272,264,272,0.9999993932505333
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,19,SIL,5,sil,a,256,300,44,64,67,272,288,272,288,0.8849154868391151
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,20,S,6,initial,salad,272,308,36,68,69,288,296,288,300,0.8301456561373373
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,21,AE,6,medial,salad,284,316,32,71,71,300,304,300,304,0.6938910286310285
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,22,L,6,medial,salad,288,320,32,72,72,304,308,304,312,0.9980330340410363
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,23,AH,6,medial,salad,296,328,32,74,74,312,316,312,316,0.9391661776936051
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,24,D,6,final,salad,300,332,32,75,75,316,320,316,320,0.9744252896232374
+t12.2022.05.26,test,vocal,t12.2022.05.26,33,then you have to make a salad,25,SIL,6,sil,salad,304,348,44,76,79,320,336,320,336,0.9993236855520009
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,0,S,0,initial,solving,28,60,32,7,7,44,48,16,52,0.3914931769515961
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,1,AA,0,medial,solving,36,68,32,9,9,52,56,52,56,0.0298617266489526
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,2,L,0,medial,solving,40,72,32,10,10,56,60,56,60,0.054765536957343014
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,3,V,0,medial,solving,44,76,32,11,11,60,64,60,68,0.9836193963631696
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,4,IH,0,medial,solving,52,88,36,13,14,68,76,68,76,0.9585303208415281
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,5,NG,0,final,solving,60,92,32,15,15,76,80,76,80,0.9983011237710598
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,6,SIL,0,sil,solving,64,112,48,16,20,80,100,80,100,0.9972784683682084
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,7,DH,1,initial,the,84,116,32,21,21,100,104,100,108,0.9999941170790208
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,8,AH,1,final,the,92,124,32,23,23,108,112,108,116,0.9999998899826478
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,9,SIL,1,sil,the,100,144,44,25,28,116,132,116,132,0.9917275729399021
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,10,V,2,initial,variables,116,148,32,29,29,132,136,132,140,2.1685914474329835e-05
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,11,EH,2,medial,variables,124,156,32,31,31,140,144,140,144,0.5842815135909092
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,12,R,2,medial,variables,128,160,32,32,32,144,148,144,148,0.14781195496595217
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,13,IY,2,medial,variables,132,164,32,33,33,148,152,148,152,0.04954299789627639
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,14,AH,2,medial,variables,136,168,32,34,34,152,156,152,156,0.04768001110368031
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,15,B,2,medial,variables,140,176,36,35,36,156,164,156,164,0.9985624414148108
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,16,AH,2,medial,variables,148,180,32,37,37,164,168,164,168,0.8387312972513858
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,17,L,2,medial,variables,152,188,36,38,39,168,176,168,176,0.9969189248875351
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,18,Z,2,final,variables,160,192,32,40,40,176,180,176,180,0.5461030654164964
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,19,SIL,2,sil,variables,164,208,44,41,44,180,196,180,204,0.9930329519381202
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,20,IH,3,initial,in,192,224,32,48,48,208,212,204,212,0.9999997613196686
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,21,N,3,final,in,196,232,36,49,50,212,220,212,220,0.9760280245521551
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,22,SIL,3,sil,in,204,252,48,51,55,220,240,220,240,0.9959814136647092
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,23,DH,4,initial,the,224,260,36,56,57,240,248,240,252,0.9998029933440314
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,24,AH,4,final,the,236,268,32,59,59,252,256,252,260,0.9999999249290995
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,25,SIL,4,sil,the,244,296,52,61,66,260,284,260,288,0.998563902838539
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,26,IH,5,initial,equation,276,308,32,69,69,292,296,288,296,0.9094007680731209
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,27,K,5,medial,equation,280,320,40,70,72,296,308,296,308,0.8794590501993852
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,28,W,5,medial,equation,292,324,32,73,73,308,312,308,312,0.924272887263606
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,29,EY,5,medial,equation,296,332,36,74,75,312,320,312,320,0.9966895666827933
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,30,ZH,5,medial,equation,304,336,32,76,76,320,324,320,324,0.9532089856957751
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,31,AH,5,medial,equation,308,344,36,77,78,324,332,324,332,0.9049263823630642
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,32,N,5,final,equation,316,352,36,79,80,332,340,332,340,0.9813542744945195
+t12.2022.05.26,test,vocal,t12.2022.05.26,34,solving the variables in the equation,33,SIL,5,sil,equation,324,372,48,81,85,340,360,340,360,0.9994435408042779
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,0,AY,0,single,i,48,80,32,12,12,64,68,16,68,0.9999930878442895
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,1,SIL,0,sil,i,52,96,44,13,16,68,84,68,84,0.8806902494585117
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,2,R,1,initial,read,68,104,36,17,18,84,92,84,92,0.7534144942386647
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,3,EH,1,medial,read,76,108,32,19,19,92,96,92,96,0.9983379971502869
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,4,D,1,final,read,80,116,36,20,21,96,104,96,104,0.9994192128170992
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,5,SIL,1,sil,read,88,144,56,22,28,104,132,104,144,0.8652550431787255
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,6,IH,2,initial,in,136,168,32,34,34,152,156,144,156,0.9998893917975419
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,7,N,2,final,in,140,176,36,35,36,156,164,156,164,0.9976856801872673
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,8,SIL,2,sil,in,148,196,48,37,41,164,184,164,184,0.9699502792430931
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,9,DH,3,initial,the,168,204,36,42,43,184,192,184,192,0.996210681305532
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,10,AH,3,final,the,176,212,36,44,45,192,200,192,200,0.8793245212335163
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,11,SIL,3,sil,the,184,236,52,46,51,200,224,200,224,0.9984134236726225
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,12,P,4,initial,paper,208,240,32,52,52,224,228,224,232,0.9984824694337298
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,13,EY,4,medial,paper,220,252,32,55,55,236,240,232,240,0.20961954302859676
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,14,P,4,medial,paper,224,256,32,56,56,240,244,240,248,0.9999041542658692
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,15,ER,4,final,paper,232,268,36,58,59,248,256,248,256,0.8632534005694357
+t12.2022.05.26,test,vocal,t12.2022.05.26,35,i read in the paper,16,SIL,4,sil,paper,240,292,52,60,65,256,280,256,280,0.9998252719909582
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,0,AY,0,initial,i'm,48,80,32,12,12,64,68,16,68,0.9999994146295885
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,1,M,0,final,i'm,52,84,32,13,13,68,72,68,72,0.9996122071692829
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,2,SIL,0,sil,i'm,56,100,44,14,17,72,88,72,92,0.9776911761503213
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,3,IH,1,initial,in,76,108,32,19,19,92,96,92,96,0.9998935108372989
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,4,N,1,final,in,80,116,36,20,21,96,104,96,104,0.9840796591683851
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,5,SIL,1,sil,in,88,144,56,22,28,104,132,104,132,0.9998467314557614
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,6,DH,2,initial,the,116,152,36,29,30,132,140,132,144,0.9269088908625052
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,7,AH,2,final,the,128,164,36,32,33,144,152,144,152,0.7745013438330911
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,8,SIL,2,sil,the,136,212,76,34,45,152,200,152,200,0.9999889308563712
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,9,S,3,initial,speech,184,216,32,46,46,200,204,200,204,0.0029404676329990442
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,10,P,3,medial,speech,188,220,32,47,47,204,208,204,212,0.9998403460933285
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,11,IY,3,medial,speech,200,232,32,50,50,216,220,212,220,0.8954304418711612
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,12,CH,3,final,speech,204,236,32,51,51,220,224,220,228,0.09474237890343594
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,13,SIL,3,sil,speech,212,264,52,53,58,228,252,228,252,0.8975573224745874
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,14,P,4,initial,processing,236,268,32,59,59,252,256,252,256,0.996893871803221
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,15,R,4,medial,processing,240,272,32,60,60,256,260,256,264,0.0365385127038708
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,16,AA,4,medial,processing,248,280,32,62,62,264,268,264,268,0.4341687832562781
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,17,S,4,medial,processing,252,284,32,63,63,268,272,268,276,0.9996409636860552
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,18,EH,4,medial,processing,260,292,32,65,65,276,280,276,284,0.04366368347412347
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,19,S,4,medial,processing,272,304,32,68,68,288,292,284,296,0.0985020397382494
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,20,IH,4,medial,processing,280,312,32,70,70,296,300,296,300,0.439681467836235
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,21,NG,4,final,processing,284,316,32,71,71,300,304,300,304,0.07326451825583147
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,22,SIL,4,sil,processing,288,344,56,72,78,304,332,304,332,0.9820224346393552
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,23,B,5,initial,business,316,348,32,79,79,332,336,332,340,0.8980905356865984
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,24,IH,5,medial,business,328,360,32,82,82,344,348,340,348,0.9660627130760564
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,25,Z,5,medial,business,332,364,32,83,83,348,352,348,352,0.9877780306666996
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,26,N,5,medial,business,336,372,36,84,85,352,360,352,360,0.8289134251689914
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,27,AH,5,medial,business,344,376,32,86,86,360,364,360,364,0.976024190842028
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,28,S,5,final,business,348,380,32,87,87,364,368,364,368,0.994372332047112
+t12.2022.05.26,test,vocal,t12.2022.05.26,36,i'm in the speech processing business,29,SIL,5,sil,business,352,392,40,88,90,368,380,368,380,0.99787688122741
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,0,W,0,initial,once,28,64,36,7,8,44,52,16,56,0.7455994965045272
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,1,AH,0,medial,once,40,72,32,10,10,56,60,56,60,0.4055000017645999
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,2,N,0,medial,once,44,80,36,11,12,60,68,60,68,0.6838801234293473
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,3,S,0,final,once,52,84,32,13,13,68,72,68,72,0.5032696228186094
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,4,SIL,0,sil,once,56,92,36,14,15,72,80,72,84,0.6940993910662567
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,5,EH,1,initial,every,72,108,36,18,19,88,96,84,96,0.8159646793911177
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,6,V,1,medial,every,80,112,32,20,20,96,100,96,100,0.9998483398290077
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,7,ER,1,medial,every,84,116,32,21,21,100,104,100,104,0.9898056600334699
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,8,IY,1,final,every,88,120,32,22,22,104,108,104,108,0.9786621661255219
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,9,SIL,1,sil,every,92,132,40,23,25,108,120,108,120,0.9808376587373511
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,10,Y,2,initial,year,104,144,40,26,28,120,132,120,132,0.8646031593975292
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,11,IH,2,medial,year,116,148,32,29,29,132,136,132,136,0.9686107020203412
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,12,R,2,final,year,120,152,32,30,30,136,140,136,140,0.9999168525457751
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,13,SIL,2,sil,year,124,192,68,31,40,140,180,140,184,0.9993986012620331
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,14,AO,3,initial,or,172,204,32,43,43,188,192,184,192,0.9990756019495745
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,15,R,3,final,or,176,208,32,44,44,192,196,192,196,0.9999354666714267
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,16,SIL,3,sil,or,180,228,48,45,49,196,216,196,216,0.8090909415648385
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,17,T,4,initial,two,200,232,32,50,50,216,220,216,224,0.9917219252795605
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,18,UW,4,final,two,208,240,32,52,52,224,228,224,228,0.3606623124911617
+t12.2022.05.26,test,vocal,t12.2022.05.26,37,once every year or two,19,SIL,4,sil,two,212,248,36,53,54,228,236,228,236,0.9275421097498876
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,0,Y,0,initial,you,24,56,32,6,6,40,44,16,48,0.9999609993658973
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,1,UW,0,final,you,32,64,32,8,8,48,52,48,52,0.9999809804726663
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,2,SIL,0,sil,you,36,80,44,9,12,52,68,52,68,0.8508352685953616
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,3,D,1,initial,don't,52,88,36,13,14,68,76,68,76,0.8175903636098485
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,4,OW,1,medial,don't,60,92,32,15,15,76,80,76,80,0.9999972098543073
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,5,N,1,medial,don't,64,96,32,16,16,80,84,80,84,0.9999933269028304
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,6,T,1,final,don't,68,108,40,17,19,84,96,84,96,0.9472916469807786
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,7,SIL,1,sil,don't,80,120,40,20,22,96,108,96,112,0.9994305939446484
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,8,IY,2,initial,eat,100,132,32,25,25,116,120,112,120,0.004599940817268161
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,9,T,2,final,eat,104,136,32,26,26,120,124,120,124,0.9998599491757614
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,10,SIL,2,sil,eat,108,168,60,27,34,124,156,124,164,0.9917703989111161
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,11,IH,3,initial,it,152,184,32,38,38,168,172,164,172,0.9999996808528676
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,12,T,3,final,it,156,188,32,39,39,172,176,172,176,0.999941598184553
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,13,SIL,3,sil,it,160,216,56,40,46,176,204,176,208,0.9953597417323446
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,14,AE,4,initial,at,196,228,32,49,49,212,216,208,216,0.9988435543240941
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,15,T,4,final,at,200,232,32,50,50,216,220,216,220,0.999985965370598
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,16,SIL,4,sil,at,204,252,48,51,55,220,240,220,244,0.9770258992154266
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,17,AO,5,initial,all,232,264,32,58,58,248,252,244,252,0.9999969424084546
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,18,L,5,final,all,236,268,32,59,59,252,256,252,256,0.9998437988706069
+t12.2022.05.26,test,vocal,t12.2022.05.26,38,you don't eat it at all,19,SIL,5,sil,all,240,284,44,60,63,256,272,256,272,0.9987968832867191
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,0,T,0,initial,twelve,20,52,32,5,5,36,40,16,40,0.060412841250142776
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,1,W,0,medial,twelve,24,56,32,6,6,40,44,40,48,0.0017504162051149152
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,2,EH,0,medial,twelve,32,64,32,8,8,48,52,48,52,0.002547163999974593
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,3,L,0,medial,twelve,36,68,32,9,9,52,56,52,56,0.939743675517307
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,4,V,0,final,twelve,40,72,32,10,10,56,60,56,64,0.9954823855502378
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,5,SIL,0,sil,twelve,48,88,40,12,14,64,76,64,76,0.9934294825672613
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,6,M,1,initial,men,60,92,32,15,15,76,80,76,84,0.03460488230652299
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,7,EH,1,medial,men,72,104,32,18,18,88,92,84,92,0.9397080592137809
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,8,N,1,final,men,76,108,32,19,19,92,96,92,96,0.9992359038643037
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,9,SIL,1,sil,men,80,132,52,20,25,96,120,96,120,0.9163932315433124
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,10,T,2,initial,tried,104,136,32,26,26,120,124,120,124,0.12959084385547168
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,11,R,2,medial,tried,108,140,32,27,27,124,128,124,132,0.005173491816159069
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,12,AY,2,medial,tried,116,148,32,29,29,132,136,132,140,0.9322957093068536
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,13,D,2,final,tried,124,164,40,31,33,140,152,140,152,0.9677891365661763
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,14,SIL,2,sil,tried,136,176,40,34,36,152,164,152,168,0.9700423490774418
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,15,AH,3,initial,and,156,188,32,39,39,172,176,168,176,0.9992760087450007
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,16,N,3,medial,and,160,192,32,40,40,176,180,176,180,0.9999943427808405
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,17,D,3,final,and,164,200,36,41,42,180,188,180,188,0.8998013616007112
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,18,SIL,3,sil,and,172,212,40,43,45,188,200,188,200,0.971233981456022
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,19,T,4,initial,true,184,216,32,46,46,200,204,200,204,0.9945959979979896
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,20,R,4,medial,true,188,220,32,47,47,204,208,204,208,0.7850488676670162
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,21,UW,4,final,true,192,224,32,48,48,208,212,208,212,0.9756805409792708
+t12.2022.05.26,test,vocal,t12.2022.05.26,39,twelve men tried and true,22,SIL,4,sil,true,196,260,64,49,57,212,248,212,248,0.9947913819398424

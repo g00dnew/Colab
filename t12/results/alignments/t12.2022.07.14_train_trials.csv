@@ -1,0 +1,401 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,n_bins_trial,n_rnn_steps,n_phonemes_true,n_phonemes_decoded,edit_distance,per,aligned,align_logprob
+t12.2022.07.14,train,vocal,t12.2022.07.14,0,tears of joy streaming down her face,316,72,30,30,0,0.0,True,-3.6243705808469016
+t12.2022.07.14,train,vocal,t12.2022.07.14,1,a decision on this case is expected any day now,426,99,44,44,0,0.0,True,-3.772117929886454
+t12.2022.07.14,train,vocal,t12.2022.07.14,2,they want everybody educated,254,56,26,26,0,0.0,True,-1.5721650223250045
+t12.2022.07.14,train,vocal,t12.2022.07.14,3,there's no hills,175,36,13,13,0,0.0,True,-1.930984262542781
+t12.2022.07.14,train,vocal,t12.2022.07.14,4,this is a very unusual time for all of us,459,107,41,41,0,0.0,True,-4.2586202689285475
+t12.2022.07.14,train,vocal,t12.2022.07.14,5,you are going to find out for yourself,319,72,33,33,0,0.0,True,-6.040908438324991
+t12.2022.07.14,train,vocal,t12.2022.07.14,6,if i continue taking good care of it,362,83,34,34,0,0.0,True,-3.8209025177630562
+t12.2022.07.14,train,vocal,t12.2022.07.14,7,we know what to look for and what to avoid,433,101,37,37,0,0.0,True,-2.8573761317765576
+t12.2022.07.14,train,vocal,t12.2022.07.14,8,mostly i have just given them away as gifts,415,96,41,42,1,0.024390243902439025,True,-5.5986596297228095
+t12.2022.07.14,train,vocal,t12.2022.07.14,9,one of my friends here,256,57,21,21,0,0.0,True,-2.5334887508095183
+t12.2022.07.14,train,vocal,t12.2022.07.14,10,there's almost too much of a choice anymore,376,87,35,35,0,0.0,True,-4.192079641327466
+t12.2022.07.14,train,vocal,t12.2022.07.14,11,deer spaghetti is real good,239,52,23,23,0,0.0,True,-2.485679277520855
+t12.2022.07.14,train,vocal,t12.2022.07.14,12,the big republican thing is that they don't,383,88,37,37,0,0.0,True,-3.1145853712133365
+t12.2022.07.14,train,vocal,t12.2022.07.14,13,i don't know if you have one,279,62,24,24,0,0.0,True,-1.9124009060143878
+t12.2022.07.14,train,vocal,t12.2022.07.14,14,does it justify the cost,256,57,23,23,0,0.0,True,-2.849741635262369
+t12.2022.07.14,train,vocal,t12.2022.07.14,15,with a record like that,217,47,20,20,0,0.0,True,-4.136550178052559
+t12.2022.07.14,train,vocal,t12.2022.07.14,16,i read a book while i'm doing it,388,90,27,27,0,0.0,True,-2.0110200357909465
+t12.2022.07.14,train,vocal,t12.2022.07.14,17,you would think so,225,49,15,15,0,0.0,True,-1.779340449830217
+t12.2022.07.14,train,vocal,t12.2022.07.14,18,i actually hit the thirty one bracket this year,462,108,42,42,0,0.0,True,-4.460919040966829
+t12.2022.07.14,train,vocal,t12.2022.07.14,19,first an alphabet is developed,315,71,28,28,0,0.0,True,-3.4630061617441084
+t12.2022.07.14,train,vocal,t12.2022.07.14,20,in your kid's shoes,210,45,16,16,0,0.0,True,-1.4614861137845698
+t12.2022.07.14,train,vocal,t12.2022.07.14,21,i have a rifle in the house,309,70,24,24,0,0.0,True,-2.7053200730872105
+t12.2022.07.14,train,vocal,t12.2022.07.14,22,it's a real big crunch,250,55,20,20,0,0.0,True,-3.521750731591255
+t12.2022.07.14,train,vocal,t12.2022.07.14,23,i think that's really the only fair way to do it,443,103,41,41,0,0.0,True,-4.773660170553907
+t12.2022.07.14,train,vocal,t12.2022.07.14,24,you have to have that needle,305,69,24,24,0,0.0,True,-2.9829447835971004
+t12.2022.07.14,train,vocal,t12.2022.07.14,25,as little as possible,196,42,20,20,0,0.0,True,-2.0731332255937027
+t12.2022.07.14,train,vocal,t12.2022.07.14,26,is it a boy or a girl,286,64,20,20,0,0.0,True,-1.954259611668067
+t12.2022.07.14,train,vocal,t12.2022.07.14,27,they've got it pretty precise now,302,68,27,27,0,0.0,True,-3.164368507013815
+t12.2022.07.14,train,vocal,t12.2022.07.14,28,i was just trying to think,290,65,25,25,0,0.0,True,-2.3722426565653514
+t12.2022.07.14,train,vocal,t12.2022.07.14,29,at the end of the day respect is a choice,441,103,36,36,0,0.0,True,-3.6477835619430214
+t12.2022.07.14,train,vocal,t12.2022.07.14,30,he's telling me to start the grill,334,76,30,30,0,0.0,True,-4.317156863871446
+t12.2022.07.14,train,vocal,t12.2022.07.14,31,do you have to be a fan to enjoy it,445,104,33,33,0,0.0,True,-5.262471545418967
+t12.2022.07.14,train,vocal,t12.2022.07.14,32,i really enjoyed skiing,263,58,19,19,0,0.0,True,-2.602229904985214
+t12.2022.07.14,train,vocal,t12.2022.07.14,33,i haven't counted,174,36,16,16,0,0.0,True,-2.418008009439603
+t12.2022.07.14,train,vocal,t12.2022.07.14,34,it's kind of pleasant,192,41,20,20,0,0.0,True,-2.2322936946769407
+t12.2022.07.14,train,vocal,t12.2022.07.14,35,please share this post if you enjoyed it,353,81,33,33,0,0.0,True,-3.0917787855850425
+t12.2022.07.14,train,vocal,t12.2022.07.14,36,i like the looks of the lincoln town car,404,94,35,35,0,0.0,True,-4.917266413704636
+t12.2022.07.14,train,vocal,t12.2022.07.14,37,you know to make us feel uncomfortable,418,97,33,33,0,0.0,True,-4.831799662345106
+t12.2022.07.14,train,vocal,t12.2022.07.14,38,so what's the point of all of this,340,78,29,29,0,0.0,True,-3.6994957987438704
+t12.2022.07.14,train,vocal,t12.2022.07.14,39,do a little bit better,224,49,20,20,0,0.0,True,-1.686565805846813
+t12.2022.07.14,train,vocal,t12.2022.07.14,40,we were going to the doctor once a week,411,95,34,34,0,0.0,True,-2.9700694895836413
+t12.2022.07.14,train,vocal,t12.2022.07.14,41,i mean you as an individual,325,74,27,27,0,0.0,True,-2.557901938927692
+t12.2022.07.14,train,vocal,t12.2022.07.14,42,we have an excellent gardener here,306,69,31,31,0,0.0,True,-1.906161177966312
+t12.2022.07.14,train,vocal,t12.2022.07.14,43,they're in good spots,191,40,17,17,0,0.0,True,-0.8974616525280297
+t12.2022.07.14,train,vocal,t12.2022.07.14,44,do you stay home with yours,276,62,23,23,0,0.0,True,-2.644725427968052
+t12.2022.07.14,train,vocal,t12.2022.07.14,45,it's a pleasure to make your acquaintance,400,93,33,33,0,0.0,True,-4.46910630373482
+t12.2022.07.14,train,vocal,t12.2022.07.14,46,his children are very musical,311,70,29,29,0,0.0,True,-1.3115690030067297
+t12.2022.07.14,train,vocal,t12.2022.07.14,47,kind of like the italian,253,56,23,23,0,0.0,True,-3.313119364712864
+t12.2022.07.14,train,vocal,t12.2022.07.14,48,the weather is nice except for when it rains,384,89,38,38,0,0.0,True,-4.37117227428346
+t12.2022.07.14,train,vocal,t12.2022.07.14,49,to see there's nothing holy about it,352,81,30,30,0,0.0,True,-2.9355361917803875
+t12.2022.07.14,train,vocal,t12.2022.07.14,50,those were the last two that i've seen,324,74,29,29,0,0.0,True,-3.5631653181866354
+t12.2022.07.14,train,vocal,t12.2022.07.14,51,to different people's houses,232,51,24,24,0,0.0,True,-1.9565353768123905
+t12.2022.07.14,train,vocal,t12.2022.07.14,52,an absolute certainty,223,48,19,19,0,0.0,True,-3.7199796852794416
+t12.2022.07.14,train,vocal,t12.2022.07.14,53,and who is in charge of making that decision,426,99,39,39,0,0.0,True,-2.728374351622708
+t12.2022.07.14,train,vocal,t12.2022.07.14,54,the stores that sell,184,39,17,17,0,0.0,True,-1.563891084976407
+t12.2022.07.14,train,vocal,t12.2022.07.14,55,i hope you enjoy this burger as much as i do,445,104,38,38,0,0.0,True,-3.805082729303488
+t12.2022.07.14,train,vocal,t12.2022.07.14,56,we weren't all related,242,53,20,20,0,0.0,True,-2.6727482066913453
+t12.2022.07.14,train,vocal,t12.2022.07.14,57,that decision might not be a hard one to make,435,101,41,41,0,0.0,True,-2.868960905932634
+t12.2022.07.14,train,vocal,t12.2022.07.14,58,it's worth doing it,189,40,16,16,0,0.0,True,-1.2581958881282072
+t12.2022.07.14,train,vocal,t12.2022.07.14,59,lot of philosophical content,319,72,27,27,0,0.0,True,-4.717718044662227
+t12.2022.07.14,train,vocal,t12.2022.07.14,60,i find i have to get the right kinds,397,92,33,32,1,0.030303030303030304,True,-4.303550408621102
+t12.2022.07.14,train,vocal,t12.2022.07.14,61,he'll take them out just to be with them,381,88,34,34,0,0.0,True,-3.2983235077323028
+t12.2022.07.14,train,vocal,t12.2022.07.14,62,i'll take the passing teams any day,321,73,28,28,0,0.0,True,-3.85728254871498
+t12.2022.07.14,train,vocal,t12.2022.07.14,63,my car is really old,225,49,19,19,0,0.0,True,-1.2100463771556182
+t12.2022.07.14,train,vocal,t12.2022.07.14,64,there's still a lot of research,312,71,25,25,0,0.0,True,-3.1385222637894508
+t12.2022.07.14,train,vocal,t12.2022.07.14,65,the insurance rates are real high on your car,412,96,38,38,0,0.0,True,-3.5234821258799496
+t12.2022.07.14,train,vocal,t12.2022.07.14,66,it made a big difference,241,53,21,21,0,0.0,True,-1.5338852855015321
+t12.2022.07.14,train,vocal,t12.2022.07.14,67,that's another problem with the united states,365,84,40,40,0,0.0,True,-4.106277681714258
+t12.2022.07.14,train,vocal,t12.2022.07.14,68,two fifty or something,251,55,19,19,0,0.0,True,-1.6700861119668182
+t12.2022.07.14,train,vocal,t12.2022.07.14,69,so how did they arrive at this conclusion,385,89,34,34,0,0.0,True,-5.254585583945891
+t12.2022.07.14,train,vocal,t12.2022.07.14,70,read more about the decision here,287,64,28,28,0,0.0,True,-3.2801019626468024
+t12.2022.07.14,train,vocal,t12.2022.07.14,71,you can learn to crochet,265,59,20,20,0,0.0,True,-3.0192828629236965
+t12.2022.07.14,train,vocal,t12.2022.07.14,72,i bet that was frustrating,269,60,25,25,0,0.0,True,-2.1042904476691615
+t12.2022.07.14,train,vocal,t12.2022.07.14,73,the family wasn't wealthy,222,48,23,23,0,0.0,True,-1.1003234938155473
+t12.2022.07.14,train,vocal,t12.2022.07.14,74,he should have let them,233,51,19,19,0,0.0,True,-2.131379174880449
+t12.2022.07.14,train,vocal,t12.2022.07.14,75,i got a year's probation for that,337,77,30,30,0,0.0,True,-3.2892926941369653
+t12.2022.07.14,train,vocal,t12.2022.07.14,76,secretary of defense under any provision of law,475,111,44,44,0,0.0,True,-5.171695799227946
+t12.2022.07.14,train,vocal,t12.2022.07.14,77,usually we get about one or two calls a day,432,101,41,41,0,0.0,True,-4.141015174272944
+t12.2022.07.14,train,vocal,t12.2022.07.14,78,we get twenty four days a year,330,75,28,28,0,0.0,True,-2.197874466168338
+t12.2022.07.14,train,vocal,t12.2022.07.14,79,very competitive business,232,51,23,23,0,0.0,True,-2.1666110361877156
+t12.2022.07.14,train,vocal,t12.2022.07.14,80,whatever his name is,194,41,18,18,0,0.0,True,-1.616270048814037
+t12.2022.07.14,train,vocal,t12.2022.07.14,81,you might do the same thing,234,51,21,21,0,0.0,True,-1.9209106713882087
+t12.2022.07.14,train,vocal,t12.2022.07.14,82,you know that they're insured,274,61,21,21,0,0.0,True,-1.64452283147151
+t12.2022.07.14,train,vocal,t12.2022.07.14,83,the decision was not made lightly he said,392,91,36,36,0,0.0,True,-5.6024112700082345
+t12.2022.07.14,train,vocal,t12.2022.07.14,84,because i don't know the territory and all,400,93,35,35,0,0.0,True,-5.102519967837629
+t12.2022.07.14,train,vocal,t12.2022.07.14,85,should be about seventy,212,46,20,20,0,0.0,True,-1.4347085511695243
+t12.2022.07.14,train,vocal,t12.2022.07.14,86,a decision on the case is expected in june,412,96,40,40,0,0.0,True,-2.96200806283704
+t12.2022.07.14,train,vocal,t12.2022.07.14,87,i just couldn't believe,205,44,20,20,0,0.0,True,-1.6725351782106772
+t12.2022.07.14,train,vocal,t12.2022.07.14,88,which brings me to my next point,307,69,30,30,0,0.0,True,-2.9831563827870844
+t12.2022.07.14,train,vocal,t12.2022.07.14,89,i think the jury should be able to recommend,420,98,39,39,0,0.0,True,-4.774408693242286
+t12.2022.07.14,train,vocal,t12.2022.07.14,90,i thought i was going to die,287,64,23,23,0,0.0,True,-4.594557037558861
+t12.2022.07.14,train,vocal,t12.2022.07.14,91,you worked with it and you got through it,354,81,33,33,0,0.0,True,-2.2380029721147467
+t12.2022.07.14,train,vocal,t12.2022.07.14,92,everybody's in dallas that i talk to,338,77,32,32,0,0.0,True,-3.0710033593775337
+t12.2022.07.14,train,vocal,t12.2022.07.14,93,there were no immediate reports on casualties,418,97,40,39,1,0.025,True,-5.491928609067761
+t12.2022.07.14,train,vocal,t12.2022.07.14,94,i don't know if we'll ever see that up there,404,94,35,35,0,0.0,True,-5.939497441339527
+t12.2022.07.14,train,vocal,t12.2022.07.14,95,i can understand that,209,45,20,20,0,0.0,True,-2.262424217588798
+t12.2022.07.14,train,vocal,t12.2022.07.14,96,my feet bother me,212,46,15,15,0,0.0,True,-1.0536627717137586
+t12.2022.07.14,train,vocal,t12.2022.07.14,97,it was zales jewelry,214,46,19,19,0,0.0,True,-3.330961761530365
+t12.2022.07.14,train,vocal,t12.2022.07.14,98,it's always a pleasure to be here with you,380,88,35,35,0,0.0,True,-3.324979066439673
+t12.2022.07.14,train,vocal,t12.2022.07.14,99,i had a little bit more time to think about it,473,111,42,42,0,0.0,True,-4.562640808168341
+t12.2022.07.14,train,vocal,t12.2022.07.14,100,you get so attached to them,256,57,23,23,0,0.0,True,-3.030259381536081
+t12.2022.07.14,train,vocal,t12.2022.07.14,101,except they can't fight,259,57,19,19,0,0.0,True,-2.3068836998439046
+t12.2022.07.14,train,vocal,t12.2022.07.14,102,okay fine i suppose you have a point,366,84,30,30,0,0.0,True,-5.382201019489859
+t12.2022.07.14,train,vocal,t12.2022.07.14,103,at times there's a lot of it,294,66,25,25,0,0.0,True,-3.923877655337453
+t12.2022.07.14,train,vocal,t12.2022.07.14,104,for the speech group,236,52,17,17,0,0.0,True,-2.3059392699775416
+t12.2022.07.14,train,vocal,t12.2022.07.14,105,you have pointed out the models for this video,374,86,41,41,0,0.0,True,-4.103914219155887
+t12.2022.07.14,train,vocal,t12.2022.07.14,106,i do telemarketing,264,59,18,18,0,0.0,True,-2.684094437656745
+t12.2022.07.14,train,vocal,t12.2022.07.14,107,we live in the saginaw area,315,71,25,25,0,0.0,True,-4.499350554853845
+t12.2022.07.14,train,vocal,t12.2022.07.14,108,taking off her glasses she massaged her temples,389,90,40,40,0,0.0,True,-2.688579007000158
+t12.2022.07.14,train,vocal,t12.2022.07.14,109,it's really an illness,206,44,18,18,0,0.0,True,-1.1291315820274772
+t12.2022.07.14,train,vocal,t12.2022.07.14,110,when i was growing up in chicago,333,76,29,29,0,0.0,True,-3.718954851951368
+t12.2022.07.14,train,vocal,t12.2022.07.14,111,i have a gold one,235,51,17,17,0,0.0,True,-2.178187128709874
+t12.2022.07.14,train,vocal,t12.2022.07.14,112,repeat offenders of a crime,291,65,24,24,0,0.0,True,-2.36475507113882
+t12.2022.07.14,train,vocal,t12.2022.07.14,113,what did you grow,191,40,15,15,0,0.0,True,-1.48775915090074
+t12.2022.07.14,train,vocal,t12.2022.07.14,114,is that what you're in,230,50,18,18,0,0.0,True,-1.4224392621543016
+t12.2022.07.14,train,vocal,t12.2022.07.14,115,you're very conservative,277,62,20,20,0,0.0,True,-2.537666631149204
+t12.2022.07.14,train,vocal,t12.2022.07.14,116,you'd be a hundred and seventy centimeters,440,103,40,40,0,0.0,True,-4.017572727514657
+t12.2022.07.14,train,vocal,t12.2022.07.14,117,i still got a couple of years on it to go,446,104,39,39,0,0.0,True,-4.8369169558892695
+t12.2022.07.14,train,vocal,t12.2022.07.14,118,we are looking forward to that,301,68,26,26,0,0.0,True,-1.385303307939506
+t12.2022.07.14,train,vocal,t12.2022.07.14,119,life imprisonment,232,51,17,17,0,0.0,True,-2.414943764103191
+t12.2022.07.14,train,vocal,t12.2022.07.14,120,it would have to do with poverty,367,84,28,28,0,0.0,True,-2.728897053708068
+t12.2022.07.14,train,vocal,t12.2022.07.14,121,her voice barely above a whisper,265,59,26,26,0,0.0,True,-2.9494239385337666
+t12.2022.07.14,train,vocal,t12.2022.07.14,122,have we done our ten minutes,254,56,25,25,0,0.0,True,-2.7003508417712774
+t12.2022.07.14,train,vocal,t12.2022.07.14,123,the measure passed the house by a voice vote,404,94,33,33,0,0.0,True,-4.28588135155363
+t12.2022.07.14,train,vocal,t12.2022.07.14,124,that happens to us sometimes too,274,61,28,28,0,0.0,True,-1.5735684654644062
+t12.2022.07.14,train,vocal,t12.2022.07.14,125,we didn't know that when we bought the house,403,93,35,35,0,0.0,True,-2.750574191523697
+t12.2022.07.14,train,vocal,t12.2022.07.14,126,for the education side of it and everything,431,100,38,38,0,0.0,True,-4.4472834942732025
+t12.2022.07.14,train,vocal,t12.2022.07.14,127,i guess i like to take care of it,354,81,29,29,0,0.0,True,-3.5142632897007253
+t12.2022.07.14,train,vocal,t12.2022.07.14,128,interesting thing you want to do,275,61,28,28,0,0.0,True,-1.7502505356135414
+t12.2022.07.14,train,vocal,t12.2022.07.14,129,but you have friends that have children,342,78,34,34,0,0.0,True,-2.4584751398304854
+t12.2022.07.14,train,vocal,t12.2022.07.14,130,i don't have luck with that tomato plant,402,93,36,36,0,0.0,True,-4.612081629599379
+t12.2022.07.14,train,vocal,t12.2022.07.14,131,so that's not too bad,214,46,19,19,0,0.0,True,-2.062343493066437
+t12.2022.07.14,train,vocal,t12.2022.07.14,132,for the relatives,203,43,16,16,0,0.0,True,-3.279860913197029
+t12.2022.07.14,train,vocal,t12.2022.07.14,133,bring a large pot of water to boil on the stove,441,103,42,42,0,0.0,True,-3.6299506301478113
+t12.2022.07.14,train,vocal,t12.2022.07.14,134,certainly exposed to criteria people are using,385,89,43,43,0,0.0,True,-4.4110922278871545
+t12.2022.07.14,train,vocal,t12.2022.07.14,135,warped real easy,174,36,14,14,0,0.0,True,-1.7654014556695679
+t12.2022.07.14,train,vocal,t12.2022.07.14,136,decisions are expected by the end of june,383,88,39,39,0,0.0,True,-2.968863320676569
+t12.2022.07.14,train,vocal,t12.2022.07.14,137,now that's big time,196,42,16,16,0,0.0,True,-2.1710986107878534
+t12.2022.07.14,train,vocal,t12.2022.07.14,138,actually they have,159,32,16,16,0,0.0,True,-1.426446001891196
+t12.2022.07.14,train,vocal,t12.2022.07.14,139,also difficulties they have,259,57,23,23,0,0.0,True,-3.409012697530469
+t12.2022.07.14,train,vocal,t12.2022.07.14,140,they're starting off,151,30,15,15,0,0.0,True,-0.34290194320450934
+t12.2022.07.14,train,vocal,t12.2022.07.14,141,trying to find someone at home,277,62,28,28,0,0.0,True,-2.9519064198148883
+t12.2022.07.14,train,vocal,t12.2022.07.14,142,i was kind of into it for a while there,371,85,36,36,0,0.0,True,-4.159333128713268
+t12.2022.07.14,train,vocal,t12.2022.07.14,143,lives right next to the cowboys' training camp,365,84,40,38,2,0.05,True,-10.22973461457316
+t12.2022.07.14,train,vocal,t12.2022.07.14,144,you say it's near and dear to your heart,360,83,34,34,0,0.0,True,-3.9722688850745125
+t12.2022.07.14,train,vocal,t12.2022.07.14,145,in the field that i was in,279,62,24,24,0,0.0,True,-2.5662042930769107
+t12.2022.07.14,train,vocal,t12.2022.07.14,146,if they missed it,221,48,14,14,0,0.0,True,-1.2523920071850723
+t12.2022.07.14,train,vocal,t12.2022.07.14,147,presidents have always avoided that as a country,410,95,44,44,0,0.0,True,-5.060383747164712
+t12.2022.07.14,train,vocal,t12.2022.07.14,148,check my balance and my book,311,70,25,25,0,0.0,True,-2.8780592245334566
+t12.2022.07.14,train,vocal,t12.2022.07.14,149,always pushing me,192,41,15,15,0,0.0,True,-2.7869981843111016
+t12.2022.07.14,train,vocal,t12.2022.07.14,150,right after you get out,216,47,19,19,0,0.0,True,-1.3318761865828725
+t12.2022.07.14,train,vocal,t12.2022.07.14,151,i play right now,203,43,13,13,0,0.0,True,-1.1899918588139067
+t12.2022.07.14,train,vocal,t12.2022.07.14,152,university of illinois at chicago,372,86,30,30,0,0.0,True,-4.281187050123012
+t12.2022.07.14,train,vocal,t12.2022.07.14,153,you're supposed to do chicken,252,56,23,23,0,0.0,True,-2.4270723011306616
+t12.2022.07.14,train,vocal,t12.2022.07.14,154,he said the decision to part ways was mutual,423,98,43,43,0,0.0,True,-4.670250491146285
+t12.2022.07.14,train,vocal,t12.2022.07.14,155,stewing up trouble,179,37,16,16,0,0.0,True,-1.1126434707391386
+t12.2022.07.14,train,vocal,t12.2022.07.14,156,it is reflecting,210,45,16,16,0,0.0,True,-1.5341937585134222
+t12.2022.07.14,train,vocal,t12.2022.07.14,157,i don't like to watch anything,303,68,25,25,0,0.0,True,-1.8730669713443957
+t12.2022.07.14,train,vocal,t12.2022.07.14,158,like building a house or anything,305,69,27,27,0,0.0,True,-2.6017150002673097
+t12.2022.07.14,train,vocal,t12.2022.07.14,159,it's really pretty good,250,55,19,19,0,0.0,True,-1.2272106008953978
+t12.2022.07.14,train,vocal,t12.2022.07.14,160,it's real enjoyable,187,39,17,15,2,0.11764705882352941,True,-3.7625157123464383
+t12.2022.07.14,train,vocal,t12.2022.07.14,161,several things about the car,220,48,24,24,0,0.0,True,-3.3169743188884735
+t12.2022.07.14,train,vocal,t12.2022.07.14,162,then i got into it and then back out of it,355,81,39,39,0,0.0,True,-4.124005902518238
+t12.2022.07.14,train,vocal,t12.2022.07.14,163,we all know that that's not necessarily true,370,85,37,37,0,0.0,True,-5.489515578670006
+t12.2022.07.14,train,vocal,t12.2022.07.14,164,electronic data processing,267,59,25,26,1,0.04,True,-5.071408868851968
+t12.2022.07.14,train,vocal,t12.2022.07.14,165,it think it's jamaica,180,38,19,19,0,0.0,True,-1.349552920815092
+t12.2022.07.14,train,vocal,t12.2022.07.14,166,it's still running real well,201,43,23,23,0,0.0,True,-3.8226015306840466
+t12.2022.07.14,train,vocal,t12.2022.07.14,167,what are the others,163,33,15,15,0,0.0,True,-1.991271899534222
+t12.2022.07.14,train,vocal,t12.2022.07.14,168,we took her into the country,240,53,25,25,0,0.0,True,-2.3834269290345915
+t12.2022.07.14,train,vocal,t12.2022.07.14,169,i mean i'm not a serious golfer at all,433,101,34,34,0,0.0,True,-5.095900921894079
+t12.2022.07.14,train,vocal,t12.2022.07.14,170,it's difficult to really say why,278,62,27,27,0,0.0,True,-3.3222265330753022
+t12.2022.07.14,train,vocal,t12.2022.07.14,171,about half of that,185,39,16,16,0,0.0,True,-2.642967960206708
+t12.2022.07.14,train,vocal,t12.2022.07.14,172,it is something new,202,43,16,16,0,0.0,True,-0.9138626210359243
+t12.2022.07.14,train,vocal,t12.2022.07.14,173,just by not knowing,168,35,17,17,0,0.0,True,-1.7135186720123265
+t12.2022.07.14,train,vocal,t12.2022.07.14,174,i haven't called in a couple of days,313,71,32,32,0,0.0,True,-2.4237022929150407
+t12.2022.07.14,train,vocal,t12.2022.07.14,175,she can cover quite an area,268,60,25,25,0,0.0,True,-2.4104163353177133
+t12.2022.07.14,train,vocal,t12.2022.07.14,176,she's real interested in recycling,360,83,31,31,0,0.0,True,-3.081345545510051
+t12.2022.07.14,train,vocal,t12.2022.07.14,177,it is a new company called prime air,369,85,32,32,0,0.0,True,-2.6883829616384083
+t12.2022.07.14,train,vocal,t12.2022.07.14,178,they have one of the clerks up there,326,74,30,30,0,0.0,True,-3.8786767851434414
+t12.2022.07.14,train,vocal,t12.2022.07.14,179,people going into different fields,292,66,30,30,0,0.0,True,-4.4430803027442884
+t12.2022.07.14,train,vocal,t12.2022.07.14,180,i couldn't believe it,202,43,18,18,0,0.0,True,-2.597959561262234
+t12.2022.07.14,train,vocal,t12.2022.07.14,181,they fill up the whole kitchen garbage can,335,76,34,34,0,0.0,True,-2.2072232869121926
+t12.2022.07.14,train,vocal,t12.2022.07.14,182,you need to keep all these people employed,370,85,34,34,0,0.0,True,-3.092894457500778
+t12.2022.07.14,train,vocal,t12.2022.07.14,183,the lines in there were just perfect,346,79,30,30,0,0.0,True,-3.464558863770331
+t12.2022.07.14,train,vocal,t12.2022.07.14,184,during that whole month,176,37,19,19,0,0.0,True,-1.7023441738180358
+t12.2022.07.14,train,vocal,t12.2022.07.14,185,it's amazing,201,43,11,11,0,0.0,True,-0.6503445601521525
+t12.2022.07.14,train,vocal,t12.2022.07.14,186,we've got the power,190,40,15,15,0,0.0,True,-2.278303963323625
+t12.2022.07.14,train,vocal,t12.2022.07.14,187,avoid wasting money on watering,267,59,27,27,0,0.0,True,-2.1782203452876328
+t12.2022.07.14,train,vocal,t12.2022.07.14,188,they have to adhere to that industry standard,392,91,40,40,0,0.0,True,-6.059385640068946
+t12.2022.07.14,train,vocal,t12.2022.07.14,189,get arrested or what not,267,59,22,22,0,0.0,True,-2.0817936584446777
+t12.2022.07.14,train,vocal,t12.2022.07.14,190,they might weed you out some other way,334,76,28,28,0,0.0,True,-3.4263402289358456
+t12.2022.07.14,train,vocal,t12.2022.07.14,191,she didn't announce that to you,311,70,26,26,0,0.0,True,-3.4450902204458607
+t12.2022.07.14,train,vocal,t12.2022.07.14,192,that's one way,157,32,12,12,0,0.0,True,-0.8490102326255353
+t12.2022.07.14,train,vocal,t12.2022.07.14,193,i said if i ever had a son,321,73,25,25,0,0.0,True,-4.081350473222798
+t12.2022.07.14,train,vocal,t12.2022.07.14,194,not just maternity leave,224,49,22,22,0,0.0,True,-2.67434489414287
+t12.2022.07.14,train,vocal,t12.2022.07.14,195,i think that's all they're picking up,310,70,28,28,0,0.0,True,-4.213164292258892
+t12.2022.07.14,train,vocal,t12.2022.07.14,196,it's really nice,183,38,13,13,0,0.0,True,-0.4945112167238355
+t12.2022.07.14,train,vocal,t12.2022.07.14,197,you buy these super giant heavy duty paper bags,430,100,41,41,0,0.0,True,-6.191465130973963
+t12.2022.07.14,train,vocal,t12.2022.07.14,198,about fifteen miles,205,44,17,17,0,0.0,True,-1.445874234710876
+t12.2022.07.14,train,vocal,t12.2022.07.14,199,that does not sit very well with a lot of folks,455,106,43,43,0,0.0,True,-4.213896966640938
+t12.2022.07.14,train,vocal,t12.2022.07.14,200,the rules don't always apply,299,67,24,24,0,0.0,True,-2.6209676593325084
+t12.2022.07.14,train,vocal,t12.2022.07.14,201,in the next five years,214,46,21,21,0,0.0,True,-2.917767804197358
+t12.2022.07.14,train,vocal,t12.2022.07.14,202,you can't believe that,203,43,18,18,0,0.0,True,-1.1202517313212783
+t12.2022.07.14,train,vocal,t12.2022.07.14,203,was that wonderful,166,34,17,17,0,0.0,True,-1.0703968906329175
+t12.2022.07.14,train,vocal,t12.2022.07.14,204,i have a dog that god gave us too,355,81,30,30,0,0.0,True,-3.1579250928278917
+t12.2022.07.14,train,vocal,t12.2022.07.14,205,collect your cans,217,47,16,16,0,0.0,True,-1.934054085952703
+t12.2022.07.14,train,vocal,t12.2022.07.14,206,all on the job,170,35,13,13,0,0.0,True,-0.8752084907999073
+t12.2022.07.14,train,vocal,t12.2022.07.14,207,my dad has a lake cabin,279,62,23,23,0,0.0,True,-2.605178587020366
+t12.2022.07.14,train,vocal,t12.2022.07.14,208,do you have any pets now,291,65,22,22,0,0.0,True,-2.4149801871235845
+t12.2022.07.14,train,vocal,t12.2022.07.14,209,i don't know if they do it all over,372,86,29,29,0,0.0,True,-3.690781403104623
+t12.2022.07.14,train,vocal,t12.2022.07.14,210,you think it'll continue,231,50,22,22,0,0.0,True,-2.7737246630384154
+t12.2022.07.14,train,vocal,t12.2022.07.14,211,i like all kinds of books,268,60,23,23,0,0.0,True,-3.438365169927585
+t12.2022.07.14,train,vocal,t12.2022.07.14,212,so pretty much we have different interests,430,100,37,37,0,0.0,True,-4.716720648539654
+t12.2022.07.14,train,vocal,t12.2022.07.14,213,i'm from atlanta,163,33,16,16,0,0.0,True,-1.679510543716637
+t12.2022.07.14,train,vocal,t12.2022.07.14,214,we did have barbies,279,62,18,18,0,0.0,True,-2.5875882230029528
+t12.2022.07.14,train,vocal,t12.2022.07.14,215,it reduces some of the length of the benefits,418,97,42,42,0,0.0,True,-5.814352395878424
+t12.2022.07.14,train,vocal,t12.2022.07.14,216,would be some measure of protection,336,77,29,29,0,0.0,True,-4.012324711495772
+t12.2022.07.14,train,vocal,t12.2022.07.14,217,i can't even think of what it is,318,72,30,30,0,0.0,True,-3.3027958441432994
+t12.2022.07.14,train,vocal,t12.2022.07.14,218,pull out couches and all that,282,63,24,24,0,0.0,True,-3.1902008060130593
+t12.2022.07.14,train,vocal,t12.2022.07.14,219,it was a difference,183,38,17,17,0,0.0,True,-1.5269167947344093
+t12.2022.07.14,train,vocal,t12.2022.07.14,220,with the classical tastes i had mentioned,365,84,36,36,0,0.0,True,-3.5951342226407728
+t12.2022.07.14,train,vocal,t12.2022.07.14,221,i can not remember his name now,363,83,29,29,0,0.0,True,-2.6892908481683695
+t12.2022.07.14,train,vocal,t12.2022.07.14,222,her daughter actually was,240,53,21,20,1,0.047619047619047616,True,-5.189213473886259
+t12.2022.07.14,train,vocal,t12.2022.07.14,223,except when we need them,283,63,22,22,0,0.0,True,-2.465222453463506
+t12.2022.07.14,train,vocal,t12.2022.07.14,224,you know that children can't,270,60,23,23,0,0.0,True,-2.829082959149748
+t12.2022.07.14,train,vocal,t12.2022.07.14,225,that was a lifesaver,230,50,18,18,0,0.0,True,-3.0873171809199413
+t12.2022.07.14,train,vocal,t12.2022.07.14,226,we're going to have to do something,318,72,29,29,0,0.0,True,-2.208586831310517
+t12.2022.07.14,train,vocal,t12.2022.07.14,227,that's something,149,30,12,12,0,0.0,True,-1.6266349762806134
+t12.2022.07.14,train,vocal,t12.2022.07.14,228,you know i don't know,216,47,16,16,0,0.0,True,-3.119462214493167
+t12.2022.07.14,train,vocal,t12.2022.07.14,229,we had a case like that here,333,76,25,25,0,0.0,True,-2.880732519646186
+t12.2022.07.14,train,vocal,t12.2022.07.14,230,they would let you use it maybe once a year,388,90,37,37,0,0.0,True,-3.3849340976998303
+t12.2022.07.14,train,vocal,t12.2022.07.14,231,that's not their problem,194,41,21,21,0,0.0,True,-1.1439765525023198
+t12.2022.07.14,train,vocal,t12.2022.07.14,232,everybody is really interesting,246,54,27,27,0,0.0,True,-1.5084219014038833
+t12.2022.07.14,train,vocal,t12.2022.07.14,233,my two littler ones,209,45,18,18,0,0.0,True,-2.170848996503016
+t12.2022.07.14,train,vocal,t12.2022.07.14,234,you've already been preapproved,294,66,24,26,2,0.08333333333333333,True,-9.370304260062465
+t12.2022.07.14,train,vocal,t12.2022.07.14,235,which is unfortunate for them,240,53,26,26,0,0.0,True,-3.884099361692789
+t12.2022.07.14,train,vocal,t12.2022.07.14,236,hopefully the new ones will be a lot better,422,98,37,37,0,0.0,True,-5.038677321679032
+t12.2022.07.14,train,vocal,t12.2022.07.14,237,when you think about it,208,45,20,20,0,0.0,True,-2.262698605280518
+t12.2022.07.14,train,vocal,t12.2022.07.14,238,potatoes and onions and bell peppers,350,80,33,33,0,0.0,True,-5.707539711661694
+t12.2022.07.14,train,vocal,t12.2022.07.14,239,i'm being very good,197,42,17,17,0,0.0,True,-1.7083814361382508
+t12.2022.07.14,train,vocal,t12.2022.07.14,240,we have a seven year old,289,65,23,23,0,0.0,True,-2.9354127325578228
+t12.2022.07.14,train,vocal,t12.2022.07.14,241,when i don't have money,221,48,20,20,0,0.0,True,-2.8054000144586304
+t12.2022.07.14,train,vocal,t12.2022.07.14,242,you can't find them,173,36,17,17,0,0.0,True,-1.1432894148899524
+t12.2022.07.14,train,vocal,t12.2022.07.14,243,the time frame which they get paid,311,70,27,27,0,0.0,True,-2.9795997280451476
+t12.2022.07.14,train,vocal,t12.2022.07.14,244,because of the institutional food,309,70,29,27,2,0.06896551724137931,True,-5.450433116722003
+t12.2022.07.14,train,vocal,t12.2022.07.14,245,do you watch the network,241,53,20,20,0,0.0,True,-2.581435851753534
+t12.2022.07.14,train,vocal,t12.2022.07.14,246,i guess i can relate to that,281,63,25,25,0,0.0,True,-2.5047487319516284
+t12.2022.07.14,train,vocal,t12.2022.07.14,247,you're thirty days late,243,53,17,17,0,0.0,True,-0.9685883597056861
+t12.2022.07.14,train,vocal,t12.2022.07.14,248,run a business out of my home,281,63,26,26,1,0.038461538461538464,True,-3.30318017723017
+t12.2022.07.14,train,vocal,t12.2022.07.14,249,in my little world,187,39,17,17,0,0.0,True,-0.960627416385065
+t12.2022.07.14,train,vocal,t12.2022.07.14,250,i knew it was easier back here,365,84,25,25,0,0.0,True,-3.214438105986121
+t12.2022.07.14,train,vocal,t12.2022.07.14,251,that's a big part of my decision,329,75,30,30,0,0.0,True,-2.673353959684589
+t12.2022.07.14,train,vocal,t12.2022.07.14,252,my parents would have a fit probably,347,79,34,34,0,0.0,True,-2.93666802521244
+t12.2022.07.14,train,vocal,t12.2022.07.14,253,it's also designed to line the pockets of lawyers,397,92,42,42,0,0.0,True,-4.942273578247632
+t12.2022.07.14,train,vocal,t12.2022.07.14,254,quite a way away,222,48,14,14,0,0.0,True,-2.5498083127370625
+t12.2022.07.14,train,vocal,t12.2022.07.14,255,you've read that one before,218,47,22,22,0,0.0,True,-1.5011236831455967
+t12.2022.07.14,train,vocal,t12.2022.07.14,256,i've seen all of this,178,37,17,17,0,0.0,True,-0.16198794288763596
+t12.2022.07.14,train,vocal,t12.2022.07.14,257,that happens on occasion,309,70,21,21,0,0.0,True,-2.746333071060736
+t12.2022.07.14,train,vocal,t12.2022.07.14,258,i think that's the way this is done,300,68,29,29,0,0.0,True,-3.4522848098365744
+t12.2022.07.14,train,vocal,t12.2022.07.14,259,i get them rarely and i'm still astounded,462,108,37,37,0,0.0,True,-3.7707047410870724
+t12.2022.07.14,train,vocal,t12.2022.07.14,260,the jury system itself,274,61,22,22,0,0.0,True,-3.0747763481829615
+t12.2022.07.14,train,vocal,t12.2022.07.14,261,people are just too different,252,56,25,25,0,0.0,True,-3.1347161780097594
+t12.2022.07.14,train,vocal,t12.2022.07.14,262,it's just a lot of fun,242,53,22,22,0,0.0,True,-2.414662149195257
+t12.2022.07.14,train,vocal,t12.2022.07.14,263,what group you happen to be in,327,74,27,27,0,0.0,True,-2.4649124071050474
+t12.2022.07.14,train,vocal,t12.2022.07.14,264,you all are waiting for that,319,72,23,23,0,0.0,True,-1.925637037468185
+t12.2022.07.14,train,vocal,t12.2022.07.14,265,if something caught my eye,282,63,19,19,0,0.0,True,-2.153044907214791
+t12.2022.07.14,train,vocal,t12.2022.07.14,266,didn't he though,175,36,13,13,0,0.0,True,-1.5259395416733084
+t12.2022.07.14,train,vocal,t12.2022.07.14,267,there's some trees like the oaks,291,65,25,25,0,0.0,True,-3.1921373112328295
+t12.2022.07.14,train,vocal,t12.2022.07.14,268,we didn't have that,193,41,18,18,0,0.0,True,-1.2156281263052167
+t12.2022.07.14,train,vocal,t12.2022.07.14,269,when i was in dallas i was supervisor,443,103,34,34,0,0.0,True,-4.277496094894757
+t12.2022.07.14,train,vocal,t12.2022.07.14,270,even when someone has been convicted,385,89,34,34,0,0.0,True,-4.566035928444957
+t12.2022.07.14,train,vocal,t12.2022.07.14,271,if you can pull it off,262,58,20,20,0,0.0,True,-1.8529381321236893
+t12.2022.07.14,train,vocal,t12.2022.07.14,272,we bought a van last year,282,63,22,22,0,0.0,True,-1.6882292824698162
+t12.2022.07.14,train,vocal,t12.2022.07.14,273,then i could take the van,295,66,21,21,0,0.0,True,-2.060048898552263
+t12.2022.07.14,train,vocal,t12.2022.07.14,274,i'm in favor of very little clean up,368,85,33,33,0,0.0,True,-3.9252536160848828
+t12.2022.07.14,train,vocal,t12.2022.07.14,275,that helped us sort of feel good,323,73,29,29,0,0.0,True,-6.23913545470695
+t12.2022.07.14,train,vocal,t12.2022.07.14,276,you own the company,224,49,17,17,0,0.0,True,-1.4978186802484241
+t12.2022.07.14,train,vocal,t12.2022.07.14,277,we're going to romania in a few weeks,374,86,34,34,0,0.0,True,-4.921765239549829
+t12.2022.07.14,train,vocal,t12.2022.07.14,278,i'm dying to see that,221,48,18,18,0,0.0,True,-1.5098290718740541
+t12.2022.07.14,train,vocal,t12.2022.07.14,279,you talked about something,224,49,20,20,0,0.0,True,-2.1813321046231007
+t12.2022.07.14,train,vocal,t12.2022.07.14,280,they should have one year and one appeal,371,85,32,32,0,0.0,True,-2.433257631045205
+t12.2022.07.14,train,vocal,t12.2022.07.14,281,i just want to get down and kiss the ground,386,89,40,40,0,0.0,True,-4.445580758411307
+t12.2022.07.14,train,vocal,t12.2022.07.14,282,it could be used to hassle somebody,356,82,32,32,0,0.0,True,-2.9132046768057367
+t12.2022.07.14,train,vocal,t12.2022.07.14,283,we're just stealing it,177,37,19,18,1,0.05263157894736842,True,-2.0881090165351663
+t12.2022.07.14,train,vocal,t12.2022.07.14,284,recently moved here from north carolina,322,73,37,37,0,0.0,True,-4.495701102633343
+t12.2022.07.14,train,vocal,t12.2022.07.14,285,a good southern solution,277,62,20,20,0,0.0,True,-2.2339499712076822
+t12.2022.07.14,train,vocal,t12.2022.07.14,286,they all play different songs,285,64,23,23,0,0.0,True,-2.312995358492696
+t12.2022.07.14,train,vocal,t12.2022.07.14,287,if i could remember the name,293,66,24,24,0,0.0,True,-1.825526066738335
+t12.2022.07.14,train,vocal,t12.2022.07.14,288,i find it very silly,253,56,20,20,0,0.0,True,-2.6234791270518296
+t12.2022.07.14,train,vocal,t12.2022.07.14,289,that should be governed by by the government,411,95,36,36,0,0.0,True,-1.9605186338539287
+t12.2022.07.14,train,vocal,t12.2022.07.14,290,i haven't really gotten back into exercising,380,88,39,39,0,0.0,True,-4.335277790284022
+t12.2022.07.14,train,vocal,t12.2022.07.14,291,i went back tonight also,253,56,22,22,0,0.0,True,-1.7896323201440907
+t12.2022.07.14,train,vocal,t12.2022.07.14,292,there's no deductions,238,52,18,18,0,0.0,True,-1.2703809296664474
+t12.2022.07.14,train,vocal,t12.2022.07.14,293,you know i don't change my own oil,376,87,27,27,0,0.0,True,-3.320792562760009
+t12.2022.07.14,train,vocal,t12.2022.07.14,294,i saw that movie too,250,55,17,17,0,0.0,True,-3.755970685524857
+t12.2022.07.14,train,vocal,t12.2022.07.14,295,the entire bank is not like that,340,78,29,29,0,0.0,True,-3.789789084557535
+t12.2022.07.14,train,vocal,t12.2022.07.14,296,trying to control whatever,247,54,24,24,0,0.0,True,-2.3381673788834796
+t12.2022.07.14,train,vocal,t12.2022.07.14,297,the benefit of having eyeglasses for the family,441,103,42,42,0,0.0,True,-5.585594968386294
+t12.2022.07.14,train,vocal,t12.2022.07.14,298,that's what i wondered,186,39,18,18,0,0.0,True,-1.6854218092942068
+t12.2022.07.14,train,vocal,t12.2022.07.14,299,they don't know that i don't use drugs,408,95,32,32,0,0.0,True,-2.7850864592338818
+t12.2022.07.14,train,vocal,t12.2022.07.14,300,then you are busy,214,46,15,15,0,0.0,True,-0.9008222652324801
+t12.2022.07.14,train,vocal,t12.2022.07.14,301,i don't think they're out of line,295,66,26,26,0,0.0,True,-3.632162366275148
+t12.2022.07.14,train,vocal,t12.2022.07.14,302,that's a serious truck,263,58,19,19,0,0.0,True,-4.734045172212802
+t12.2022.07.14,train,vocal,t12.2022.07.14,303,at the time that's what i taught,332,76,25,25,0,0.0,True,-4.707809398190635
+t12.2022.07.14,train,vocal,t12.2022.07.14,304,my shell credit card,261,58,19,19,0,0.0,True,-2.3529985595771774
+t12.2022.07.14,train,vocal,t12.2022.07.14,305,there was some girl there,249,55,20,20,0,0.0,True,-3.4231247903070043
+t12.2022.07.14,train,vocal,t12.2022.07.14,306,we were doing it,211,45,14,14,0,0.0,True,-1.2122451497798827
+t12.2022.07.14,train,vocal,t12.2022.07.14,307,we've got a one story house now,320,73,27,27,0,0.0,True,-4.594451305776574
+t12.2022.07.14,train,vocal,t12.2022.07.14,308,it was always my mother's fault,281,63,27,27,0,0.0,True,-2.3074122449172747
+t12.2022.07.14,train,vocal,t12.2022.07.14,309,there's a couple teachers up there,267,59,26,26,0,0.0,True,-2.9633193400903344
+t12.2022.07.14,train,vocal,t12.2022.07.14,310,with the topic i think i agree with you,369,85,34,34,0,0.0,True,-3.42160821597473
+t12.2022.07.14,train,vocal,t12.2022.07.14,311,they're going to change that,228,50,21,21,0,0.0,True,-1.877399288488285
+t12.2022.07.14,train,vocal,t12.2022.07.14,312,you think about it now,251,55,19,19,0,0.0,True,-1.1178748587701812
+t12.2022.07.14,train,vocal,t12.2022.07.14,313,you're not going to,205,44,16,16,0,0.0,True,-0.8879747675949933
+t12.2022.07.14,train,vocal,t12.2022.07.14,314,everybody has a different thing,312,71,27,27,0,0.0,True,-4.788474334531457
+t12.2022.07.14,train,vocal,t12.2022.07.14,315,they just have hopeless lives,235,51,24,24,0,0.0,True,-2.1001977791368445
+t12.2022.07.14,train,vocal,t12.2022.07.14,316,my daughter is twenty one now,303,68,25,25,0,0.0,True,-2.566524616889583
+t12.2022.07.14,train,vocal,t12.2022.07.14,317,he just brings stuff alive,340,78,24,24,0,0.0,True,-0.912724062126136
+t12.2022.07.14,train,vocal,t12.2022.07.14,318,they like just the traditional,331,75,26,26,0,0.0,True,-3.82286961965419
+t12.2022.07.14,train,vocal,t12.2022.07.14,319,my major criteria,225,49,17,17,0,0.0,True,-3.4552896117587633
+t12.2022.07.14,train,vocal,t12.2022.07.14,320,i just don't feel right,281,63,20,20,0,0.0,True,-1.3944940728822524
+t12.2022.07.14,train,vocal,t12.2022.07.14,321,you get the bill and send it to him,357,82,33,33,0,0.0,True,-4.136191839954068
+t12.2022.07.14,train,vocal,t12.2022.07.14,322,he won't do that yet,211,45,19,19,0,0.0,True,-1.518325287525613
+t12.2022.07.14,train,vocal,t12.2022.07.14,323,the infant is going to lay in the crib all day,478,112,41,41,0,0.0,True,-5.186017896728948
+t12.2022.07.14,train,vocal,t12.2022.07.14,324,i don't have to live through many,322,73,27,27,0,0.0,True,-2.8052577899141364
+t12.2022.07.14,train,vocal,t12.2022.07.14,325,it's very safe in the daytime,321,73,25,25,0,0.0,True,-4.601429704372735
+t12.2022.07.14,train,vocal,t12.2022.07.14,326,i worked my way into having the same engine,421,98,37,37,0,0.0,True,-6.108598535194339
+t12.2022.07.14,train,vocal,t12.2022.07.14,327,a towel down or something,244,54,21,21,0,0.0,True,-3.5163467319163564
+t12.2022.07.14,train,vocal,t12.2022.07.14,328,here's what you have got,247,54,20,20,0,0.0,True,-2.3027577005492605
+t12.2022.07.14,train,vocal,t12.2022.07.14,329,same with my husband,197,42,19,19,0,0.0,True,-1.8015103876819698
+t12.2022.07.14,train,vocal,t12.2022.07.14,330,few places now seem to do it by the slice,409,95,38,38,0,0.0,True,-5.685677127039499
+t12.2022.07.14,train,vocal,t12.2022.07.14,331,in the middle of our okra,289,65,23,23,0,0.0,True,-2.9356071559194428
+t12.2022.07.14,train,vocal,t12.2022.07.14,332,on the night before his sixteenth birthday,350,80,35,35,0,0.0,True,-2.873389420465951
+t12.2022.07.14,train,vocal,t12.2022.07.14,333,weekly magazines,156,32,15,15,0,0.0,True,-1.5879667904946928
+t12.2022.07.14,train,vocal,t12.2022.07.14,334,we've had her now for about three years,333,76,32,32,0,0.0,True,-5.362104037464293
+t12.2022.07.14,train,vocal,t12.2022.07.14,335,that person rushes you,194,41,19,19,0,0.0,True,-2.301945328948105
+t12.2022.07.14,train,vocal,t12.2022.07.14,336,i do study what's going on in the economy,479,112,38,38,0,0.0,True,-7.306873793102099
+t12.2022.07.14,train,vocal,t12.2022.07.14,337,we try to do one thing once a year,365,84,32,32,0,0.0,True,-3.8720105673830374
+t12.2022.07.14,train,vocal,t12.2022.07.14,338,the two seats up front,248,55,20,19,1,0.05,True,-5.7826460412831215
+t12.2022.07.14,train,vocal,t12.2022.07.14,339,there's just something about that cadillac,351,80,34,34,0,0.0,True,-4.135279457329736
+t12.2022.07.14,train,vocal,t12.2022.07.14,340,they're recycling cans and paper,282,63,28,28,0,0.0,True,-1.5633824362716697
+t12.2022.07.14,train,vocal,t12.2022.07.14,341,a lot of people don't even like to carpool,400,93,39,39,0,0.0,True,-4.92087936615937
+t12.2022.07.14,train,vocal,t12.2022.07.14,342,if you don't refute it,228,50,21,21,0,0.0,True,-4.223139210691309
+t12.2022.07.14,train,vocal,t12.2022.07.14,343,knocked the socks off of them,281,63,23,23,0,0.0,True,-2.697379164328355
+t12.2022.07.14,train,vocal,t12.2022.07.14,344,if i was setting up a daycare,349,80,26,26,0,0.0,True,-2.814410861999917
+t12.2022.07.14,train,vocal,t12.2022.07.14,345,a lot of times i'd help her with that,352,81,33,33,0,0.0,True,-2.9672153766446603
+t12.2022.07.14,train,vocal,t12.2022.07.14,346,they fought individually,219,47,19,19,0,0.0,True,-0.868502865896337
+t12.2022.07.14,train,vocal,t12.2022.07.14,347,but i got talked into the bike instead,369,85,34,33,1,0.029411764705882353,True,-4.073912768240089
+t12.2022.07.14,train,vocal,t12.2022.07.14,348,a lot of us have parents,301,68,24,24,0,0.0,True,-2.569462090516031
+t12.2022.07.14,train,vocal,t12.2022.07.14,349,as a social to meet people,292,66,24,24,0,0.0,True,-1.998621413076961
+t12.2022.07.14,train,vocal,t12.2022.07.14,350,i don't know if you like the mayor,354,81,27,27,0,0.0,True,-3.4516431053606085
+t12.2022.07.14,train,vocal,t12.2022.07.14,351,in the ground floor,160,33,17,17,0,0.0,True,-2.884417597280983
+t12.2022.07.14,train,vocal,t12.2022.07.14,352,let's make them have a degree in economy,443,103,36,36,0,0.0,True,-5.82380270350472
+t12.2022.07.14,train,vocal,t12.2022.07.14,353,i haven't followed it real closely at all,358,82,35,35,0,0.0,True,-3.6214264028906955
+t12.2022.07.14,train,vocal,t12.2022.07.14,354,you're right,120,23,8,8,0,0.0,True,-0.8133601177020393
+t12.2022.07.14,train,vocal,t12.2022.07.14,355,out of an office every day,242,53,22,22,0,0.0,True,-2.70590299297975
+t12.2022.07.14,train,vocal,t12.2022.07.14,356,we still don't know what he does,289,65,27,27,0,0.0,True,-3.585205869713331
+t12.2022.07.14,train,vocal,t12.2022.07.14,357,at a million dollars,188,40,18,18,0,0.0,True,-3.2562702988865753
+t12.2022.07.14,train,vocal,t12.2022.07.14,358,i've never quite understood that,266,59,26,26,0,0.0,True,-1.513538378099667
+t12.2022.07.14,train,vocal,t12.2022.07.14,359,we're over as far as our rainfall goes,429,100,32,32,0,0.0,True,-3.6977026028171824
+t12.2022.07.14,train,vocal,t12.2022.07.14,360,we're very family oriented,263,58,25,25,0,0.0,True,-2.9291121239411
+t12.2022.07.14,train,vocal,t12.2022.07.14,361,it's thirty degrees this morning,215,46,27,27,0,0.0,True,-2.4216239971131452
+t12.2022.07.14,train,vocal,t12.2022.07.14,362,a new york style,158,32,15,15,0,0.0,True,-0.8628403574125347
+t12.2022.07.14,train,vocal,t12.2022.07.14,363,i prefer a swimming pool,200,43,21,21,0,0.0,True,-2.7261482106019947
+t12.2022.07.14,train,vocal,t12.2022.07.14,364,they're all gone at this point,218,47,23,23,0,0.0,True,-1.8673229192917034
+t12.2022.07.14,train,vocal,t12.2022.07.14,365,do you remember that,166,34,18,18,0,0.0,True,-1.9063936380079385
+t12.2022.07.14,train,vocal,t12.2022.07.14,366,the basic idea,130,25,14,14,0,0.0,True,-2.025809418956068
+t12.2022.07.14,train,vocal,t12.2022.07.14,367,i have more energy when i exercise,307,69,30,30,0,0.0,True,-3.5254147615924754
+t12.2022.07.14,train,vocal,t12.2022.07.14,368,that is something i really enjoy doing,314,71,31,31,0,0.0,True,-1.1882273368110372
+t12.2022.07.14,train,vocal,t12.2022.07.14,369,what was the name of that,220,48,22,22,0,0.0,True,-2.643221379711687
+t12.2022.07.14,train,vocal,t12.2022.07.14,370,i bet that would be more fun,255,56,25,25,0,0.0,True,-1.6406806536349063
+t12.2022.07.14,train,vocal,t12.2022.07.14,371,he is a former president of guatemala,383,88,37,37,0,0.0,True,-4.351230642738584
+t12.2022.07.14,train,vocal,t12.2022.07.14,372,i was much younger,217,47,16,16,0,0.0,True,-1.986364684627436
+t12.2022.07.14,train,vocal,t12.2022.07.14,373,in other countries,166,34,15,15,0,0.0,True,-1.226119422285319
+t12.2022.07.14,train,vocal,t12.2022.07.14,374,i think it was his shoulder he had surgery on,414,96,40,40,0,0.0,True,-5.777309463309056
+t12.2022.07.14,train,vocal,t12.2022.07.14,375,you take away a person's freedom,358,82,27,27,0,0.0,True,-4.56084463801713
+t12.2022.07.14,train,vocal,t12.2022.07.14,376,it's on from seven to nine,291,65,25,25,0,0.0,True,-1.9789988419268971
+t12.2022.07.14,train,vocal,t12.2022.07.14,377,i don't think it's the teachers,279,62,25,25,0,0.0,True,-0.9361920113865076
+t12.2022.07.14,train,vocal,t12.2022.07.14,378,i've been involved in electronics a long time,443,103,40,40,0,0.0,True,-4.907451311109965
+t12.2022.07.14,train,vocal,t12.2022.07.14,379,i don't know what advice i'd give them,318,72,31,31,0,0.0,True,-3.260861365738709
+t12.2022.07.14,train,vocal,t12.2022.07.14,380,they seemed so proud of everything they did,348,80,34,34,0,0.0,True,-4.971974427294314
+t12.2022.07.14,train,vocal,t12.2022.07.14,381,i've been playing,127,24,13,13,0,0.0,True,-1.5550483472343495
+t12.2022.07.14,train,vocal,t12.2022.07.14,382,she and her husband both do,268,60,25,25,0,0.0,True,-1.8552422920548248
+t12.2022.07.14,train,vocal,t12.2022.07.14,383,i'll forget to pay the bill by the due date,412,96,35,35,0,0.0,True,-3.004287643471453
+t12.2022.07.14,train,vocal,t12.2022.07.14,384,they're teaching terrorism,181,38,19,19,0,0.0,True,-2.7573232656675177
+t12.2022.07.14,train,vocal,t12.2022.07.14,385,the taxes are there to support,301,68,27,27,0,0.0,True,-2.8207892299641535
+t12.2022.07.14,train,vocal,t12.2022.07.14,386,a place called quality auto parts,334,76,30,30,0,0.0,True,-3.239846981691602
+t12.2022.07.14,train,vocal,t12.2022.07.14,387,they've enjoyed the school,190,40,18,18,0,0.0,True,-1.7571334178981042
+t12.2022.07.14,train,vocal,t12.2022.07.14,388,there would be no way to do it,304,69,26,26,0,0.0,True,-1.4845514135228408
+t12.2022.07.14,train,vocal,t12.2022.07.14,389,we love fresh vegetables in the summer,360,83,33,33,0,0.0,True,-5.3739325790933545
+t12.2022.07.14,train,vocal,t12.2022.07.14,390,i vote religiously,198,42,16,16,0,0.0,True,-2.213852747276012
+t12.2022.07.14,train,vocal,t12.2022.07.14,391,that one that you had,184,39,19,19,0,0.0,True,-1.29910990545237
+t12.2022.07.14,train,vocal,t12.2022.07.14,392,it just became such a pain,267,59,24,24,0,0.0,True,-3.721076379641945
+t12.2022.07.14,train,vocal,t12.2022.07.14,393,i've seen his other movies,236,52,21,21,0,0.0,True,-1.834013970013475
+t12.2022.07.14,train,vocal,t12.2022.07.14,394,you got to pay to park at the student center,447,104,41,41,0,0.0,True,-5.091043118374331
+t12.2022.07.14,train,vocal,t12.2022.07.14,395,what did you normally do,246,54,22,22,0,0.0,True,-2.0875560481733197
+t12.2022.07.14,train,vocal,t12.2022.07.14,396,have a handle on it,187,39,19,19,0,0.0,True,-2.3165864193184804
+t12.2022.07.14,train,vocal,t12.2022.07.14,397,why don't you like the mustang,272,61,25,25,0,0.0,True,-2.552532456754265
+t12.2022.07.14,train,vocal,t12.2022.07.14,398,we just now found her,223,48,19,19,0,0.0,True,-2.2636243251565085
+t12.2022.07.14,train,vocal,t12.2022.07.14,399,you get back into a political thing,353,81,32,32,0,0.0,True,-3.3899093157880684

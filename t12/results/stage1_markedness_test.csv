@@ -1,0 +1,4 @@
+array,n_pairs,pairs,mean_diff_voiced_minus_voiceless,n_voiced_farther,wilcoxon_stat,wilcoxon_p,verdict
+6v,8,P/B;T/D;K/G;F/V;S/Z;SH/ZH;CH/JH;TH/DH,0.0010904127440141752,5,9.0,0.25,판정 불가(유성-무성 차이 비유의)
+44,8,P/B;T/D;K/G;F/V;S/Z;SH/ZH;CH/JH;TH/DH,4.382466629879173e-05,5,17.0,0.9453125,판정 불가(유성-무성 차이 비유의)
+all,8,P/B;T/D;K/G;F/V;S/Z;SH/ZH;CH/JH;TH/DH,0.0005671187051565125,4,14.0,0.640625,판정 불가(유성-무성 차이 비유의)

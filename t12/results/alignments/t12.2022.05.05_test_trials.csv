@@ -1,0 +1,21 @@
+session,partition,modality,input_layer_from,trial_idx,sentence,n_bins_trial,n_rnn_steps,n_phonemes_true,n_phonemes_decoded,edit_distance,per,aligned,align_logprob
+t12.2022.05.05,test,vocal,t12.2022.05.05,0,to some extent predispositions are shaped by exposure to group environments,687,164,70,63,23,0.32857142857142857,True,-111.9457574563886
+t12.2022.05.05,test,vocal,t12.2022.05.05,1,an adult male baboon's teeth are not suitable for eating shellfish,685,164,55,55,12,0.21818181818181817,True,-67.04286054608328
+t12.2022.05.05,test,vocal,t12.2022.05.05,2,in this context it would do well for us to bear in mind the vision of peace,772,186,68,66,12,0.17647058823529413,True,-49.84322806011623
+t12.2022.05.05,test,vocal,t12.2022.05.05,3,you're boiling milk ain't you,283,63,22,24,5,0.22727272727272727,True,-13.633762777997052
+t12.2022.05.05,test,vocal,t12.2022.05.05,4,rich looked for spotted hyenas and jaguars on the safari,553,131,52,52,17,0.3269230769230769,True,-86.98401720331415
+t12.2022.05.05,test,vocal,t12.2022.05.05,5,traffic frequently has failed to measure up to engineers' rosy estimates,650,155,65,62,21,0.3230769230769231,True,-95.91402364983328
+t12.2022.05.05,test,vocal,t12.2022.05.05,6,ralph prepared red snapper with fresh lemon sauce for dinner,548,130,51,51,17,0.3333333333333333,True,-84.58593180840184
+t12.2022.05.05,test,vocal,t12.2022.05.05,7,did you buy any corduroy overalls,357,82,28,26,7,0.25,True,-32.59941240113032
+t12.2022.05.05,test,vocal,t12.2022.05.05,8,clear pronunciation is appreciated,304,69,32,26,12,0.375,True,-57.14720694999962
+t12.2022.05.05,test,vocal,t12.2022.05.05,9,please shorten this skirt for joyce,291,65,29,25,9,0.3103448275862069,True,-51.95001515861837
+t12.2022.05.05,test,vocal,t12.2022.05.05,10,who authorized the unlimited expense account,372,86,37,34,11,0.2972972972972973,True,-56.96187732122057
+t12.2022.05.05,test,vocal,t12.2022.05.05,11,the family requests that flowers be omitted,423,98,39,39,17,0.4358974358974359,True,-113.95849235671449
+t12.2022.05.05,test,vocal,t12.2022.05.05,12,the museum hires musicians every evening,435,101,37,37,7,0.1891891891891892,True,-35.286474556221926
+t12.2022.05.05,test,vocal,t12.2022.05.05,13,we'll serve rhubarb pie after rachel's talk,416,97,34,32,12,0.35294117647058826,True,-82.77989855482244
+t12.2022.05.05,test,vocal,t12.2022.05.05,14,they enjoy it when i audition,345,79,24,29,6,0.25,True,-39.23738123769573
+t12.2022.05.05,test,vocal,t12.2022.05.05,15,the avocado should have a give to it as you hold it when it is ripe,645,154,59,56,15,0.2542372881355932,True,-81.46087708200757
+t12.2022.05.05,test,vocal,t12.2022.05.05,16,energy suppliers usually deal with this by conducting regular inspections and trimming,750,180,78,68,22,0.28205128205128205,True,-98.4651003707606
+t12.2022.05.05,test,vocal,t12.2022.05.05,17,the saw is broken so chop the wood instead,503,118,37,38,5,0.13513513513513514,True,-19.932825867711138
+t12.2022.05.05,test,vocal,t12.2022.05.05,18,the cleaned version is given below,383,88,29,28,1,0.034482758620689655,True,-8.521501844595482
+t12.2022.05.05,test,vocal,t12.2022.05.05,19,they seem darned proud of it,316,72,24,24,7,0.2916666666666667,True,-41.623158988427626
