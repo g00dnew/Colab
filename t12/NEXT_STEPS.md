@@ -40,3 +40,23 @@
 - SUMMARY.md 갱신, 노트북 셀 9·10 추가(12셀), GitHub push 완료.
 - 남은 선택지(사용자 보류): T15 재현, VOT 실측, 위치 라벨 순열검정.
 - 12:3x 계획 vs 실행 분석 완료(run_t1_planning.py). 세 창 모두 교차 패턴 유지 → 계획 단계 성질. 문서·SUMMARY 반영, push 예정.
+
+## 다음 세션 할 일 (2026-10-09 오후 외부 검토 ③건 반영) — 사용자 승인 전, 검토만 끝난 상태
+현재 핵심 결과: 후두 대립 정보 어두>비어두, 조음위치는 반대(비어두↑). 파열음 3쌍 DoD .109 [.036,.183], 조음 전 300ms 창에서도 동일(.119). 아래 통제를 통과해야 보고 가능.
+
+### 1순위 (결과를 뒤집을 수 있는 교란)
+- **문장 단위 교차검증**: `balanced_pair_decode`/`_cv_accuracy`에 `groups` 추가 → `StratifiedGroupKFold(groups=trial)`. 민감도: groups=session. 순열 null도 같은 분할. 1단계(고립 음소)는 시행당 1구간이라 해당 없음.
+- **단어 정체 교란**: 어말 T/D는 it/that/but vs and/had/did 등 소수 고빈도 단어. meta에 word(또는 sentence+word_idx로 단어 추출) 붙여 (a) 단어·클래스·위치별 토큰 상한 20, (b) leave-words-out CV. 이게 지금 결과의 가장 위험한 대안 설명.
+- **발성 세션만 + test 전용**을 T1′ 기본 행으로(현재 pooled엔 입모양 세션 포함).
+### 2순위 (통계 보강)
+- 쌍 하나씩 제외(leave-one-pair-out) DoD. T/D 없이 방향 유지되는지.
+- 쌍 대응 유지 통계: 쌍별 20회 독립 균형 재표집 → 쌍별 (어두−비어두) 분포 → 대립유형 간 차이를 쌍 라벨 순열로 검정.
+- 구간 수준 위치 라벨 순열검정(쌍 안에서 위치 라벨 섞어 DoD 재계산, 200회) → 쌍 수 무관 p.
+- 보고 3줄: 파열음 3쌍(사전 지정) / 후두 6쌍 전체 / 쌍 제외.
+### 3순위 (민감도)
+- 고정 길이 80ms 중심창(rnn_center)으로 T1′ 반복(길이 교란 제거).
+- 세션 품질(PER) 공변량 또는 세션 그룹 CV로 흡수. 입모양 score 필터 탈락률 표기(T3는 이미 null).
+### 실행 메모
+- 코드 위치: `code/t12_pipeline.py`(분류기 §8, stage2_position_decode ~L1899), 스크립트 템플릿 `code/run_t1_stops_primary.py`, `code/run_t1_planning.py`. venv `../.venv`. BLAS 2스레드, 메모리 여유 확인(Chrome 닫기).
+- 예상: 코딩 2~3h + 실행 2~3h. 정확도·DoD가 내려갈 것을 예상하고 결과를 그대로 보고.
+- 그 뒤 보류 항목: T15 재현(10/28 이후), 레포 비공개 전환(사용자 요청 시 `gh repo edit g00dnew/Colab --visibility private`).
