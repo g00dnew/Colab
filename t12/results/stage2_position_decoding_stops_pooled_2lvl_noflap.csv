@@ -1,0 +1,15 @@
+stage,test,array,position,pair,contrast,manner,partitions,n_per_class,acc,acc_sd,dprime,p_perm,class_a,class_b,n_features_in,n_available_min_class,clf,n_splits,n_repeats,n_perm,chance,n_features_used,skipped,n_matched_across_positions
+stage2,T1_position,6v,initial,P/B,laryngeal,stop,pooled,300,0.6686666666666666,0.041785164831552354,0.8748284989085644,,B,P,256,1705,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,T/D,laryngeal,stop,pooled,300,0.6713333333333334,0.029019150764815826,0.8874830971141537,,D,T,256,2260,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,K/G,laryngeal,stop,pooled,300,0.6505,0.0466491038380041,0.7731050290360102,,G,K,256,1517,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,P/T,place,stop,pooled,300,0.7325,0.04184130070211064,1.2403964851344673,,P,T,256,1705,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,T/K,place,stop,pooled,300,0.7123333333333334,0.03493008890786153,1.123114063871005,,K,T,256,2228,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,B/D,place,stop,pooled,300,0.6396666666666667,0.04526342649179112,0.7149427309532213,,B,D,256,2144,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,D/G,place,stop,pooled,300,0.6343333333333334,0.0341418609139377,0.6871144736148677,,D,G,256,1517,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,P/B,laryngeal,stop,pooled,300,0.6545000000000001,0.04213767119019908,0.7947272225304205,,B,P,256,1168,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,T/D,laryngeal,stop,pooled,300,0.6033333333333334,0.04242640687119286,0.5243832892894551,,D,T,256,4639,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,K/G,laryngeal,stop,pooled,300,0.6024999999999999,0.044604745636908784,0.5196272122280047,,G,K,256,662,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,P/T,place,stop,pooled,300,0.7206666666666667,0.036218472880255155,1.1721134025032356,,P,T,256,2052,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,T/K,place,stop,pooled,300,0.7020000000000002,0.03676350847723262,1.0604362789459079,,K,T,256,3886,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,B/D,place,stop,pooled,300,0.7249999999999999,0.035316033500695156,1.1960736522783744,,B,D,256,1168,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,D/G,place,stop,pooled,300,0.7749999999999999,0.04075673086879161,1.5112974494947298,,D,G,256,662,lda,5,10,0,0.5,30,,True

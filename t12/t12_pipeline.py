@@ -876,7 +876,26 @@ def _global_pca(X: np.ndarray, n_comp):
                random_state=0).fit_transform(X).astype(np.float64)
 
 
-def _cv_accuracy(clf_kind, X, y, n_splits, n_repeats, seed, want_conf=False):
+def _fold_model(clf_kind, n_pca, n_train, n_feat):
+    """학습 폴드 안에서만 적합되는 PCA -> 스케일러 -> 분류기 파이프라인.
+
+    (2026-10-09 수정) 이전에는 PCA를 CV 분할 전에 전체 데이터로 적합했다
+    (라벨 비사용이라 순열검정은 유효하지만 정확도에 약한 transduction).
+    이제 PCA도 폴드별로 적합해 시험 폴드 정보가 전혀 새지 않는다.
+    """
+    base = _make_clf(clf_kind)
+    if n_pca:
+        from sklearn.decomposition import PCA
+        from sklearn.pipeline import make_pipeline
+
+        n_comp = int(min(n_pca, n_train - 1, n_feat))
+        if n_comp >= 2:
+            return make_pipeline(PCA(n_components=n_comp, svd_solver="full",
+                                     random_state=0), base)
+    return base
+
+
+def _cv_accuracy(clf_kind, X, y, n_splits, n_repeats, seed, want_conf=False, n_pca=None):
     from sklearn.model_selection import RepeatedStratifiedKFold
 
     cv = RepeatedStratifiedKFold(n_splits=n_splits, n_repeats=n_repeats,
@@ -884,7 +903,7 @@ def _cv_accuracy(clf_kind, X, y, n_splits, n_repeats, seed, want_conf=False):
     accs, conf = [], np.zeros((2, 2), dtype=np.int64)
     classes = np.unique(y)
     for tr, te in cv.split(X, y):
-        clf = _make_clf(clf_kind).fit(X[tr], y[tr])
+        clf = _fold_model(clf_kind, n_pca, tr.size, X.shape[1]).fit(X[tr], y[tr])
         pred = clf.predict(X[te])
         accs.append(float((pred == y[te]).mean()))
         if want_conf and classes.size == 2:
@@ -919,22 +938,25 @@ def balanced_pair_decode(X, y, n_pca=30, clf="lda", n_splits=5, n_repeats=10,
         return out
 
     Xb, yb = X[keep], y[keep]
-    Xr = _global_pca(Xb, n_pca)
-    out["n_features_used"] = int(Xr.shape[1])
+    Xr = Xb  # PCA는 _fold_model 안에서 폴드별로 적합
+    n_train_min = Xb.shape[0] - Xb.shape[0] // n_splits
+    out["n_features_used"] = int(min(n_pca, n_train_min - 1, Xb.shape[1])) if n_pca else int(Xb.shape[1])
 
-    accs, conf = _cv_accuracy(clf, Xr, yb, n_splits, n_repeats, seed, want_conf=True)
+    accs, conf = _cv_accuracy(clf, Xr, yb, n_splits, n_repeats, seed, want_conf=True,
+                              n_pca=n_pca)
     out["acc"] = float(accs.mean())
     out["acc_sd"] = float(accs.std())
     out["dprime"] = _dprime(conf[1, 1], conf[1, 0], conf[0, 1], conf[0, 0])
 
     if n_perm and n_perm > 0:
-        obs, _ = _cv_accuracy(clf, Xr, yb, n_splits, perm_repeats, seed)
+        obs, _ = _cv_accuracy(clf, Xr, yb, n_splits, perm_repeats, seed, n_pca=n_pca)
         obs_mean = float(obs.mean())
         null = np.empty(n_perm, dtype=np.float64)
         prng = np.random.default_rng(seed + 991)
         for k in range(n_perm):
             yp = prng.permutation(yb)
-            a, _ = _cv_accuracy(clf, Xr, yp, n_splits, perm_repeats, seed + k + 1)
+            a, _ = _cv_accuracy(clf, Xr, yp, n_splits, perm_repeats, seed + k + 1,
+                                n_pca=n_pca)
             null[k] = a.mean()
         out["acc_for_perm"] = obs_mean
         out["acc_perm_mean"] = float(null.mean())
@@ -960,15 +982,18 @@ def multiclass_decode(X, y, n_pca=100, clf="lda", n_splits=5, n_repeats=3,
     else:
         n_per = int(min(np.bincount(np.unique(y, return_inverse=True)[1])))
 
-    Xr = _global_pca(X, n_pca)
+    Xr = X  # PCA는 폴드별 적합(_fold_model)
     classes = np.unique(y)
     conf = np.zeros((classes.size, classes.size), dtype=np.int64)
     c_index = {c: i for i, c in enumerate(classes)}
     accs = []
     cv = RepeatedStratifiedKFold(n_splits=n_splits, n_repeats=n_repeats,
                                  random_state=seed)
+    n_used = None
     for tr, te in cv.split(Xr, y):
-        model = _make_clf(clf).fit(Xr[tr], y[tr])
+        model = _fold_model(clf, n_pca, tr.size, Xr.shape[1]).fit(Xr[tr], y[tr])
+        if n_used is None:
+            n_used = int(min(n_pca, tr.size - 1, Xr.shape[1])) if n_pca else int(Xr.shape[1])
         pred = model.predict(Xr[te])
         accs.append(float((pred == y[te]).mean()))
         for t, p in zip(y[te], pred):
@@ -978,7 +1003,7 @@ def multiclass_decode(X, y, n_pca=100, clf="lda", n_splits=5, n_repeats=3,
         "n_classes": int(classes.size), "classes": classes.tolist(),
         "n_per_class": int(n_per), "acc": float(accs.mean()),
         "acc_sd": float(accs.std()), "chance": 1.0 / classes.size,
-        "n_features_used": int(Xr.shape[1]),
+        "n_features_used": int(n_used),
         "confusion": pd.DataFrame(conf, index=classes, columns=classes),
     }
 
@@ -2149,9 +2174,9 @@ def t3_pair_drops(X, meta, array="6v", n_rep=20, n_splits=5, n_repeats=2,
                 idx = np.concatenate([rng.choice(cells[(m, c)], n_match, replace=False)
                                       for c in (a, b)])
                 idx.sort()
-                Xr = _global_pca(Xa[idx], n_pca)
+                Xr = Xa[idx]  # PCA는 폴드별 적합
                 fold_acc, _ = _cv_accuracy(clf, Xr, phon[idx], n_splits, n_repeats,
-                                           seed + r)
+                                           seed + r, n_pca=n_pca)
                 accs[m].append(float(fold_acc.mean()))
         av = np.asarray(accs["vocal"])
         an = np.asarray(accs["nonvocal"])
@@ -2651,7 +2676,8 @@ def write_summary(paths: dict, extra: dict | None = None) -> Path:
              "   정렬 PER은 0.1% 수준이고 test는 15~34% 수준이다. 주 보고값은 test 파티션.",
              "4. `input_layer_from != session` 인 세션은 입력층을 차용했으므로 정렬이 근사다.",
              "   T3(양식)는 양쪽의 정렬 품질을 맞춰야 하며, 각 행에 `mean_per`을 붙였다.",
-             "5. 분류기 전처리의 PCA는 라벨과 무관하게 전체 시행에 한 번 적합한다",
+             "5. 분류기 전처리의 PCA·스케일러는 (2026-10-09 수정 후) 교차검증 학습 폴드 안에서만 "
+             "적합한다. 이전 버전의 전역 PCA 수치는 results_pre_pcafix/ 에 보존.",
              "   (순열검정의 귀무가설은 라벨 교환이므로 유효하지만, 정확도 추정에는",
              "   약한 transduction이 들어 있다).",
              "6. tuningTasks 고립 음소는 모두 어두 'C + AA' 발성 조건이므로 T1(위치)과",

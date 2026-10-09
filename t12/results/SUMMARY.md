@@ -1,6 +1,6 @@
 # T12 후두 자질 분석 요약
 
-생성 시각: 2026-10-09 02:41
+생성 시각: 2026-10-09 11:33
 
 경로: /Users/hojaechoi/Documents/research/speech-bci-confusion/t12/results
 
@@ -14,7 +14,7 @@
    정렬 PER은 0.1% 수준이고 test는 15~34% 수준이다. 주 보고값은 test 파티션.
 4. `input_layer_from != session` 인 세션은 입력층을 차용했으므로 정렬이 근사다.
    T3(양식)는 양쪽의 정렬 품질을 맞춰야 하며, 각 행에 `mean_per`을 붙였다.
-5. 분류기 전처리의 PCA는 라벨과 무관하게 전체 시행에 한 번 적합한다
+5. 분류기 전처리의 PCA·스케일러는 (2026-10-09 수정 후) 교차검증 학습 폴드 안에서만 적합한다. 이전 버전의 전역 PCA 수치는 results_pre_pcafix/ 에 보존.
    (순열검정의 귀무가설은 라벨 교환이므로 유효하지만, 정확도 추정에는
    약한 transduction이 들어 있다).
 6. tuningTasks 고립 음소는 모두 어두 'C + AA' 발성 조건이므로 T1(위치)과
@@ -45,9 +45,9 @@ competitionHoldOut    vocal          15      1200     7160.7
 
 ```
 array    acc  chance  n_per_class
-   6v 0.6513  0.0256           36
-   44 0.1009  0.0256           36
-  all 0.5067  0.0256           36
+   6v 0.6451  0.0256           36
+   44 0.1019  0.0256           36
+  all 0.4910  0.0256           36
 ```
 
 ## Stage 1 — 최소대립쌍 분리도 (go 구간 전체)
@@ -56,66 +56,66 @@ array    acc  chance  n_per_class
 
 ```
 array  laryngeal  place
-   44     0.5495 0.5396
-   6v     0.7388 0.8802
-  all     0.6639 0.8130
+   44     0.5648 0.5461
+   6v     0.7645 0.9065
+  all     0.6692 0.8048
 ```
 
 쌍별:
 
 ```
 array  pair  contrast    manner  n_per_class    acc  dprime  p_perm
-   6v   P/B laryngeal      stop           36 0.7582  1.3993  0.0020
-   6v   T/D laryngeal      stop           36 0.6954  1.0171  0.0180
-   6v   K/G laryngeal      stop           36 0.5998  0.5055  0.1277
-   6v   F/V laryngeal fricative           36 0.7387  1.2878  0.0020
-   6v   S/Z laryngeal fricative           36 0.7405  1.2929  0.0020
-   6v SH/ZH laryngeal fricative           36 0.8500  2.0669  0.0020
-   6v CH/JH laryngeal affricate           36 0.7468  1.3222  0.0020
-   6v TH/DH laryngeal fricative           36 0.7811  1.5527  0.0020
-   6v   P/T     place      stop           36 0.8976  2.5442  0.0020
-   6v   T/K     place      stop           36 0.7126  1.1191  0.0020
-   6v   B/D     place      stop           36 0.8879  2.4684  0.0020
-   6v   D/G     place      stop           36 0.8506  2.0669  0.0020
-   6v   F/S     place fricative           36 0.9127  2.7283  0.0020
-   6v  F/TH     place fricative           36 0.9805  4.1369  0.0020
-   6v  S/SH     place fricative           36 0.8110  1.7585  0.0020
-   6v   V/Z     place fricative           36 0.9074  2.6317  0.0020
-   6v   M/N     place     nasal           36 0.9614  3.4975  0.0020
-   44   P/B laryngeal      stop           36 0.5398  0.2018  0.1717
-   44   T/D laryngeal      stop           36 0.5459  0.2300  0.2236
-   44   K/G laryngeal      stop           36 0.3868 -0.5752  0.9162
-   44   F/V laryngeal fricative           36 0.5376  0.1905  0.4731
-   44   S/Z laryngeal fricative           36 0.5343  0.1762  0.3812
-   44 SH/ZH laryngeal fricative           36 0.6938  1.0066  0.0040
-   44 CH/JH laryngeal affricate           36 0.5586  0.2985  0.2236
-   44 TH/DH laryngeal fricative           36 0.5992  0.5012  0.0918
-   44   P/T     place      stop           36 0.5918  0.4624  0.1038
-   44   T/K     place      stop           36 0.4901 -0.0486  0.4471
-   44   B/D     place      stop           36 0.6052  0.5354  0.1218
-   44   D/G     place      stop           36 0.5314  0.1600  0.3114
-   44   F/S     place fricative           36 0.5121  0.0627  0.5489
-   44  F/TH     place fricative           36 0.5906  0.4597  0.0778
-   44  S/SH     place fricative           36 0.5002  0.0000  0.6168
-   44   V/Z     place fricative           36 0.4710 -0.1396  0.7565
-   44   M/N     place     nasal           36 0.5637  0.3228  0.4251
-  all   P/B laryngeal      stop           36 0.6944  1.0144  0.0020
-  all   T/D laryngeal      stop           36 0.6763  0.9141  0.0040
-  all   K/G laryngeal      stop           36 0.4993  0.0000  0.5808
-  all   F/V laryngeal fricative           36 0.5982  0.4993  0.0479
-  all   S/Z laryngeal fricative           36 0.6724  0.8916  0.0020
-  all SH/ZH laryngeal fricative           36 0.7384  1.2678  0.0060
-  all CH/JH laryngeal affricate           36 0.6990  1.0897  0.0060
-  all TH/DH laryngeal fricative           36 0.7331  1.2494  0.0020
-  all   P/T     place      stop           36 0.8119  1.7879  0.0020
-  all   T/K     place      stop           36 0.6622  0.8427  0.0299
-  all   B/D     place      stop           36 0.8927  2.5193  0.0020
-  all   D/G     place      stop           36 0.7085  1.1067  0.0060
-  all   F/S     place fricative           36 0.8502  2.0717  0.0020
-  all  F/TH     place fricative           36 0.9511  3.2927  0.0020
-  all  S/SH     place fricative           36 0.7149  1.1370  0.0020
-  all   V/Z     place fricative           36 0.7754  1.5074  0.0020
-  all   M/N     place     nasal           36 0.9505  3.2669  0.0020
+   6v   P/B laryngeal      stop           36 0.7483  1.3370  0.0050
+   6v   T/D laryngeal      stop           36 0.7458  1.3231  0.0100
+   6v   K/G laryngeal      stop           36 0.6110  0.5628  0.0746
+   6v   F/V laryngeal fricative           36 0.7758  1.5946  0.0050
+   6v   S/Z laryngeal fricative           36 0.7610  1.4263  0.0050
+   6v SH/ZH laryngeal fricative           36 0.8683  2.2355  0.0050
+   6v CH/JH laryngeal affricate           36 0.7963  1.6755  0.0050
+   6v TH/DH laryngeal fricative           36 0.8093  1.7502  0.0050
+   6v   P/T     place      stop           36 0.9223  2.8669  0.0050
+   6v   T/K     place      stop           36 0.7652  1.4420  0.0050
+   6v   B/D     place      stop           36 0.9427  3.3092  0.0050
+   6v   D/G     place      stop           36 0.8352  1.9609  0.0050
+   6v   F/S     place fricative           36 0.9598  3.4663  0.0050
+   6v  F/TH     place fricative           36 0.9873  4.9301  0.0050
+   6v  S/SH     place fricative           36 0.8350  1.9393  0.0050
+   6v   V/Z     place fricative           36 0.9462  3.2480  0.0050
+   6v   M/N     place     nasal           36 0.9644  3.5977  0.0050
+   44   P/B laryngeal      stop           36 0.6051  0.5342  0.0846
+   44   T/D laryngeal      stop           36 0.5414  0.2089  0.1095
+   44   K/G laryngeal      stop           36 0.4003 -0.5129  0.9353
+   44   F/V laryngeal fricative           36 0.5732  0.3753  0.2438
+   44   S/Z laryngeal fricative           36 0.5110  0.0559  0.2836
+   44 SH/ZH laryngeal fricative           36 0.7248  1.1835  0.0050
+   44 CH/JH laryngeal affricate           36 0.5672  0.3475  0.0846
+   44 TH/DH laryngeal fricative           36 0.5951  0.4771  0.0597
+   44   P/T     place      stop           36 0.6229  0.6289  0.0398
+   44   T/K     place      stop           36 0.4713 -0.1400  0.6070
+   44   B/D     place      stop           36 0.6149  0.5856  0.0597
+   44   D/G     place      stop           36 0.4590 -0.2019  0.9204
+   44   F/S     place fricative           36 0.5204  0.1042  0.5224
+   44  F/TH     place fricative           36 0.5599  0.3001  0.1791
+   44  S/SH     place fricative           36 0.5533  0.2647  0.1741
+   44   V/Z     place fricative           36 0.5374  0.1905  0.5721
+   44   M/N     place     nasal           36 0.5763  0.3872  0.4378
+  all   P/B laryngeal      stop           36 0.6881  0.9844  0.0149
+  all   T/D laryngeal      stop           36 0.6596  0.8213  0.0199
+  all   K/G laryngeal      stop           36 0.4738 -0.1322  0.9154
+  all   F/V laryngeal fricative           36 0.6230  0.6421  0.0448
+  all   S/Z laryngeal fricative           36 0.6181  0.6039  0.0100
+  all SH/ZH laryngeal fricative           36 0.7956  1.6445  0.0050
+  all CH/JH laryngeal affricate           36 0.7326  1.2897  0.0050
+  all TH/DH laryngeal fricative           36 0.7626  1.4273  0.0050
+  all   P/T     place      stop           36 0.8588  2.2503  0.0050
+  all   T/K     place      stop           36 0.6211  0.6217  0.0299
+  all   B/D     place      stop           36 0.8858  2.4598  0.0050
+  all   D/G     place      stop           36 0.6890  0.9974  0.0100
+  all   F/S     place fricative           36 0.8572  2.1266  0.0050
+  all  F/TH     place fricative           36 0.9497  3.3977  0.0050
+  all  S/SH     place fricative           36 0.6431  0.7312  0.0299
+  all   V/Z     place fricative           36 0.7865  1.5928  0.0050
+  all   M/N     place     nasal           36 0.9518  3.3073  0.0050
 ```
 
 ## Stage 1 — 창 비교 (area 6v, 지속시간 교란 점검)
@@ -125,28 +125,52 @@ array  pair  contrast    manner  n_per_class    acc  dprime  p_perm
 
 ```
 session_set        window  laryngeal  place
- audio_0426    go_0_500ms     0.6622 0.8431
- audio_0426        go_all     0.7294 0.8475
- audio_0426 onset_0_300ms     0.6800 0.7989
- audio_0426 onset_0_500ms     0.6881 0.8261
-     pooled    go_0_500ms     0.6857 0.8851
-     pooled        go_all     0.7388 0.8802
-     pooled onset_0_300ms     0.6641 0.8165
-     pooled onset_0_500ms     0.6828 0.8442
+ audio_0426    go_0_500ms     0.7150 0.8989
+ audio_0426        go_all     0.8000 0.9114
+ audio_0426 onset_0_300ms     0.7625 0.8728
+ audio_0426 onset_0_500ms     0.7769 0.9000
+     pooled    go_0_500ms     0.7114 0.9068
+     pooled        go_all     0.7645 0.9065
+     pooled onset_0_300ms     0.6925 0.8516
+     pooled onset_0_500ms     0.7188 0.8801
 ```
 
 ## Stage 1 — 후두쌍 조음방법 집계 (area 6v)
 
 ```
-    window array        manner   mean     sd  n_pairs
-go_0_500ms    6v     affricate 0.7365    NaN        1
-go_0_500ms    6v     fricative 0.6710 0.0606        4
-go_0_500ms    6v          stop 0.6884 0.0546        3
-    go_all    6v     affricate 0.7468    NaN        1
-    go_all    6v     fricative 0.7776 0.0521        4
-    go_all    6v          stop 0.6845 0.0798        3
-go_0_500ms    6v ALL_laryngeal 0.6857 0.0540        8
-    go_all    6v ALL_laryngeal 0.7388 0.0715        8
+       window array session_set        manner   mean     sd  n_pairs
+   go_0_500ms    6v  audio_0426     affricate 0.8125    NaN        1
+   go_0_500ms    6v  audio_0426     fricative 0.6781 0.0502        4
+   go_0_500ms    6v  audio_0426          stop 0.7317 0.1401        3
+   go_0_500ms    6v      pooled     affricate 0.7461    NaN        1
+   go_0_500ms    6v      pooled     fricative 0.7067 0.0704        4
+   go_0_500ms    6v      pooled          stop 0.7061 0.0703        3
+       go_all    6v  audio_0426     affricate 0.8375    NaN        1
+       go_all    6v  audio_0426     fricative 0.8275 0.1240        4
+       go_all    6v  audio_0426          stop 0.7508 0.1067        3
+       go_all    6v      pooled     affricate 0.7963    NaN        1
+       go_all    6v      pooled     fricative 0.8036 0.0476        4
+       go_all    6v      pooled          stop 0.7017 0.0786        3
+onset_0_300ms    6v  audio_0426     affricate 0.8325    NaN        1
+onset_0_300ms    6v  audio_0426     fricative 0.7694 0.1445        4
+onset_0_300ms    6v  audio_0426          stop 0.7300 0.1054        3
+onset_0_300ms    6v      pooled     affricate 0.6462    NaN        1
+onset_0_300ms    6v      pooled     fricative 0.7242 0.1056        4
+onset_0_300ms    6v      pooled          stop 0.6658 0.0756        3
+onset_0_500ms    6v  audio_0426     affricate 0.8525    NaN        1
+onset_0_500ms    6v  audio_0426     fricative 0.7612 0.1342        4
+onset_0_500ms    6v  audio_0426          stop 0.7725 0.0738        3
+onset_0_500ms    6v      pooled     affricate 0.6874    NaN        1
+onset_0_500ms    6v      pooled     fricative 0.7505 0.0625        4
+onset_0_500ms    6v      pooled          stop 0.6870 0.0650        3
+   go_0_500ms    6v  audio_0426 ALL_laryngeal 0.7150 0.0946        8
+   go_0_500ms    6v      pooled ALL_laryngeal 0.7114 0.0611        8
+       go_all    6v  audio_0426 ALL_laryngeal 0.8000 0.1073        8
+       go_all    6v      pooled ALL_laryngeal 0.7645 0.0738        8
+onset_0_300ms    6v  audio_0426 ALL_laryngeal 0.7625 0.1153        8
+onset_0_300ms    6v      pooled ALL_laryngeal 0.6925 0.0872        8
+onset_0_500ms    6v  audio_0426 ALL_laryngeal 0.7769 0.1012        8
+onset_0_500ms    6v      pooled ALL_laryngeal 0.7188 0.0635        8
 ```
 
 ## Stage 1 — T2 유표성
@@ -166,99 +190,99 @@ S/Z, SH/ZH의 어두 칸이 거의 비어 있다. 영어에서 Z, ZH는 어두�
 
 ```
 phoneme  final  initial  medial
-      B     68     1783     897
-     CH    291      223     231
-      D   3155     1869    1221
-     DH    222     4386     243
-      F    436     1357     589
-      G    120     1214     444
-     HH      0     2338      56
-     JH    151      414     373
-      K   1239     1811    1910
-      L   1892     1265    3197
-      M   1299     1764    1330
-      N   3495     1203    5403
-     NG   1368        0     460
-      P    400     1427    1281
-      R   2040     1005    3251
-      S   2493     2224    2370
-     SH     59      380     426
-      T   6412     2432    3558
-     TH    136      563     232
-      V   1837      365    1137
-      W      0     3247     567
-      Y      0     1417     358
-      Z   3622        8     529
-     ZH     20        3     572
+      B     78     2144    1090
+     CH    354      246     253
+      D   3874     2260    1437
+     DH    273     5687     292
+      F    533     1605     673
+      G    139     1517     523
+     HH      0     2840      61
+     JH    171      510     417
+      K   1578     2228    2308
+      L   2386     1573    3838
+      M   1679     2227    1652
+      N   4378     1524    6723
+     NG   1720        0     586
+      P    514     1705    1538
+      R   2523     1216    3845
+      S   3060     2635    2846
+     SH     63      424     498
+      T   8157     3036    4391
+     TH    160      715     293
+      V   2360      417    1385
+      W      0     4059     651
+      Y      0     1819     405
+      Z   4335        9     607
+     ZH     20        4     649
 ```
 
 ## Stage 2 — T1 위치 (n 맞춤, pooled)
 
 ```
 array position  laryngeal  place
-   6v    final     0.6182 0.6857
-   6v  initial     0.6729 0.6805
-   6v   medial     0.6118 0.6361
+   6v    final     0.6292 0.7037
+   6v  initial     0.6892 0.6823
+   6v   medial     0.6187 0.6523
 ```
 
 ## Stage 2 — T1 위치 (n 맞춤, test 전용)
 
 ```
 array position  laryngeal  place
-   6v    final     0.5040 0.6753
-   6v  initial     0.6108 0.6740
-   6v   medial     0.5730 0.6197
+   6v    final     0.5409 0.7166
+   6v  initial     0.6268 0.6789
+   6v   medial     0.5686 0.5910
 ```
 
 ## Stage 2 — T1 위치 (설탄음화 통제: 모음간 T/D 제외)
 
 ```
 array position  laryngeal  place
-   6v    final     0.6182 0.6857
-   6v  initial     0.6729 0.6805
-   6v   medial     0.6205 0.6337
+   6v    final     0.6292 0.7037
+   6v  initial     0.6892 0.6823
+   6v   medial     0.6278 0.6598
 ```
 
 ## Stage 2 — T1 위치 (6v_sup vs 6v_inf)
 
 ```
  array position  laryngeal  place
-6v_inf    final     0.6079 0.6619
-6v_inf  initial     0.6470 0.6669
-6v_inf   medial     0.5889 0.6188
-6v_sup    final     0.5743 0.6139
-6v_sup  initial     0.6189 0.6300
-6v_sup   medial     0.5620 0.6056
+6v_inf    final     0.6309 0.6858
+6v_inf  initial     0.6764 0.6482
+6v_inf   medial     0.6100 0.6378
+6v_sup    final     0.5778 0.6005
+6v_sup  initial     0.6321 0.6480
+6v_sup   medial     0.5726 0.6137
 ```
 
 ## Stage 2 — T1 위치 x 대립유형 상호작용 (부트스트랩 95% CI)
 
 ```
 array             position  n_laryngeal_pairs  n_place_pairs  laryngeal_acc  place_acc  gap_place_minus_laryngeal  gap_ci_lo  gap_ci_hi excluded_pairs                run excluded
-   6v              initial                  6              8         0.6729     0.6805                     0.0076    -0.0600     0.0734            NaN   all_pairs_pooled     none
-   6v               medial                  6              8         0.6118     0.6361                     0.0242    -0.0588     0.0963            NaN   all_pairs_pooled     none
-   6v                final                  6              8         0.6182     0.6857                     0.0675     0.0075     0.1174            NaN   all_pairs_pooled     none
-   6v DoD(final - initial)                  6              8            NaN        NaN                     0.0599    -0.0292     0.1443            NaN   all_pairs_pooled     none
-   6v              initial                  5              8         0.6711     0.6805                     0.0093    -0.0686     0.0861            T/D   all_pairs_pooled      T/D
-   6v               medial                  5              8         0.6205     0.6361                     0.0156    -0.0809     0.0980            T/D   all_pairs_pooled      T/D
-   6v                final                  5              8         0.6263     0.6857                     0.0594     0.0012     0.1092            T/D   all_pairs_pooled      T/D
-   6v DoD(final - initial)                  5              8            NaN        NaN                     0.0501    -0.0451     0.1429            T/D   all_pairs_pooled      T/D
-   6v              initial                  2              4         0.6108     0.6740                     0.0632    -0.0625     0.1889            NaN all_pairs_testonly     none
-   6v               medial                  2              4         0.5730     0.6197                     0.0467     0.0240     0.0691            NaN all_pairs_testonly     none
-   6v                final                  2              4         0.5040     0.6753                     0.1713     0.1326     0.2051            NaN all_pairs_testonly     none
-   6v DoD(final - initial)                  2              4            NaN        NaN                     0.1081    -0.0213     0.2453            NaN all_pairs_testonly     none
-   6v              initial                  1              4         0.5373     0.6740                     0.1367     0.0445     0.1975            T/D all_pairs_testonly      T/D
-   6v               medial                  1              4         0.5627     0.6197                     0.0570     0.0360     0.0706            T/D all_pairs_testonly      T/D
-   6v                final                  1              4         0.5160     0.6753                     0.1593     0.1206     0.1841            T/D all_pairs_testonly      T/D
-   6v DoD(final - initial)                  1              4            NaN        NaN                     0.0226    -0.0528     0.1195            T/D all_pairs_testonly      T/D
-   6v              initial                  6              8         0.6729     0.6805                     0.0076    -0.0600     0.0734            NaN    flapctrl_pooled     none
-   6v               medial                  6              8         0.6205     0.6337                     0.0132    -0.0727     0.0913            NaN    flapctrl_pooled     none
-   6v                final                  6              8         0.6182     0.6857                     0.0675     0.0075     0.1174            NaN    flapctrl_pooled     none
-   6v DoD(final - initial)                  6              8            NaN        NaN                     0.0599    -0.0292     0.1443            NaN    flapctrl_pooled     none
-   6v              initial                  5              8         0.6711     0.6805                     0.0093    -0.0686     0.0861            T/D    flapctrl_pooled      T/D
-   6v               medial                  5              8         0.6205     0.6337                     0.0133    -0.0878     0.1018            T/D    flapctrl_pooled      T/D
-   6v                final                  5              8         0.6263     0.6857                     0.0594     0.0012     0.1092            T/D    flapctrl_pooled      T/D
-   6v DoD(final - initial)                  5              8            NaN        NaN                     0.0501    -0.0451     0.1429            T/D    flapctrl_pooled      T/D
+   6v              initial                  6              8         0.6892     0.6823                    -0.0069    -0.0806     0.0612            NaN   all_pairs_pooled     none
+   6v               medial                  6              8         0.6187     0.6523                     0.0335    -0.0523     0.1035            NaN   all_pairs_pooled     none
+   6v                final                  6              8         0.6292     0.7037                     0.0745     0.0201     0.1260            NaN   all_pairs_pooled     none
+   6v DoD(final - initial)                  6              8            NaN        NaN                     0.0813    -0.0052     0.1706            NaN   all_pairs_pooled     none
+   6v              initial                  5              8         0.6928     0.6823                    -0.0104    -0.0932     0.0676            T/D   all_pairs_pooled      T/D
+   6v               medial                  5              8         0.6335     0.6523                     0.0188    -0.0786     0.0919            T/D   all_pairs_pooled      T/D
+   6v                final                  5              8         0.6460     0.7037                     0.0577     0.0092     0.1029            T/D   all_pairs_pooled      T/D
+   6v DoD(final - initial)                  5              8            NaN        NaN                     0.0681    -0.0213     0.1594            T/D   all_pairs_pooled      T/D
+   6v              initial                  2              4         0.6268     0.6789                     0.0520    -0.0874     0.1871            NaN all_pairs_testonly     none
+   6v               medial                  2              4         0.5686     0.5910                     0.0224    -0.0040     0.0485            NaN all_pairs_testonly     none
+   6v                final                  2              4         0.5409     0.7166                     0.1757     0.1007     0.2506            NaN all_pairs_testonly     none
+   6v DoD(final - initial)                  2              4            NaN        NaN                     0.1236    -0.0304     0.2851            NaN all_pairs_testonly     none
+   6v              initial                  1              4         0.5460     0.6789                     0.1329     0.0315     0.2029            T/D all_pairs_testonly      T/D
+   6v               medial                  1              4         0.5833     0.5910                     0.0077    -0.0093     0.0247            T/D all_pairs_testonly      T/D
+   6v                final                  1              4         0.5927     0.7166                     0.1239     0.0914     0.1572            T/D all_pairs_testonly      T/D
+   6v DoD(final - initial)                  1              4            NaN        NaN                    -0.0089    -0.0894     0.0929            T/D all_pairs_testonly      T/D
+   6v              initial                  6              8         0.6892     0.6823                    -0.0069    -0.0806     0.0612            NaN    flapctrl_pooled     none
+   6v               medial                  6              8         0.6278     0.6598                     0.0320    -0.0493     0.0936            NaN    flapctrl_pooled     none
+   6v                final                  6              8         0.6292     0.7037                     0.0745     0.0201     0.1260            NaN    flapctrl_pooled     none
+   6v DoD(final - initial)                  6              8            NaN        NaN                     0.0813    -0.0052     0.1706            NaN    flapctrl_pooled     none
+   6v              initial                  5              8         0.6928     0.6823                    -0.0104    -0.0932     0.0676            T/D    flapctrl_pooled      T/D
+   6v               medial                  5              8         0.6335     0.6598                     0.0263    -0.0690     0.0955            T/D    flapctrl_pooled      T/D
+   6v                final                  5              8         0.6460     0.7037                     0.0577     0.0092     0.1029            T/D    flapctrl_pooled      T/D
+   6v DoD(final - initial)                  5              8            NaN        NaN                     0.0681    -0.0213     0.1594            T/D    flapctrl_pooled      T/D
 ```
 
 ## Stage 2 — T3 양식 (비교군별, 정렬 품질·날짜 맞춤)
@@ -266,165 +290,165 @@ array             position  n_laryngeal_pairs  n_place_pairs  laryngeal_acc  pla
 ```
           comparator  array modality       acc         mean_per       
                                      laryngeal  place laryngeal  place
-        primary_0729     6v nonvocal    0.5617 0.6199    0.2636 0.2639
-        primary_0729     6v    vocal    0.6216 0.6954    0.1858 0.1858
-        primary_0729 6v_inf nonvocal    0.5282 0.6363    0.2629 0.2646
-        primary_0729 6v_inf    vocal    0.6108 0.6431    0.1860 0.1858
-        primary_0729 6v_sup nonvocal    0.5560 0.5909    0.2631 0.2656
-        primary_0729 6v_sup    vocal    0.5597 0.6658    0.1859 0.1859
-primary_0729_initial     6v nonvocal    0.6325 0.6817    0.2656 0.2681
-primary_0729_initial     6v    vocal    0.7097 0.7042    0.1861 0.1862
-primary_0729_initial 6v_inf nonvocal    0.6061 0.6407    0.2665 0.2660
-primary_0729_initial 6v_inf    vocal    0.6858 0.6358    0.1860 0.1859
-primary_0729_initial 6v_sup nonvocal    0.6259 0.6231    0.2650 0.2637
-primary_0729_initial 6v_sup    vocal    0.6578 0.6689    0.1851 0.1861
- primary_0729_no0825     6v nonvocal    0.5814 0.6372    0.2530 0.2534
- primary_0729_no0825     6v    vocal    0.6216 0.6954    0.1858 0.1858
- primary_0729_no0825 6v_inf nonvocal    0.5508 0.6114    0.2523 0.2539
- primary_0729_no0825 6v_inf    vocal    0.6108 0.6431    0.1860 0.1858
- primary_0729_no0825 6v_sup nonvocal    0.5393 0.5584    0.2529 0.2542
- primary_0729_no0825 6v_sup    vocal    0.5597 0.6658    0.1859 0.1859
- secondary_datematch     6v nonvocal    0.5385 0.6165    0.2663 0.2667
- secondary_datematch     6v    vocal    0.5791 0.6296    0.1758 0.1746
- secondary_datematch 6v_inf nonvocal    0.5355 0.5961    0.2660 0.2637
- secondary_datematch 6v_inf    vocal    0.5716 0.6204    0.1745 0.1748
- secondary_datematch 6v_sup nonvocal    0.5109 0.5854    0.2640 0.2657
- secondary_datematch 6v_sup    vocal    0.5426 0.5624    0.1746 0.1745
-   tertiary_allvocal     6v nonvocal    0.6441 0.6964    0.2641 0.2644
-   tertiary_allvocal     6v    vocal    0.6278 0.6903    0.1873 0.1865
-   tertiary_allvocal 6v_inf nonvocal    0.6145 0.6641    0.2636 0.2642
-   tertiary_allvocal 6v_inf    vocal    0.6164 0.6747    0.1877 0.1872
-   tertiary_allvocal 6v_sup nonvocal    0.5930 0.6243    0.2639 0.2639
-   tertiary_allvocal 6v_sup    vocal    0.5936 0.6287    0.1874 0.1875
+        primary_0729     6v nonvocal    0.6047 0.6168    0.2636 0.2639
+        primary_0729     6v    vocal    0.6481 0.7168    0.1858 0.1858
+        primary_0729 6v_inf nonvocal    0.5451 0.6354    0.2629 0.2646
+        primary_0729 6v_inf    vocal    0.6530 0.6755    0.1860 0.1858
+        primary_0729 6v_sup nonvocal    0.5557 0.6008    0.2631 0.2656
+        primary_0729 6v_sup    vocal    0.6011 0.6722    0.1859 0.1859
+primary_0729_initial     6v nonvocal    0.7000 0.7465    0.2656 0.2681
+primary_0729_initial     6v    vocal    0.7877 0.7240    0.1861 0.1862
+primary_0729_initial 6v_inf nonvocal    0.6490 0.6784    0.2665 0.2660
+primary_0729_initial 6v_inf    vocal    0.7240 0.6800    0.1860 0.1859
+primary_0729_initial 6v_sup nonvocal    0.6585 0.6608    0.2650 0.2637
+primary_0729_initial 6v_sup    vocal    0.7114 0.7052    0.1851 0.1861
+ primary_0729_no0825     6v nonvocal    0.6140 0.6650    0.2530 0.2534
+ primary_0729_no0825     6v    vocal    0.6481 0.7168    0.1858 0.1858
+ primary_0729_no0825 6v_inf nonvocal    0.5665 0.6292    0.2523 0.2539
+ primary_0729_no0825 6v_inf    vocal    0.6530 0.6755    0.1860 0.1858
+ primary_0729_no0825 6v_sup nonvocal    0.5494 0.5865    0.2529 0.2542
+ primary_0729_no0825 6v_sup    vocal    0.6011 0.6722    0.1859 0.1859
+ secondary_datematch     6v nonvocal    0.5715 0.6397    0.2663 0.2667
+ secondary_datematch     6v    vocal    0.6179 0.6476    0.1758 0.1746
+ secondary_datematch 6v_inf nonvocal    0.6084 0.5922    0.2660 0.2637
+ secondary_datematch 6v_inf    vocal    0.5601 0.6421    0.1745 0.1748
+ secondary_datematch 6v_sup nonvocal    0.5284 0.5938    0.2640 0.2657
+ secondary_datematch 6v_sup    vocal    0.5731 0.6106    0.1746 0.1745
+   tertiary_allvocal     6v nonvocal    0.6478 0.6948    0.2641 0.2644
+   tertiary_allvocal     6v    vocal    0.6243 0.6951    0.1873 0.1865
+   tertiary_allvocal 6v_inf nonvocal    0.6210 0.6628    0.2636 0.2642
+   tertiary_allvocal 6v_inf    vocal    0.6202 0.6751    0.1877 0.1872
+   tertiary_allvocal 6v_sup nonvocal    0.5923 0.6254    0.2639 0.2639
+   tertiary_allvocal 6v_sup    vocal    0.5976 0.6328    0.1874 0.1875
 ```
 
 ## Stage 2 — T3 격차와 DoD (부트스트랩 95% CI)
 
 ```
  array              modality  n_laryngeal_pairs  n_place_pairs  laryngeal_acc  place_acc  gap_place_minus_laryngeal  gap_ci_lo  gap_ci_hi  excluded_pairs           comparator positions
-    6v                 vocal                  7              9         0.6216     0.6954                     0.0738    -0.0323     0.1768             NaN         primary_0729       all
-    6v              nonvocal                  7              9         0.5617     0.6199                     0.0582    -0.0239     0.1421             NaN         primary_0729       all
-    6v DoD(nonvocal - vocal)                  7              9            NaN        NaN                    -0.0156    -0.1511     0.1195             NaN         primary_0729       all
-6v_sup                 vocal                  7              9         0.5597     0.6658                     0.1061     0.0247     0.1999             NaN         primary_0729       all
-6v_sup              nonvocal                  7              9         0.5560     0.5909                     0.0350    -0.0327     0.1003             NaN         primary_0729       all
-6v_sup DoD(nonvocal - vocal)                  7              9            NaN        NaN                    -0.0711    -0.1845     0.0364             NaN         primary_0729       all
-6v_inf                 vocal                  7              9         0.6108     0.6431                     0.0323    -0.0451     0.1090             NaN         primary_0729       all
-6v_inf              nonvocal                  7              9         0.5282     0.6363                     0.1081     0.0321     0.1831             NaN         primary_0729       all
-6v_inf DoD(nonvocal - vocal)                  7              9            NaN        NaN                     0.0757    -0.0338     0.1830             NaN         primary_0729       all
-    6v                 vocal                  7              9         0.6216     0.6954                     0.0738    -0.0323     0.1768             NaN  primary_0729_no0825       all
-    6v              nonvocal                  7              9         0.5814     0.6372                     0.0558    -0.0175     0.1322             NaN  primary_0729_no0825       all
-    6v DoD(nonvocal - vocal)                  7              9            NaN        NaN                    -0.0180    -0.1475     0.1120             NaN  primary_0729_no0825       all
-6v_sup                 vocal                  7              9         0.5597     0.6658                     0.1061     0.0247     0.1999             NaN  primary_0729_no0825       all
-6v_sup              nonvocal                  7              9         0.5393     0.5584                     0.0191    -0.0587     0.0946             NaN  primary_0729_no0825       all
-6v_sup DoD(nonvocal - vocal)                  7              9            NaN        NaN                    -0.0870    -0.2077     0.0270             NaN  primary_0729_no0825       all
-6v_inf                 vocal                  7              9         0.6108     0.6431                     0.0323    -0.0451     0.1090             NaN  primary_0729_no0825       all
-6v_inf              nonvocal                  7              9         0.5508     0.6114                     0.0606    -0.0028     0.1237             NaN  primary_0729_no0825       all
-6v_inf DoD(nonvocal - vocal)                  7              9            NaN        NaN                     0.0283    -0.0732     0.1292             NaN  primary_0729_no0825       all
-    6v                 vocal                  6              8         0.5791     0.6296                     0.0505    -0.0159     0.1155             NaN  secondary_datematch       all
-    6v              nonvocal                  6              8         0.5385     0.6165                     0.0780     0.0255     0.1311             NaN  secondary_datematch       all
-    6v DoD(nonvocal - vocal)                  6              8            NaN        NaN                     0.0275    -0.0541     0.1130             NaN  secondary_datematch       all
-6v_sup                 vocal                  6              8         0.5426     0.5624                     0.0198    -0.0822     0.1122             NaN  secondary_datematch       all
-6v_sup              nonvocal                  6              8         0.5109     0.5854                     0.0745     0.0179     0.1284             NaN  secondary_datematch       all
-6v_sup DoD(nonvocal - vocal)                  6              8            NaN        NaN                     0.0547    -0.0523     0.1691             NaN  secondary_datematch       all
-6v_inf                 vocal                  6              8         0.5716     0.6204                     0.0488     0.0065     0.0883             NaN  secondary_datematch       all
-6v_inf              nonvocal                  6              8         0.5355     0.5961                     0.0607    -0.0175     0.1458             NaN  secondary_datematch       all
-6v_inf DoD(nonvocal - vocal)                  6              8            NaN        NaN                     0.0118    -0.0767     0.1072             NaN  secondary_datematch       all
-    6v                 vocal                  8              9         0.6278     0.6903                     0.0625     0.0195     0.1071             NaN    tertiary_allvocal       all
-    6v              nonvocal                  8              9         0.6441     0.6964                     0.0523    -0.0184     0.1134             NaN    tertiary_allvocal       all
-    6v DoD(nonvocal - vocal)                  8              9            NaN        NaN                    -0.0102    -0.0920     0.0664             NaN    tertiary_allvocal       all
-6v_sup                 vocal                  8              9         0.5936     0.6287                     0.0351    -0.0237     0.0912             NaN    tertiary_allvocal       all
-6v_sup              nonvocal                  8              9         0.5930     0.6243                     0.0313    -0.0298     0.0838             NaN    tertiary_allvocal       all
-6v_sup DoD(nonvocal - vocal)                  8              9            NaN        NaN                    -0.0038    -0.0870     0.0771             NaN    tertiary_allvocal       all
-6v_inf                 vocal                  8              9         0.6164     0.6747                     0.0584     0.0074     0.1044             NaN    tertiary_allvocal       all
-6v_inf              nonvocal                  8              9         0.6145     0.6641                     0.0496    -0.0058     0.1035             NaN    tertiary_allvocal       all
-6v_inf DoD(nonvocal - vocal)                  8              9            NaN        NaN                    -0.0088    -0.0823     0.0657             NaN    tertiary_allvocal       all
-    6v                 vocal                  4              7         0.7097     0.7042                    -0.0055    -0.0494     0.0398             NaN primary_0729_initial   initial
-    6v              nonvocal                  4              7         0.6325     0.6817                     0.0492    -0.0409     0.1292             NaN primary_0729_initial   initial
-    6v DoD(nonvocal - vocal)                  4              7            NaN        NaN                     0.0547    -0.0473     0.1492             NaN primary_0729_initial   initial
-6v_sup                 vocal                  4              7         0.6578     0.6689                     0.0111    -0.0493     0.0729             NaN primary_0729_initial   initial
-6v_sup              nonvocal                  4              7         0.6259     0.6231                    -0.0028    -0.1028     0.1009             NaN primary_0729_initial   initial
-6v_sup DoD(nonvocal - vocal)                  4              7            NaN        NaN                    -0.0140    -0.1314     0.1034             NaN primary_0729_initial   initial
-6v_inf                 vocal                  4              7         0.6858     0.6358                    -0.0500    -0.1407     0.0355             NaN primary_0729_initial   initial
-6v_inf              nonvocal                  4              7         0.6061     0.6407                     0.0345    -0.0312     0.0935             NaN primary_0729_initial   initial
-6v_inf DoD(nonvocal - vocal)                  4              7            NaN        NaN                     0.0846    -0.0209     0.1938             NaN primary_0729_initial   initial
+    6v                 vocal                  7              9         0.6481     0.7168                     0.0687    -0.0135     0.1418             NaN         primary_0729       all
+    6v              nonvocal                  7              9         0.6047     0.6168                     0.0121    -0.0783     0.0921             NaN         primary_0729       all
+    6v DoD(nonvocal - vocal)                  7              9            NaN        NaN                    -0.0566    -0.1763     0.0583             NaN         primary_0729       all
+6v_sup                 vocal                  7              9         0.6011     0.6722                     0.0711     0.0011     0.1353             NaN         primary_0729       all
+6v_sup              nonvocal                  7              9         0.5557     0.6008                     0.0452    -0.0171     0.1110             NaN         primary_0729       all
+6v_sup DoD(nonvocal - vocal)                  7              9            NaN        NaN                    -0.0260    -0.1159     0.0690             NaN         primary_0729       all
+6v_inf                 vocal                  7              9         0.6530     0.6755                     0.0225    -0.0517     0.0909             NaN         primary_0729       all
+6v_inf              nonvocal                  7              9         0.5451     0.6354                     0.0903    -0.0007     0.1747             NaN         primary_0729       all
+6v_inf DoD(nonvocal - vocal)                  7              9            NaN        NaN                     0.0678    -0.0468     0.1792             NaN         primary_0729       all
+    6v                 vocal                  7              9         0.6481     0.7168                     0.0687    -0.0135     0.1418             NaN  primary_0729_no0825       all
+    6v              nonvocal                  7              9         0.6140     0.6650                     0.0510    -0.0062     0.1169             NaN  primary_0729_no0825       all
+    6v DoD(nonvocal - vocal)                  7              9            NaN        NaN                    -0.0177    -0.1137     0.0844             NaN  primary_0729_no0825       all
+6v_sup                 vocal                  7              9         0.6011     0.6722                     0.0711     0.0011     0.1353             NaN  primary_0729_no0825       all
+6v_sup              nonvocal                  7              9         0.5494     0.5865                     0.0372    -0.0286     0.1051             NaN  primary_0729_no0825       all
+6v_sup DoD(nonvocal - vocal)                  7              9            NaN        NaN                    -0.0340    -0.1261     0.0647             NaN  primary_0729_no0825       all
+6v_inf                 vocal                  7              9         0.6530     0.6755                     0.0225    -0.0517     0.0909             NaN  primary_0729_no0825       all
+6v_inf              nonvocal                  7              9         0.5665     0.6292                     0.0626     0.0114     0.1166             NaN  primary_0729_no0825       all
+6v_inf DoD(nonvocal - vocal)                  7              9            NaN        NaN                     0.0401    -0.0455     0.1298             NaN  primary_0729_no0825       all
+    6v                 vocal                  6              8         0.6179     0.6476                     0.0296    -0.0149     0.0735             NaN  secondary_datematch       all
+    6v              nonvocal                  6              8         0.5715     0.6397                     0.0682     0.0226     0.1168             NaN  secondary_datematch       all
+    6v DoD(nonvocal - vocal)                  6              8            NaN        NaN                     0.0386    -0.0251     0.1044             NaN  secondary_datematch       all
+6v_sup                 vocal                  6              8         0.5731     0.6106                     0.0374    -0.0547     0.1261             NaN  secondary_datematch       all
+6v_sup              nonvocal                  6              8         0.5284     0.5938                     0.0655     0.0001     0.1295             NaN  secondary_datematch       all
+6v_sup DoD(nonvocal - vocal)                  6              8            NaN        NaN                     0.0281    -0.0833     0.1393             NaN  secondary_datematch       all
+6v_inf                 vocal                  6              8         0.5601     0.6421                     0.0819     0.0146     0.1444             NaN  secondary_datematch       all
+6v_inf              nonvocal                  6              8         0.6084     0.5922                    -0.0162    -0.1415     0.0950             NaN  secondary_datematch       all
+6v_inf DoD(nonvocal - vocal)                  6              8            NaN        NaN                    -0.0981    -0.2411     0.0310             NaN  secondary_datematch       all
+    6v                 vocal                  8              9         0.6243     0.6951                     0.0708     0.0241     0.1175             NaN    tertiary_allvocal       all
+    6v              nonvocal                  8              9         0.6478     0.6948                     0.0470    -0.0253     0.1071             NaN    tertiary_allvocal       all
+    6v DoD(nonvocal - vocal)                  8              9            NaN        NaN                    -0.0237    -0.1084     0.0546             NaN    tertiary_allvocal       all
+6v_sup                 vocal                  8              9         0.5976     0.6328                     0.0352    -0.0245     0.0922             NaN    tertiary_allvocal       all
+6v_sup              nonvocal                  8              9         0.5923     0.6254                     0.0331    -0.0283     0.0869             NaN    tertiary_allvocal       all
+6v_sup DoD(nonvocal - vocal)                  8              9            NaN        NaN                    -0.0021    -0.0862     0.0797             NaN    tertiary_allvocal       all
+6v_inf                 vocal                  8              9         0.6202     0.6751                     0.0549     0.0013     0.1034             NaN    tertiary_allvocal       all
+6v_inf              nonvocal                  8              9         0.6210     0.6628                     0.0418    -0.0184     0.1003             NaN    tertiary_allvocal       all
+6v_inf DoD(nonvocal - vocal)                  8              9            NaN        NaN                    -0.0131    -0.0913     0.0663             NaN    tertiary_allvocal       all
+    6v                 vocal                  4              7         0.7877     0.7240                    -0.0637    -0.1151    -0.0113             NaN primary_0729_initial   initial
+    6v              nonvocal                  4              7         0.7000     0.7465                     0.0466    -0.1164     0.1732             NaN primary_0729_initial   initial
+    6v DoD(nonvocal - vocal)                  4              7            NaN        NaN                     0.1102    -0.0583     0.2515             NaN primary_0729_initial   initial
+6v_sup                 vocal                  4              7         0.7114     0.7052                    -0.0062    -0.0732     0.0674             NaN primary_0729_initial   initial
+6v_sup              nonvocal                  4              7         0.6585     0.6608                     0.0024    -0.0902     0.0953             NaN primary_0729_initial   initial
+6v_sup DoD(nonvocal - vocal)                  4              7            NaN        NaN                     0.0086    -0.1120     0.1238             NaN primary_0729_initial   initial
+6v_inf                 vocal                  4              7         0.7240     0.6800                    -0.0441    -0.1461     0.0582             NaN primary_0729_initial   initial
+6v_inf              nonvocal                  4              7         0.6490     0.6784                     0.0294    -0.0353     0.0898             NaN primary_0729_initial   initial
+6v_inf DoD(nonvocal - vocal)                  4              7            NaN        NaN                     0.0734    -0.0471     0.1934             NaN primary_0729_initial   initial
 ```
 
 ## Stage 2 — T3 쌍별 낙폭 (발성 - 무성, 재표집 95% CI)
 
 ```
 array  pair  contrast    manner  n_per_class  acc_vocal  acc_nonvocal    drop  drop_ci_lo  drop_ci_hi          comparator
-   6v   P/B laryngeal      stop           65     0.6633        0.5981  0.0652     -0.0222      0.1482        primary_0729
-   6v   T/D laryngeal      stop          140     0.6270        0.5609  0.0661      0.0014      0.1304        primary_0729
-   6v   K/G laryngeal      stop           35     0.6607        0.5682  0.0925     -0.0725      0.2402        primary_0729
-   6v   F/V laryngeal fricative           69     0.6015        0.5799  0.0216     -0.1008      0.1281        primary_0729
-   6v   S/Z laryngeal fricative           86     0.6110        0.5892  0.0218     -0.0471      0.1155        primary_0729
-   6v SH/ZH laryngeal fricative           12     0.4800        0.4630  0.0170     -0.1815      0.2131        primary_0729
-   6v TH/DH laryngeal fricative           28     0.7225        0.6889  0.0337     -0.0934      0.1548        primary_0729
-   6v   P/T     place      stop           74     0.7937        0.6882  0.1055      0.0106      0.2097        primary_0729
-   6v   T/K     place      stop          132     0.6992        0.6387  0.0605     -0.0218      0.1147        primary_0729
-   6v   B/D     place      stop           65     0.8033        0.6904  0.1129     -0.0068      0.1751        primary_0729
-   6v   D/G     place      stop           35     0.6704        0.5900  0.0804     -0.0429      0.2562        primary_0729
-   6v   F/S     place fricative           69     0.6129        0.5998  0.0131     -0.1056      0.1109        primary_0729
-   6v  F/TH     place fricative           28     0.7344        0.6575  0.0769     -0.0641      0.2011        primary_0729
-   6v  S/SH     place fricative           12     0.4652        0.4690 -0.0037     -0.2969      0.1694        primary_0729
-   6v   V/Z     place fricative           77     0.6792        0.6561  0.0231     -0.0546      0.1047        primary_0729
-   6v   M/N     place     nasal          131     0.7522        0.7049  0.0473     -0.0320      0.1282        primary_0729
-   6v   P/B laryngeal      stop           45     0.6558        0.5456  0.1103     -0.0008      0.2596 secondary_datematch
-   6v   T/D laryngeal      stop           91     0.5612        0.5519  0.0093     -0.0975      0.1106 secondary_datematch
-   6v   K/G laryngeal      stop           29     0.5196        0.5458 -0.0262     -0.1344      0.0712 secondary_datematch
-   6v   F/V laryngeal fricative           48     0.5757        0.5540  0.0218     -0.0758      0.1125 secondary_datematch
-   6v   S/Z laryngeal fricative           39     0.6231        0.5681  0.0550     -0.0379      0.2091 secondary_datematch
-   6v TH/DH laryngeal fricative           15     0.4892        0.5058 -0.0167     -0.2525      0.2604 secondary_datematch
-   6v   P/T     place      stop           45     0.6750        0.6594  0.0156     -0.1085      0.1281 secondary_datematch
-   6v   T/K     place      stop           86     0.6260        0.6072  0.0188     -0.0588      0.0860 secondary_datematch
-   6v   B/D     place      stop           46     0.7282        0.6794  0.0488     -0.0854      0.1756 secondary_datematch
-   6v   D/G     place      stop           29     0.5732        0.5749 -0.0017     -0.1688      0.1651 secondary_datematch
-   6v   F/S     place fricative           48     0.6011        0.5806  0.0205     -0.1110      0.1681 secondary_datematch
-   6v  F/TH     place fricative           15     0.5025        0.5158 -0.0133     -0.2508      0.1587 secondary_datematch
-   6v   V/Z     place fricative           39     0.6776        0.6201  0.0575     -0.0339      0.1907 secondary_datematch
-   6v   M/N     place     nasal          100     0.6654        0.6805 -0.0151     -0.0846      0.0638 secondary_datematch
-   6v   P/B laryngeal      stop          259     0.6488        0.6403  0.0085     -0.0228      0.0391   tertiary_allvocal
-   6v   T/D laryngeal      stop          300     0.5660        0.5610  0.0050     -0.0672      0.0457   tertiary_allvocal
-   6v   K/G laryngeal      stop          167     0.6040        0.6342 -0.0301     -0.1333      0.0385   tertiary_allvocal
-   6v   F/V laryngeal fricative          256     0.6037        0.6312 -0.0275     -0.0616      0.0131   tertiary_allvocal
-   6v   S/Z laryngeal fricative          300     0.6314        0.6039  0.0275     -0.0164      0.0750   tertiary_allvocal
-   6v SH/ZH laryngeal fricative           41     0.5612        0.5713 -0.0102     -0.1203      0.0980   tertiary_allvocal
-   6v CH/JH laryngeal affricate           47     0.6745        0.6908 -0.0162     -0.0988      0.1046   tertiary_allvocal
-   6v TH/DH laryngeal fricative           93     0.7331        0.7713 -0.0382     -0.1146      0.0402   tertiary_allvocal
-   6v   P/T     place      stop          300     0.7740        0.7448  0.0292     -0.0005      0.0604   tertiary_allvocal
-   6v   T/K     place      stop          300     0.6681        0.6650  0.0031     -0.0348      0.0457   tertiary_allvocal
-   6v   B/D     place      stop          259     0.7574        0.7528  0.0046     -0.0286      0.0351   tertiary_allvocal
-   6v   D/G     place      stop          167     0.6894        0.6723  0.0171     -0.0263      0.0815   tertiary_allvocal
-   6v   F/S     place fricative          256     0.5990        0.6238 -0.0248     -0.0614      0.0344   tertiary_allvocal
-   6v  F/TH     place fricative           93     0.7250        0.7551 -0.0301     -0.0943      0.0328   tertiary_allvocal
-   6v  S/SH     place fricative           57     0.6508        0.6046  0.0463     -0.0680      0.1255   tertiary_allvocal
-   6v   V/Z     place fricative          300     0.7159        0.7038  0.0121     -0.0111      0.0431   tertiary_allvocal
-   6v   M/N     place     nasal          300     0.6946        0.7149 -0.0203     -0.0571      0.0196   tertiary_allvocal
+   6v   P/B laryngeal      stop           65     0.6756        0.6004  0.0752     -0.0119      0.1787        primary_0729
+   6v   T/D laryngeal      stop          140     0.6210        0.5583  0.0627      0.0098      0.1468        primary_0729
+   6v   K/G laryngeal      stop           35     0.6371        0.5754  0.0618     -0.1521      0.2164        primary_0729
+   6v   F/V laryngeal fricative           69     0.5863        0.5916 -0.0052     -0.0928      0.0848        primary_0729
+   6v   S/Z laryngeal fricative           86     0.6153        0.5892  0.0261     -0.0460      0.1164        primary_0729
+   6v SH/ZH laryngeal fricative           12     0.5662        0.5432  0.0230     -0.2455      0.2205        primary_0729
+   6v TH/DH laryngeal fricative           28     0.8027        0.7568  0.0459     -0.1112      0.1364        primary_0729
+   6v   P/T     place      stop           74     0.7999        0.6952  0.1048      0.0227      0.1858        primary_0729
+   6v   T/K     place      stop          132     0.7048        0.6430  0.0619     -0.0049      0.1017        primary_0729
+   6v   B/D     place      stop           65     0.8023        0.7048  0.0975     -0.0315      0.1712        primary_0729
+   6v   D/G     place      stop           35     0.6768        0.6079  0.0689     -0.0755      0.2627        primary_0729
+   6v   F/S     place fricative           69     0.6326        0.6010  0.0316     -0.0597      0.1254        primary_0729
+   6v  F/TH     place fricative           28     0.7886        0.7040  0.0846     -0.0092      0.2475        primary_0729
+   6v  S/SH     place fricative           12     0.6158        0.5570  0.0588     -0.1832      0.2752        primary_0729
+   6v   V/Z     place fricative           77     0.6881        0.6467  0.0415     -0.0114      0.1386        primary_0729
+   6v   M/N     place     nasal          131     0.7565        0.7005  0.0560     -0.0010      0.1139        primary_0729
+   6v   P/B laryngeal      stop           45     0.6708        0.5697  0.1011     -0.0169      0.2046 secondary_datematch
+   6v   T/D laryngeal      stop           91     0.5513        0.5469  0.0043     -0.0931      0.0771 secondary_datematch
+   6v   K/G laryngeal      stop           29     0.5026        0.5297 -0.0270     -0.1436      0.0685 secondary_datematch
+   6v   F/V laryngeal fricative           48     0.5925        0.5608  0.0317     -0.0559      0.1072 secondary_datematch
+   6v   S/Z laryngeal fricative           39     0.6478        0.5700  0.0778     -0.0242      0.2005 secondary_datematch
+   6v TH/DH laryngeal fricative           15     0.6192        0.6892 -0.0700     -0.2929      0.1850 secondary_datematch
+   6v   P/T     place      stop           45     0.6997        0.6725  0.0272     -0.1061      0.1672 secondary_datematch
+   6v   T/K     place      stop           86     0.6314        0.6033  0.0280     -0.0789      0.0977 secondary_datematch
+   6v   B/D     place      stop           46     0.7132        0.6923  0.0209     -0.0896      0.1676 secondary_datematch
+   6v   D/G     place      stop           29     0.6148        0.5774  0.0374     -0.1637      0.1843 secondary_datematch
+   6v   F/S     place fricative           48     0.5927        0.5829  0.0098     -0.1283      0.1293 secondary_datematch
+   6v  F/TH     place fricative           15     0.6800        0.6917 -0.0117     -0.2708      0.2517 secondary_datematch
+   6v   V/Z     place fricative           39     0.7206        0.6288  0.0918      0.0096      0.1828 secondary_datematch
+   6v   M/N     place     nasal          100     0.6754        0.6764 -0.0010     -0.1019      0.0726 secondary_datematch
+   6v   P/B laryngeal      stop          259     0.6441        0.6380  0.0061     -0.0374      0.0411   tertiary_allvocal
+   6v   T/D laryngeal      stop          300     0.5631        0.5600  0.0030     -0.0689      0.0468   tertiary_allvocal
+   6v   K/G laryngeal      stop          167     0.6029        0.6338 -0.0309     -0.1320      0.0300   tertiary_allvocal
+   6v   F/V laryngeal fricative          256     0.6042        0.6344 -0.0302     -0.0577      0.0177   tertiary_allvocal
+   6v   S/Z laryngeal fricative          300     0.6255        0.5996  0.0259     -0.0107      0.0785   tertiary_allvocal
+   6v SH/ZH laryngeal fricative           41     0.5440        0.5622 -0.0182     -0.1331      0.1011   tertiary_allvocal
+   6v CH/JH laryngeal affricate           47     0.7100        0.7118 -0.0018     -0.0718      0.0623   tertiary_allvocal
+   6v TH/DH laryngeal fricative           93     0.7291        0.7830 -0.0540     -0.1010      0.0376   tertiary_allvocal
+   6v   P/T     place      stop          300     0.7751        0.7462  0.0289      0.0049      0.0643   tertiary_allvocal
+   6v   T/K     place      stop          300     0.6664        0.6642  0.0022     -0.0236      0.0304   tertiary_allvocal
+   6v   B/D     place      stop          259     0.7581        0.7508  0.0074     -0.0272      0.0404   tertiary_allvocal
+   6v   D/G     place      stop          167     0.6790        0.6642  0.0148     -0.0457      0.0830   tertiary_allvocal
+   6v   F/S     place fricative          256     0.5986        0.6223 -0.0238     -0.0576      0.0177   tertiary_allvocal
+   6v  F/TH     place fricative           93     0.7376        0.7652 -0.0276     -0.1038      0.0271   tertiary_allvocal
+   6v  S/SH     place fricative           57     0.6656        0.6081  0.0575     -0.0334      0.1547   tertiary_allvocal
+   6v   V/Z     place fricative          300     0.7128        0.6994  0.0134     -0.0184      0.0424   tertiary_allvocal
+   6v   M/N     place     nasal          300     0.6950        0.7138 -0.0188     -0.0588      0.0217   tertiary_allvocal
 ```
 
 ## Stage 2 — T3 자연부류 검정 (후두 마디가 한 부류로 약해지는가)
 
 ```
                                            group  n_pairs  mean_drop  sd_drop  uniformity_p          comparator
-                                       laryngeal        7     0.0454   0.0292           NaN        primary_0729
-                               place (non-nasal)        8     0.0586   0.0434           NaN        primary_0729
-                                           nasal        1     0.0473      NaN           NaN        primary_0729
-                                  laryngeal:stop        3     0.0746   0.0155           NaN        primary_0729
-                             laryngeal:fricative        4     0.0235   0.0071           NaN        primary_0729
-UNIFORMITY TEST (laryngeal SD vs random 7 of 16)        7     0.0292   0.0351        0.1640        primary_0729
-                                       laryngeal        6     0.0256   0.0506           NaN secondary_datematch
-                               place (non-nasal)        7     0.0209   0.0253           NaN secondary_datematch
-                                           nasal        1    -0.0151      NaN           NaN secondary_datematch
-                                  laryngeal:stop        3     0.0311   0.0708           NaN secondary_datematch
-                             laryngeal:fricative        3     0.0200   0.0359           NaN secondary_datematch
-UNIFORMITY TEST (laryngeal SD vs random 6 of 14)        6     0.0506   0.0357        0.9380 secondary_datematch
-                                       laryngeal        8    -0.0102   0.0224           NaN   tertiary_allvocal
-                               place (non-nasal)        8     0.0072   0.0256           NaN   tertiary_allvocal
-                                           nasal        1    -0.0203      NaN           NaN   tertiary_allvocal
-                                  laryngeal:stop        3    -0.0055   0.0214           NaN   tertiary_allvocal
-                             laryngeal:fricative        4    -0.0121   0.0288           NaN   tertiary_allvocal
-                             laryngeal:affricate        1    -0.0162      NaN           NaN   tertiary_allvocal
-UNIFORMITY TEST (laryngeal SD vs random 8 of 17)        8     0.0224   0.0243        0.3234   tertiary_allvocal
+                                       laryngeal        7     0.0413   0.0282           NaN        primary_0729
+                               place (non-nasal)        8     0.0687   0.0258           NaN        primary_0729
+                                           nasal        1     0.0560      NaN           NaN        primary_0729
+                                  laryngeal:stop        3     0.0666   0.0075           NaN        primary_0729
+                             laryngeal:fricative        4     0.0224   0.0210           NaN        primary_0729
+UNIFORMITY TEST (laryngeal SD vs random 7 of 16)        7     0.0282   0.0277        0.5467        primary_0729
+                                       laryngeal        6     0.0197   0.0642           NaN secondary_datematch
+                               place (non-nasal)        7     0.0291   0.0319           NaN secondary_datematch
+                                           nasal        1    -0.0010      NaN           NaN secondary_datematch
+                                  laryngeal:stop        3     0.0261   0.0668           NaN secondary_datematch
+                             laryngeal:fricative        3     0.0132   0.0756           NaN secondary_datematch
+UNIFORMITY TEST (laryngeal SD vs random 6 of 14)        6     0.0642   0.0445        0.9646 secondary_datematch
+                                       laryngeal        8    -0.0125   0.0256           NaN   tertiary_allvocal
+                               place (non-nasal)        8     0.0091   0.0274           NaN   tertiary_allvocal
+                                           nasal        1    -0.0188      NaN           NaN   tertiary_allvocal
+                                  laryngeal:stop        3    -0.0073   0.0205           NaN   tertiary_allvocal
+                             laryngeal:fricative        4    -0.0191   0.0335           NaN   tertiary_allvocal
+                             laryngeal:affricate        1    -0.0018      NaN           NaN   tertiary_allvocal
+UNIFORMITY TEST (laryngeal SD vs random 8 of 17)        8     0.0256   0.0269        0.3885   tertiary_allvocal
 ```
 
 균일성 검정: 후두쌍 낙폭의 표준편차가 전체 쌍에서 같은 수를 무작위로 뽑았을 때의 표준편차보다 작은가(= 하나의 자연부류처럼 균일하게 약해지는가). p는 무작위 SD가 관측 SD 이하일 비율이므로 작을수록 '균일하다'는 증거다.
@@ -433,50 +457,55 @@ UNIFORMITY TEST (laryngeal SD vs random 8 of 17)        8     0.0224   0.0243   
 
 ```
  array position  voiced  voiceless
-    6v    final 0.00441    0.00254
-    6v  initial 0.00370    0.00350
-    6v   medial 0.00237    0.00202
-6v_inf    final 0.00444    0.00348
-6v_inf  initial 0.00364    0.00413
-6v_inf   medial 0.00244    0.00257
-6v_sup    final 0.00438    0.00159
-6v_sup  initial 0.00375    0.00286
-6v_sup   medial 0.00230    0.00146
+    6v    final 0.00444    0.00281
+    6v  initial 0.00345    0.00365
+    6v   medial 0.00241    0.00209
+6v_inf    final 0.00466    0.00393
+6v_inf  initial 0.00315    0.00433
+6v_inf   medial 0.00250    0.00264
+6v_sup    final 0.00423    0.00169
+6v_sup  initial 0.00374    0.00297
+6v_sup   medial 0.00231    0.00153
 ```
 
 ## Stage 2 — Miller-Nicely 자질 전달량
 
 ```
 feature     6v  6v_inf  6v_sup
- manner 0.0233  0.0190  0.0126
-  nasal 0.0148  0.0123  0.0088
-  place 0.0483  0.0328  0.0266
-voicing 0.0128  0.0118  0.0033
+ manner 0.0207  0.0161  0.0091
+  nasal 0.0123  0.0157  0.0019
+  place 0.0405  0.0292  0.0220
+voicing 0.0130  0.0096  0.0042
 ```
 
 ## Stage 2 — score 필터 탈락 집계
 
 ```
 modality position_in_word  n_total  n_kept  n_dropped  frac_dropped  score_min
-nonvocal            final     2928    2310        618        0.2111        0.5
-nonvocal          initial     2928    2146        782        0.2671        0.5
-nonvocal           medial     4155    2612       1543        0.3714        0.5
-nonvocal              sil     3142    3135          7        0.0022        0.5
-nonvocal           single      214     199         15        0.0701        0.5
-   vocal            final    41551   40591        960        0.0231        0.5
-   vocal          initial    41551   40463       1088        0.0262        0.5
-   vocal           medial    67806   64661       3145        0.0464        0.5
-   vocal              sil    44161   44080         81        0.0018        0.5
-   vocal           single     2573    2561         12        0.0047        0.5
+nonvocal            final    11837    8880       2957        0.2498        0.5
+nonvocal          initial    11837    8255       3582        0.3026        0.5
+nonvocal           medial    17650   10301       7349        0.4164        0.5
+nonvocal              sil    12666   12530        136        0.0107        0.5
+nonvocal           single      829     757         72        0.0869        0.5
+   vocal            final    45619   44613       1006        0.0221        0.5
+   vocal          initial    45619   44480       1139        0.0250        0.5
+   vocal           medial    74154   70879       3275        0.0442        0.5
+   vocal              sil    48491   48409         82        0.0017        0.5
+   vocal           single     2834    2822         12        0.0042        0.5
 ```
 
 ## 정렬 품질 (세션별 PER, 음소 수 가중)
 
 ```
        session partition modality    per  n_trials input_layer_from  borrowed
+t12.2022.06.23      test nonvocal 0.2831        40   t12.2022.06.21      True
+t12.2022.06.23     train nonvocal 0.2394       480   t12.2022.06.21      True
 t12.2022.08.18      test nonvocal 0.2615        40   t12.2022.08.13      True
 t12.2022.08.18     train nonvocal 0.2450       440   t12.2022.08.13      True
 t12.2022.08.23      test nonvocal 0.2326        40   t12.2022.08.13      True
+t12.2022.08.23     train nonvocal 0.2771       520   t12.2022.08.13      True
+t12.2022.08.25      test nonvocal 0.3354        40   t12.2022.08.13      True
+t12.2022.08.25     train nonvocal 0.2972       520   t12.2022.08.13      True
 t12.2022.04.28      test    vocal 0.3266        20   t12.2022.04.28     False
 t12.2022.04.28     train    vocal 0.0136       280   t12.2022.04.28     False
 t12.2022.05.05      test    vocal 0.2736        20   t12.2022.05.05     False
@@ -496,6 +525,9 @@ t12.2022.06.07     train    vocal 0.0013       360   t12.2022.06.07     False
 t12.2022.06.14      test    vocal 0.1673        40   t12.2022.06.14     False
 t12.2022.06.14     train    vocal 0.0006       320   t12.2022.06.14     False
 t12.2022.06.16      test    vocal 0.2075        40   t12.2022.06.16     False
+t12.2022.06.16     train    vocal 0.0005       320   t12.2022.06.16     False
+t12.2022.06.21      test    vocal 0.1890        40   t12.2022.06.21     False
+t12.2022.06.21     train    vocal 0.0012       320   t12.2022.06.21     False
 t12.2022.06.28      test    vocal 0.1924        40   t12.2022.06.28     False
 t12.2022.06.28     train    vocal 0.0025       360   t12.2022.06.28     False
 t12.2022.07.05      test    vocal 0.1597        40   t12.2022.07.05     False
@@ -534,6 +566,8 @@ t12.2022.08.13     train    vocal 0.0005       320   t12.2022.08.13     False
     "t12.2022.06.07",
     "t12.2022.06.14",
     "t12.2022.06.16",
+    "t12.2022.06.21",
+    "t12.2022.06.23",
     "t12.2022.06.28",
     "t12.2022.07.05",
     "t12.2022.07.14",
@@ -544,23 +578,24 @@ t12.2022.08.13     train    vocal 0.0005       320   t12.2022.08.13     False
     "t12.2022.08.11",
     "t12.2022.08.13",
     "t12.2022.08.18",
-    "t12.2022.08.23"
+    "t12.2022.08.23",
+    "t12.2022.08.25"
   ],
-  "n_segments": 202758,
+  "n_segments": 251926,
   "modality_counts": {
-    "vocal": 192356,
-    "nonvocal": 10402
+    "vocal": 211203,
+    "nonvocal": 40723
   },
   "partition_counts": {
-    "train": 185738,
-    "test": 17020
+    "train": 232583,
+    "test": 19343
   },
   "position_counts": {
-    "medial": 67273,
-    "sil": 47215,
-    "final": 42901,
-    "initial": 42609,
-    "single": 2760
+    "medial": 81180,
+    "sil": 60939,
+    "final": 53493,
+    "initial": 52735,
+    "single": 3579
   },
   "arrays": [
     "6v",
@@ -573,55 +608,46 @@ t12.2022.08.13     train    vocal 0.0005       320   t12.2022.08.13     False
 }
 ```
 
-## 추가 메모
-
-```json
-{
-  "stage1": {
-    "sessions": [
-      "t12.2022.04.21_phonemes",
-      "t12.2022.04.26_phonemes"
-    ],
-    "n_trials": 1440,
-    "trials_per_phoneme": 36,
-    "n_perm": 500,
-    "arrays": [
-      "6v",
-      "6v_sup",
-      "6v_inf",
-      "44",
-      "all"
-    ]
-  },
-  "stage2": {
-    "n_sessions": 24,
-    "n_segments": 251926,
-    "window": "seg",
-    "score_min": 0.5,
-    "max_per_class": 300,
-    "arrays": [
-      "6v",
-      "6v_sup",
-      "6v_inf"
-    ],
-    "held_out_rule": "(partition=='test') or (input_layer_from != session)"
-  },
-  "verdicts": {
-    "T1": "어두에서 후두 분리도 최고, 어말에서 격차 최대 -> [spread glottis] 방향. DoD CI는 0 포함(시사적, 비유의).",
-    "T2": "유성-무성 거리 차이 미미, 모든 어레이/위치에서 비유의 -> 판정 불가.",
-    "T3": "무성 발화에서 후두와 조음위치가 함께 떨어짐. 격차의 차이 CI 모두 0 포함.",
-    "T3_natural_class": "후두쌍 낙폭이 조음위치쌍보다 크지도, 더 균일하지도 않다(균일성 p = 0.16 / 0.94 / 0.32). 자연부류 모형 미지지.",
-    "array": "6v_inf > 6v_sup, area 44는 거의 우연수준 -> H_sampling(dorsal 집중) 미지지."
-  },
-  "caveat": "음성 자질표 verified=False. 사전등록 전 확정 금지."
-}
-```
-
 ## 그림
 
 - `stage1_markedness.png`
 - `stage1_pair_decoding.png`
+- `stage1_timecourse.png`
 - `stage2_feature_transmission.png`
 - `stage2_markedness.png`
 - `stage2_position.png`
 - `stage2_position_synthcheck.png`
+
+## 2026-10-09 추가 (외부 검토 반영)
+
+### PCA 폴드 내 적합 수정 — 전후 비교 (수정 전 = results_pre_pcafix/)
+| 항목 | 수정 전 | 수정 후 |
+|---|---|---|
+| 39음소 6v / all | 0.651 / 0.507 | 0.645 / 0.491 |
+| 6v 후두쌍 / 위치쌍 (go_all) | 0.739 / 0.880 | 0.764 / 0.906 |
+| 6v 유의 쌍 (p<.05) | 16/17 | 16/17 |
+| 6v_sup 후두/위치/39 | 0.609/0.791/0.379 | 0.621/0.821/0.377 |
+| 6v_inf 후두/위치/39 | 0.765/0.869/0.607 | 0.781/0.898/0.608 |
+| T1 전체쌍 DoD(어말−어두) pooled | 0.060 [−0.029, 0.144] | 0.081 [−0.005, 0.171] |
+| T1 전체쌍 test 전용 DoD | 0.108 [−0.021, 0.245] | 0.124 [−0.030, 0.285] |
+| T3 primary DoD(입모양−발성) | −0.016 [−0.151, 0.120] | −0.057 [−0.176, 0.058] |
+| T3 다른 대조군 DoD | 모두 CI 0 포함 | 모두 CI 0 포함 |
+| 자연부류 균일성 p (primary) | 0.164 | 0.547 |
+질적 결론 변화 없음. 수치는 ±0.03 안에서 움직였다.
+
+### T1′ 파열음 전용 1차 검정 (stage2_t1_stops_primary.csv, stage2_t1_stops_dod.csv)
+후두쌍 P/B·T/D·K/G, 위치 대조 P/T·T/K·B/D·D/G, 6v, 쌍별 n 300, 어두 vs 비어두.
+| 실행 | 후두 어두→비어두 | 위치 어두→비어두 | 격차 어두 | 격차 비어두 | DoD |
+|---|---|---|---|---|---|
+| pooled | 0.664→0.599 | 0.680→0.725 | 0.016 [−.03,.06] | 0.125 [.07,.18] | **0.109 [0.036, 0.183]** |
+| test 전용 | 0.690→0.581 | 0.737→0.738 | 0.047 [−.03,.12] | 0.157 [.08,.22] | **0.110 [0.004, 0.214]** |
+| 탄설음 제외 | 0.664→0.620 | 0.680→0.731 | 0.016 | 0.111 | **0.094 [0.035, 0.151]** |
+| 3수준 어말−어두 | | | | | **0.099 [0.016, 0.178]** |
+| **마찰음 대조 F/V·TH/DH** | 0.741→0.639 | (같은 위치쌍) | −0.061 | 0.086 | **0.147 [0.036, 0.257]** |
+해석: 파열음만 두면 상호작용이 유의하다. 그러나 기식 대립이 없는 마찰음 후두쌍도 같은 크기로 떨어지므로 위치 효과는 **기식([spread glottis]) 특이적이 아니라 후두 대립 일반**이다. 조음위치 정보는 어말로 가며 오히려 증가(0.68→0.73), 후두 정보는 감소. 보고 문장: "조음위치 정보는 단어 끝까지 안정적이나 후두 대립 정보는 단어 끝에서 체계적으로 약해진다." realism 판정 근거로 쓰지 않는다. 쌍 3개 부트스트랩 CI는 거칠고 위치 라벨 순열검정은 미실시.
+
+### 자질 정보의 시간 전개 (stage1_timecourse*.csv, figures/stage1_timecourse.png)
+200 ms 창·40 ms 간격, 6v. 지연 과제라 go 전부터 정보가 있어 잠복기는 해석하지 않는다.
+- 발화 onset 기준(04.26): 조음위치 피크 0 ms(0.89), 파열음 후두 −40~0 ms(0.78), **마찰음 후두 +160 ms(0.79)**.
+- go 기준(pooled): 조음위치 +440 ms(0.87), 파열음 후두 +240 ms(0.68), 마찰음 후두 +800 ms(0.72).
+- 파열음 유성 정보는 조음위치와 같은 시점에 피크(별도의 초기 창 없음). 마찰음 유성 정보는 약 160 ms 늦다(마찰 중 지속 발성과 일치).

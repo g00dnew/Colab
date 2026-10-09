@@ -1,7 +1,12 @@
 session,partition,modality,per,n_trials,input_layer_from,borrowed
+t12.2022.06.23,test,nonvocal,0.2831,40,t12.2022.06.21,True
+t12.2022.06.23,train,nonvocal,0.2394,480,t12.2022.06.21,True
 t12.2022.08.18,test,nonvocal,0.2615,40,t12.2022.08.13,True
 t12.2022.08.18,train,nonvocal,0.245,440,t12.2022.08.13,True
 t12.2022.08.23,test,nonvocal,0.2326,40,t12.2022.08.13,True
+t12.2022.08.23,train,nonvocal,0.2771,520,t12.2022.08.13,True
+t12.2022.08.25,test,nonvocal,0.3354,40,t12.2022.08.13,True
+t12.2022.08.25,train,nonvocal,0.2972,520,t12.2022.08.13,True
 t12.2022.04.28,test,vocal,0.3266,20,t12.2022.04.28,False
 t12.2022.04.28,train,vocal,0.0136,280,t12.2022.04.28,False
 t12.2022.05.05,test,vocal,0.2736,20,t12.2022.05.05,False
@@ -21,6 +26,9 @@ t12.2022.06.07,train,vocal,0.0013,360,t12.2022.06.07,False
 t12.2022.06.14,test,vocal,0.1673,40,t12.2022.06.14,False
 t12.2022.06.14,train,vocal,0.0006,320,t12.2022.06.14,False
 t12.2022.06.16,test,vocal,0.2075,40,t12.2022.06.16,False
+t12.2022.06.16,train,vocal,0.0005,320,t12.2022.06.16,False
+t12.2022.06.21,test,vocal,0.189,40,t12.2022.06.21,False
+t12.2022.06.21,train,vocal,0.0012,320,t12.2022.06.21,False
 t12.2022.06.28,test,vocal,0.1924,40,t12.2022.06.28,False
 t12.2022.06.28,train,vocal,0.0025,360,t12.2022.06.28,False
 t12.2022.07.05,test,vocal,0.1597,40,t12.2022.07.05,False

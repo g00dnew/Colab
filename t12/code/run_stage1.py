@@ -36,8 +36,8 @@ pd.DataFrame(tests).to_csv(paths["RESULT_DIR"] / "stage1_markedness_test.csv", i
 for t in tests:
     print("  ", t, flush=True)
 
-print("\n### 최소대립쌍 순열검정 (500회) ###", flush=True)
+print("\n### 최소대립쌍 순열검정 (200회) ###", flush=True)
 tp.stage1_run(paths, feats=feats, windows=("go_all", "go_0_500ms"),
-              arrays=("6v", "44", "all"), n_perm=500, perm_repeats=2,
+              arrays=("6v", "44", "all"), n_perm=200, perm_repeats=2,
               n_repeats=10, n_pca=30, force=True)
 print("\nSTAGE1_DONE", flush=True)

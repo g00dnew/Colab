@@ -1,0 +1,25 @@
+array,position,n_laryngeal_pairs,n_place_pairs,laryngeal_acc,place_acc,gap_place_minus_laryngeal,gap_ci_lo,gap_ci_hi,excluded_pairs,run,excluded
+6v,initial,6,8,0.6729,0.6805,0.0076,-0.06,0.0734,,all_pairs_pooled,none
+6v,medial,6,8,0.6118,0.6361,0.0242,-0.0588,0.0963,,all_pairs_pooled,none
+6v,final,6,8,0.6182,0.6857,0.0675,0.0075,0.1174,,all_pairs_pooled,none
+6v,DoD(final - initial),6,8,,,0.0599,-0.0292,0.1443,,all_pairs_pooled,none
+6v,initial,5,8,0.6711,0.6805,0.0093,-0.0686,0.0861,T/D,all_pairs_pooled,T/D
+6v,medial,5,8,0.6205,0.6361,0.0156,-0.0809,0.098,T/D,all_pairs_pooled,T/D
+6v,final,5,8,0.6263,0.6857,0.0594,0.0012,0.1092,T/D,all_pairs_pooled,T/D
+6v,DoD(final - initial),5,8,,,0.0501,-0.0451,0.1429,T/D,all_pairs_pooled,T/D
+6v,initial,2,4,0.6108,0.674,0.0632,-0.0625,0.1889,,all_pairs_testonly,none
+6v,medial,2,4,0.573,0.6197,0.0467,0.024,0.0691,,all_pairs_testonly,none
+6v,final,2,4,0.504,0.6753,0.1713,0.1326,0.2051,,all_pairs_testonly,none
+6v,DoD(final - initial),2,4,,,0.1081,-0.0213,0.2453,,all_pairs_testonly,none
+6v,initial,1,4,0.5373,0.674,0.1367,0.0445,0.1975,T/D,all_pairs_testonly,T/D
+6v,medial,1,4,0.5627,0.6197,0.057,0.036,0.0706,T/D,all_pairs_testonly,T/D
+6v,final,1,4,0.516,0.6753,0.1593,0.1206,0.1841,T/D,all_pairs_testonly,T/D
+6v,DoD(final - initial),1,4,,,0.0226,-0.0528,0.1195,T/D,all_pairs_testonly,T/D
+6v,initial,6,8,0.6729,0.6805,0.0076,-0.06,0.0734,,flapctrl_pooled,none
+6v,medial,6,8,0.6205,0.6337,0.0132,-0.0727,0.0913,,flapctrl_pooled,none
+6v,final,6,8,0.6182,0.6857,0.0675,0.0075,0.1174,,flapctrl_pooled,none
+6v,DoD(final - initial),6,8,,,0.0599,-0.0292,0.1443,,flapctrl_pooled,none
+6v,initial,5,8,0.6711,0.6805,0.0093,-0.0686,0.0861,T/D,flapctrl_pooled,T/D
+6v,medial,5,8,0.6205,0.6337,0.0133,-0.0878,0.1018,T/D,flapctrl_pooled,T/D
+6v,final,5,8,0.6263,0.6857,0.0594,0.0012,0.1092,T/D,flapctrl_pooled,T/D
+6v,DoD(final - initial),5,8,,,0.0501,-0.0451,0.1429,T/D,flapctrl_pooled,T/D

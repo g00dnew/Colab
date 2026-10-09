@@ -1,0 +1,15 @@
+stage,test,array,position,pair,contrast,manner,partitions,n_per_class,acc,acc_sd,dprime,p_perm,class_a,class_b,n_features_in,n_available_min_class,clf,n_splits,n_repeats,n_perm,chance,n_features_used,skipped,n_matched_across_positions
+stage2,T1_position,6v,initial,P/B,laryngeal,stop,test,67,0.6412250712250711,0.08473329626354632,0.7221401440978541,,B,P,256,124,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,T/D,laryngeal,stop,test,173,0.7557267080745342,0.042039353737487704,1.3847768620367762,,D,T,256,173,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,K/G,laryngeal,stop,test,32,0.6737179487179489,0.12826440937132208,0.8959298782554908,,G,K,256,123,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,P/T,place,stop,test,124,0.8111428571428572,0.051921014564779724,1.7705666056767226,,P,T,256,124,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,T/K,place,stop,test,175,0.7737142857142857,0.04565710709814441,1.5077680389392671,,K,T,256,175,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,B/D,place,stop,test,67,0.6782905982905983,0.08395976109678682,0.9264264745916937,,B,D,256,168,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,initial,D/G,place,stop,test,32,0.6861538461538461,0.11918223440057116,0.968166543826283,,D,G,256,123,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,P/B,laryngeal,stop,test,67,0.6635042735042735,0.09054420163240492,0.8431407424372502,,B,P,256,67,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,T/D,laryngeal,stop,test,173,0.5340828157349897,0.06320182109192721,0.17129115470937345,,D,T,256,356,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,K/G,laryngeal,stop,test,32,0.5457692307692308,0.14626070092961885,0.23526820657690292,,G,K,256,32,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,P/T,place,stop,test,124,0.7153714285714285,0.06463891877892107,1.1371383349455544,,P,T,256,157,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,T/K,place,stop,test,175,0.7045714285714285,0.05499090833947009,1.0758368173032558,,K,T,256,306,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,B/D,place,stop,test,67,0.7513960113960114,0.06607429126227511,1.3560563080938153,,B,D,256,67,lda,5,10,0,0.5,30,,True
+stage2,T1_position,6v,noninitial,D/G,place,stop,test,32,0.7823076923076923,0.09623893670888108,1.5671729768669,,D,G,256,32,lda,5,10,0,0.5,30,,True
