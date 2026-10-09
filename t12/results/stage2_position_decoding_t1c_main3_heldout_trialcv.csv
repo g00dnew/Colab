@@ -1,0 +1,13 @@
+stage,test,array,position,pair,contrast,manner,partitions,n_per_class,acc,acc_sd,dprime,p_perm,class_a,class_b,n_features_in,n_available_min_class,clf,n_splits,n_repeats,n_perm,chance,n_cv_groups,n_features_used,bacc,n_folds_used,n_test_min,n_test_mean,skipped,subpos_mix,n_matched_across_positions,cv_group_col,max_per_word
+stage2,T1_position,6v,initial,T/D,laryngeal,stop,held_out,78,0.722125,0.069576958290802,1.1748082098390333,,D,T,256,182,lda,5,10,0,0.5,146,30,0.722125,50,30,31.2,,,True,trial,0
+stage2,T1_position,6v,initial,F/V,laryngeal,fricative,held_out,15,0.6466666666666667,0.17204650534085253,0.7475675121941864,,F,V,256,15,lda,5,10,0,0.5,30,23,0.6466666666666666,50,6,6.0,,,True,trial,0
+stage2,T1_position,6v,initial,P/T,place,stop,held_out,48,0.8027894736842104,0.08500351956213424,1.7159576000553272,,P,T,256,129,lda,5,10,0,0.5,93,30,0.8023333333333333,50,19,19.2,,,True,trial,0
+stage2,T1_position,6v,initial,T/K,place,stop,held_out,158,0.8076718509984641,0.04174848525546811,1.754909188831463,,K,T,256,186,lda,5,10,0,0.5,281,30,0.8077822580645162,50,62,63.2,,,True,trial,0
+stage2,T1_position,6v,medial,T/D,laryngeal,stop,held_out,78,0.5245000000000001,0.08088439109137326,0.12204720935336444,,D,T,256,78,lda,5,10,0,0.5,145,30,0.5245000000000001,50,30,31.2,,,True,trial,0
+stage2,T1_position,6v,medial,F/V,laryngeal,fricative,held_out,15,0.6633333333333334,0.1649579070887816,0.8372666535963134,,F,V,256,52,lda,5,10,0,0.5,30,23,0.6633333333333333,50,6,6.0,,,True,trial,0
+stage2,T1_position,6v,medial,P/T,place,stop,held_out,48,0.689888888888889,0.09403630767152561,0.9915121755584952,,P,T,256,131,lda,5,10,0,0.5,91,30,0.689888888888889,50,18,19.2,,,True,trial,0
+stage2,T1_position,6v,medial,T/K,place,stop,held_out,158,0.6197511840757809,0.0569943811560244,0.6087587531730845,,K,T,256,179,lda,5,10,0,0.5,265,30,0.6197803641251222,50,62,63.2,,,True,trial,0
+stage2,T1_position,6v,final,T/D,laryngeal,stop,held_out,78,0.5147983870967742,0.0695092289442828,0.0739156932253585,,D,T,256,319,lda,5,10,0,0.5,141,30,0.5147916666666666,50,31,31.2,,,True,trial,0
+stage2,T1_position,6v,final,F/V,laryngeal,fricative,held_out,15,0.6234285714285714,0.19146846303138518,0.6348722827892658,,F,V,256,49,lda,5,10,0,0.5,29,23,0.6299999999999999,50,5,6.0,,,True,trial,0
+stage2,T1_position,6v,final,P/T,place,stop,held_out,48,0.7258947368421051,0.08980952450893377,1.2053496374826678,,P,T,256,48,lda,5,10,0,0.5,93,30,0.7255555555555557,50,19,19.2,,,True,trial,0
+stage2,T1_position,6v,final,T/K,place,stop,held_out,158,0.7056323604710699,0.05359216588520249,1.084156229133888,,K,T,256,158,lda,5,10,0,0.5,270,30,0.7055080034213097,50,62,63.2,,,True,trial,0

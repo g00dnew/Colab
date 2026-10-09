@@ -1,0 +1,5 @@
+[main: held_out, no wordcap]
+stops_lar|place_all: D_obs=+0.067 null_mean=-0.003 null_sd=0.025 null_p95=+0.043 p_one=0.005 p_two=0.005 (n_perm=200)
+stops_lar|place_vl: D_obs=-0.009 null_mean=-0.002 null_sd=0.024 null_p95=+0.037 p_one=0.597 p_two=0.736 (n_perm=200)
+stops_lar|place_vd: D_obs=+0.143 null_mean=-0.004 null_sd=0.035 null_p95=+0.058 p_one=0.005 p_two=0.005 (n_perm=200)
+fric_lar|place_all: D_obs=+0.054 null_mean=+0.005 null_sd=0.052 null_p95=+0.080 p_one=0.179 p_two=0.323 (n_perm=200)

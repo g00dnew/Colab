@@ -19,6 +19,7 @@ import t12_pipeline as tp  # noqa: E402
 N_PERM = int(sys.argv[1]) if len(sys.argv) > 1 else 100
 paths = tp.get_paths(local=True)
 R = paths["RESULT_DIR"]
+print("Using pipeline:", tp.__file__, flush=True)
 
 def _sel(pairs, names):
     out = [p for p in pairs if f"{p[0]}/{p[1]}" in names]

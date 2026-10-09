@@ -15,6 +15,7 @@ import pandas as pd  # noqa: E402
 import t12_pipeline as tp  # noqa: E402
 
 paths = tp.get_paths(local=True); R = paths["RESULT_DIR"]
+print("Using pipeline:", tp.__file__, flush=True)
 def _sel(pairs, names):
     out = [p for p in pairs if f"{p[0]}/{p[1]}" in names]; assert len(out) == len(names); return out
 ALL_LAR, ALL_PLACE = list(tp.LARYNGEAL_PAIRS), list(tp.PLACE_CONTROL_PAIRS)
@@ -29,7 +30,8 @@ X_seg, X_pre100, meta = tp.stage2_segment_features(paths, align)
 align_sh = align.copy()
 align_sh["win_end"] = align["win_start"] - 5
 align_sh["win_start"] = align["win_start"] - 15
-align_sh = align_sh[align_sh["win_end"] > 0]
+# (2026-10-09 검토 8B) 창이 시행 시작 이전으로 넘어가면 제외(잘린 창을 정상 창처럼 쓰지 않음)
+align_sh = align_sh[align_sh["win_start"] >= 0]
 print("특징 2/2: pre300", flush=True)
 X_pre300, _, meta300 = tp.stage2_segment_features(paths, align_sh)
 # meta300은 align_sh의 부분집합. 공통 키로 맞춘다
@@ -40,6 +42,10 @@ j = mm.merge(m300, on=key, how="inner")
 X_seg, X_pre100, meta = X_seg[j["_i"].to_numpy()], X_pre100[j["_i"].to_numpy()], meta.iloc[j["_i"].to_numpy()].reset_index(drop=True)
 X_pre300 = X_pre300[j["_i300"].to_numpy()]
 assert X_seg.shape == X_pre100.shape == X_pre300.shape, (X_seg.shape, X_pre300.shape)
+# (2026-10-09 검토 8B) pre100이 seg로 대체된 행(직전 5 bin 미확보) 제외
+pv = meta["pre_valid"].to_numpy() if "pre_valid" in meta.columns else np.ones(len(meta), bool)
+print(f"pre100 창 온전 {int(pv.sum())}/{len(meta)} (불완전 행 제외)", flush=True)
+X_seg, X_pre100, X_pre300, meta = X_seg[pv], X_pre100[pv], X_pre300[pv], meta[pv].reset_index(drop=True)
 print(f"공통 구간 {len(meta)}개", flush=True)
 
 meta2 = meta.copy()

@@ -41,7 +41,7 @@
 - 남은 선택지(사용자 보류): T15 재현, VOT 실측, 위치 라벨 순열검정.
 - 12:3x 계획 vs 실행 분석 완료(run_t1_planning.py). 세 창 모두 교차 패턴 유지 → 계획 단계 성질. 문서·SUMMARY 반영, push 예정.
 
-## 다음 세션 할 일 (2026-10-09 오후 외부 검토 ③건 반영) — 사용자 승인 전, 검토만 끝난 상태
+## (완료: 10/9 저녁) 오후 계획 — 외부 검토 ③건 반영안 (아래 저녁 절에서 전부 실행됨)
 현재 핵심 결과: 후두 대립 정보 어두>비어두, 조음위치는 반대(비어두↑). 파열음 3쌍 DoD .109 [.036,.183], 조음 전 300ms 창에서도 동일(.119). 아래 통제를 통과해야 보고 가능.
 
 ### 1순위 (결과를 뒤집을 수 있는 교란)
@@ -60,3 +60,48 @@
 - 코드 위치: `code/t12_pipeline.py`(분류기 §8, stage2_position_decode ~L1899), 스크립트 템플릿 `code/run_t1_stops_primary.py`, `code/run_t1_planning.py`. venv `../.venv`. BLAS 2스레드, 메모리 여유 확인(Chrome 닫기).
 - 예상: 코딩 2~3h + 실행 2~3h. 정확도·DoD가 내려갈 것을 예상하고 결과를 그대로 보고.
 - 그 뒤 보류 항목: T15 재현(10/28 이후), 레포 비공개 전환(사용자 요청 시 `gh repo edit g00dnew/Colab --visibility private`).
+
+## 2026-10-09 저녁: 외부 검토 4건 반영 — 수용·보류 판정과 실행 결과
+
+사전 고정 문서 `results/t1_controls_prereg.md`(실행 전 작성). 실행 `code/run_t1c_parallel.sh`(워커 5개, 특징 mmap 캐시 `results/t1c_cache/`). 보고표 `code/t1c_report.py`. 결과 정본 SUMMARY.md "T1′ 통제 분석" 절.
+
+### 수용(구현·실행 완료)
+| 검토 항목 | 구현 위치 |
+|---|---|
+| ① 문장 시행 그룹 CV + 블록·세션 그룹 민감도 | `t12_pipeline._cv_splits`(StratifiedGroupKFold, 반복마다 재섞기, 그룹 겹침 assert), `balanced_pair_decode(groups=)`, `stage2_position_decode(group_col=trial/block/session/word)`; `stage2_segment_features`가 `block_idx` 기록 |
+| ② 대응쌍 유지 재표집·소수 쌍 의존 | `run_t1_controls.interaction()`: 쌍 단위 재표집 CI + 쌍 라벨 정확 순열; 구간 수준 위치 라벨 순열(주 검정, `posperm`); 20회 독립 재표집; 쌍 하나씩 제외(후두·위치 모두) |
+| ③ 발성만·test/held_out·고정 길이 창 | 주분석 = 발성·held_out(test+07.29)·시행 CV; `test_trialcv_bal`; 80 ms 고정 중심창 `center80` |
+| ④-1 대응 재표집 | 위 ② |
+| ④-2 유성·무성 위치쌍 분리 | `CATS` place_vl(P/T·T/K)·place_vd(B/D·D/G), `t1c_voicing_subgroups.csv` |
+| ④-3 어중·어말 구성 균형 | `select_pair_segments(sub_all=)`: 두 클래스의 어중:어말 구성을 동일하게 표집(`match_subposition_col`); 3수준 분리 실행 `main3`·`pooled3` |
+| ④-4 그룹 CV·무결성·폴드별 기록 | 겹침 assert, `n_cv_groups`·`n_folds_used`·`n_test_min`·`bacc` 저장 → `t1c_cv_group_integrity.csv` |
+| ④-5 발성 조건 주분석 | 위 ③. "Vocal+test 주분석" 대신 **Vocal+held_out**(test+미학습 07.29, 더 큰 n·RNN 독립)을 주분석으로, test만은 민감도 |
+| ④-6B 쌍 제외 | `t1c_leave_one_pair_out.csv` |
+| ④-6C 문맥 통제(부분) | 단어 상한 20 (`cap_tokens_per_word`), 단어 그룹 CV, 길이(80 ms), 세션·블록 CV |
+| ④-8A TFRecord↔MAT 대응 검증 | `code/check_alignment_mat.py` → `results/alignment_mat_consistency.csv`: 48/48 세션·파티션 일치, 문장 불일치 0, 창 초과 0 |
+| ④-8B pre 창 대체 버그 | `stage2_segment_features`가 `pre_valid`·`win_clipped` 플래그 기록, `run_t1_planning.py`는 pre_valid 행만·win_start≥0만 사용 |
+| ④-9 파이프라인 경로·캐시·검정 범위 명시·사전 고정 | 스크립트가 `tp.__file__` 출력, GitHub `t12/t12_pipeline.py`와 `t12/code/t12_pipeline.py` 동일 파일로 push, 결과 접두사 `t1c_`·`force=True`, 순열검정은 주분석에만(나머지는 CI) 명시, `t1_controls_prereg.md` |
+
+### 보류(이번 초록 결론에서 분리) 또는 수용 안 함
+- ④-4C 블록 z-score가 평가 블록 통계를 씀 → **수용 안 함**(라벨 무관 정규화라 라벨 누출은 아님, 재구현 비용 큼). 한계로 명시.
+- ④-5 입모양(nonvocal) 전용 T1′ → 보류(T3가 담당, 어중 41.6% 탈락으로 n 부족).
+- ④-6C 앞·뒤 음소 통제, 통계 모형 → 보류.
+- ④-7 교차 위치 해독(`run_cross_position.py`) → 통제 결과 확인 후 추가(검토도 그 순서 권장).
+- ④-8B 계획 분석 재실행 → 코드는 고쳤으나 재실행 보류(탐색적으로 분리).
+- ④-8C 시간전개 창별 null → 보류(탐색적).
+
+### 결과 요약 (정본 SUMMARY.md "T1′ 통제 분석" 절)
+- 이전 T1′ 재현 정확도 차 0.0000(회귀 OK). 시행 CV로만 바꾸면 D .109→.107 → CV 누출이 결과를 만든 건 아님.
+- 후두쌍 Δ(비어두−어두)는 모든 통제에서 음수(−.06~−.18), 20회 재표집 D>0 20/20, 쌍 제외 7/7 양수.
+- **그러나** 단어 통제 전엔 무성 위치쌍(P/T·T/K)도 후두쌍만큼 하락, 상승은 유성 위치쌍(B/D·D/G)의 어말에서만. "조음위치 안정" 문장 폐기.
+- **단어 정체가 핵심 교란**(어두 T의 64% = 'to'). pooled+단어 상한 20: Δ_lar −.063, Δ_place +.022, D +.085 [+.036, +.130], 무성·유성 위치쌍 모두 D≈+.08~.09(CI 0 제외). 가장 엄격한 설정에서 원래 방향 성립, 효과는 작아짐.
+- 주분석(held_out, n 작음): D +.108 [−.003, +.212]; 구간 수준 위치 라벨 순열(4표집 평균, 200회): D_obs = +.067(4표집 평균, CV 2반복), null 평균 −.003·SD .025·95% +.043, **p = .005**(200회 중 0회 ≥ 관측). vs 무성 위치쌍 D −.009, p = .60; vs 유성 위치쌍 +.143, p = .005; 마찰음 후두 vs 위치 +.054, p = .18. (단일 표집판 v1은 D +.012, p .37로 표집 잡음에 취약 → results/t1c_posperm_v1/ 보존. 관측 D의 세 추정치 .067/.087/.108은 CV 반복·표집 수 차이이며 재표집 범위 안)
+- 사전 기준 판정: **지지**(구간 순열 p = .005 그리고 쌍 제외 7/7 양수). 단서: 주분석 D는 유성 위치쌍이 끌며(vs 무성 위치쌍 p = .60), 무성 위치쌍 대비 효과는 단어 통제(pooled + 상한 20, D +.092 [+.035, +.150])에서만 CI 0 제외 → 주장은 '후두 대립 정보의 비어두 약화'까지, '조음위치 안정'은 단어 통제 조건부
+
+## 다음 세션 할 일 (2026-10-09 저녁 작성)
+1. **KASELL 초록(10/16 마감)** 문장을 SUMMARY "해석(수정)" 6번 보고 문장으로 교체. 포스터 초안 Claude Doc §4 표를 t1c 수치로 갱신. 금지: "조음위치 안정·후두만 약화"를 단어 통제 없는 수치로 주장.
+2. 교차 위치 해독(검토 ④-7, `code/run_cross_position.py` 신규): 어두 학습→비어두 평가와 그 반대, 같은 시행 그룹 분리·학습 폴드 PCA만 사용·n 맞춤. 단어 상한 20 적용. 예상 코딩 1h + 실행 20분(워커 병렬 틀 재사용).
+3. 선택: pooled+단어 상한 20 설정에도 구간 순열 `zsh code/run_t1c_posperm.sh 100 2 pooled 20` (n 300이라 느림, ~30분).
+4. 선택: 계획 분석 재실행(`run_t1_planning.py`, pre_valid 필터 반영됨, 3분) — 탐색적 절로만 유지.
+5. 보류 유지: T15 재현(10/28 이후), 시간전개 창별 null, 앞뒤 음소 통제, 레포 비공개 전환(`gh repo edit g00dnew/Colab --visibility private`).
+- 실행 메모: 특징 캐시 `results/t1c_cache/`(X_all.npy 등, 재추출 불필요). 워커 로그 `results/t1c_w*.log`, `t1c_pp*.log`. 분석 venv `../.venv`(nbformat 설치됨). 스모크: `T1C_SESSIONS=t12.2022.08.13,t12.2022.07.29 T1C_MIN_PER_CLASS=8 ../.venv/bin/python code/run_t1_controls.py all --perm 2 --perm-n 2 --n-resample 2`.
