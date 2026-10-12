@@ -3,3 +3,8 @@ stops_lar|place_all: D_obs=+0.067 null_mean=-0.003 null_sd=0.025 null_p95=+0.043
 stops_lar|place_vl: D_obs=-0.009 null_mean=-0.002 null_sd=0.024 null_p95=+0.037 p_one=0.597 p_two=0.736 (n_perm=200)
 stops_lar|place_vd: D_obs=+0.143 null_mean=-0.004 null_sd=0.035 null_p95=+0.058 p_one=0.005 p_two=0.005 (n_perm=200)
 fric_lar|place_all: D_obs=+0.054 null_mean=+0.005 null_sd=0.052 null_p95=+0.080 p_one=0.179 p_two=0.323 (n_perm=200)
+[_pooled_gword]
+stops_lar|place_all: D_obs=+0.084 null_mean=+0.001 null_sd=0.015 null_p95=+0.027 p_one=0.008 p_two=0.008 (n_perm=120)
+stops_lar|place_vl: D_obs=+0.060 null_mean=-0.000 null_sd=0.018 null_p95=+0.030 p_one=0.008 p_two=0.017 (n_perm=120)
+stops_lar|place_vd: D_obs=+0.109 null_mean=+0.002 null_sd=0.017 null_p95=+0.031 p_one=0.008 p_two=0.008 (n_perm=120)
+fric_lar|place_all: D_obs=+0.112 null_mean=+0.001 null_sd=0.018 null_p95=+0.029 p_one=0.008 p_two=0.008 (n_perm=120)

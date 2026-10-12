@@ -105,3 +105,15 @@
 4. 선택: 계획 분석 재실행(`run_t1_planning.py`, pre_valid 필터 반영됨, 3분) — 탐색적 절로만 유지.
 5. 보류 유지: T15 재현(10/28 이후), 시간전개 창별 null, 앞뒤 음소 통제, 레포 비공개 전환(`gh repo edit g00dnew/Colab --visibility private`).
 - 실행 메모: 특징 캐시 `results/t1c_cache/`(X_all.npy 등, 재추출 불필요). 워커 로그 `results/t1c_w*.log`, `t1c_pp*.log`. 분석 venv `../.venv`(nbformat 설치됨). 스모크: `T1C_SESSIONS=t12.2022.08.13,t12.2022.07.29 T1C_MIN_PER_CLASS=8 ../.venv/bin/python code/run_t1_controls.py all --perm 2 --perm-n 2 --n-resample 2`.
+
+## 2026-10-09 밤 추가 (10/12 정리) — 교차 위치·계획 창 v2·단어 그룹 CV 확인
+- **교차 위치 해독**(`code/run_cross_position.py`, results/cross_position_*.csv): 어두→비어두 전이는 후두·조음위치 모두 나쁨(전이 비율 .1~.5). 위치별 학습 ≥ 통합 학습(모든 자질). → 노벨티 문장에 "차이는 정보량, 패턴 불변성 아님" 단서 필수. 공학 함의: 위치별 모델링.
+- **계획 창 v2**(`run_t1_planning.py` 개편: 발성만·시행 CV·단어 상한·구성 균형·pre_valid): pre300 D +.097 [+.042, +.153]. 탐색적 보조.
+- **단어 그룹 CV 확인**(`zsh code/run_t1c_posperm.sh 120 4 pooled 0 word`, 40분): 재표집 D +.088 [+.047, +.139] 20/20, 순열 p = .008, 무성 위치쌍 대비도 p = .008. 단어 외우기 교란 배제. 초록 수치는 이 조건으로.
+- 노벨티 한 줄(사용자 확정): "본 연구의 새로움은 음소 표상의 위치 효과 자체가 아니라, 단어 내 위치가 서로 다른 음성 자질의 신경표상에 차등적으로 영향을 미치는지를 직접 검증했다는 데 있다." 본문에서 '차등적' = 해독 가능한 정보량, 결과 방향(후두 감소·조음위치 유지) 명시.
+- 초록 영문 초안 v2: `../abstract-kasell-draft.md` (p = .008 단어 그룹 조건으로 통일, held_out p = .005 병기 가능).
+
+## 다음 세션 할 일 (10/12 갱신)
+1. **KASELL 초록 10/16 마감**: `../abstract-kasell-draft.md`를 여자친구와 분량·인용 확인("sequential position" 선행 문헌 없으면 삭제) 후 제출.
+2. 포스터/슬라이드 Doc §4 표를 t1c·cross_position·planning v2 수치로 교체. 금지: "조음위치 안정·후두만 약화"를 단어 통제 없는 수치로.
+3. 보류: T15 재현(10/28 이후), 시간전개 창별 null, 앞뒤 음소 통제, 레포 비공개 전환.

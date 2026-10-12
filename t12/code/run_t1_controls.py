@@ -41,6 +41,7 @@ ap.add_argument("--n-draws", type=int, default=4, help="posperm: 표집 평균�
 ap.add_argument("--part", default="held_out", help="posperm/resample 파티션: held_out | pooled | test")
 ap.add_argument("--wordcap", type=int, default=0, help="posperm/resample 단어 상한(0=없음)")
 ap.add_argument("--perm-rep", type=int, default=2, help="posperm 분류기 CV 반복 수")
+ap.add_argument("--group", default="trial", help="posperm/resample 그룹 CV 열: trial | block | session | word")
 A = ap.parse_args()
 
 print("Using pipeline:", tp.__file__, flush=True)
@@ -184,16 +185,30 @@ def main_setup():
         n0 = int(pmask.sum())
         pmask = pmask & tp.cap_tokens_per_word(MV2, pmask, A.wordcap, np.random.default_rng(20261009 + 7))
         log(f"  단어 상한 {A.wordcap}: {n0} -> {int(pmask.sum())}")
+    if A.group == "word":
+        pmask = pmask & MV2["word"].notna().to_numpy()
     phon = np.where(pmask, MV2["phoneme"].to_numpy(), "__OUT__")
     pos_all = MV2["position_in_word"].to_numpy()
     sub_all = MV2["subpos"].astype(str).to_numpy()
-    groups = tp.segment_group_ids(MV2, "trial")
+    groups = tp.segment_group_ids(MV2, A.group)
+    log(f"  설정: part={A.part} wordcap={A.wordcap} group={A.group} ({np.unique(groups[pmask]).size}개 그룹)")
     Xa = np.ascontiguousarray(XV2[:, tp.array_columns("6v")])
     caps = {}
     for a, b, _ in specs:
         n_av = min(tp.select_pair_segments(phon, pos_all, a, b, p_, None, sub_all)[2] for p_ in POS2)
         caps[(a, b)] = min(n_av, MAX_PER_CLASS)
     return specs, phon, pos_all, sub_all, groups, Xa, caps
+
+
+def cfg_tag():
+    parts = []
+    if A.part != "held_out":
+        parts.append(A.part)
+    if A.wordcap:
+        parts.append(f"wc{A.wordcap}")
+    if A.group != "trial":
+        parts.append(f"g{A.group}")
+    return ("_" + "_".join(parts)) if parts else ""
 
 
 def decode_sel(Xa, phon, groups, idx, n_rep, seed, cap):
@@ -218,8 +233,9 @@ def phase_resample(n_resample):
                 rows.append(dict(pair=f"{a}/{b}", contrast=contrast, rep=rep, position=p_,
                                  acc=acc, n_per_class=n, subpos_mix=mix))
         log(f"  재표집 {a}/{b} 완료 (cap {cap})")
-    pd.DataFrame(rows).to_csv(R / "t1c_resample_pairs.csv", index=False)
-    (R / "t1c_done_resample").write_text(time.strftime("%F %T"))
+    tag = cfg_tag()
+    pd.DataFrame(rows).to_csv(R / f"t1c_resample_pairs{tag}.csv", index=False)
+    (R / f"t1c_done_resample{tag}").write_text(time.strftime("%F %T"))
     log("RESAMPLE_DONE")
 
 
@@ -289,7 +305,7 @@ def phase_posperm(start, n):
         rows.append(dict(perm=k, **Dk, **{f"delta_{kk}": v for kk, v in dk.items()}))
         if (k + 1 - start) % 5 == 0:
             log(f"  순열 {k + 1 - start}/{n}")
-    tag = "" if (A.part == "held_out" and not A.wordcap) else f"_{A.part}_wc{A.wordcap}"
+    tag = cfg_tag()
     pd.DataFrame(rows).to_csv(R / f"t1c_position_perm{tag}_part{start}.csv", index=False)
     (R / f"t1c_done_posperm{tag}{start}").write_text(time.strftime("%F %T"))
     log(f"POSPERM_DONE {start}+{n}")
@@ -405,9 +421,9 @@ def phase_merge():
         log(f"회귀 확인 생략: {e}")
 
     # 재표집 요약
-    f = R / "t1c_resample_pairs.csv"
     summ = []
-    if f.exists():
+    for f in sorted(R.glob("t1c_resample_pairs*.csv")):
+        cfg = f.name[len("t1c_resample_pairs"):-4] or "main"
         rs = pd.read_csv(f)
         w = rs.pivot_table(index=["pair", "contrast", "rep"], columns="position", values="acc").reset_index()
         w["delta"] = w["noninitial"] - w["initial"]
@@ -424,7 +440,7 @@ def phase_merge():
             ex = interaction(per_pair.rename(columns={"mean": "delta"}), CATS[lc], CATS[pc])
             if ex is None or d_rep.size == 0:
                 continue
-            row = dict(lar_cat=lc, place_cat=pc, D_mean_over_reps=float(d_rep.mean()),
+            row = dict(config=cfg, lar_cat=lc, place_cat=pc, D_mean_over_reps=float(d_rep.mean()),
                        D_rep_p2_5=float(np.percentile(d_rep, 2.5)),
                        D_rep_p97_5=float(np.percentile(d_rep, 97.5)),
                        D_rep_sd=float(d_rep.std()), frac_reps_D_pos=float((d_rep > 0).mean()),
