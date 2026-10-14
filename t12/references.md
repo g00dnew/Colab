@@ -27,6 +27,7 @@
 | # | 서지 | 식별자 | 비고 |
 |---|---|---|---|
 | B1 | ○ Wairagkar M, et al. 2025. An instantaneous voice-synthesis neuroprosthesis. *Nature*. | doi:10.1038/s41586-025-09127-3 | 언어모델 없이 직접 음성 합성 → 유성성 오류가 소리로 그대로 나옴. **우리 공학 함의의 착지점** |
+| B1b | **○ Metzger SL, Littlejohn KT, Silva AB, et al. (senior: Chang EF). 2023. A high-performance neuroprosthesis for speech decoding and avatar control. *Nature* 620(7976):1037.** doi:10.1038/s41586-023-06443-4 | 2026-10-14 확인 | **A1(Willett 2023)과 같은 Nature 620권 동반 논문**. 253채널 고밀도 ECoG, 분당 78단어·WER 25%, 음성 합성+아바타. 목록에 없던 누락. 2023년 음성 BCI를 언급할 때 Willett 단독으로 쓰면 지적받는다 |
 | B2 | ? Silva AB, et al. 2024. (이중언어 스페인어·영어 음절 디코딩) *Nat Biomed Eng*. | nature.com/articles/s41551-024-01207-5 | 조음 표상이 언어 간 공유 → 교차언어 아이디어 4의 전제 |
 | B3 | ? Chang EF, Anumanchipalli GK. 2025. (스트리밍 brain-to-voice) *Nat Neurosci*. | nature.com/articles/s41593-025-01905-6 | |
 | B4 | ? Silva AB, Chang EF. 2024. (음성 신경보철 리뷰) *Nat Rev Neurosci*. | — | "조음 표상 + 운동 계획 표상 협응"이 핵심 기제라는 정리 |
@@ -38,7 +39,7 @@
 
 | # | 서지 | 식별자 | 우리와의 차이 |
 |---|---|---|---|
-| C1 | ○ Zhao Z, et al. 2026. A neural architecture for imagined and overt speech motor dynamics. *Nat Neurosci*. | doi:10.1038/s41593-026-02456-0 · 프리프린트 bioRxiv 2025.05.27.656311 | **최대 경쟁자**. 조음 궤적 12차원 + log F0 1차원 복원. 만다린 음절(유성 대립 없음), 후두는 F0 1차원만, **양식 간 후두 비교 없음**, 자질 비교는 조음위치만. 출간본 Methods 학교 계정 재확인 필요 |
+| C1 | ○ **Zhao Zehao**, Wang Z, Liu Y, Qian Y, Yin Y, Gao X, Yuan B, Tong SX, Tian X, Chen G, Li Y, Lu J, **Wu Jinsong**. 2026. A neural architecture for imagined and overt speech motor dynamics. *Nat Neurosci*. | doi:10.1038/s41593-026-02456-0 · 프리프린트 bioRxiv 2025.05.27.656311 (제목 *Neural hierarchy for coding articulatory dynamics in speech imagery and production*) | **2026-10-14 저자 확인: 1저자 Zehao Zhao, 책임 Jinsong Wu. "Zhou"가 아니라 Zhao다.** 음절 분류 상상 80.4%·발화 78.3%(우연 16.7%) | **최대 경쟁자**. 조음 궤적 12차원 + log F0 1차원 복원. 만다린 음절(유성 대립 없음), 후두는 F0 1차원만, **양식 간 후두 비교 없음**, 자질 비교는 조음위치만. 출간본 Methods 학교 계정 재확인 필요 |
 | C2 | ○ Nie L, Lu Z. 2026. Shared and distinct temporal representations of Chinese words across imagined, silent, and overt speech. *bioRxiv*. | doi:10.64898/2026.08.25.747136 | EEG 중국어 단어 10개. 단어 기하가 입모양↔실제만 대응, 상상은 불안정. 우리 VocalMind 관문 결과와 일치. 자질 없음 |
 | C3 | ○ Kwon J, Lee S, Park J, Lee S, Chung CK. 2025. Mimed speech as an intermediary state between overt and imagined speech production in an electrocorticography study. *Sci Rep*. | PMC12480242 (서울대 정천기 랩) | 입모양이 운동피질에서 실제와, 상측두회에서 상상과 유사. 자질 없음 |
 | C4 | ○ Orpella J, Mantegna F, Oderbolz C, Assaneo MF, Poeppel D. 2026. Temporally structured motor and auditory representations in covert speech. *PNAS*. | PMC13578806 | MEG. 자음(조음 대비)은 운동피질, 모음(음향 대비)은 청각피질 → **자질 유형별 해리가 검출 가능함**을 보임. 우리는 자음 안에서 후두 vs 구강으로 한 단계 내려감 |
@@ -127,17 +128,16 @@
 | L3 | ✦ Pedregosa F, et al. 2011. Scikit-learn: Machine learning in Python. *JMLR* 12:2825. | LDA·PCA·StratifiedGroupKFold 전부 |
 | L4 | ✦ Mantel N. 1967. The detection of disease clustering and a generalized regression approach. *Cancer Res* 27:209. | priorities.md의 "Mantel·부분상관" 계획. 현재 미실행 |
 
-## M. 초록의 첫 문장이 의존하는데 목록에 없는 것 (영어 후두 음성학) ✦
+## M. 단어 위치·운율 위치의 음성학 (10/14 초록이 실제로 인용. 2026-10-14 전부 실재·내용 확인)
 
-초록 도입부 "영어 자음은 어디서나 조음위치를 유지하지만 후두 대립은 그렇지 않다"는 주장의 근거다. 지금 인용이 **하나도 없다**. 심사자가 가장 먼저 물을 자리이므로 여자친구와 확정해야 한다.
+| # | 서지 | 확인 내용 | 역할 |
+|---|---|---|---|
+| M1 | ○ Mugler EM, Tate MC, Livescu K, Templer JW, Goldrick MA, Slutzky MW. 2018. Differential representation of articulatory gestures and phonemes in precentral and inferior frontal gyri. *J Neurosci* 38(46):9803. doi:10.1523/JNEUROSCI.1206-18.2018 | 원문 확인: "high gamma activity in pPCG and aPCG did vary with intraword position"(음소), 제스처는 불변. **단, 단일 CVC 단어·어두 vs 어말만(어중 없음)·참가자 2명·정확도 아닌 d′(음소 2.3±0.6 vs 제스처 0.2±0.3)** | 우리 위치 효과의 유일한 직접 선행. 초록 2문장·논의 모두에서 씀 |
+| M2 | ○ Davidson L. 2016. Variability in the implementation of voicing in American English obstruents. *J Phonetics* 54:35. | 실재 확인. 어두·휴지 뒤 폐쇄음 토큰 중 파열 전 유성성이 있는 것은 1/4 미만 | VOT·폐쇄 유성성·선행 모음 길이·탄설음화를 한 건으로 묶음. 내가 앞서 제안한 M1~M5(Lisker & Abramson 등 5건)를 **이 한 건이 대체**. 더 최신·미국영어·연속발화 |
+| M3 | ○ Fougeron C, Keating PA. 1997. Articulatory strengthening at edges of prosodic domains. *JASA* 101(6):3728. | 원문 확인: 영역 초 자음·영역 말 모음이 덜 축소된 설-구개 접촉 | 영역 초 강화. 두 대립 유형 모두 어두 우위를 예측 → 우리 반대 방향 결과의 **반증 대상** |
+| M4 | ○ Cho T, Keating PA. 2009. Effects of initial position versus prominence in English. *J Phonetics* 37:466. | 실재·권·면 확인(Taehong Cho, 한양대 / Keating, UCLA) | 위와 같음. **1저자가 한국 소속 → KASELL 청중에 유리** |
 
-| # | 서지(제안, 대조 필요) | 무엇을 뒷받침하나 |
-|---|---|---|
-| M1 | ✦ Lisker L, Abramson AS. 1964. A cross-language study of voicing in initial stops. *Word* 20:384. | 어두 기식(VOT)이 영어 후두 대립의 주 단서 |
-| M2 | ✦ Keating PA. 1984. Phonetic and phonological representation of stop consonant voicing. *Language* 60:286. | 음성 실현과 음운 표상의 분리 |
-| M3 | ✦ Westbury JR, Keating PA. 1986. On the naturalness of stop consonant voicing. *J Linguistics* 22:145. | 어말 무성화의 공기역학적 설명 ↔ 계획 설명. **우리 pre300 결과의 긴장 상대** |
-| M4 | ✦ Docherty GJ. 1992. *The Timing of Voicing in British English Obstruents*. | 어말 부분 무성화 실측 |
-| M5 | ✦ Zue VW, Laferriere M. 1979. Acoustic study of medial /t,d/ in American English. *JASA* 66:1039. | 탄설음화. **T/D가 어중에서 최저(.530)인 결과의 직접 근거** |
+**철회**: 내가 10/14 오전에 제안한 Lisker & Abramson 1964, Keating 1984, Westbury & Keating 1986, Docherty 1992, Zue & Laferriere 1979는 **더 이상 필요하지 않다**. Davidson 2016이 같은 내용을 더 낫게 담는다. 단 탄설음화를 따로 논증해야 할 때만 Zue & Laferriere 1979(*JASA* 66:1039)를 되살린다.
 
 ## N. 참고문헌이 아닌 것 (소프트웨어 의존성)
 
@@ -145,10 +145,24 @@
 
 ---
 
-## 초록 제출 전 할 일 (10/16 마감)
+## 초록 제출 전 할 일 (10/16 마감) — 10/14 갱신
 
-1. **M절 5건을 여자친구와 확정.** 초록 첫 문장의 근거다. 영어 음성학은 그쪽 영역이므로 다른 정본이 있으면 교체한다.
-2. **B5(Khanna 2024)와 D6(Jossinger 2026) 원문 확인.** 전자는 계획 창 해석, 후자는 한계 문단에 쓰므로 서지가 틀리면 안 된다.
-3. **△ 15건 중 초록에 실제로 들어갈 것만 원문 대조.** 현재 초록 본문이 인용하는 것은 A1뿐이고, 나머지는 선행연구 문단용이다.
-4. **"sequential position" 선행 문헌 결정.** 초록 2문장에 "음소 표상이 순차 위치에 따라 변한다"는 선행 언급이 있는데 해당 문헌을 찾지 못했다. 없으면 그 구절을 삭제한다.
-5. KCI·RISS 손검색(검색어: 내적 발화, 무성 발화, 유성성, 후두 자질, 자질 기하, 음성 BCI). 한국어 선행연구가 목록에 0건이다.
+**해결됨**: M절 공백(초록 첫 문장 근거)은 Mugler 2018·Davidson 2016·Fougeron & Keating 1997·Cho & Keating 2009 네 건으로 채워졌고 2026-10-14에 전부 실재·내용을 확인했다. "sequential position 선행 문헌 없음" 문제도 Mugler 2018로 해결.
+
+**남은 것**
+1. **Bouchard et al. 2013(D1)을 초록 1문장에 추가.** 운동피질이 조음 중심으로 조직된다는 가장 표준적인 인용인데 현재 초록은 Willett 2023만 든다. 이 분야 심사자가 가장 먼저 찾는 자리다.
+2. **Mugler 2018의 본래 주장과 우리 전이 결과의 긴장을 논의에 넣기.** 그들의 결론은 "제스처는 위치 불변, 음소는 위치 의존 → 운동피질 단위는 제스처"다. 우리 교차 위치 전이는 **두 대립 유형 모두 전이가 나빴으므로** 단순한 제스처 불변성과 충돌한다. 한 문장으로 선점해야 한다.
+3. **한계 문단이 없다.** 참가자 1명, 전극이 ventral 6v에 한정(→ D6 Jossinger 2026, E1 Dichter 2018로 dorsal 후두 운동피질 미표집 명시), 효과 작음.
+4. **B5 Khanna 2024** 원문 확인(계획 창 해석에 쓸 때만 필요. 10/14 초록은 계획 창을 쓰지 않으므로 보류 가능).
+5. **한국어 선행연구 0건.** KCI·RISS 손검색(내적 발화, 무성 발화, 유성성, 후두 자질, 자질 기하, 음성 BCI). Cho & Keating 2009의 1저자가 한양대 소속인 점은 KASELL에서 쓸 수 있다.
+6. 선택: **Metzger 2023(B1b)**과 **Zhao 2026(C1)** 인용 여부 결정. 전자는 2023년 Nature 동반 논문, 후자는 최근접 경쟁자이고 자질 비교를 조음위치에만 했다는 점이 우리 공백 논증에 쓸 수 있다.
+
+## 10/14 수치 재확인 기록 (단어 그룹 CV·재표집 추정량)
+
+초록의 네 수치는 `t12/results/t1c_resample_pairs_pooled_gword.csv`와 정확히 일치한다: 후두 57.9% → 54.7%, 조음위치 59.5% → 65.1%, 차이 8.8pp, 20/20 양수, 순열 p = .008(120회).
+
+**단, 두 가지를 바로잡아야 한다.**
+
+- **"resampling range 4.7–13.9"는 범위가 아니라 2.5~97.5 백분위다.** 실제 최소~최대는 3.9~15.5. 표현을 "95% range of 20 resamplings" 또는 백분위로 고칠 것.
+- **🔴 /t–d/가 효과를 끌지 않는다.** 이 조건의 쌍별 변화량(비어두−어두, pp)은 P/B −7.7, K/G −7.0, **T/D +5.1**(상승), F/V 0.0, TH/DH −9.2, B/D +10.6, D/G +6.0, P/T +3.5, T/K +2.3. 즉 후두 하락은 **P/B·K/G가 끌고 T/D는 반대 방향**이다. T/D를 빼면 D가 8.8 → **12.9pp**로 커진다(쌍 제외 8종 모두 양수, 6.5~12.9pp). → 내가 10/12 초록 초안과 NEXT_STEPS·메모리에 적은 "/t–d/가 후두 하락의 대부분을 기여"는 **held_out 조건의 이야기이고 이 조건에서는 틀렸다.** 탄설음화(Davidson 2016 목록 중 하나)도 효과를 끄는 쌍에는 적용되지 않는다. 한계 문단에 T/D를 쓰지 말 것.
+- **마찰음 대조군을 되살릴 수 있다.** 같은 조건에서 F/V·TH/DH는 62.2% → 57.6%, 조음위치 대비 D = +10.2pp [5.2, 15.8], 20/20 양수. 초록이 파열음 3쌍만 쓰면서 기식 특이성을 배제하지 못하는데, 이 한 줄을 넣으면 "결국 기식 아니냐"는 질문을 막는다.
