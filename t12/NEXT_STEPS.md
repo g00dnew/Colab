@@ -114,6 +114,14 @@
 - 초록 영문 초안 v2: `../abstract-kasell-draft.md` (p = .008 단어 그룹 조건으로 통일, held_out p = .005 병기 가능).
 
 ## 다음 세션 할 일 (10/12 갱신)
+0. **참고문헌 정본 `../references.md`**(10/14 작성, 58건 14범주). 초록 제출 전 할 일 5개가 문서 끝에 있음 — 특히 **M절(영어 후두 음성학 5건)은 초록 첫 문장의 근거인데 현재 인용 0건**, B5 Khanna 2024·D6 Jossinger 2026은 원문 확인 필요, 한국어 선행연구 0건(KCI·RISS 손검색).
 1. **KASELL 초록 10/16 마감**: `../abstract-kasell-draft.md`를 여자친구와 분량·인용 확인("sequential position" 선행 문헌 없으면 삭제) 후 제출.
 2. 포스터/슬라이드 Doc §4 표를 t1c·cross_position·planning v2 수치로 교체. 금지: "조음위치 안정·후두만 약화"를 단어 통제 없는 수치로.
 3. 보류: T15 재현(10/28 이후), 시간전개 창별 null, 앞뒤 음소 통제, 레포 비공개 전환.
+
+## 2026-10-14: 한국어 초록 초안 검토
+- 사용자 한국어 초안(제목 "Word-Position Effects on the Neural Decodability of Laryngeal and Place Contrasts in Attempted English Speech")의 수치 57.9→54.7 / 59.5→65.1 / p=.008 / 20회 재표집은 `t1c_resample_pairs_pooled_gword.csv`·`t1c_position_perm_pooled_gword.csv`와 일치. GitHub t12/ 결과 파일은 로컬과 해시 동일(10/12 커밋).
+- 이 설정(발성 전체·단어 그룹 CV)의 세부: 후두 Δ −3.2%p [−6.3, −0.2]이나 쌍별로 P/B·K/G 감소, **T/D +5.1%p 증가**(T/D 어두 49.0% = 우연 수준). 조음위치 Δ +5.6%p, 4쌍 모두 상승. 어두 격차 +1.7%p [−1.7, +4.6], 비어두 격차 +10.4%p. D +8.8%p [+4.7, +13.9] 20/20. 순열 120회 중 0회 ≥ 관측 → p = 1/121(최솟값). 마찰 대조 62.2→57.6, D +10.2%p.
+- → 결론은 "후두 저하"가 아니라 "비어두에서 조음위치 정보는 늘고 후두 정보는 늘지 않음"으로 써야 함.
+- **정정**: SUMMARY.md·영문 초안의 "어두 T의 64% = 'to'"는 재현 안 됨. meta_all.pkl 재계산: 발성 전체 50%(2,532개 중), 발성 held_out 57%, 전 양식 53%.
+- 수정 제안본 `../abstract-kasell-ko-v3-suggested.md`(본문 418어절, 키워드 5개, Crossref 확인 인용 5편). 원 초안은 수정하지 않음. 제출은 10/16.
